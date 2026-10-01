@@ -1,16 +1,22 @@
-## Hi there 👋
+# Adjudications France Monitor
 
-<!--
-**adjudications-france-monitor/adjudications-france-monitor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Projet de veille sur les ventes immobilières judiciaires en France.
 
-Here are some ideas to get you started:
+## Objectif
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Repérer et étudier des biens proposés aux enchères judiciaires afin d’évaluer leur potentiel d’achat et de revente sans travaux.
+
+## Critères de recherche
+
+- Biens libres de toute occupation
+- Délai de surenchère encore ouvert
+- Revente estimée à partir de références de marché prudentes
+- Frais d’acquisition et marge potentielle pris en compte
+
+## Informations à vérifier
+
+Les annonces et les informations relatives aux ventes doivent être vérifiées auprès des sources officielles et des avocats chargés des ventes. Ce projet ne remplace pas l’étude du dossier juridique, des conditions de vente et des diagnostics.
+
+## État du projet
+
+Projet en cours de mise en place.
