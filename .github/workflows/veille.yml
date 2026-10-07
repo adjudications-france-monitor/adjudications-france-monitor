@@ -90,5 +90,9 @@ jobs:
       - name: Signaler une collecte partielle
         if: steps.collecte.outputs.exit_code != '0'
         run: |
-          echo 'Collecte partielle ou erreur : consulter le rapport et les journaux.'
-          exit 1
+          if [ '${{ steps.collecte.outputs.exit_code }}' = '2' ]; then
+            echo '::warning::Rapport publié avec couverture partielle : consulter les sources et incidents.'
+          else
+            echo 'Erreur du moteur : consulter le rapport et les journaux.'
+            exit 1
+          fi
