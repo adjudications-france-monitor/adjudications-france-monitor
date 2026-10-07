@@ -148,12 +148,17 @@ class DocumentTests(unittest.TestCase):
         with patch.object(reader, "_run", side_effect=["Pages: 1\n", ""]):
             first = reader.read(b"%PDF-1.4\nscan", PDF_URL)
         self.assertEqual(first["pages_lues"], [])
+        self.assertEqual(first["pages_lues_ce_passage"], 0)
+        self.assertEqual(first["pages_traitees_ce_passage"], 1)
+        self.assertEqual(reader.metrics["pages_pdf_extraites"], 0)
         self.assertEqual(first["pages_restantes"], 1)
         reader = PdfReader(NOW.isoformat(), max_pages=1, max_ocr_pages=1)
         with patch.object(reader, "_run", return_value="Pages: 1\n"), patch.object(reader, "_ocr", return_value=PDF_TEXT):
             second = reader.read(b"%PDF-1.4\nscan", PDF_URL, first)
         self.assertEqual(second["statut"], "lu")
         self.assertEqual(second["pages_ocr_ce_passage"], 1)
+        self.assertEqual(second["pages_lues_ce_passage"], 1)
+        self.assertEqual(reader.metrics["pages_pdf_extraites"], 1)
         self.assertTrue(all(x["methode"] == "ocr" for x in second["preuves"]))
 
     @patch("pieces.shutil.which", return_value="outil")

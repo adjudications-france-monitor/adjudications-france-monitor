@@ -57,7 +57,8 @@ class PdfReader:
         self.stamp = stamp
         self.pages_left, self.ocr_left = max_pages, max_ocr_pages
         self.pages_per_document = pages_per_document
-        self.metrics = {"pages_pdf_extraites": 0, "pages_ocr": 0, "documents_cache_reutilise": 0}
+        self.metrics = {"pages_pdf_traitees": 0, "pages_pdf_extraites": 0,
+                        "pages_ocr_tentees": 0, "pages_ocr": 0, "documents_cache_reutilise": 0}
         self._languages = None
 
     @staticmethod
@@ -94,7 +95,8 @@ class PdfReader:
         same = previous and previous.get("empreinte_pdf") == fingerprint
         extractions = dict(previous.get("extractions", {})) if same else {}
         result = {"url": url, "controle_acces_utc": self.stamp, "empreinte_pdf": fingerprint,
-                  "extractions": extractions, "pages_lues_ce_passage": 0, "pages_ocr_ce_passage": 0,
+                  "extractions": extractions, "pages_traitees_ce_passage": 0,
+                  "pages_lues_ce_passage": 0, "pages_ocr_ce_passage": 0,
                   "cache_reutilise": bool(same and extractions), "incidents_pages": []}
         if result["cache_reutilise"]:
             self.metrics["documents_cache_reutilise"] += 1
@@ -114,8 +116,8 @@ class PdfReader:
             selected = (pending + fresh)[:min(self.pages_per_document, self.pages_left)]
             for page in selected:
                 self.pages_left -= 1
-                self.metrics["pages_pdf_extraites"] += 1
-                result["pages_lues_ce_passage"] += 1
+                self.metrics["pages_pdf_traitees"] += 1
+                result["pages_traitees_ce_passage"] += 1
                 try:
                     text = "" if page in pending else self._run(["pdftotext", "-f", str(page), "-l", str(page),
                                                                  "-layout", "-enc", "UTF-8", str(source), "-"])
@@ -125,8 +127,7 @@ class PdfReader:
                             extractions[str(page)] = {"methode": "en_attente_ocr", "preuves": []}
                             continue
                         self.ocr_left -= 1
-                        self.metrics["pages_ocr"] += 1
-                        result["pages_ocr_ce_passage"] += 1
+                        self.metrics["pages_ocr_tentees"] += 1
                         text, method = self._ocr(source, page, folder), "ocr"
                     if len(text) > 200000:
                         raise ValueError("texte de page anormalement volumineux")
@@ -134,6 +135,11 @@ class PdfReader:
                                               "langues_ocr": self._languages if method == "ocr" else None,
                                               "texte_detecte": bool(text.strip()),
                                               "preuves": page_evidence(text, url, page, method)}
+                    self.metrics["pages_pdf_extraites"] += 1
+                    result["pages_lues_ce_passage"] += 1
+                    if method == "ocr":
+                        self.metrics["pages_ocr"] += 1
+                        result["pages_ocr_ce_passage"] += 1
                 except (ValueError, subprocess.TimeoutExpired, OSError) as exc:
                     extractions.pop(str(page), None)
                     result["incidents_pages"].append({"page": page, "erreur": str(exc)})

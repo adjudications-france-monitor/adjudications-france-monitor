@@ -327,8 +327,9 @@ def save_report(folder, report):
              f"{count['sources_ok']}/{count['sources_actives']} pages sources accessibles ; {count['liens_distincts']} liens distincts ; "
              f"{count['audiences_lues']} pages d'audience et {count['fiches_lues']} fiches détaillées lues.", "",
              f"Nouveautés : {count['nouveaux_liens']} liens ; {count['fiches_modifiees']} fiches modifiées depuis le passage précédent.", "",
-             f"Pièces : {count.get('documents_pdf_consultes', 0)} PDF accessibles ; {count.get('pages_pdf_extraites', 0)} pages traitées ce passage, "
-             f"dont {count.get('pages_ocr', 0)} par OCR. {count.get('acces_differes', 0)} requêtes différées après une limite ou un refus d'accès.", "",
+             f"Pièces : {count.get('documents_pdf_consultes', 0)} PDF accessibles ; {count.get('pages_pdf_traitees', 0)} pages traitées ce passage, "
+             f"{count.get('pages_pdf_extraites', 0)} lues, dont {count.get('pages_ocr', 0)} par OCR. "
+             f"{count.get('acces_differes', 0)} requêtes différées après une limite ou un refus d'accès.", "",
              "Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.", "",
              "## Achat-revente sans travaux", "",
              "Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frais de revente + portage) ≥ 40 %. "
