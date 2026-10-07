@@ -1,36 +1,89 @@
-# Adjudications France Monitor
+# Adjudications France — moteur de veille
 
-Première base technique du projet. `sources.csv` contient désormais 23 pages vérifiées le 7 octobre 2026, dont 20 actives et 3 désactivées. Voir [SOURCES.md](SOURCES.md) pour le détail des essais et des réserves. Cette base ne constitue pas encore une veille nationale exhaustive ou planifiée.
+Surveillance des pages publiques déclarées dans `sources.csv`, lecture bornée des fiches, filtres prudents et rapport actualisé sur GitHub.
 
-## Ce que fait cette version
+## Exécution automatique
 
-- Lit les pages web publiques indiquées dans `sources.csv`.
-- Repère les liens de fiches, de publications et d'audiences à l'aide de règles adaptées aux sources connues. Pour les autres sources, utilise des mots-clés.
-- Lit les cartes `data-link` d'Avoventes sans exécuter de JavaScript et accepte des pages HTML jusqu'à 10 Mo.
-- Enregistre les résultats dans `data/annonces.jsonl` et les erreurs de consultation dans `data/erreurs.jsonl`.
-- Évite de réenregistrer deux fois le même lien.
-- Signale les erreurs de consultation et termine avec un code de sortie non nul lorsqu'une source échoue.
+Le workflow **Veille adjudications France** s'exécute chaque jour à **09 h, 10 h, …, 18 h, heure de Paris**, avec le fuseau `Europe/Paris` et ses changements d'heure. GitHub peut décaler une exécution programmée. Un passage peut aussi être lancé depuis **Actions → Veille adjudications France → Run workflow**.
 
-## Limites
+Les changements du code, des sources, des estimations ou du workflow déclenchent les tests et une collecte. Les commits du rapport ne relancent pas la collecte.
 
-Cette première version ne consulte pas les sites nécessitant une connexion, un CAPTCHA ou l'exécution de JavaScript. Certains descriptifs et résultats de Vench sont réservés aux abonnés. Elle ne vérifie pas encore les dates d'adjudication, l'ouverture du délai de surenchère, l'occupation du bien, les frais ni la rentabilité. Elle ne parcourt pas automatiquement toutes les pages de résultats ni les fiches liées. Les audiences peuvent regrouper plusieurs biens et des annonces anciennes peuvent être collectées. Chaque résultat garde le statut `à vérifier manuellement`.
+- [Dernier rapport lisible](rapports/dernier.md)
+- [Résultats structurés](rapports/dernier.json)
+- [Tableau CSV](rapports/dernier.csv)
+- [Journal des pages sources](rapports/sources.csv)
+- [Exécutions et archives](https://github.com/adjudications-france-monitor/adjudications-france-monitor/actions)
 
-La déduplication porte sur l'URL: un même bien publié sur deux sites peut encore apparaître deux fois. Les modifications d'une fiche déjà enregistrée ne sont pas suivies. Les règles de liens doivent être ajustées lorsque les éditeurs changent leurs pages. Aucun envoi de courriel ni notification n'est effectué par cette version.
+Chaque exécution conserve le rapport, le catalogue de liens et l'état dans un artefact pendant 30 jours. Un cache permet de suivre les nouveautés et les modifications entre passages. Si le cache disparaît, la collecte et les filtres fonctionnent toujours ; le compteur de nouveautés repart de zéro.
 
-## Ajouter une source
+Les tâches ChatGPT existantes de surveillance horaire et de bilan quotidien peuvent lire `rapports/dernier.json` et `rapports/dernier.md`. Le workflow ne constitue pas à lui seul une notification ChatGPT.
 
-Dans `sources.csv`, ajouter une ligne avec :
+## Ce que le moteur vérifie
 
-`nom, categorie, url, active`
+1. Il consulte les **20 pages actives** parmi les **23 pages configurées**. La liste et les limites de chaque source sont documentées dans [SOURCES.md](SOURCES.md).
+2. Il détecte des liens d'audiences et de fiches. Les cartes Avoventes incluent date, prix publié et échéance lorsqu'ils sont affichés.
+3. Il ouvre les audiences Licitor entre **J+1 et J+4** et leur pagination, dans la limite de **40 pages d'audience** par passage.
+4. Il lit jusqu'à **120 fiches**, avec priorité aux dates récentes. Les fiches sans date identifiée sont explorées par rotation. Les requêtes sont limitées à quatre traitements concurrents, avec au moins 0,8 seconde entre départs de requêtes d'un même site.
+5. Il extrait les mentions explicites de prix adjugé, audience, échéance, occupation et travaux. Les mises à prix, prix DVF de biens voisins et dates de visite ne remplacent pas ces données.
+6. Il publie un rapport même si des sources échouent. Les erreurs restent visibles dans le rapport et font terminer le workflow en échec pour signaler une collecte partielle.
 
-Mettre `1` dans `active` pour lancer la consultation et `0` pour conserver une source sans la consulter. N'ajouter que des pages publiques et autorisées à être consultées automatiquement. Vérifier que les résultats correspondent à des fiches ou audiences, et pas seulement à des menus. Une réponse HTTP 200 ne garantit pas qu'une page fournit des annonces exploitables.
+Les documents PDF sont référencés mais ne sont pas lus automatiquement. Les publications sont de **niveau C, à contrôler**. L'absence de mention de travaux ne suffit pas à confirmer une revente sans travaux.
 
-## Lancer un essai
+## Critères de sélection
 
-Sur un ordinateur avec Python 3.10 ou plus récent :
+- Audience entre **J+1 et J+4**, en jours calendaires et selon la date en France.
+- Bien libre avec preuve ; un bien occupé, loué ou contradictoire est rejeté.
+- Revente **en l'état, sans travaux** : toute nécessité explicite de travaux entraîne un rejet.
+- Prix adjugé publié ; une vente retirée, reportée ou non requise est rejetée.
+- Surenchère encore recevable et confirmée par les pièces et l'avocat. Une date annoncée est un indice à vérifier. Une vente déjà sur surenchère est écartée de ce scénario.
+- Valeur prudente et ensemble des frais documentés ; marge minimale de **40 % sur tous les coûts engagés**, avant fiscalité du bénéfice.
 
-```bash
-python monitor.py
+Les informations manquantes produisent le statut `a_verifier`, jamais une opportunité confirmée. Le statut `retenu_sur_donnees_validees` suppose une validation documentée récente renseignée dans `estimations.csv` et une fiche relue lors du passage. Ce statut n'autorise aucune enchère automatiquement.
+
+Le moteur n'invente pas une date de clôture à J+10. Les prorogations, jours fériés, règles locales et recevabilité restent à contrôler : [R322-50 à R322-55](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000025939177), [article 642 du CPC](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006411003).
+
+## Calcul du plafond au marteau
+
+Soit `R` la valeur prudente de revente en l'état, `F` les frais fixes d'acquisition, `t` le taux de frais proportionnels, `V` les frais de revente et `P` le portage.
+
+```
+Coût engagé = marteau × (1 + t) + F + V + P
+Bénéfice prévisionnel avant fiscalité = R − coût engagé
+Marge = bénéfice / coût engagé
+Plafond marteau = max(0, (R / 1,40 − F − V − P) / (1 + t))
+Plancher de surenchère = prix adjugé × 1,10
 ```
 
-Le script ne s'exécute pas automatiquement en arrière-plan. La planification quotidienne ou horaire sera configurée après validation des sources et du fuseau horaire.
+Le plafond est arrondi au centime inférieur. Si le plancher dépasse le plafond, le bien est rejeté pour le seuil de 40 %. Le rapport expose les frais et le montant acte en mains au plafond, le bénéfice correspondant et un scénario de revente diminuée de 10 %. Les calculs au plancher sont également conservés dans le JSON.
+
+L'en-tête de `estimations.csv` décrit les champs à renseigner : URL du bien, date de vérification, occupation, preuve d'état sans travaux, confirmation de la surenchère, valeur prudente, frais et leurs sources. Les validations doivent dater de **sept jours au plus**. Les montants sont en euros ; `taux_frais_acquisition` est une fraction (`0.08` pour 8 %). Les frais fixes et proportionnels doivent couvrir tous les frais d'acquisition pertinents, sans double compte. Un zéro doit être renseigné explicitement et justifié ; un champ vide reste inconnu.
+
+La valeur et les frais ne sont pas estimés à partir de simples mots-clés. La valeur exige des comparables locaux adaptés à la surface et à l'état, notamment DVF, et une analyse de liquidité. Le délai de revente et l'analyse du marché sont documentés dans les colonnes correspondantes. Le fichier est vide à l'installation tant que ces validations ne sont pas disponibles.
+
+## Installation et test local
+
+Python **3.10 ou plus**, sans bibliothèque externe.
+
+```sh
+python -m unittest -v test_veille
+python veille.py
+```
+
+Le collecteur initial reste disponible avec `python monitor.py`. Le workflow utilise `veille.py`, qui ajoute la lecture des fiches, la qualification et les rapports.
+
+Options utiles :
+
+```sh
+python veille.py --max-hearings 40 --max-details 120
+python veille.py --now 2026-10-07T12:00:00+02:00 --fixtures correspondances.json
+```
+
+Le second mode lit un JSON `URL → chemin HTML local` pour vérifier les extracteurs sans réseau. Les tests couvrent dates françaises, fuseau Paris, prix/frais, marge et stress, occupation contradictoire, travaux, délai expiré, seconde adjudication, données manquantes, mise à prix, isolation des comparables, pagination, erreurs et actualisation de l'état.
+
+## Limites de couverture
+
+La liste ne constitue pas un balayage exhaustif des tribunaux, des annonces ou des 706 fiches de la base nationale d'avocats. Seule la pagination des audiences Licitor récentes est parcourue automatiquement. Le rapport affiche les budgets, les lectures réellement effectuées, les fiches encore sans date et les erreurs d'accès.
+
+La déduplication porte sur les URL. Deux publications du même bien sur deux sites peuvent rester distinctes ; elles ne doivent pas être comptées comme deux opportunités indépendantes sans contrôle. `Registre_Adjudications.xlsx` et la base nationale restent les outils de consolidation : ce programme ne les modifie pas.
+
+Le dépôt est public. Il ne doit contenir ni credentials, ni coordonnées privées, ni document confidentiel : uniquement le code, les sources publiques et les résultats publics de la collecte.

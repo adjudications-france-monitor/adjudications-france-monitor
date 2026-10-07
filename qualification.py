@@ -1,0 +1,227 @@
+"""Filtres prudents et calculs financiers, sans valeur ni frais inventés."""
+from __future__ import annotations
+
+import re
+import unicodedata
+from datetime import date, datetime
+from decimal import Decimal, InvalidOperation, ROUND_DOWN, ROUND_UP
+from zoneinfo import ZoneInfo
+
+PARIS = ZoneInfo("Europe/Paris")
+MONTHS = dict(zip(
+    "janvier fevrier mars avril mai juin juillet aout septembre octobre novembre decembre".split(),
+    range(1, 13),
+))
+DATE_PATTERN = r"\b(?:\d{1,2}(?:er)?\s+(?:" + "|".join(MONTHS) + r")\s+\d{4}|\d{1,2}[-/.]\d{1,2}[-/.]\d{2,4})\b"
+MONEY_PATTERN = r"([\d][\d\s\u00a0\u202f.,]*?)\s*(?:€|euros?\b)"
+
+
+def normalize(text: str) -> str:
+    text = unicodedata.normalize("NFKD", text).casefold()
+    return " ".join("".join(c for c in text if not unicodedata.combining(c)).replace("’", "'").split())
+
+
+def french_date(text: str) -> date | None:
+    match = re.search(DATE_PATTERN, normalize(text))
+    if not match:
+        return None
+    value = match.group()
+    try:
+        if re.search(r"[-/.]", value):
+            d, m, y = map(int, re.split(r"[-/.]", value))
+            return date(y + 2000 if y < 100 else y, m, d)
+        d, month, y = value.split()
+        d = d.removesuffix("er")
+        return date(int(y), MONTHS[month], int(d))
+    except (ValueError, KeyError):
+        return None
+
+
+def amount(value: str | int | float | Decimal | None) -> Decimal | None:
+    if value is None or str(value).strip() == "":
+        return None
+    value = re.sub(r"[^\d.,+-]", "", str(value))
+    if "," in value:
+        value = value.replace(".", "").replace(",", ".")
+    elif value.count(".") > 1 or re.fullmatch(r"\d{1,3}(?:\.\d{3})+", value):
+        value = value.replace(".", "")
+    try:
+        result = Decimal(value)
+        return result if result.is_finite() and result >= 0 else None
+    except InvalidOperation:
+        return None
+
+
+def labelled_amount(text: str, label: str) -> str | None:
+    match = re.search(label + r"\s*:?\s*" + MONEY_PATTERN, normalize(text))
+    result = amount(match.group(1)) if match else None
+    return str(result) if result is not None else None
+
+
+def labelled_date(text: str, label: str) -> str | None:
+    match = re.search(label + r"\s*:?\s*(?:[a-z]+\s+)?(" + DATE_PATTERN + ")", normalize(text))
+    result = french_date(match.group(1)) if match else None
+    return result.isoformat() if result else None
+
+
+def occupancy(text: str) -> tuple[str, list[str]]:
+    """Exiger un libellé portant sur le bien; 'libre' dans un menu ne suffit pas."""
+    text = normalize(text)
+    patterns = {
+        "occupe": r"\b(?:biens? (?:est|sont|serait|seraient) occupes?|occupes? par|occupation\s*:\s*occup|occupe sans droit|actuellement occupe)\b",
+        "loue": r"\b(?:biens? (?:est|sont) loues?|loue depuis|loue suivant|donne en location|occupation\s*:\s*loue|bail en cours|occupe par (?:un |le |des |les )?locataire)\b",
+        "libre": r"\b(?:libres? de toute occupation|biens? (?:est|sont) libres?|biens? (?:est|sont) vacants?|occupation\s*:\s*(?:libre|vacant))\b",
+    }
+    evidence = {k: [m.group() for m in re.finditer(p, text)] for k, p in patterns.items()}
+    if re.search(r"(?:pas|non)\s+libre|libre\s+(?:a partir|apres|a l'issue)|sera(?:ient)?\s+libre", text):
+        return "a_verifier", ["libération future ou conditionnelle"]
+    if evidence["libre"] and (evidence["occupe"] or evidence["loue"]):
+        return "contradictoire", sum(evidence.values(), [])
+    for kind in ["loue", "occupe", "libre"]:
+        if evidence[kind]:
+            return kind, evidence[kind]
+    return "inconnue", []
+
+
+def works(text: str) -> tuple[str, list[str]]:
+    pattern = (r"en cours de construction|travaux (?:a prevoir|necessaires|requis|obligatoires)|"
+               r"(?:a|doit etre) renover|etat (?:general )?degrade|inhabitable|"
+               r"materiaux de finition a renover|renovation (?:complete|necessaire)")
+    evidence = [m.group() for m in re.finditer(pattern, normalize(text))]
+    return ("necessaires", evidence) if evidence else ("a_verifier", [])
+
+
+def economics(price: Decimal, valuation: dict) -> dict:
+    """40 % = bénéfice avant fiscalité / ensemble des coûts engagés."""
+    names = ["revente_prudente_eur", "frais_acquisition_fixes_eur", "taux_frais_acquisition",
+             "frais_revente_eur", "frais_portage_eur"]
+    values = {key: amount(valuation.get(key)) for key in names}
+    missing = [key for key, value in values.items() if value is None]
+    if missing:
+        return {"donnees_manquantes": missing}
+    resale, fixed, rate, selling, carrying = [values[key] for key in names]
+    if resale <= 0 or rate >= 1:
+        return {"donnees_manquantes": ["valeur positive et taux de frais entre 0 et 1 requis"]}
+    cent = Decimal("0.01")
+    minimum = (price * Decimal("1.10")).quantize(cent, rounding=ROUND_UP)
+    cap = max(Decimal(0), (resale / Decimal("1.40") - fixed - selling - carrying) / (1 + rate))
+    cap = cap.quantize(cent, rounding=ROUND_DOWN)
+    acquisition_fees = minimum * rate + fixed
+    acquisition = minimum + acquisition_fees
+    total = acquisition + selling + carrying
+    profit = resale - total
+    stressed = resale * Decimal("0.90") - total
+    at_cap_fees = cap * rate + fixed
+    at_cap_total = cap + at_cap_fees + selling + carrying
+    at_cap_profit = resale - at_cap_total
+    at_cap_stress = resale * Decimal("0.90") - at_cap_total
+    return {
+        "surenchere_minimale_eur": str(minimum),
+        "plafond_marteau_eur": str(cap),
+        "frais_acquisition_au_plafond_eur": str(at_cap_fees.quantize(cent)),
+        "acte_en_mains_au_plafond_eur": str((cap + at_cap_fees).quantize(cent)),
+        "cout_total_au_plafond_eur": str(at_cap_total.quantize(cent)),
+        "benefice_au_plafond_eur": str(at_cap_profit.quantize(cent)),
+        "marge_au_plafond_pct": str((at_cap_profit / at_cap_total * 100).quantize(cent)) if at_cap_total else None,
+        "benefice_stresse_au_plafond_eur": str(at_cap_stress.quantize(cent)),
+        "marge_stressee_au_plafond_pct": str((at_cap_stress / at_cap_total * 100).quantize(cent)) if at_cap_total else None,
+        "frais_acquisition_au_minimum_eur": str(acquisition_fees.quantize(cent)),
+        "cout_total_au_minimum_eur": str(total.quantize(cent)),
+        "revente_prudente_eur": str(resale),
+        "benefice_au_minimum_eur": str(profit.quantize(cent)),
+        "marge_au_minimum_pct": str((profit / total * 100).quantize(cent)) if total else None,
+        "benefice_stresse_eur": str(stressed.quantize(cent)),
+        "marge_stressee_pct": str((stressed / total * 100).quantize(cent)) if total else None,
+        "compatible_40_pct": minimum <= cap,
+        "base_marge": "bénéfice avant fiscalité / (acquisition + frais de revente + portage)",
+        "hypotheses": valuation,
+    }
+
+
+def classify(record: dict, now: datetime, valuation: dict | None = None) -> dict:
+    today = now.astimezone(PARIS).date()
+    facts = record.get("faits", {})
+    result = {**record, "motifs_rejet": [], "a_verifier": []}
+    rejected, missing = result["motifs_rejet"], result["a_verifier"]
+    sale = None
+    if facts.get("date_vente"):
+        try:
+            sale = date.fromisoformat(facts["date_vente"])
+        except ValueError:
+            missing.append("date d'audience illisible")
+    age = (today - sale).days if sale else None
+    result["jours_apres_audience"] = age
+    if age is None:
+        missing.append("date d'audience")
+    elif not 1 <= age <= 4:
+        rejected.append("hors fenêtre J+1 à J+4")
+    if facts.get("hors_metropole"):
+        rejected.append("hors France métropolitaine")
+    if facts.get("retiree"):
+        rejected.append("vente retirée, reportée ou non requise")
+    if facts.get("seconde_adjudication"):
+        rejected.append("vente sur surenchère : nouvelle surenchère non retenue")
+    if facts.get("surenchere_impossible"):
+        rejected.append("surenchère annoncée impossible")
+    if facts.get("occupation") in {"occupe", "loue", "contradictoire"}:
+        rejected.append("occupation incompatible ou contradictoire")
+    elif facts.get("occupation") != "libre":
+        missing.append("preuve d'un bien libre")
+    if facts.get("travaux") == "necessaires":
+        rejected.append("travaux nécessaires à la revente en l'état")
+    else:
+        missing.append("état et diagnostics compatibles avec une revente sans travaux")
+    price = amount(facts.get("prix_adjuge_eur"))
+    if price is None or price <= 0:
+        missing.append("prix adjugé (la mise à prix ne le remplace pas)")
+    else:
+        result["surenchere_minimale_eur"] = str((price * Decimal("1.10")).quantize(Decimal("0.01"), rounding=ROUND_UP))
+    deadline = None
+    if facts.get("date_limite_surenchere"):
+        try:
+            deadline = date.fromisoformat(facts["date_limite_surenchere"])
+        except ValueError:
+            pass
+    if deadline and deadline < today:
+        rejected.append("délai publié expiré")
+    elif deadline:
+        missing.append("confirmation avocat du délai et de la recevabilité de la surenchère")
+    else:
+        missing.append("date limite et recevabilité de la surenchère")
+    if not record.get("detail_lu_ce_passage"):
+        missing.append("fiche détaillée non relue lors de ce passage")
+    if record.get("erreur_detail"):
+        missing.append("fiche inaccessible : " + record["erreur_detail"])
+
+    # Une publication peut donner un indice; seule une validation documentée
+    # récente permet de lever les contrôles essentiels et de calculer un plafond.
+    validation_ok = False
+    if valuation:
+        try:
+            checked = date.fromisoformat(valuation.get("date_verification", ""))
+            validation_ok = 0 <= (today - checked).days <= 7
+        except ValueError:
+            pass
+        if not validation_ok:
+            missing.append("validation absente ou âgée de plus de 7 jours")
+        elif all(valuation.get(k) for k in ["source_occupation", "source_etat", "source_delai", "source_valeur", "source_frais"]):
+            if valuation.get("occupation") == "libre" and facts.get("occupation") not in {"occupe", "loue", "contradictoire"}:
+                missing = [x for x in missing if x != "preuve d'un bien libre"]
+            if valuation.get("etat_sans_travaux") == "oui" and facts.get("travaux") != "necessaires":
+                missing = [x for x in missing if not x.startswith("état et diagnostics")]
+            if valuation.get("surenchere_confirmee") == "oui" and deadline and deadline >= today:
+                missing = [x for x in missing if not x.startswith("confirmation avocat")]
+            if price and price > 0:
+                result["calcul_financier"] = economics(price, valuation)
+                if result["calcul_financier"].get("compatible_40_pct") is False:
+                    rejected.append("plancher de surenchère supérieur au plafond compatible avec 40 %")
+                if result["calcul_financier"].get("donnees_manquantes"):
+                    missing.append("frais ou valeur de revente incomplets")
+        else:
+            missing.append("sources de validation financière, occupation, état ou délai manquantes")
+    if not result.get("calcul_financier"):
+        missing.append("valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %")
+    result["a_verifier"] = list(dict.fromkeys(missing))
+    result["statut"] = "rejete" if rejected else ("a_verifier" if result["a_verifier"] else "retenu_sur_donnees_validees")
+    result["niveau_preuve"] = "validation documentée renseignée" if result["statut"] == "retenu_sur_donnees_validees" else "C — publication à contrôler"
+    return result

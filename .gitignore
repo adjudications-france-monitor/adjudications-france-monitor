@@ -1,3 +1,10 @@
 __pycache__/
 *.py[cod]
 data/
+checks/
+fixtures-live/
+rapports-test/
+validation*.json
+check_sources.py
+prepare_sources.py
+*.zip
