@@ -8,26 +8,19 @@ import hashlib
 import json
 import os
 import re
-import threading
-import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import parse_qs, urldefrag, urljoin, urlparse
-from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
-
-from monitor import MAX_BYTES, TIMEOUT_SECONDS, is_candidate_link, load_sources
+from monitor import is_candidate_link, load_sources
+from acces import AccessDeferred, Fetcher, PdfDocument, incident
+from pieces import PdfReader
 from qualification import PARIS, amount, classify, french_date, labelled_amount, labelled_date, normalize, occupancy, works
 
 ROOT = Path(__file__).resolve().parent
 VOID = set("area base br col embed hr img input link meta param source track wbr".split())
 IGNORED = {"script", "style", "nav", "footer", "form", "noscript"}
-
-
-class PdfDocument(Exception):
-    """Document accessible, dont la lecture nécessite le contrôle des pièces."""
 
 
 def is_pdf_url(url):
@@ -274,47 +267,6 @@ def parse_detail(markup, page_url, record):
     return result
 
 
-class Fetcher:
-    def __init__(self, fixture_map=None, pause=0.8):
-        self.fixture_map = fixture_map
-        self.pause = pause
-        self.locks = {}
-        self.guard = threading.Lock()
-        self.last_request = {}
-        self.memo = {}
-
-    def get(self, url):
-        if self.fixture_map is not None:
-            path = self.fixture_map.get(url)
-            if not path:
-                raise ValueError("page non fournie dans le jeu de vérification")
-            return Path(path).read_text(encoding="utf-8"), url
-        host = urlparse(url).hostname
-        with self.guard:
-            lock = self.locks.setdefault(host, threading.Lock())
-        with lock:
-            if url in self.memo:
-                return self.memo[url]
-            wait = self.pause - (time.monotonic() - self.last_request.get(host, 0))
-            if wait > 0:
-                time.sleep(wait)
-            self.last_request[host] = time.monotonic()
-            request = Request(url, headers={"User-Agent": "AdjudicationsFranceMonitor/0.1 (public page monitor)"})
-            with urlopen(request, timeout=TIMEOUT_SECONDS) as response:
-                resolved = response.geturl()
-                kind = response.headers.get("Content-Type", "")
-                if "html" not in kind.lower():
-                    if "application/pdf" in kind.lower():
-                        raise PdfDocument("PDF accessible — lecture des pièces à effectuer")
-                    raise ValueError("contenu non HTML : " + kind)
-                body = response.read(MAX_BYTES + 1)
-                if len(body) > MAX_BYTES:
-                    raise ValueError("page dépassant 10 Mo")
-                markup = body.decode(response.headers.get_content_charset() or "utf-8", errors="replace")
-            self.memo[url] = markup, resolved
-            return markup, resolved
-
-
 def merge_records(target, incoming):
     for url, record in incoming.items():
         if url in target:
@@ -375,6 +327,8 @@ def save_report(folder, report):
              f"{count['sources_ok']}/{count['sources_actives']} pages sources accessibles ; {count['liens_distincts']} liens distincts ; "
              f"{count['audiences_lues']} pages d'audience et {count['fiches_lues']} fiches détaillées lues.", "",
              f"Nouveautés : {count['nouveaux_liens']} liens ; {count['fiches_modifiees']} fiches modifiées depuis le passage précédent.", "",
+             f"Pièces : {count.get('documents_pdf_consultes', 0)} PDF accessibles ; {count.get('pages_pdf_extraites', 0)} pages traitées ce passage, "
+             f"dont {count.get('pages_ocr', 0)} par OCR. {count.get('acces_differes', 0)} requêtes différées après une limite ou un refus d'accès.", "",
              "Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.", "",
              "## Achat-revente sans travaux", "",
              "Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frais de revente + portage) ≥ 40 %. "
@@ -394,7 +348,10 @@ def save_report(folder, report):
         values = [row.get("adresse") or row["titre"], row["titre"], money(finance.get("plafond_marteau_eur")),
                   money(finance.get("frais_acquisition_au_plafond_eur")), money(finance.get("acte_en_mains_au_plafond_eur")),
                   money(finance.get("revente_prudente_eur")), profit, valuation.get("delai_revente_mois", "À documenter"),
-                  description, f"[Annonce]({row['url_annonce']})", valuation.get("analyse_marche", "À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente.")]
+                  description, f"[Annonce]({row['url_annonce']})" + "".join(
+                      f" ; [{p['champ']} p. {p['page']}]({p['url']}#page={p['page']})"
+                      for p in row.get("preuves_documentaires", [])[:3]),
+                  valuation.get("analyse_marche", "À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente.")]
         lines.append("| " + " | ".join(cell(value) for value in values) + " |")
     if not prospective:
         lines += ["", "Aucun dossier retenu ou restant à vérifier dans les fiches récentes analysées."]
@@ -407,9 +364,19 @@ def save_report(folder, report):
     for source in report["sources"]:
         lines.append("| " + " | ".join(cell(x) for x in [f"[{source['nom']}]({source['url']})", source["statut"], source["liens_detectes"],
                      source["pages_audiences_lues"], source["fiches_lues"], source.get("erreur") or "—"]) + " |")
+    lines += ["", "## Pièces PDF consultées", "", "Les indices ci-dessous restent à vérifier et ne remplacent pas les validations du dossier.", "",
+              "| Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |", "|---|---|---|---|---|---|"]
+    for doc in report.get("documents", []):
+        extracts = "; ".join(f"{p['champ']} : {p['valeur']} (p. {p['page']}, {p['methode']})" for p in doc.get("preuves", [])[:5])
+        if doc.get("contradictions"):
+            extracts += "; mentions multiples à contrôler : " + ", ".join(doc["contradictions"])
+        lines.append("| " + " | ".join(cell(x) for x in [f"[Pièce]({doc['url']})", doc["statut"],
+                     f"{len(doc.get('pages_lues', []))}/{doc.get('pages_total', '?')}", doc.get("pages_restantes", "?"),
+                     extracts or "Aucun indice ciblé extrait", doc.get("erreur") or "; ".join(x["erreur"] for x in doc.get("incidents_pages", [])) or "—"]) + " |")
     lines += ["", "## Couverture restante et contrôles", ""]
     lines += ["- " + warning for warning in report["limites"]]
-    lines += ["", "Les pièces PDF sont référencées dans le JSON mais ne sont pas lues automatiquement. "
+    lines += ["", "Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. "
+              "Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. "
               "L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. "
               "La mise à prix ne remplace jamais le prix adjugé.", "",
               "Règles de surenchère : [R322-50 à R322-55](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000025939177) ; "
@@ -424,11 +391,11 @@ def run(args):
         raise ValueError("--now doit préciser un fuseau horaire")
     stamp, today = now.isoformat(), now.astimezone(PARIS).date()
     fixture_map = json.loads(Path(args.fixtures).read_text()) if args.fixtures else None
-    fetcher = Fetcher(fixture_map, pause=args.pause)
     state_path = Path(args.state)
     state = json.loads(state_path.read_text()) if state_path.exists() else {"liens": {}, "fiches": {}}
     if state.get("version") not in {None, 1}:
         raise ValueError("version d'état non prise en charge")
+    fetcher = Fetcher(fixture_map, pause=args.pause, access_state=state.setdefault("acces", {}))
     sources = load_sources()
     records, logs, incidents = {}, [], []
 
@@ -443,7 +410,8 @@ def run(args):
                 log["statut"] = "aucun lien détecté — structure à contrôler"
             return incoming, log
         except Exception as exc:
-            log["statut"], log["erreur"] = "echec", str(exc)
+            log["statut"] = "differe" if isinstance(exc, AccessDeferred) else "echec"
+            log.update(incident(exc, source["url"], "source"))
             return {}, log
 
     with ThreadPoolExecutor(max_workers=4) as executor:
@@ -472,7 +440,7 @@ def run(args):
             log_by_url[source["url"]]["pages_audiences_lues"] += 1
             remaining_pages.extend((page, source) for page in pages if page not in seen_pages)
         except Exception as exc:
-            incidents.append({"url": url, "erreur": str(exc), "phase": "audience"})
+            incidents.append(incident(exc, url, "audience"))
     print(f"Audiences lues : {len(seen_pages)}", flush=True)
     candidates = []
     for url, record in records.items():
@@ -511,7 +479,7 @@ def run(args):
                       "documents_controles_automatiquement": False, "detail_lu_ce_passage": False}
             return url, parsed, None
         except Exception as exc:
-            return url, None, str(exc)
+            return url, None, incident(exc, url, "fiche")
 
     with ThreadPoolExecutor(max_workers=4) as executor:
         for url, parsed, error in executor.map(read_detail, chosen):
@@ -519,17 +487,57 @@ def run(args):
             previous = state.get("fiches", {}).get(url, {})
             if error:
                 failures += 1
-                records[url]["erreur_detail"] = error
-                incidents.append({"url": url, "erreur": error, "phase": "fiche"})
+                records[url]["erreur_detail"] = error["erreur"]
+                incidents.append(error)
             else:
                 details_read += bool(parsed.get("detail_lu_ce_passage"))
-                modified += bool(previous.get("empreinte_contenu") and previous["empreinte_contenu"] != parsed["empreinte_contenu"])
+                modified += bool(previous.get("empreinte_contenu") and previous["empreinte_contenu"] != parsed.get("empreinte_contenu"))
                 records[url] = parsed
                 state.setdefault("fiches", {})[url] = parsed
                 for source in parsed["sources"]:
                     log_by_url[source["url"]]["fiches_lues"] += bool(parsed.get("detail_lu_ce_passage"))
             if (details_read + failures) % 20 == 0:
                 print(f"Fiches : {details_read} lues, {failures} en échec", flush=True)
+    # Les pièces sont téléchargées au plus une fois par URL dans ce passage.
+    # Leur lecture progresse page par page entre passages sans lever la validation humaine.
+    max_documents = getattr(args, "max_documents", 0 if fixture_map is not None else 12)
+    max_pdf_pages = getattr(args, "max_pdf_pages", 80)
+    max_ocr_pages = getattr(args, "max_ocr_pages", 6)
+    reader = PdfReader(stamp, max_pdf_pages, max_ocr_pages)
+    document_owners, tasks = {}, []
+    for url, record in records.items():
+        for document in record.get("documents", []):
+            document_owners.setdefault(document, []).append(url)
+    for url, owners in document_owners.items():
+        is_recent = any(records[owner].get("detail_lu_ce_passage") and records[owner]["faits"].get("date_vente")
+                        and 1 <= (today - datetime.fromisoformat(records[owner]["faits"]["date_vente"]).date()).days <= 4 for owner in owners)
+        previous = state.get("pieces", {}).get(url, {})
+        tasks.append((0 if is_recent else 1, previous.get("derniere_tentative_utc", ""), url))
+    tasks.sort()
+    documents = []
+    for _, _, url in tasks[:max_documents]:
+        previous = state.setdefault("pieces", {}).get(url, {})
+        try:
+            body, resolved = fetcher.get_pdf(url)
+            document = reader.read(body, resolved, previous)
+            document["url_origine"] = url
+            document["annonces"] = document_owners[url]
+            document["derniere_tentative_utc"] = stamp
+            state["pieces"][url] = document
+            for owner in document_owners[url]:
+                records[owner].setdefault("preuves_documentaires", []).extend(document["preuves"])
+                records[owner].setdefault("documents_extraits", []).append(
+                    {"url": document["url"], "statut": document["statut"], "pages_lues": document["pages_lues"],
+                     "pages_total": document["pages_total"], "validation": "a_verifier"})
+            for item in document["incidents_pages"]:
+                incidents.append({"url": url, "phase": "pdf", **item})
+        except Exception as exc:
+            error = incident(exc, url, "pdf")
+            incidents.append(error)
+            document = {**error, "statut": "differe" if isinstance(exc, AccessDeferred) else "echec", "annonces": document_owners[url]}
+            state["pieces"][url] = {**previous, "derniere_tentative_utc": stamp, "derniere_erreur": str(exc)}
+        documents.append(document)
+        print(f"PDF : {len(documents)}/{min(max_documents, len(tasks))}, {document['statut']}", flush=True)
     valuations = load_valuations(Path(args.valuations))
     qualified = [classify(record, now, valuations.get(url)) for url, record in records.items()
                  if not urlparse(url).path.startswith("/ventes-judiciaires-immobilieres/")]
@@ -551,7 +559,11 @@ def run(args):
               "Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.",
               "Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.",
               "Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv."]
-    limits.append(f"{pdf_count} liens PDF sont conservés pour lecture documentaire et ne sont pas traités comme des fiches HTML.")
+    limits.append(f"PDF : budget de {max_documents} documents, {max_pdf_pages} pages et {max_ocr_pages} pages OCR ; "
+                  f"au plus 8 pages d'un document par passage, avec reprise des pages restantes. "
+                  f"{max(0, len(tasks) - max_documents)} documents détectés non consultés ce passage ; {pdf_count} liens directs vers un PDF.")
+    limits.append("Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. "
+                  "Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.")
     if remaining_pages:
         limits.append(f"{len(remaining_pages)} pages d'audience restent en file après le budget.")
     if incidents:
@@ -563,8 +575,12 @@ def run(args):
                       "fiches_lues": details_read, "fiches_en_echec": failures, "fiches_modifiees": modified,
                       "dossiers_recents": len(recent), "retenus": sum(x["statut"] == "retenu_sur_donnees_validees" for x in recent),
                       "a_verifier": sum(x["statut"] == "a_verifier" for x in recent), "rejetes_recents": sum(x["statut"] == "rejete" for x in recent),
-                      "sans_date": unknown, "liens_pdf_a_lire": pdf_count, "fiches_candidates_non_lues": max(0, len(candidates) - len(chosen))},
-        "dossiers": recent, "sources": logs, "incidents": incidents, "limites": limits,
+                      "sans_date": unknown, "liens_pdf_a_lire": pdf_count, "fiches_candidates_non_lues": max(0, len(candidates) - len(chosen)),
+                      "documents_pdf_consultes": sum(x["statut"] in {"lu", "partiel"} for x in documents),
+                      "documents_pdf_complets": sum(x["statut"] == "lu" for x in documents),
+                      "documents_pdf_detectes": len(tasks), **reader.metrics, **fetcher.metrics},
+        "dossiers": recent, "sources": logs, "incidents": incidents, "limites": limits, "documents": documents,
+        "delais_acces": state.get("acces", {}),
     }
     save_report(Path(args.output), report)
     # Le catalogue complet reste dans l'artefact, pas dans le rapport public résumé.
@@ -573,7 +589,8 @@ def run(args):
     # Code 2 : collecte terminée mais couverture partielle. Code 1 : aucune
     # source exploitable ou erreur d'extracteur à corriger.
     critical = not any(x["statut"] == "ok" for x in logs) or any("structure" in x["erreur"] for x in incidents)
-    return 1 if critical else (2 if any(x["statut"] == "echec" for x in logs) or incidents else 0)
+    return 1 if critical else (2 if any(x["statut"] in {"echec", "differe"} for x in logs) or incidents
+                                  or any(x["statut"] != "lu" for x in documents) else 0)
 
 
 def main():
@@ -584,11 +601,14 @@ def main():
     parser.add_argument("--valuations", default=str(ROOT / "estimations.csv"))
     parser.add_argument("--max-hearings", type=int, default=40)
     parser.add_argument("--max-details", type=int, default=120)
+    parser.add_argument("--max-documents", type=int, default=12)
+    parser.add_argument("--max-pdf-pages", type=int, default=80)
+    parser.add_argument("--max-ocr-pages", type=int, default=6)
     parser.add_argument("--pause", type=float, default=0.8)
     parser.add_argument("--now", help="date ISO avec fuseau, pour vérification reproductible")
     parser.add_argument("--fixtures", help="JSON URL -> fichier HTML local pour vérification sans réseau")
     args = parser.parse_args()
-    if args.max_hearings < 0 or args.max_details < 0 or args.pause < 0:
+    if min(args.max_hearings, args.max_details, args.max_documents, args.max_pdf_pages, args.max_ocr_pages, args.pause) < 0:
         parser.error("budgets et pause doivent être positifs ou nuls")
     return run(args)
 

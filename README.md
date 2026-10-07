@@ -25,9 +25,16 @@ Les tâches ChatGPT existantes de surveillance horaire et de bilan quotidien peu
 3. Il ouvre les audiences Licitor entre **J+1 et J+4** et leur pagination, dans la limite de **40 pages d'audience** par passage.
 4. Il lit jusqu'à **120 fiches**, avec priorité aux dates récentes. Les fiches sans date identifiée sont explorées par rotation. Les requêtes sont limitées à quatre traitements concurrents, avec au moins 0,8 seconde entre départs de requêtes d'un même site.
 5. Il extrait les mentions explicites de prix adjugé, audience, échéance, occupation et travaux. Les mises à prix, prix DVF de biens voisins et dates de visite ne remplacent pas ces données.
-6. Il publie un rapport même si des sources échouent. Une couverture partielle est signalée par un avertissement visible et le code de collecte 2. Une erreur d'extracteur ou l'absence de toute source exploitable entraîne un échec du workflow (code 1). Les PDF identifiés sont conservés pour lecture documentaire.
+6. Il publie un rapport même si des sources échouent. Une couverture partielle est signalée par un avertissement visible et le code de collecte 2. Une erreur d'extracteur ou l'absence de toute source exploitable entraîne un échec du workflow (code 1).
+7. Il consulte jusqu'à **12 PDF**, traite jusqu'à **80 pages** dont **6 par OCR**, avec **8 pages au plus par document et par passage**. La lecture reprend les pages restantes aux passages suivants. Le contenu du PDF est identifié par son empreinte : une modification remet sa lecture à zéro. Les pièces des fiches récentes sont prioritaires, puis la file tourne selon la dernière tentative.
 
-Les documents PDF sont référencés mais ne sont pas lus automatiquement. Les publications sont de **niveau C, à contrôler**. L'absence de mention de travaux ne suffit pas à confirmer une revente sans travaux.
+Les indices PDF comportent **URL, numéro de page, méthode texte/OCR et extrait ciblé**. Ils sont conservés séparément des faits de l'annonce : plusieurs biens, dates ou prix peuvent figurer dans une pièce. Le rapport affiche les contradictions, pages restantes et erreurs dans ses données structurées. Une extraction ne confirme ni l'attribution d'une mention au bien, ni son actualité, ni une condition juridique. Les publications restent de **niveau C, à contrôler**. L'absence de mention de travaux ne suffit pas à confirmer une revente sans travaux.
+
+## Délais et refus d'accès
+
+Une réponse **429** arrête les requêtes suivantes du même site et respecte `Retry-After`, en secondes ou en date HTTP. Sans délai indiqué, le moteur diffère ce site d'une heure. Les refus **403** sont différés au moins six heures. Les erreurs serveur **5xx** ont un délai croissant, ou le délai indiqué par le serveur. Les autres sites continuent à être consultés.
+
+Ces délais sont conservés dans l'état et restaurés au passage suivant. Le rapport distingue erreurs reçues et accès différés, avec l'heure du prochain essai. Le moteur ne contourne pas les refus. Les données antérieures ne sont pas présentées comme une nouvelle lecture réussie.
 
 ## Critères de sélection
 
@@ -62,10 +69,10 @@ La valeur et les frais ne sont pas estimés à partir de simples mots-clés. La 
 
 ## Installation et test local
 
-Python **3.10 ou plus**, sans bibliothèque externe.
+Python **3.10 ou plus**, sans bibliothèque Python externe. Pour lire les pièces : **Poppler** (`pdfinfo`, `pdftotext`, `pdftoppm`) et **Tesseract**, avec les langues française et anglaise. Le workflow installe ces outils sur Ubuntu. Un outil absent, un PDF protégé, un document dépassant 10 Mo ou 300 pages reste signalé pour contrôle manuel.
 
 ```sh
-python -m unittest -v test_veille
+python -m unittest -v test_veille test_ameliore
 python veille.py
 ```
 
@@ -74,11 +81,11 @@ Le collecteur initial reste disponible avec `python monitor.py`. Le workflow uti
 Options utiles :
 
 ```sh
-python veille.py --max-hearings 40 --max-details 120
+python veille.py --max-hearings 40 --max-details 120 --max-documents 12 --max-pdf-pages 80 --max-ocr-pages 6
 python veille.py --now 2026-10-07T12:00:00+02:00 --fixtures correspondances.json
 ```
 
-Le second mode lit un JSON `URL → chemin HTML local` pour vérifier les extracteurs sans réseau. Les tests couvrent dates françaises, fuseau Paris, prix/frais, marge et stress, occupation contradictoire, travaux, délai expiré, seconde adjudication, données manquantes, mise à prix, isolation des comparables, pagination, erreurs et actualisation de l'état.
+Le second mode lit un JSON `URL → chemin HTML ou PDF local` pour vérifier les extracteurs sans réseau. Ajouter `--max-documents 0` pour désactiver la lecture des pièces. Les tests couvrent dates françaises, fuseau Paris, prix/frais, marge et stress, occupation contradictoire, travaux, délai expiré, seconde adjudication, données manquantes, mise à prix, isolation des comparables, pagination, erreurs et actualisation de l'état. Les régressions supplémentaires vérifient les délais HTTP, l'arrêt des requêtes déjà en file, la persistance, la reprise des pages, l'OCR différé, les changements de PDF, la provenance et l'absence de validation automatique d'une opportunité.
 
 ## Limites de couverture
 
