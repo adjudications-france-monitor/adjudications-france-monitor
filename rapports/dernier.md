@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-07T14:03:09.048189+02:00** (Europe/Paris).
+Contrôle : **2026-10-07T14:19:38.524800+02:00** (Europe/Paris).
 
 **0 dossier(s) retenu(s) sur données validées**, 52 à vérifier, 19 rejet(s) dans la fenêtre J+1 à J+4.
 
-17/20 pages sources accessibles ; 737 liens distincts ; 20 pages d'audience et 113 fiches détaillées lues.
+17/20 pages sources accessibles ; 738 liens distincts ; 20 pages d'audience et 113 fiches détaillées lues.
 
-Nouveautés : 0 liens ; 48 fiches modifiées depuis le passage précédent.
+Nouveautés : 2 liens ; 48 fiches modifiées depuis le passage précédent.
 
-Pièces : 10 PDF accessibles ; 51 pages traitées ce passage, 6 lues, dont 6 par OCR. 3 requêtes différées après une limite ou un refus d'accès.
+Pièces : 9 PDF accessibles ; 43 pages traitées ce passage, 6 lues, dont 6 par OCR. 3 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -126,18 +126,18 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 
 | Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |
 |---|---|---|---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6a91375993320ttt.pdf) | partiel | 6/39 | 33 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6a913a8cedc36ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6a913a8d33005ttt.pdf) | partiel | 0/7 | 7 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6a913a8d63f23ttt.pdf) | partiel | 0/22 | 22 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6a980c610fd3fttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6a980c614445dttt.pdf) | partiel | 0/17 | 17 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6a980c617a5e9ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6a958545d50battt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6a95854d628d9ttt.pdf) | partiel | 0/8 | 8 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6a9585579f635ttt.pdf) | partiel | 0/19 | 19 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6a95855fe6cd9ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6a95856b919e5ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6a958572275b7ttt.pdf) | lu | 6/6 | 0 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6a95857b484a2ttt.pdf) | partiel | 0/2 | 2 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6aa2c5042a5a2ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6aa2c50a042f7ttt.pdf) | partiel | 0/23 | 23 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6aa2c5133b474ttt.pdf) | partiel | 0/65 | 65 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6aa2c51adf526ttt.pdf) | partiel | 0/7 | 7 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/6aaa4c22b5077ttt.pdf) | partiel | 0/2 | 2 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/177/documents/npannexe240191ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/423/documents/6a79c040d22d6ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/423/documents/6a79c05e54d56ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/423/documents/6a8d67ec9236cttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/423/documents/6a8d6853450bfttt.pdf) | partiel | 0/19 | 19 | Aucun indice ciblé extrait | — |
 
 ## Couverture restante et contrôles
 
@@ -149,7 +149,7 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
 - PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 148 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 2 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 3 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
