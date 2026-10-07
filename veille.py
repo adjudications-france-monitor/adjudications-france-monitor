@@ -14,8 +14,9 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urldefrag, urljoin, urlparse
+from urllib.parse import parse_qs, urldefrag, urljoin, urlparse
 from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
 
 from monitor import MAX_BYTES, TIMEOUT_SECONDS, is_candidate_link, load_sources
 from qualification import PARIS, amount, classify, french_date, labelled_amount, labelled_date, normalize, occupancy, works
@@ -23,6 +24,15 @@ from qualification import PARIS, amount, classify, french_date, labelled_amount,
 ROOT = Path(__file__).resolve().parent
 VOID = set("area base br col embed hr img input link meta param source track wbr".split())
 IGNORED = {"script", "style", "nav", "footer", "form", "noscript"}
+
+
+class PdfDocument(Exception):
+    """Document accessible, dont la lecture nécessite le contrôle des pièces."""
+
+
+def is_pdf_url(url):
+    parsed = urlparse(url)
+    return parsed.path.lower().endswith(".pdf") or parse_qs(parsed.query).get("justify") == ["1"]
 
 
 class Node:
@@ -105,7 +115,7 @@ def atomic_json(path, value):
 def facts_from_text(text, host, *, detail=False):
     normalized = normalize(text)
     facts = {
-        "date_vente": labelled_date(text, r"(?:date de la vente|date de l'audience|vente aux encheres publiques|vente|audience)"),
+        "date_vente": labelled_date(text, r"(?:date de (?:la )?vente|date de l'audience|vente(?: aux encheres(?: publiques)?| sur (?:liquidation judiciaire|licitation|saisie immobiliere|surenchere))?(?: du| le)?|audience)"),
         "date_limite_surenchere": labelled_date(text, r"surenchere possible jusqu'au"),
         "prix_adjuge_eur": labelled_amount(text, r"(?:adjuge|adjudication)"),
         "mise_a_prix_eur": labelled_amount(text, r"mise a prix(?: initiale)?"),
@@ -114,6 +124,7 @@ def facts_from_text(text, host, *, detail=False):
         "retiree": bool(re.search(r"\b(?:retiree|non requise|vente reportee|vente annulee)\b", normalized)),
         "seconde_adjudication": bool(re.search(r"\b(?:vente sur surenchere|adjudication sur surenchere|seconde adjudication)\b", normalized)),
         "surenchere_impossible": "aucune surenchere possible" in normalized or "surenchere impossible" in normalized,
+        "vente_amiable": "vente amiable" in normalized,
     }
     surface = re.search(r"\b(\d+(?:[.,]\d+)?)\s*m[²2]\b", text)
     if surface:
@@ -132,6 +143,8 @@ def seed_records(markup, page_url, source, timestamp):
     records = {}
     for node in doc.nodes:
         href = node.attrs.get("data-link") or (node.attrs.get("href") if node.tag == "a" else "")
+        if not href:
+            continue
         url = canonical(href or "", page_url)
         if not url or not is_candidate_link(page_url, url, node.text()):
             continue
@@ -144,6 +157,8 @@ def seed_records(markup, page_url, source, timestamp):
             heading = next((x for x in node.all() if x.has_class("font-bold") and x.has_class("text-16")), None)
             title = heading.text() if heading else title
         facts = facts_from_text(text, host)
+        if facts.get("date_vente"):
+            facts["date_vente_source"] = page_url
         if host == "licitor.com":
             inferred_date = french_date(urlparse(url).path.replace("-", " "))
             if inferred_date:
@@ -182,6 +197,7 @@ def hearing_records(markup, page_url, source, timestamp):
             facts = facts_from_text(text, "licitor.com")
             if sale_date:
                 facts["date_vente"] = sale_date.isoformat()
+                facts["date_vente_source"] = page_url
                 # Le libellé du résultat de cette audience comprend sa date.
                 result = re.search(r"\b\d{2}-\d{2}-\d{4}\s*:\s*([\d\s.,]+)\s*€", text)
                 if result and amount(result.group(1)):
@@ -223,10 +239,12 @@ def parse_detail(markup, page_url, record):
     result = dict(record)
     old_facts = record.get("faits", {})
     detail_facts = facts_from_text(text, host, detail=True)
-    if host == "avoventes.fr" and not detail_facts.get("date_vente"):
-        raise ValueError("structure Avoventes modifiée : date Vente absente")
-    if host == "licitor.com" and not detail_facts.get("date_vente"):
-        raise ValueError("structure Licitor modifiée : date de vente absente")
+    date_known = detail_facts.get("date_vente") or old_facts.get("date_vente")
+    expected_no_date = detail_facts.get("retiree") or detail_facts.get("vente_amiable")
+    if host in {"avoventes.fr", "licitor.com"} and not date_known and not expected_no_date:
+        raise ValueError("structure de fiche non reconnue : date de vente absente")
+    if detail_facts.get("date_vente"):
+        detail_facts["date_vente_source"] = page_url
     # Les faits manquants restent inconnus; la liste du même passage peut
     # compléter une fiche qui n'affiche pas elle-même le résultat.
     result["faits"] = {**old_facts, **detail_facts}
@@ -286,6 +304,8 @@ class Fetcher:
                 resolved = response.geturl()
                 kind = response.headers.get("Content-Type", "")
                 if "html" not in kind.lower():
+                    if "application/pdf" in kind.lower():
+                        raise PdfDocument("PDF accessible — lecture des pièces à effectuer")
                     raise ValueError("contenu non HTML : " + kind)
                 body = response.read(MAX_BYTES + 1)
                 if len(body) > MAX_BYTES:
@@ -458,6 +478,13 @@ def run(args):
     for url, record in records.items():
         if urlparse(url).path.startswith("/ventes-judiciaires-immobilieres/"):
             continue
+        if is_pdf_url(url):
+            record["support"] = "pdf_a_lire"
+            record["documents"] = [url]
+            record["documents_controles_automatiquement"] = False
+            continue
+        if record["faits"].get("vente_amiable"):
+            continue
         date_value = record["faits"].get("date_vente")
         day = None
         if date_value:
@@ -469,7 +496,8 @@ def run(args):
         if age is None or 1 <= age <= 4:
             priority = 0 if age is not None else 1
             previous = state.get("fiches", {}).get(url, {})
-            candidates.append((priority, previous.get("controle_detail_utc", ""), url))
+            attempted = state.get("tentatives", {}).get(url, previous.get("controle_detail_utc", ""))
+            candidates.append((priority, attempted, url))
     candidates.sort()
     chosen = [url for _, _, url in candidates[:args.max_details]]
     failures, modified, details_read = 0, 0, 0
@@ -478,23 +506,30 @@ def run(args):
         try:
             markup, resolved = fetcher.get(url)
             return url, parse_detail(markup, resolved, records[url]), None
+        except PdfDocument:
+            parsed = {**records[url], "support": "pdf_a_lire", "documents": [url],
+                      "documents_controles_automatiquement": False, "detail_lu_ce_passage": False}
+            return url, parsed, None
         except Exception as exc:
             return url, None, str(exc)
 
     with ThreadPoolExecutor(max_workers=4) as executor:
         for url, parsed, error in executor.map(read_detail, chosen):
+            state.setdefault("tentatives", {})[url] = stamp
             previous = state.get("fiches", {}).get(url, {})
             if error:
                 failures += 1
                 records[url]["erreur_detail"] = error
                 incidents.append({"url": url, "erreur": error, "phase": "fiche"})
             else:
-                details_read += 1
+                details_read += bool(parsed.get("detail_lu_ce_passage"))
                 modified += bool(previous.get("empreinte_contenu") and previous["empreinte_contenu"] != parsed["empreinte_contenu"])
                 records[url] = parsed
                 state.setdefault("fiches", {})[url] = parsed
                 for source in parsed["sources"]:
-                    log_by_url[source["url"]]["fiches_lues"] += 1
+                    log_by_url[source["url"]]["fiches_lues"] += bool(parsed.get("detail_lu_ce_passage"))
+            if (details_read + failures) % 20 == 0:
+                print(f"Fiches : {details_read} lues, {failures} en échec", flush=True)
     valuations = load_valuations(Path(args.valuations))
     qualified = [classify(record, now, valuations.get(url)) for url, record in records.items()
                  if not urlparse(url).path.startswith("/ventes-judiciaires-immobilieres/")]
@@ -506,6 +541,7 @@ def run(args):
     state["version"], state["dernier_passage"] = 1, stamp
     atomic_json(state_path, state)
     unknown = sum(row["jours_apres_audience"] is None for row in qualified)
+    pdf_count = sum(record.get("support") == "pdf_a_lire" for record in records.values())
     limits = [f"Budget : {args.max_hearings} pages d'audience et {args.max_details} fiches par passage ; "
               f"{max(0, len(candidates) - len(chosen))} fiches candidates non lues ce passage.",
               f"{unknown} liens de fiches sans date d'audience extraite restent hors sélection ; "
@@ -515,6 +551,7 @@ def run(args):
               "Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.",
               "Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.",
               "Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv."]
+    limits.append(f"{pdf_count} liens PDF sont conservés pour lecture documentaire et ne sont pas traités comme des fiches HTML.")
     if remaining_pages:
         limits.append(f"{len(remaining_pages)} pages d'audience restent en file après le budget.")
     if incidents:
@@ -526,14 +563,17 @@ def run(args):
                       "fiches_lues": details_read, "fiches_en_echec": failures, "fiches_modifiees": modified,
                       "dossiers_recents": len(recent), "retenus": sum(x["statut"] == "retenu_sur_donnees_validees" for x in recent),
                       "a_verifier": sum(x["statut"] == "a_verifier" for x in recent), "rejetes_recents": sum(x["statut"] == "rejete" for x in recent),
-                      "sans_date": unknown, "fiches_candidates_non_lues": max(0, len(candidates) - len(chosen))},
+                      "sans_date": unknown, "liens_pdf_a_lire": pdf_count, "fiches_candidates_non_lues": max(0, len(candidates) - len(chosen))},
         "dossiers": recent, "sources": logs, "incidents": incidents, "limites": limits,
     }
     save_report(Path(args.output), report)
     # Le catalogue complet reste dans l'artefact, pas dans le rapport public résumé.
     atomic_json(Path(args.catalogue), {"controle_utc": stamp, "liens": qualified})
     print(json.dumps(report["comptages"], ensure_ascii=False), flush=True)
-    return 1 if any(x["statut"] == "echec" for x in logs) or incidents else 0
+    # Code 2 : collecte terminée mais couverture partielle. Code 1 : aucune
+    # source exploitable ou erreur d'extracteur à corriger.
+    critical = not any(x["statut"] == "ok" for x in logs) or any("structure" in x["erreur"] for x in incidents)
+    return 1 if critical else (2 if any(x["statut"] == "echec" for x in logs) or incidents else 0)
 
 
 def main():

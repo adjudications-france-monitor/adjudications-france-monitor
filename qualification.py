@@ -159,6 +159,8 @@ def classify(record: dict, now: datetime, valuation: dict | None = None) -> dict
         rejected.append("hors France métropolitaine")
     if facts.get("retiree"):
         rejected.append("vente retirée, reportée ou non requise")
+    if facts.get("vente_amiable"):
+        rejected.append("vente amiable, hors scénario d'adjudication")
     if facts.get("seconde_adjudication"):
         rejected.append("vente sur surenchère : nouvelle surenchère non retenue")
     if facts.get("surenchere_impossible"):

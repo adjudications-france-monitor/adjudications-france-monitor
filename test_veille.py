@@ -137,6 +137,25 @@ class ParserAndStateTests(unittest.TestCase):
         self.assertEqual(facts["mise_a_prix_eur"], "70000")
         self.assertNotIn("prix_adjuge_eur", facts)
 
+    def test_sale_variants_withdrawal_and_non_judicial_sale(self):
+        for label in ["Vente sur liquidation judiciaire", "Vente sur licitation", "Vente sur saisie immobilière"]:
+            facts = facts_from_text(label + " mardi 6 octobre 2026 à 14h", "licitor.com", detail=True)
+            self.assertEqual(facts["date_vente"], "2026-10-06")
+        rows, _ = seed_records(LIST, SOURCE["url"], SOURCE, NOW.isoformat())
+        cancelled = DETAIL.replace("Vente 06 octobre 2026 à 14h00", "Vente non requise")
+        detail = parse_detail(cancelled, URL, rows[URL])
+        self.assertTrue(detail["faits"]["retiree"])
+        self.assertEqual(classify(detail, NOW)["statut"], "rejete")
+        amiable = DETAIL.replace("Vente 06 octobre 2026 à 14h00", "Vente amiable")
+        detail = parse_detail(amiable, URL, {**rows[URL], "faits": {}})
+        self.assertTrue(detail["faits"]["vente_amiable"])
+
+    def test_pdf_links_are_queued_without_a_parser_error(self):
+        from veille import is_pdf_url
+        self.assertTrue(is_pdf_url("https://www.7jours.fr/annonces-legales/exemple/?justify=1"))
+        self.assertTrue(is_pdf_url("https://exemple.fr/pv.pdf"))
+        self.assertFalse(is_pdf_url(URL))
+
     def test_hearing_includes_date_result_and_next_page(self):
         markup = '<article id="hearings-list"><h1>TJ Exemple Mardi 6 octobre 2026 à 14h</h1><a href="/annonce/123.html">Appartement 06-10-2026 : 19 000 €</a><nav><a href="?p=2">Suivant</a></nav></article>'
         page = "https://www.licitor.com/ventes-judiciaires-immobilieres/tj-exemple/mardi-6-octobre-2026.html"

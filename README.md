@@ -25,7 +25,7 @@ Les tâches ChatGPT existantes de surveillance horaire et de bilan quotidien peu
 3. Il ouvre les audiences Licitor entre **J+1 et J+4** et leur pagination, dans la limite de **40 pages d'audience** par passage.
 4. Il lit jusqu'à **120 fiches**, avec priorité aux dates récentes. Les fiches sans date identifiée sont explorées par rotation. Les requêtes sont limitées à quatre traitements concurrents, avec au moins 0,8 seconde entre départs de requêtes d'un même site.
 5. Il extrait les mentions explicites de prix adjugé, audience, échéance, occupation et travaux. Les mises à prix, prix DVF de biens voisins et dates de visite ne remplacent pas ces données.
-6. Il publie un rapport même si des sources échouent. Les erreurs restent visibles dans le rapport et font terminer le workflow en échec pour signaler une collecte partielle.
+6. Il publie un rapport même si des sources échouent. Une couverture partielle est signalée par un avertissement visible et le code de collecte 2. Une erreur d'extracteur ou l'absence de toute source exploitable entraîne un échec du workflow (code 1). Les PDF identifiés sont conservés pour lecture documentaire.
 
 Les documents PDF sont référencés mais ne sont pas lus automatiquement. Les publications sont de **niveau C, à contrôler**. L'absence de mention de travaux ne suffit pas à confirmer une revente sans travaux.
 
