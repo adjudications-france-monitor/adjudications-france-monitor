@@ -1,1 +1,24 @@
 nom,categorie,url,active
+Licitor - ventes à venir,site_pro,https://www.licitor.com/,1
+Licitor - résultats,site_pro,https://www.licitor.com/historique-des-adjudications.html,1
+Avoventes CNB - annonces nationales,site_pro,https://avoventes.fr/recherche/?display=liste&order=asc&sort=date,1
+Vench - annonces nationales,site_pro,https://www.vench.fr/,1
+Enchères Publiques - immobilier,site_pro,https://encheres-publiques.com/fr/ventes/immobilier,1
+Info Enchères - annonces nationales,site_pro,https://www.info-encheres.com/,1
+Petites Affiches - enchères immobilières,journal,https://www.petitesaffiches.fr/encheres-immobilieres/,1
+La Gazette France - adjudications,journal,https://www.lagazettefrance.fr/annonces-legales/ventes-encheres,1
+Informateur Judiciaire - Grand Ouest,journal,https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/,1
+7 Jours - Bretagne,journal,https://www.7jours.fr/ventes-aux-encheres-immobilieres/,1
+Echos Judiciaires Girondins,journal,https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/,1
+La Vie Economique - Sud-Ouest,journal,https://www.vie-economique.com/ventes-aux-encheres-immobilieres/,1
+Défis Avocats - ventes judiciaires,avocat,https://defis-avocats.com/ventes-judiciaires/,1
+Elige Avocats - ventes immobilières,avocat,https://elige-avocats.com/ventes-immobilieres/,1
+AHBL Avocats - ventes immobilières,avocat,https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres,1
+LCA Avocats - Lille,avocat,https://www.lca-avocats.fr/ventes/,0
+Parthema Avocats - ventes aux enchères,avocat,https://parthema.fr/ventes-aux-encheres/,0
+Legalyon - ventes aux enchères,avocat,https://legalyon.fr/fr/page/vente-aux-encheres,1
+Barreau de Grasse - ventes immobilières,barreau,https://www.avocats-grasse.com/fr/vente-encheres-immobilieres,0
+Vench - ventes à venir,site_pro,https://www.vench.fr/prochaines-ventes-aux-encheres.html,1
+Vench - résultats et surenchères,site_pro,https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html,1
+UDA Avocats - Saint-Etienne,avocat,https://uda-avocats.com/nos-saisies-immobilieres/,1
+Avoventes - Tribunal de Saint-Etienne,site_pro,https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133,1

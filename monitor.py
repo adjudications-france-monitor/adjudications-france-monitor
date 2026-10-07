@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urldefrag, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
@@ -25,8 +25,42 @@ KEYWORDS = (
     "vente judiciaire", "vente aux encheres", "vente aux enchères", "surenchere",
     "surenchère", "tribunal judiciaire", "audience d'adjudication",
 )
-MAX_BYTES = 5_000_000
+MAX_BYTES = 10_000_000
 TIMEOUT_SECONDS = 20
+
+# Chemins observés sur les pages sources. Les sources inconnues conservent
+# la recherche par mots-clés; ces règles écartent les menus et abonnements.
+SOURCE_PATTERNS = {
+    "licitor.com": r"^/ventes-judiciaires-immobilieres/",
+    "avoventes.fr": r"^/enchere/",
+    "vench.fr": r"^/vente-\d+-",
+    "encheres-publiques.com": r"^/(?:fr/)?(?:encheres/immobilier/[^/]+/[^/]+/[^/]+_\d+|evenements/[^/]+/[^/]+_\d+)$",
+    "info-encheres.com": r"^/\d+-d-",
+    "petitesaffiches.fr": r"^/encheres-immobilieres/vente/immobiliere/",
+    "lagazettefrance.fr": r"^/annonce-legale/",
+    "informateurjudiciaire.fr": r"^/annonces-legales/[^/]+/",
+    "7jours.fr": r"^/annonces-legales/[^/]+/",
+    "echos-judiciaires.com": r"^/annonces-legales/[^/]+/",
+    "vie-economique.com": r"^/annonces-legales/[^/]+/",
+    "defis-avocats.com": r"^/vente(?:-judiciaire|-aux-encheres|-du)-",
+    "elige-avocats.com": r"^/project/",
+    "ahbl-avocats.fr": r"^/ventes-aux-encheres-immobilieres/[^/]+",
+    "lca-avocats.fr": r"^/(?:ventes-annonces|ventes-resultats)/[^/]+",
+    "legalyon.fr": r"^/fr/post/vente-aux-encheres/",
+    "uda-avocats.com": r"^/nos-saisies/",
+}
+
+
+def is_candidate_link(source_url: str, href: str, text: str) -> bool:
+    source_host = (urlparse(source_url).hostname or "").removeprefix("www.")
+    parsed = urlparse(href)
+    if parsed.scheme not in {"http", "https"}:
+        return False
+    if source_host in SOURCE_PATTERNS:
+        link_host = (parsed.hostname or "").removeprefix("www.")
+        return link_host == source_host and bool(re.search(SOURCE_PATTERNS[source_host], parsed.path))
+    searchable = (text + " " + href).casefold()
+    return any(keyword.casefold() in searchable for keyword in KEYWORDS)
 
 
 class LinkParser(HTMLParser):
@@ -37,8 +71,12 @@ class LinkParser(HTMLParser):
         self._text: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attributes = dict(attrs)
+        # Avoventes utilise des cartes cliquables plutôt que des balises a.
+        if attributes.get("data-link"):
+            self.links.append({"href": attributes["data-link"].strip(), "text": ""})
         if tag.lower() == "a":
-            self._href = dict(attrs).get("href") or ""
+            self._href = attributes.get("href") or ""
             self._text = []
 
     def handle_data(self, data: str) -> None:
@@ -90,6 +128,7 @@ def collect(source: dict[str, str], known: set[str]) -> tuple[int, int]:
     request = Request(source["url"], headers={"User-Agent": "AdjudicationsFranceMonitor/0.1 (public page monitor)"})
     try:
         with urlopen(request, timeout=TIMEOUT_SECONDS) as response:
+            page_url = response.geturl()
             content_type = response.headers.get("Content-Type", "")
             if "html" not in content_type.lower():
                 raise ValueError(f"Type de contenu non HTML : {content_type}")
@@ -106,11 +145,8 @@ def collect(source: dict[str, str], known: set[str]) -> tuple[int, int]:
     parser.feed(html)
     created = 0
     for link in parser.links:
-        href = urljoin(source["url"], link["href"])
-        searchable = (link["text"] + " " + href).casefold()
-        if not any(keyword.casefold() in searchable for keyword in KEYWORDS):
-            continue
-        if urlparse(href).scheme not in {"http", "https"}:
+        href = urldefrag(urljoin(page_url, link["href"]))[0]
+        if not is_candidate_link(source["url"], href, link["text"]):
             continue
         digest = hashlib.sha256(href.encode("utf-8")).hexdigest()
         if digest in known:
@@ -121,7 +157,7 @@ def collect(source: dict[str, str], known: set[str]) -> tuple[int, int]:
             "source": source["nom"],
             "categorie_source": source["categorie"],
             "page_source": source["url"],
-            "titre_lien": link["text"],
+            "titre_lien": link["text"] or urlparse(href).path.rsplit("/", 1)[-1],
             "url_annonce": href,
             "statut": "à vérifier manuellement",
         })
@@ -145,7 +181,7 @@ def main() -> int:
         if index < len(sources) - 1:
             time.sleep(2)
     print(f"Terminé : {added} nouveau(x) lien(s), {errors} source(s) en erreur.")
-    return 0
+    return 1 if errors else 0
 
 
 if __name__ == "__main__":
