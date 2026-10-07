@@ -1,0 +1,94 @@
+name: Veille adjudications France
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9-18 * * *'
+      timezone: Europe/Paris
+  push:
+    branches: [main]
+    paths:
+      - '*.py'
+      - sources.csv
+      - estimations.csv
+      - .github/workflows/veille.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-adjudications-main
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Lire le dépôt
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Installer Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Vérifier les filtres et la persistance
+        run: python -m unittest -v test_veille
+      - name: Restaurer l'historique
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: data/etat.json
+          key: veille-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: veille-v1-
+      - name: Collecter et qualifier les fiches
+        id: collecte
+        shell: bash
+        run: |
+          set +e
+          python veille.py --max-hearings 40 --max-details 120
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Résumé du passage
+        if: always()
+        run: |
+          if [ -f rapports/dernier.md ]; then
+            cat rapports/dernier.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Le moteur n’a pas produit de rapport.' >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+      - name: Conserver le rapport et le catalogue
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: veille-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            rapports/
+            data/catalogue.json
+            data/etat.json
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Publier le dernier rapport
+        if: success()
+        shell: bash
+        run: |
+          test -f rapports/dernier.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add rapports/dernier.md rapports/dernier.json rapports/dernier.csv rapports/sources.csv
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualiser le rapport de veille [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Sauvegarder l'historique
+        if: always() && hashFiles('data/etat.json') != ''
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: data/etat.json
+          key: veille-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Signaler une collecte partielle
+        if: steps.collecte.outputs.exit_code != '0'
+        run: |
+          echo 'Collecte partielle ou erreur : consulter le rapport et les journaux.'
+          exit 1
