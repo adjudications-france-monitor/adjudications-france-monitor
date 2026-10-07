@@ -1,21 +1,21 @@
 ﻿nom,url,statut,liens_detectes,pages_audiences_lues,fiches_lues,erreur,controle_utc
-Licitor - ventes à venir,https://www.licitor.com/,ok,114,3,11,,2026-10-07T11:26:57.757313+00:00
-Licitor - résultats,https://www.licitor.com/historique-des-adjudications.html,ok,169,17,37,,2026-10-07T11:26:57.757313+00:00
-Avoventes CNB - annonces nationales,https://avoventes.fr/recherche/?display=liste&order=asc&sort=date,ok,236,0,17,,2026-10-07T11:26:57.757313+00:00
-Vench - annonces nationales,https://www.vench.fr/,ok,12,0,0,,2026-10-07T11:26:57.757313+00:00
-Enchères Publiques - immobilier,https://encheres-publiques.com/fr/ventes/immobilier,echec,0,0,0,HTTP Error 403: Forbidden,2026-10-07T11:26:57.757313+00:00
-Info Enchères - annonces nationales,https://www.info-encheres.com/,ok,61,0,0,,2026-10-07T11:26:57.757313+00:00
-Petites Affiches - enchères immobilières,https://www.petitesaffiches.fr/encheres-immobilieres/,echec,0,0,0,HTTP Error 403: Forbidden,2026-10-07T11:26:57.757313+00:00
-La Gazette France - adjudications,https://www.lagazettefrance.fr/annonces-legales/ventes-encheres,ok,30,0,10,,2026-10-07T11:26:57.757313+00:00
-Informateur Judiciaire - Grand Ouest,https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/,ok,12,0,0,,2026-10-07T11:26:57.757313+00:00
-7 Jours - Bretagne,https://www.7jours.fr/ventes-aux-encheres-immobilieres/,ok,10,0,0,,2026-10-07T11:26:57.757313+00:00
-Echos Judiciaires Girondins,https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/,ok,12,0,0,,2026-10-07T11:26:57.757313+00:00
-La Vie Economique - Sud-Ouest,https://www.vie-economique.com/ventes-aux-encheres-immobilieres/,ok,3,0,0,,2026-10-07T11:26:57.757313+00:00
-Défis Avocats - ventes judiciaires,https://defis-avocats.com/ventes-judiciaires/,ok,8,0,1,,2026-10-07T11:26:57.757313+00:00
-Elige Avocats - ventes immobilières,https://elige-avocats.com/ventes-immobilieres/,ok,27,0,11,,2026-10-07T11:26:57.757313+00:00
-AHBL Avocats - ventes immobilières,https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres,ok,1,0,1,,2026-10-07T11:26:57.757313+00:00
-Legalyon - ventes aux enchères,https://legalyon.fr/fr/page/vente-aux-encheres,ok,4,0,0,,2026-10-07T11:26:57.757313+00:00
-Vench - ventes à venir,https://www.vench.fr/prochaines-ventes-aux-encheres.html,ok,12,0,0,,2026-10-07T11:26:57.757313+00:00
-Vench - résultats et surenchères,https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html,ok,12,0,12,,2026-10-07T11:26:57.757313+00:00
-UDA Avocats - Saint-Etienne,https://uda-avocats.com/nos-saisies-immobilieres/,ok,3,0,0,,2026-10-07T11:26:57.757313+00:00
-Avoventes - Tribunal de Saint-Etienne,https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133,ok,10,0,0,,2026-10-07T11:26:57.757313+00:00
+Licitor - ventes à venir,https://www.licitor.com/,ok,114,3,11,,2026-10-07T11:57:43.111244+00:00
+Licitor - résultats,https://www.licitor.com/historique-des-adjudications.html,ok,169,17,37,,2026-10-07T11:57:43.111244+00:00
+Avoventes CNB - annonces nationales,https://avoventes.fr/recherche/?display=liste&order=asc&sort=date,ok,236,0,17,,2026-10-07T11:57:43.111244+00:00
+Vench - annonces nationales,https://www.vench.fr/,ok,12,0,0,,2026-10-07T11:57:43.111244+00:00
+Enchères Publiques - immobilier,https://encheres-publiques.com/fr/ventes/immobilier,echec,0,0,0,HTTP Error 403: Forbidden,2026-10-07T11:57:43.111244+00:00
+Info Enchères - annonces nationales,https://www.info-encheres.com/,ok,62,0,0,,2026-10-07T11:57:43.111244+00:00
+Petites Affiches - enchères immobilières,https://www.petitesaffiches.fr/encheres-immobilieres/,echec,0,0,0,HTTP Error 403: Forbidden,2026-10-07T11:57:43.111244+00:00
+La Gazette France - adjudications,https://www.lagazettefrance.fr/annonces-legales/ventes-encheres,ok,30,0,10,,2026-10-07T11:57:43.111244+00:00
+Informateur Judiciaire - Grand Ouest,https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/,ok,12,0,0,,2026-10-07T11:57:43.111244+00:00
+7 Jours - Bretagne,https://www.7jours.fr/ventes-aux-encheres-immobilieres/,ok,10,0,0,,2026-10-07T11:57:43.111244+00:00
+Echos Judiciaires Girondins,https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/,ok,12,0,0,,2026-10-07T11:57:43.111244+00:00
+La Vie Economique - Sud-Ouest,https://www.vie-economique.com/ventes-aux-encheres-immobilieres/,ok,3,0,0,,2026-10-07T11:57:43.111244+00:00
+Défis Avocats - ventes judiciaires,https://defis-avocats.com/ventes-judiciaires/,ok,8,0,1,,2026-10-07T11:57:43.111244+00:00
+Elige Avocats - ventes immobilières,https://elige-avocats.com/ventes-immobilieres/,ok,27,0,27,,2026-10-07T11:57:43.111244+00:00
+AHBL Avocats - ventes immobilières,https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres,ok,1,0,1,,2026-10-07T11:57:43.111244+00:00
+Legalyon - ventes aux enchères,https://legalyon.fr/fr/page/vente-aux-encheres,ok,4,0,4,,2026-10-07T11:57:43.111244+00:00
+Vench - ventes à venir,https://www.vench.fr/prochaines-ventes-aux-encheres.html,ok,12,0,0,,2026-10-07T11:57:43.111244+00:00
+Vench - résultats et surenchères,https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html,ok,12,0,0,,2026-10-07T11:57:43.111244+00:00
+UDA Avocats - Saint-Etienne,https://uda-avocats.com/nos-saisies-immobilieres/,ok,3,0,3,,2026-10-07T11:57:43.111244+00:00
+Avoventes - Tribunal de Saint-Etienne,https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133,ok,10,0,0,,2026-10-07T11:57:43.111244+00:00
