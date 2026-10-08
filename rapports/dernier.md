@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-08T16:17:54.977836+02:00** (Europe/Paris).
+Contrôle : **2026-10-08T17:15:52.787500+02:00** (Europe/Paris).
 
-**0 dossier(s) retenu(s) sur données validées**, 77 à vérifier, 21 rejet(s) dans la fenêtre J+1 à J+4.
+**0 dossier(s) retenu(s) sur données validées**, 77 à vérifier, 23 rejet(s) dans la fenêtre J+1 à J+4.
 
-17/20 pages sources accessibles ; 764 liens distincts ; 30 pages d'audience et 120 fiches détaillées lues.
+18/20 pages sources accessibles ; 799 liens distincts ; 30 pages d'audience et 120 fiches détaillées lues.
 
-Nouveautés : 1 liens ; 71 fiches modifiées depuis le passage précédent.
+Nouveautés : 5 liens ; 72 fiches modifiées depuis le passage précédent.
 
-Pièces : 12 PDF accessibles ; 76 pages traitées ce passage, 6 lues, dont 6 par OCR. 3 requêtes différées après une limite ou un refus d'accès.
+Pièces : 4 PDF accessibles ; 19 pages traitées ce passage, 6 lues, dont 6 par OCR. 2 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -108,7 +108,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | 130 Rue de Genève, 01170 Gex, France | 150 000.00 € | occupation incompatible ou contradictoire; travaux nécessaires à la revente en l'état | [Annonce](https://avoventes.fr/enchere/un-appartement-et-une-cave-a-gex-1) |
 | 15 Quai Jean Jaurès, 38200 Vienne, France | À calculer — données manquantes | occupation incompatible ou contradictoire | [Annonce](https://avoventes.fr/enchere/un-appartement-a-vienne) |
 | 260 Av. Jean Jaurès, 95100 Argenteuil, France | 66 000.00 € | occupation incompatible ou contradictoire; travaux nécessaires à la revente en l'état | [Annonce](https://avoventes.fr/enchere/appartement-et-parking-a-argenteuil) |
-| UN ENSEMBLE IMMOBILIER • Hayange | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166496-un-ensemble-immobilier-hayange.html) |
+| UNE MAISON À USAGE D'HABITATION • Sézanne | À calculer — données manquantes | vente retirée, reportée ou non requise; surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166430-une-maison-a-usage-d-habitation-sezanne.html) |
 | UNE PROPRIÉTÉ • Thiescourt | À calculer — données manquantes | vente retirée, reportée ou non requise; surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166421-une-propriete-thiescourt.html) |
 | Un appartement | À calculer — données manquantes | vente retirée, reportée ou non requise | [Annonce](https://www.licitor.com/annonce/10/97/31/vente-aux-encheres/un-appartement/villepinte/seine-saint-denis/109731.html) |
 | Un appartement | À calculer — données manquantes | vente retirée, reportée ou non requise | [Annonce](https://www.licitor.com/annonce/10/97/37/vente-aux-encheres/un-appartement/rosny-sous-bois/seine-saint-denis/109737.html) |
@@ -119,6 +119,8 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | 13 Bd Canlong, 13009 Marseille, France | 282 000.00 € | occupation incompatible ou contradictoire | [Annonce](https://avoventes.fr/enchere/une-maison-avec-terrain-a-marseille) |
 | 22 Bd du Maréchal de Lattre de Tassigny, 21300 Chenôve, France | À calculer — données manquantes | travaux nécessaires à la revente en l'état | [Annonce](https://avoventes.fr/enchere/appartement-et-cave-a-chenove) |
 | 22 Rue Pouyer Quertier, 54190 Villerupt, France | 51 000.00 € | travaux nécessaires à la revente en l'état | [Annonce](https://avoventes.fr/enchere/ensemble-immobilier-a-villerupt) |
+| UNE MAISON INDIVIDUELLE À USAGE D'HABITATION • Fouras | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166424-une-maison-individuelle-a-usage-d-habitation-fouras.html) |
+| UNE MAISON INDIVIDUELLE À USAGE D'HABITATION • Le Gua | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166423-une-maison-individuelle-a-usage-d-habitation-le-gua.html) |
 | Un appartement d'habitation | À calculer — données manquantes | occupation incompatible ou contradictoire | [Annonce](https://www.licitor.com/annonce/10/95/89/vente-aux-encheres/un-appartement-d-habitation/beynes/yvelines/109589.html) |
 | Une maison d'habitation individuelle | 201 000.00 € | occupation incompatible ou contradictoire | [Annonce](https://www.licitor.com/annonce/10/94/33/vente-aux-encheres/une-maison-d-habitation-individuelle/osmoy/yvelines/109433.html) |
 
@@ -128,23 +130,23 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 |---|---|---|---|---|---|
 | [Licitor - ventes à venir](https://www.licitor.com/) | ok | 113 | 4 | 14 | — |
 | [Licitor - résultats](https://www.licitor.com/historique-des-adjudications.html) | ok | 170 | 26 | 57 | — |
-| [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 241 | 0 | 25 | — |
+| [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 245 | 0 | 25 | — |
 | [Vench - annonces nationales](https://www.vench.fr/) | ok | 12 | 0 | 0 | — |
 | [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | differe | 0 | 0 | 0 | Accès différé à encheres-publiques.com jusqu'au 2026-10-08T19:19:10.149714+00:00 après HTTP 403 |
 | [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 62 | 0 | 0 | — |
 | [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | differe | 0 | 0 | 0 | Accès différé à petitesaffiches.fr jusqu'au 2026-10-08T19:19:10.334676+00:00 après HTTP 403 |
-| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | differe | 0 | 0 | 0 | Accès différé à lagazettefrance.fr jusqu'au 2026-10-08T14:21:11.673635+00:00 après HTTP 429 |
+| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 2 | — |
 | [Informateur Judiciaire - Grand Ouest](https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/) | ok | 12 | 0 | 0 | — |
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 10 | 0 | 0 | — |
 | [Echos Judiciaires Girondins](https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/) | ok | 12 | 0 | 0 | — |
 | [La Vie Economique - Sud-Ouest](https://www.vie-economique.com/ventes-aux-encheres-immobilieres/) | ok | 3 | 0 | 0 | — |
-| [Défis Avocats - ventes judiciaires](https://defis-avocats.com/ventes-judiciaires/) | ok | 8 | 0 | 1 | — |
-| [Elige Avocats - ventes immobilières](https://elige-avocats.com/ventes-immobilieres/) | ok | 27 | 0 | 15 | — |
-| [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 1 | — |
-| [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 0 | — |
+| [Défis Avocats - ventes judiciaires](https://defis-avocats.com/ventes-judiciaires/) | ok | 8 | 0 | 0 | — |
+| [Elige Avocats - ventes immobilières](https://elige-avocats.com/ventes-immobilieres/) | ok | 27 | 0 | 12 | — |
+| [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 0 | — |
+| [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 4 | — |
 | [Vench - ventes à venir](https://www.vench.fr/prochaines-ventes-aux-encheres.html) | ok | 12 | 0 | 0 | — |
-| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 7 | — |
-| [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 0 | — |
+| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 4 | — |
+| [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 2 | — |
 | [Avoventes - Tribunal de Saint-Etienne](https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133) | ok | 10 | 0 | 0 | — |
 
 ## Pièces PDF consultées
@@ -153,29 +155,30 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 
 | Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |
 |---|---|---|---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/721/documents/6a82de950a738ttt.pdf) | partiel | 12/22 | 10 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/721/documents/6a82de9557028ttt.pdf) | partiel | 0/16 | 16 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/721/documents/6a82de9f0b576ttt.pdf) | partiel | 0/42 | 42 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa001f0986a6ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa001f0d3f1ettt.pdf) | partiel | 0/20 | 20 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa001f12709ettt.pdf) | partiel | 0/18 | 18 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa001fa0ed51ttt.pdf) | partiel | 0/3 | 3 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa00200bd6a4ttt.pdf) | partiel | 0/26 | 26 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa00e10658c9ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa00e109e814ttt.pdf) | partiel | 0/19 | 19 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa00e10e5c9dttt.pdf) | partiel | 0/20 | 20 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa00e18d52ebttt.pdf) | partiel | 0/7 | 7 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa00e20d0e53ttt.pdf) | lu | 2/2 | 0 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa00e29a09b8ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/8/documents/6a9e9033d6de1ttt.pdf) | partiel | 4/23 | 19 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/8/documents/6a9e903430297ttt.pdf) | partiel | 0/16 | 16 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/8/documents/6a9e90349b4dbttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://www.licitor.com/data/pub/media/annonce/10/94/20/109420.000.001.f223c292166b.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | PDF protégé : contrôle manuel requis |
+| [Pièce](https://www.licitor.com/data/pub/media/annonce/10/94/20/109420.000.002.aa88a8dcfd76.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://www.licitor.com/data/pub/media/annonce/10/94/20/109420.000.003.281d8725fa91.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | PDF protégé : contrôle manuel requis |
+| [Pièce](https://www.licitor.com/data/pub/media/annonce/10/94/52/109452.000.001.1b2e38c13f14.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://www.licitor.com/data/pub/media/annonce/10/96/62/109662.000.001.5cb54caaa0da.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | PDF protégé : contrôle manuel requis |
+| [Pièce](https://www.licitor.com/data/pub/media/annonce/10/96/62/109662.000.002.7c4205960af1.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | PDF protégé : contrôle manuel requis |
+| [Pièce](https://www.licitor.com/data/pub/media/annonce/10/96/62/109662.000.003.d710b3826d52.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
 
 ## Couverture restante et contrôles
 
-- Budget : 40 pages d'audience et 120 fiches par passage ; 24 fiches candidates non lues ce passage.
-- 66 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
+- Budget : 40 pages d'audience et 120 fiches par passage ; 54 fiches candidates non lues ce passage.
+- 100 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
 - Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.
 - Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.
 - Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
-- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 175 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
+- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 155 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
+- 8 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
