@@ -16,7 +16,7 @@ from acces import AccessDeferred, Fetcher, PdfDocument, retry_after
 from pieces import PdfReader, page_evidence, summarize_evidence
 from qualification import classify
 from test_veille import DETAIL, LIST, NOW, SOURCE, URL, record
-from veille import run
+from veille import document_history, run
 
 PDF_URL = "https://avoventes.fr/public/document.pdf"
 PDF_TEXT = "Vente le 6 octobre 2026. Mise à prix : 10 000 euros. Le bien est libre de toute occupation. Frais préalables : 4 250,00 euros."
@@ -188,6 +188,18 @@ class DocumentTests(unittest.TestCase):
         selected = classify(row, NOW)
         self.assertEqual(selected["statut"], "a_verifier")
         self.assertIn("preuve d'un bien libre", selected["a_verifier"])
+
+    def test_previous_proofs_remain_available_with_their_actual_control_date(self):
+        records = {URL: {"documents": [PDF_URL]}}
+        cache = {PDF_URL: {"empreinte_pdf": "hash", "url": PDF_URL, "statut": "lu", "pages_lues": [1],
+                          "pages_total": 1, "controle_acces_utc": "2026-10-07T09:00:00+00:00",
+                          "preuves": page_evidence(PDF_TEXT, PDF_URL, 1, "ocr"), "extractions": {}}}
+        history = document_history(records, cache, set())
+        self.assertFalse(history[0]["consulte_ce_passage"])
+        self.assertTrue(records[URL]["preuves_documentaires"])
+        self.assertEqual(records[URL]["preuves_documentaires"][0]["controle_acces_utc"], "2026-10-07T09:00:00+00:00")
+        self.assertFalse(records[URL]["preuves_documentaires"][0]["consulte_ce_passage"])
+        self.assertTrue(document_history(records, cache, {PDF_URL})[0]["consulte_ce_passage"])
 
     @patch("pieces.shutil.which", return_value="outil")
     def test_report_and_state_keep_pdf_page_proofs(self, _):

@@ -30,6 +30,8 @@ Les tâches ChatGPT existantes de surveillance horaire et de bilan quotidien peu
 
 Les indices PDF comportent **URL, numéro de page, méthode texte/OCR et extrait ciblé**. Ils sont conservés séparément des faits de l'annonce : plusieurs biens, dates ou prix peuvent figurer dans une pièce. Le rapport affiche les contradictions, pages restantes et erreurs dans ses données structurées. Une extraction ne confirme ni l'attribution d'une mention au bien, ni son actualité, ni une condition juridique. Les publications restent de **niveau C, à contrôler**. L'absence de mention de travaux ne suffit pas à confirmer une revente sans travaux.
 
+Les indices des passages précédents restent disponibles dans `historique_documents` et dans les fiches concernées, avec leur date réelle de contrôle et le marqueur `consulte_ce_passage`. Ils ne sont pas comptés comme des documents relus lors du passage actuel. Le rapport distingue pages techniquement traitées, pages effectivement lues et pages OCR réussies.
+
 ## Délais et refus d'accès
 
 Une réponse **429** arrête les requêtes suivantes du même site et respecte `Retry-After`, en secondes ou en date HTTP. Sans délai indiqué, le moteur diffère ce site d'une heure. Les refus **403** sont différés au moins six heures. Les erreurs serveur **5xx** ont un délai croissant, ou le délai indiqué par le serveur. Les autres sites continuent à être consultés.

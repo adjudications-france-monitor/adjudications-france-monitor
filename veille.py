@@ -294,6 +294,31 @@ def money(value):
     return (f"{parsed:,.2f}".replace(",", " ") + " €") if parsed is not None else "À calculer — données manquantes"
 
 
+def document_history(records, cache, current_urls):
+    """Les indices restent consultables, sans faire passer une lecture ancienne pour une nouvelle."""
+    history = {}
+    for record in records.values():
+        record["preuves_documentaires"] = []
+        record["documents_extraits"] = []
+        for url in record.get("documents", []):
+            doc = cache.get(url, {})
+            if not doc.get("empreinte_pdf"):
+                continue
+            current = url in current_urls
+            proofs = [{**p, "controle_acces_utc": doc.get("controle_acces_utc"),
+                       "controle_extraction_utc": doc.get("extractions", {}).get(str(p["page"]), {}).get("controle_extraction_utc"),
+                       "consulte_ce_passage": current} for p in doc.get("preuves", [])]
+            item = {key: doc.get(key) for key in ["url", "statut", "pages_lues", "pages_total", "pages_restantes",
+                                                 "controle_acces_utc", "faits_candidats", "contradictions"]}
+            item.update(preuves=proofs, consulte_ce_passage=current, validation="a_verifier",
+                        derniere_erreur=doc.get("derniere_erreur"))
+            history[url] = item
+            record["preuves_documentaires"].extend(proofs)
+            record["documents_extraits"].append({key: item[key] for key in ["url", "statut", "pages_lues", "pages_total",
+                                                                         "controle_acces_utc", "consulte_ce_passage", "validation"]})
+    return list(history.values())
+
+
 def cell(value):
     return str("À vérifier" if value is None or value == "" else value).replace("|", "\\|").replace("\n", " ").replace("\r", " ")
 
@@ -351,6 +376,7 @@ def save_report(folder, report):
                   money(finance.get("revente_prudente_eur")), profit, valuation.get("delai_revente_mois", "À documenter"),
                   description, f"[Annonce]({row['url_annonce']})" + "".join(
                       f" ; [{p['champ']} p. {p['page']}]({p['url']}#page={p['page']})"
+                      + (f" (contrôle antérieur : {p.get('controle_acces_utc', '?')})" if not p.get("consulte_ce_passage", True) else "")
                       for p in row.get("preuves_documentaires", [])[:3]),
                   valuation.get("analyse_marche", "À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente.")]
         lines.append("| " + " | ".join(cell(value) for value in values) + " |")
@@ -374,6 +400,15 @@ def save_report(folder, report):
         lines.append("| " + " | ".join(cell(x) for x in [f"[Pièce]({doc['url']})", doc["statut"],
                      f"{len(doc.get('pages_lues', []))}/{doc.get('pages_total', '?')}", doc.get("pages_restantes", "?"),
                      extracts or "Aucun indice ciblé extrait", doc.get("erreur") or "; ".join(x["erreur"] for x in doc.get("incidents_pages", [])) or "—"]) + " |")
+    older = [doc for doc in report.get("historique_documents", []) if not doc["consulte_ce_passage"] and doc.get("preuves")]
+    if older:
+        lines += ["", "## Indices conservés des passages précédents", "",
+                  "Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conservée et leurs indices restent à vérifier.", "",
+                  "| Pièce | Dernier accès réussi UTC | Indices et pages |", "|---|---|---|"]
+        for doc in older:
+            values = [f"[Pièce]({doc['url']})", doc.get("controle_acces_utc"),
+                      "; ".join(f"{p['champ']} : {p['valeur']} (p. {p['page']})" for p in doc["preuves"][:5])]
+            lines.append("| " + " | ".join(cell(x) for x in values) + " |")
     lines += ["", "## Couverture restante et contrôles", ""]
     lines += ["- " + warning for warning in report["limites"]]
     lines += ["", "Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. "
@@ -539,6 +574,8 @@ def run(args):
             state["pieces"][url] = {**previous, "derniere_tentative_utc": stamp, "derniere_erreur": str(exc)}
         documents.append(document)
         print(f"PDF : {len(documents)}/{min(max_documents, len(tasks))}, {document['statut']}", flush=True)
+    history = document_history(records, state.get("pieces", {}),
+                               {doc.get("url_origine", doc["url"]) for doc in documents if doc["statut"] in {"lu", "partiel"}})
     valuations = load_valuations(Path(args.valuations))
     qualified = [classify(record, now, valuations.get(url)) for url, record in records.items()
                  if not urlparse(url).path.startswith("/ventes-judiciaires-immobilieres/")]
@@ -581,7 +618,7 @@ def run(args):
                       "documents_pdf_complets": sum(x["statut"] == "lu" for x in documents),
                       "documents_pdf_detectes": len(tasks), **reader.metrics, **fetcher.metrics},
         "dossiers": recent, "sources": logs, "incidents": incidents, "limites": limits, "documents": documents,
-        "delais_acces": state.get("acces", {}),
+        "delais_acces": state.get("acces", {}), "historique_documents": history,
     }
     save_report(Path(args.output), report)
     # Le catalogue complet reste dans l'artefact, pas dans le rapport public résumé.
