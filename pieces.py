@@ -12,6 +12,7 @@ from pathlib import Path
 from qualification import DATE_PATTERN, MONEY_PATTERN, amount, french_date, normalize, occupancy, works
 
 SALE_LABEL = r"(?:date de (?:la )?vente|date de l'audience|vente(?: aux encheres(?: publiques)?| sur (?:liquidation judiciaire|licitation|saisie immobiliere|surenchere))?(?: du| le)?|audience)"
+EXTRACTION_VERSION = 2
 
 
 def page_evidence(text, url, page, method):
@@ -92,9 +93,11 @@ class PdfReader:
             if not shutil.which(tool):
                 raise ValueError("outil PDF manquant : " + tool)
         fingerprint = hashlib.sha256(body).hexdigest()
-        same = previous and previous.get("empreinte_pdf") == fingerprint
+        same = (previous and previous.get("empreinte_pdf") == fingerprint
+                and previous.get("version_extraction") == EXTRACTION_VERSION)
         extractions = dict(previous.get("extractions", {})) if same else {}
         result = {"url": url, "controle_acces_utc": self.stamp, "empreinte_pdf": fingerprint,
+                  "version_extraction": EXTRACTION_VERSION,
                   "extractions": extractions, "pages_traitees_ce_passage": 0,
                   "pages_lues_ce_passage": 0, "pages_ocr_ce_passage": 0,
                   "cache_reutilise": bool(same and extractions), "incidents_pages": []}
@@ -151,3 +154,4 @@ class PdfReader:
         result["statut"] = "lu" if not result["pages_restantes"] else "partiel"
         result["validation"] = "a_verifier"
         return result
+

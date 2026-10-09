@@ -64,30 +64,57 @@ def labelled_date(text: str, label: str) -> str | None:
     return result.isoformat() if result else None
 
 
-def occupancy(text: str) -> tuple[str, list[str]]:
-    """Exiger un libellé portant sur le bien; 'libre' dans un menu ne suffit pas."""
-    text = normalize(text)
+def asserted_matches(text: str, pattern: str, *, future=False) -> list[str]:
+    """Écarter les mentions niées ou hypothétiques dans leur propre proposition."""
+    matches = []
+    for match in re.finditer(pattern, text):
+        before = re.split(r"[.;:!?\n,]", text[:match.start()])[-1][-80:]
+        after = text[match.end():match.end() + 45]
+        if re.search(r"\b(?:pas|non|aucun(?:e|s|es)?|sans|ni|plus|absence de)\b[^.;:!?\n,]{0,45}$", before):
+            continue
+        if after.lstrip().startswith("?"):
+            continue
+        if future and (re.search(r"\b(?:sera(?:ient)?|seront|serait|etait|etaient|anciennement|auparavant|pourrait|devrait|deviendra|si|hypothese|sous reserve)\b[^.;:!?\n,]{0,35}$", before)
+                       or re.match(r"\s+(?:apres|a partir|a compter|a l'issue|sous reserve)\b", after)):
+            continue
+        matches.append(match.group())
+    return matches
+
+
+def occupancy(text: str, *, labels=()) -> tuple[str, list[str]]:
+    """Les libellés courts sont fournis uniquement depuis la description du bien."""
+    original = normalize(text)
+    # Les retours de ligne d'un PDF peuvent couper une phrase ou sa négation.
+    text = original
+    subject = r"(?:biens?|lieux|logements?|appartements?|maisons?|pavillons?|locaux|immeubles?)"
     patterns = {
-        "occupe": r"\b(?:biens? (?:est|sont|serait|seraient) occupes?|occupes? par|occupation\s*:\s*occup|occupe sans droit|actuellement occupe)\b",
-        "loue": r"\b(?:biens? (?:est|sont) loues?|loue depuis|loue suivant|donne en location|occupation\s*:\s*loue|bail en cours|occupe par (?:un |le |des |les )?locataire)\b",
-        "libre": r"\b(?:libres? de toute occupation|biens? (?:est|sont) libres?|biens? (?:est|sont) vacants?|occupation\s*:\s*(?:libre|vacant))\b",
+        "occupe": rf"\b(?:{subject} (?:est |sont )?occupes?|occupes? par|occupation\s*:?\s*(?:bien )?occupe|occupe sans droit|actuellement occupe)\b",
+        "loue": rf"\b(?:{subject} (?:est |sont )?loues?|loue depuis|loue suivant|donne en location|occupation\s*:?\s*(?:bien )?loue|bail en cours|occupe par (?:un |le |des |les )?locataires?)\b",
+        "libre": rf"\b(?:libres? de toute occupation|{subject} (?:est|sont) (?:libres?|vacants?)|occupation\s*:?\s*(?:libre|vacant))\b",
     }
-    evidence = {k: [m.group() for m in re.finditer(p, text)] for k, p in patterns.items()}
-    if re.search(r"(?:pas|non)\s+libre|libre\s+(?:a partir|apres|a l'issue)|sera(?:ient)?\s+libre", text):
-        return "a_verifier", ["libération future ou conditionnelle"]
+    evidence = {k: asserted_matches(text, p, future=True) for k, p in patterns.items()}
+    for label, context in labels:
+        kind = {"occupe": "occupe", "loue": "loue", "libre": "libre", "vacant": "libre"}.get(normalize(label))
+        if kind and asserted_matches(normalize(context), rf"\b{re.escape(normalize(label))}\b", future=True):
+            evidence[kind].append(normalize(label))
     if evidence["libre"] and (evidence["occupe"] or evidence["loue"]):
         return "contradictoire", sum(evidence.values(), [])
     for kind in ["loue", "occupe", "libre"]:
         if evidence[kind]:
-            return kind, evidence[kind]
+            return kind, list(dict.fromkeys(evidence[kind]))
+    if re.search(r"(?:pas|non)\s+libre|libre\s+(?:a partir|apres|a l'issue)|sera(?:ient)?\s+libre", original):
+        return "a_verifier", ["libération future, conditionnelle ou niée"]
     return "inconnue", []
 
 
 def works(text: str) -> tuple[str, list[str]]:
     pattern = (r"en cours de construction|travaux (?:a prevoir|necessaires|requis|obligatoires)|"
                r"(?:a|doit etre) renover|etat (?:general )?degrade|inhabitable|"
-               r"materiaux de finition a renover|renovation (?:complete|necessaire)")
-    evidence = [m.group() for m in re.finditer(pattern, normalize(text))]
+               r"materiaux de finition a renover|renovation (?:complete|necessaire)|"
+               r"(?:tres )?mauvais etat|etat (?:general )?(?:tres )?mauvais|"
+               r"presence de moisissures|fissures significatives|equipements (?:sanitaires )?deposes")
+    normalized = normalize(text)
+    evidence = asserted_matches(normalized, pattern, future=True)
     return ("necessaires", evidence) if evidence else ("a_verifier", [])
 
 
@@ -141,7 +168,7 @@ def economics(price: Decimal, valuation: dict) -> dict:
 def classify(record: dict, now: datetime, valuation: dict | None = None) -> dict:
     today = now.astimezone(PARIS).date()
     facts = record.get("faits", {})
-    result = {**record, "motifs_rejet": [], "a_verifier": []}
+    result = {**record, "motifs_rejet": [], "a_verifier": [], "indices_exclusion": []}
     rejected, missing = result["motifs_rejet"], result["a_verifier"]
     sale = None
     if facts.get("date_vente"):
@@ -173,6 +200,25 @@ def classify(record: dict, now: datetime, valuation: dict | None = None) -> dict
         rejected.append("travaux nécessaires à la revente en l'état")
     else:
         missing.append("état et diagnostics compatibles avec une revente sans travaux")
+    # Une pièce rattachée au dossier peut écarter un candidat en l'état, jamais
+    # valider son occupation, ses frais ou la rentabilité. La provenance reste visible.
+    attached_urls = set(record.get("documents", [])) | {d.get("url") for d in record.get("documents_extraits", [])}
+    for proof in record.get("preuves_documentaires", []):
+        if proof.get("url") not in attached_urls or proof.get("methode") not in {"texte", "ocr"}:
+            continue
+        try:
+            checked = datetime.fromisoformat(proof.get("controle_acces_utc", ""))
+            recent = checked.tzinfo is not None and 0 <= (today - checked.astimezone(PARIS).date()).days <= 7
+        except (ValueError, TypeError):
+            recent = False
+        if not recent:
+            continue
+        field, value = proof.get("champ"), proof.get("valeur")
+        negative = field == "occupation" and value in {"occupe", "loue", "contradictoire"}
+        negative = negative or (field == "travaux" and value == "necessaires")
+        if negative:
+            rejected.append(f"indice documentaire incompatible : {field}={value}, p. {proof.get('page', '?')} ({proof['methode']}) — identité et actualité à contrôler")
+            result["indices_exclusion"].append({key: proof.get(key) for key in ["champ", "valeur", "url", "page", "methode", "controle_acces_utc"]})
     price = amount(facts.get("prix_adjuge_eur"))
     if price is None or price <= 0:
         missing.append("prix adjugé (la mise à prix ne le remplace pas)")
@@ -223,7 +269,9 @@ def classify(record: dict, now: datetime, valuation: dict | None = None) -> dict
             missing.append("sources de validation financière, occupation, état ou délai manquantes")
     if not result.get("calcul_financier"):
         missing.append("valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %")
+    result["motifs_rejet"] = list(dict.fromkeys(rejected))
     result["a_verifier"] = list(dict.fromkeys(missing))
     result["statut"] = "rejete" if rejected else ("a_verifier" if result["a_verifier"] else "retenu_sur_donnees_validees")
     result["niveau_preuve"] = "validation documentée renseignée" if result["statut"] == "retenu_sur_donnees_validees" else "C — publication à contrôler"
     return result
+

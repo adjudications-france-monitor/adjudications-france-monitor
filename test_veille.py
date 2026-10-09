@@ -12,6 +12,7 @@ from unittest.mock import patch
 
 from qualification import amount, classify, economics, french_date, occupancy, works
 from veille import Document, facts_from_text, hearing_records, parse_detail, run, seed_records
+from pieces import page_evidence, PdfReader
 
 NOW = datetime(2026, 10, 7, 12, tzinfo=timezone.utc)
 URL = "https://avoventes.fr/enchere/appartement-exemple"
@@ -200,5 +201,95 @@ class ParserAndStateTests(unittest.TestCase):
             self.assertTrue((root / "rapports/dernier.md").exists())
 
 
+class FilterRegressionTests(unittest.TestCase):
+    def test_short_labels_are_read_only_in_the_property_block(self):
+        examples = [("licitor.com", "Lot", "Occupé", "occupe"),
+                    ("avoventes.fr", "text-content", "LIBRE", "libre"),
+                    ("vench.fr", "descriptionContener", "Loué", "loue")]
+        for host, scope, label, expected in examples:
+            with self.subTest(host=host):
+                start, end = ('article class="LegalAd"', 'article') if host == 'licitor.com' else ('main id="content"', 'main')
+                html = f'<{start}><h1>Appartement exemple</h1>Vente le 6 octobre 2026. Adjudication : 50 000 euros.<div class="{scope}"><p>Un appartement de deux pièces avec cave.</p><p><strong>{label}</strong></p></div></{end}>'
+                row = parse_detail(html, f'https://{host}/exemple', record())
+                self.assertEqual(row['faits']['occupation'], expected)
+                self.assertIn(expected, row['faits']['preuve_occupation'])
+
+    def test_filters_links_and_other_properties_do_not_supply_free_status(self):
+        html = '''<main id="content"><h1>Appartement exemple</h1>Vente le 6 octobre 2026. Adjudication : 50 000 euros.
+        <div class="text-content">Description détaillée du logement en vente, occupation non précisée.
+        <nav><p>LIBRE</p></nav><form><p>LIBRE</p></form><a href="/filtre"><b>LIBRE</b></a><button>LIBRE</button></div>
+        <aside><div class="text-content"><p>LIBRE</p></div></aside><p>Cadastre</p><p>Autre bien</p><strong>LIBRE</strong></main>'''
+        row = parse_detail(html, 'https://avoventes.fr/exemple', record())
+        self.assertEqual(row['faits']['occupation'], 'inconnue')
+
+    def test_short_negated_and_future_labels_never_validate_occupation(self):
+        for clause in ['Non <strong>LIBRE</strong>', 'Sera <strong>LIBRE</strong> après la vente',
+                       'Non <strong>Occupé</strong>', 'Si le bien est <strong>LIBRE</strong>']:
+            with self.subTest(clause=clause):
+                html = '<main id="content">Vente le 6 octobre 2026. Appartement exemple suffisamment décrit, avec deux pièces et une cave.<div class="text-content"><p>' + clause + '</p></div></main>'
+                row = parse_detail(html, 'https://avoventes.fr/exemple', record())
+                self.assertNotIn(row['faits']['occupation'], {'libre', 'occupe', 'loue'})
+
+    def test_notice_phrases_and_present_lease_before_future_release(self):
+        self.assertEqual(occupancy('Les lieux sont occupés.')[0], 'occupe')
+        self.assertEqual(occupancy('Les lieux sont loués et occupés.')[0], 'loue')
+        self.assertEqual(occupancy('Occupation Bien occupé')[0], 'occupe')
+        self.assertEqual(occupancy('Le bien est loué. Il sera libre après la vente.')[0], 'loue')
+        self.assertEqual(occupancy('Le bien est libre de toute occupation. Les lieux sont loués.')[0], 'contradictoire')
+
+    def test_negation_and_wrapped_pdf_phrases(self):
+        phrases = ['Le bien n’est pas occupé par un locataire.', 'Aucun bail en cours.',
+                   'Le bien sera occupé par un locataire.', 'Le bien était libre de toute occupation.',
+                   'Occupation : loué ?', 'Le bien sera\nlibre de toute occupation.']
+        for phrase in phrases:
+            with self.subTest(phrase=phrase):
+                self.assertNotIn(occupancy(phrase)[0], {'libre', 'occupe', 'loue'})
+        self.assertEqual(occupancy('Les lieux\nsont loués et occupés.')[0], 'loue')
+
+    def test_bad_condition_excludes_and_negated_damage_does_not(self):
+        for phrase in ['Maison en mauvais état. Dépendance en mauvais état.', 'Murs en très mauvais état.',
+                       'Équipements déposés.', 'Présence de moisissures.', 'Fissures significatives en façade.']:
+            with self.subTest(phrase=phrase):
+                self.assertEqual(works(phrase)[0], 'necessaires')
+        for phrase in ['Pas de travaux nécessaires.', 'Aucun travaux à prévoir.', 'Pas en mauvais état.',
+                       'Sans présence de moisissures.', 'Pas de\ntravaux nécessaires.', 'Aucune fissures significatives.']:
+            with self.subTest(phrase=phrase):
+                self.assertEqual(works(phrase)[0], 'a_verifier')
+        self.assertEqual(works('Pas de cave. Travaux nécessaires.')[0], 'necessaires')
+
+    def test_argis_like_listing_is_rejected_despite_free_status(self):
+        facts = facts_from_text('Vente le 6 octobre 2026. Adjudication : 26 000 euros. Une maison en mauvais état. Libre de toute occupation.', 'licitor.com', detail=True)
+        self.assertEqual(classify({**record(), 'faits': facts}, NOW)['statut'], 'rejete')
+
+    def test_recent_document_excludes_but_never_validates_an_opportunity(self):
+        url = 'https://exemple.fr/pv.pdf'
+        for text, field in [('Les lieux sont loués et occupés.', 'occupation'), ('Les murs sont en mauvais état. Équipements déposés.', 'travaux')]:
+            with self.subTest(field=field):
+                proofs = [{**p, 'controle_acces_utc': NOW.isoformat()} for p in page_evidence(text, url, 9, 'ocr')]
+                selected = classify({**record(), 'documents': [url], 'preuves_documentaires': proofs}, NOW)
+                self.assertEqual(selected['statut'], 'rejete')
+                self.assertTrue(any('indice documentaire incompatible' in m and 'p. 9 (ocr)' in m for m in selected['motifs_rejet']))
+                self.assertEqual(selected['indices_exclusion'][0]['url'], url)
+                self.assertIn('état et diagnostics compatibles avec une revente sans travaux', selected['a_verifier'])
+
+    def test_stale_foreign_and_undated_document_does_not_exclude(self):
+        url = 'https://exemple.fr/pv.pdf'
+        base = page_evidence('Les lieux sont occupés.', url, 1, 'texte')[0]
+        for stamp, urls in [('2026-09-01T10:00:00+00:00', [url]), (NOW.isoformat(), []), ('', [url]), ('2026-10-07', [url])]:
+            with self.subTest(stamp=stamp, urls=urls):
+                selected = classify({**record(), 'documents': urls, 'preuves_documentaires': [{**base, 'controle_acces_utc': stamp}]}, NOW)
+                self.assertEqual(selected['statut'], 'a_verifier')
+
+    @patch('pieces.shutil.which', return_value='outil')
+    def test_extraction_upgrade_reprocesses_old_pdf_cache(self, _):
+        reader = PdfReader(NOW.isoformat(), max_pages=1, max_ocr_pages=0)
+        old = {'empreinte_pdf': __import__('hashlib').sha256(b'%PDF-fixture').hexdigest(), 'extractions': {'1': {'methode': 'texte', 'preuves': []}}}
+        with patch.object(reader, '_run', side_effect=['Pages: 1\n', 'Maison en mauvais état. Un logement libre de toute occupation.']):
+            result = reader.read(b'%PDF-fixture', 'https://exemple.fr/pv.pdf', old)
+        self.assertFalse(result['cache_reutilise'])
+        self.assertEqual(result['faits_candidats']['travaux'], 'necessaires')
+
+
 if __name__ == "__main__":
     unittest.main()
+

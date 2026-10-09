@@ -105,7 +105,7 @@ def atomic_json(path, value):
     temporary.replace(path)
 
 
-def facts_from_text(text, host, *, detail=False):
+def facts_from_text(text, host, *, detail=False, occupancy_labels=()):
     normalized = normalize(text)
     facts = {
         "date_vente": labelled_date(text, r"(?:date de (?:la )?vente|date de l'audience|vente(?: aux encheres(?: publiques)?| sur (?:liquidation judiciaire|licitation|saisie immobiliere|surenchere))?(?: du| le)?|audience)"),
@@ -123,7 +123,7 @@ def facts_from_text(text, host, *, detail=False):
     if surface:
         facts["surface_m2"] = surface.group(1).replace(",", ".")
     if detail:
-        facts["occupation"], facts["preuve_occupation"] = occupancy(text)
+        facts["occupation"], facts["preuve_occupation"] = occupancy(text, labels=occupancy_labels)
         facts["travaux"], facts["preuve_travaux"] = works(text)
     # Ne pas prendre les prix de DVF, les mises à prix ou la date de publication
     # pour le prix/date de l'adjudication du dossier.
@@ -203,6 +203,26 @@ def hearing_records(markup, page_url, source, timestamp):
     return records, sorted(pages)
 
 
+def property_occupancy_labels(container, host):
+    """Lire LIBRE/Occupé/Loué dans le bloc du lot, sans les filtres ni les liens."""
+    scopes = {"licitor.com": lambda n: n.has_class("Lot"),
+              "avoventes.fr": lambda n: n.has_class("text-content"),
+              "vench.fr": lambda n: n.has_class("descriptionContener")}
+    predicate = scopes.get(host)
+    if predicate is None:
+        return []
+    labels = []
+    for node in container.all():
+        label = normalize(node.text()).strip(" .:;")
+        if label not in {"libre", "occupe", "loue", "vacant"} or node.tag not in {"p", "div", "span", "b", "strong", "em"}:
+            continue
+        if not node.closest(predicate) or node.closest(lambda n: n.tag in IGNORED | {"a", "button", "select", "option", "aside"}):
+            continue
+        context = node.parent.closest(lambda n: n.tag in {"p", "div", "li"}) if node.parent else None
+        labels.append((label, context.text() if context else node.text()))
+    return labels
+
+
 def parse_detail(markup, page_url, record):
     doc = Document(markup)
     host = (urlparse(page_url).hostname or "").removeprefix("www.")
@@ -231,7 +251,8 @@ def parse_detail(markup, page_url, record):
             text = container.text().split("Signaler une erreur", 1)[0]
     result = dict(record)
     old_facts = record.get("faits", {})
-    detail_facts = facts_from_text(text, host, detail=True)
+    detail_facts = facts_from_text(text, host, detail=True,
+                                  occupancy_labels=property_occupancy_labels(container, host))
     date_known = detail_facts.get("date_vente") or old_facts.get("date_vente")
     expected_no_date = detail_facts.get("retiree") or detail_facts.get("vente_amiable")
     if host in {"avoventes.fr", "licitor.com"} and not date_known and not expected_no_date:
@@ -385,8 +406,10 @@ def save_report(folder, report):
     lines += ["", "## Rejets récents", "", "| Bien | Prix adjugé publié | Motif | Source |", "|---|---|---|---|"]
     for row in rows:
         if row["statut"] == "rejete":
+            evidence_links = "".join(f" ; [Indice {p['champ']} p. {p['page']}]({p['url']}#page={p['page']})"
+                                     for p in row.get("indices_exclusion", [])[:3])
             lines.append("| " + " | ".join(cell(x) for x in [row.get("adresse") or row["titre"],
-                         money(row["faits"].get("prix_adjuge_eur")), "; ".join(row["motifs_rejet"]), f"[Annonce]({row['url_annonce']})"]) + " |")
+                         money(row["faits"].get("prix_adjuge_eur")), "; ".join(row["motifs_rejet"]), f"[Annonce]({row['url_annonce']})" + evidence_links]) + " |")
     lines += ["", "## Sources effectivement contrôlées", "", "| Source | Accès | Liens | Audiences | Fiches | Incident |", "|---|---|---|---|---|---|"]
     for source in report["sources"]:
         lines.append("| " + " | ".join(cell(x) for x in [f"[{source['nom']}]({source['url']})", source["statut"], source["liens_detectes"],
@@ -653,3 +676,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

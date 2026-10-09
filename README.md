@@ -96,3 +96,10 @@ La liste ne constitue pas un balayage exhaustif des tribunaux, des annonces ou d
 La déduplication porte sur les URL. Deux publications du même bien sur deux sites peuvent rester distinctes ; elles ne doivent pas être comptées comme deux opportunités indépendantes sans contrôle. `Registre_Adjudications.xlsx` et la base nationale restent les outils de consolidation : ce programme ne les modifie pas.
 
 Le dépôt est public. Il ne doit contenir ni credentials, ni coordonnées privées, ni document confidentiel : uniquement le code, les sources publiques et les résultats publics de la collecte.
+
+## Exclusions d'occupation et d'état
+
+Les libellés courts `LIBRE`, `Occupé` et `Loué` sont lus dans les blocs de description du lot reconnus sur Licitor, Avoventes et Vench ; les menus et liens ne fournissent pas ces preuves. Les avis indiquant « les lieux sont occupés » ou « loués et occupés » et les descriptions en mauvais état sont détectés. Les négations et les mentions anciennes, futures ou conditionnelles restent à vérifier.
+
+Une pièce PDF rattachée au dossier et contrôlée depuis au plus sept jours peut écarter un candidat en l'état si elle indique une occupation incompatible ou des travaux. Le motif conserve la page et la méthode texte/OCR, et précise que l'identité du lot et l'actualité du document restent à contrôler. Cette exclusion prudente ne valide aucune opportunité, valeur de revente ou recevabilité juridique. Après un changement des règles d'extraction, les pages déjà traitées avec l'ancienne version sont relues progressivement dans les mêmes budgets.
+
