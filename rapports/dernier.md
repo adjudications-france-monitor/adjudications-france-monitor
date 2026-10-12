@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-12T13:16:51.861286+02:00** (Europe/Paris).
+Contrôle : **2026-10-12T14:26:42.026870+02:00** (Europe/Paris).
 
 **0 dossier(s) retenu(s) sur données validées**, 68 à vérifier, 25 rejet(s) dans la fenêtre J+1 à J+4.
 
-18/20 pages sources accessibles ; 791 liens distincts ; 24 pages d'audience et 114 fiches détaillées lues.
+18/20 pages sources accessibles ; 791 liens distincts ; 24 pages d'audience et 116 fiches détaillées lues.
 
-Nouveautés : 4 liens ; 68 fiches modifiées depuis le passage précédent.
+Nouveautés : 6 liens ; 69 fiches modifiées depuis le passage précédent.
 
-Pièces : 7 PDF accessibles ; 48 pages traitées ce passage, 27 lues, dont 6 par OCR. 7 requêtes différées après une limite ou un refus d'accès.
+Pièces : 11 PDF accessibles ; 52 pages traitées ce passage, 27 lues, dont 6 par OCR. 5 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -113,7 +113,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | 13 Chem. des Pescayres, 81370 Saint-Sulpice-la-Pointe, France | À calculer — données manquantes | occupation incompatible ou contradictoire; indice documentaire incompatible : occupation=occupe, p. 1 (ocr) — identité et actualité à contrôler | [Annonce](https://avoventes.fr/enchere/maison-a-saint-sulpice-la-pointe) ; [Indice occupation p. 1](https://avoventes.fr/public/uploads/cabinet/409/documents/6a902bd24ab03ttt.pdf#page=1) |
 | 4 Rue Racine 03100 Montluçon, France | 144 333.00 € | occupation incompatible ou contradictoire | [Annonce](https://avoventes.fr/enchere/ensemble-immobilier-avec-batiments-distincts-organises-autour-dune-cour-centrale-a-montlucon) |
 | 63440 Saint-Pardoux, France | À calculer — données manquantes | travaux nécessaires à la revente en l'état | [Annonce](https://avoventes.fr/enchere/2-maisons-dhabitation-grange-etable-a-blot-leglise) |
-| DOYET (03) MAISON avec dépendances, jardin et UNE PARCELLE DE TERRE non attenante Vente le 09/10/2026 Mise à prix : 23.000€ Maître Dorian TRESPEUX | À calculer — données manquantes | indice documentaire incompatible : travaux=necessaires, p. 7 (texte) — identité et actualité à contrôler | [Annonce](https://www.info-encheres.com/108314-d-vente-encheres-immobilieres-maison-avec-dacpendances-jardin-et-une-parcelle-de-terre-non-attenante-doyet-03-ref-6072.html) ; [Indice travaux p. 7](https://www.info-encheres.com/upload/JPnHCCV.pdf#page=7) |
+| DOYET (03) MAISON avec dépendances, jardin et UNE PARCELLE DE TERRE non attenante Vente le 09/10/2026 Mise à prix : 23.000€ Maître Dorian TRESPEUX | À calculer — données manquantes | indice documentaire incompatible : travaux=necessaires, p. 5 (ocr) — identité et actualité à contrôler; indice documentaire incompatible : travaux=necessaires, p. 6 (ocr) — identité et actualité à contrôler; indice documentaire incompatible : travaux=necessaires, p. 7 (texte) — identité et actualité à contrôler; indice documentaire incompatible : travaux=necessaires, p. 13 (texte) — identité et actualité à contrôler | [Annonce](https://www.info-encheres.com/108314-d-vente-encheres-immobilieres-maison-avec-dacpendances-jardin-et-une-parcelle-de-terre-non-attenante-doyet-03-ref-6072.html) ; [Indice travaux p. 5](https://www.info-encheres.com/upload/diagnostic_assainissement.pdf#page=5) ; [Indice travaux p. 6](https://www.info-encheres.com/upload/diagnostic_assainissement.pdf#page=6) ; [Indice travaux p. 7](https://www.info-encheres.com/upload/JPnHCCV.pdf#page=7) |
 | SAINT SULPICE LA POINTE (81) Maison avec jardin Vente le 09/10/2026 Mise à prix : 45.000€ CAMILLE AVOCATS | À calculer — données manquantes | occupation incompatible ou contradictoire; indice documentaire incompatible : travaux=necessaires, p. 7 (texte) — identité et actualité à contrôler | [Annonce](https://www.info-encheres.com/108315-d-vente-encheres-immobilieres-maison-avec-jardin-saint-sulpice-la-pointe-81-ref-6073.html) ; [Indice travaux p. 7](https://www.info-encheres.com/upload/Owtbprocedure.pdf#page=7) |
 | Une maison d'habitation | À calculer — données manquantes | travaux nécessaires à la revente en l'état | [Annonce](https://www.licitor.com/annonce/10/96/91/vente-aux-encheres/une-maison-d-habitation/puy-guillaume/puy-de-dome/109691.html) |
 
@@ -133,13 +133,13 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 10 | 0 | 0 | — |
 | [Echos Judiciaires Girondins](https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/) | ok | 12 | 0 | 0 | — |
 | [La Vie Economique - Sud-Ouest](https://www.vie-economique.com/ventes-aux-encheres-immobilieres/) | ok | 3 | 0 | 0 | — |
-| [Défis Avocats - ventes judiciaires](https://defis-avocats.com/ventes-judiciaires/) | ok | 8 | 0 | 0 | — |
-| [Elige Avocats - ventes immobilières](https://elige-avocats.com/ventes-immobilieres/) | ok | 27 | 0 | 4 | — |
-| [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 0 | — |
-| [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 4 | — |
+| [Défis Avocats - ventes judiciaires](https://defis-avocats.com/ventes-judiciaires/) | ok | 8 | 0 | 1 | — |
+| [Elige Avocats - ventes immobilières](https://elige-avocats.com/ventes-immobilieres/) | ok | 27 | 0 | 6 | — |
+| [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 1 | — |
+| [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 0 | — |
 | [Vench - ventes à venir](https://www.vench.fr/prochaines-ventes-aux-encheres.html) | ok | 12 | 0 | 0 | — |
-| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 0 | — |
-| [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 3 | — |
+| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 5 | — |
+| [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 0 | — |
 | [Avoventes - Tribunal de Saint-Etienne](https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133) | ok | 10 | 0 | 0 | — |
 
 ## Pièces PDF consultées
@@ -148,18 +148,18 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 
 | Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |
 |---|---|---|---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6c3f625ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6c7fa8fttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6cc9f2attt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6d16137ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/805/documents/6a84004558c94ttt.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 15000.00 (p. 1, ocr) | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/805/documents/6a84004599671ttt.pdf) | partiel | 11/15 | 4 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/805/documents/6a840045e0b66ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://www.info-encheres.com/upload/JPnHCCV.pdf) | partiel | 10/19 | 9 | occupation : libre (p. 5, texte); travaux : necessaires (p. 7, texte) | — |
-| [Pièce](https://www.info-encheres.com/upload/OJnyDDT.pdf) | partiel | 16/77 | 61 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/Owtbprocedure.pdf) | partiel | 16/23 | 7 | travaux : necessaires (p. 7, texte) | — |
-| [Pièce](https://www.info-encheres.com/upload/PO5DPVD.pdf) | partiel | 4/38 | 34 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/RqESPVD.pdf) | partiel | 2/60 | 58 | Aucun indice ciblé extrait | — |
+| [Pièce](https://www.info-encheres.com/upload/cadiCCV.pdf) | lu | 13/13 | 0 | mise_a_prix_eur : 45000 (p. 4, texte) | — |
+| [Pièce](https://www.info-encheres.com/upload/diagnostic_assainissement.pdf) | lu | 6/6 | 0 | travaux : necessaires (p. 5, ocr); travaux : necessaires (p. 6, ocr) | — |
+| [Pièce](https://www.info-encheres.com/upload/jzMHhypo.pdf) | partiel | 16/17 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://www.info-encheres.com/upload/lrlmddt.pdf) | partiel | 16/88 | 72 | travaux : necessaires (p. 13, texte) | — |
+| [Pièce](https://www.info-encheres.com/upload/qODAcadastre.pdf) | lu | 1/1 | 0 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/145/documents/6ab0efb235469ttt.pdf) | lu | 1/1 | 0 | occupation : occupe (p. 1, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/145/documents/6ab0efb26b9aattt.pdf) | partiel | 7/57 | 50 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/145/documents/6ab0efb33605bttt.pdf) | partiel | 0/10 | 10 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/150/documents/6a880cd41bcb9ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/150/documents/6a880cd452ef2ttt.pdf) | partiel | 0/21 | 21 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/150/documents/6a880cd49750attt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/26/documents/6a842396966cfttt.pdf) | partiel | 0/2 | 2 | Aucun indice ciblé extrait | — |
 
 ## Indices conservés des passages précédents
 
@@ -168,29 +168,30 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 | Pièce | Dernier accès réussi UTC | Indices et pages |
 |---|---|---|
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/27/documents/6a969c3215d5dttt.pdf) | 2026-10-11T09:14:10.301746+00:00 | occupation : loue (p. 1); occupation : loue (p. 4) |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/145/documents/6ab0efb235469ttt.pdf) | 2026-10-11T08:14:15.209339+00:00 | occupation : occupe (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/522/documents/6a992f1b298dbttt.pdf) | 2026-10-11T10:13:44.094341+00:00 | occupation : loue (p. 4) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9258d6f21ttt.pdf) | 2026-10-12T07:21:19.642301+00:00 | mise_a_prix_eur : 129000 (p. 1) |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/805/documents/6a84004558c94ttt.pdf) | 2026-10-12T11:16:51.861286+00:00 | mise_a_prix_eur : 15000.00 (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/409/documents/6a902bd24ab03ttt.pdf) | 2026-10-12T08:19:06.587719+00:00 | mise_a_prix_eur : 45000 (p. 1); occupation : occupe (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/428/documents/6a96eb2e93891ttt.pdf) | 2026-10-12T08:19:06.587719+00:00 | mise_a_prix_eur : 80000 (p. 3) |
 | [Pièce](https://www.info-encheres.com/upload/t6ITCCV.pdf) | 2026-10-11T15:12:52.100101+00:00 | date_vente : 2010-03-04 (p. 8) |
 | [Pièce](https://www.info-encheres.com/upload/210TCCV.pdf) | 2026-10-11T13:14:38.057370+00:00 | travaux : necessaires (p. 4); travaux : necessaires (p. 5) |
 | [Pièce](https://www.info-encheres.com/upload/qPPzPVD.pdf) | 2026-10-11T15:12:52.100101+00:00 | travaux : necessaires (p. 2); travaux : necessaires (p. 3); travaux : necessaires (p. 4) |
-| [Pièce](https://www.info-encheres.com/upload/cadiCCV.pdf) | 2026-10-10T11:12:32.157912+00:00 | mise_a_prix_eur : 45000 (p. 4) |
+| [Pièce](https://www.info-encheres.com/upload/Owtbprocedure.pdf) | 2026-10-12T11:16:51.861286+00:00 | travaux : necessaires (p. 7) |
+| [Pièce](https://www.info-encheres.com/upload/JPnHCCV.pdf) | 2026-10-12T11:16:51.861286+00:00 | occupation : libre (p. 5); travaux : necessaires (p. 7) |
 | [Pièce](https://www.info-encheres.com/upload/CAHIER_DES_VENTES_-_InternetOK.pdf) | 2026-10-11T13:14:38.057370+00:00 | occupation : occupe (p. 8) |
 | [Pièce](https://www.info-encheres.com/upload/PVD_+_diags_-_internetok.pdf) | 2026-10-11T14:13:04.135741+00:00 | travaux : necessaires (p. 5) |
 
 ## Couverture restante et contrôles
 
 - Budget : 40 pages d'audience et 120 fiches par passage ; 50 fiches candidates non lues ce passage.
-- 103 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
+- 94 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
 - Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.
 - Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.
 - Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
-- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 200 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
+- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 216 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 11 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 5 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
