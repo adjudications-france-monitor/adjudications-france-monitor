@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-13T14:21:16.973520+02:00** (Europe/Paris).
+Contrôle : **2026-10-13T15:23:34.440180+02:00** (Europe/Paris).
 
 **0 dossier(s) retenu(s) sur données validées**, 36 à vérifier, 11 rejet(s) dans la fenêtre J+1 à J+4.
 
-18/20 pages sources accessibles ; 737 liens distincts ; 14 pages d'audience et 100 fiches détaillées lues.
+18/20 pages sources accessibles ; 738 liens distincts ; 14 pages d'audience et 100 fiches détaillées lues.
 
-Nouveautés : 8 liens ; 31 fiches modifiées depuis le passage précédent.
+Nouveautés : 2 liens ; 33 fiches modifiées depuis le passage précédent.
 
-Pièces : 4 PDF accessibles ; 20 pages traitées ce passage, 19 lues, dont 6 par OCR. 21 requêtes différées après une limite ou un refus d'accès.
+Pièces : 12 PDF accessibles ; 49 pages traitées ce passage, 22 lues, dont 6 par OCR. 19 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -79,9 +79,9 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [Licitor - résultats](https://www.licitor.com/historique-des-adjudications.html) | ok | 168 | 14 | 31 | — |
 | [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 230 | 0 | 12 | — |
 | [Vench - annonces nationales](https://www.vench.fr/) | ok | 12 | 0 | 0 | — |
-| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | differe | 0 | 0 | 0 | Accès différé à encheres-publiques.com jusqu'au 2026-10-13T13:21:00.844227+00:00 après HTTP 403 |
-| [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 65 | 0 | 2 | — |
-| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | differe | 0 | 0 | 0 | Accès différé à petitesaffiches.fr jusqu'au 2026-10-13T13:21:00.939831+00:00 après HTTP 403 |
+| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
+| [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 66 | 0 | 2 | — |
+| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
 | [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 10 | — |
 | [Informateur Judiciaire - Grand Ouest](https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/) | ok | 12 | 0 | 0 | — |
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 10 | 0 | 0 | — |
@@ -102,18 +102,18 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 
 | Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |
 |---|---|---|---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6b55b6dttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6b9c66attt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6beb9c2ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6c3f625ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6c7fa8fttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6cc9f2attt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/652/documents/6a8dac6d16137ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/805/documents/6a84004558c94ttt.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 15000.00 (p. 1, ocr) | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/805/documents/6a84004599671ttt.pdf) | lu | 15/15 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/805/documents/6a840045e0b66ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://www.info-encheres.com/upload/JPnHCCV.pdf) | partiel | 17/19 | 2 | occupation : libre (p. 1, ocr); occupation : libre (p. 5, texte); travaux : necessaires (p. 7, texte) | — |
-| [Pièce](https://www.info-encheres.com/upload/OJnyDDT.pdf) | partiel | 24/77 | 53 | Aucun indice ciblé extrait | — |
+| [Pièce](https://www.info-encheres.com/upload/Owtbprocedure.pdf) | lu | 23/23 | 0 | travaux : necessaires (p. 7, texte) | — |
+| [Pièce](https://www.info-encheres.com/upload/PO5DPVD.pdf) | partiel | 10/38 | 28 | Aucun indice ciblé extrait | — |
+| [Pièce](https://www.info-encheres.com/upload/RqESPVD.pdf) | partiel | 2/60 | 58 | Aucun indice ciblé extrait | — |
+| [Pièce](https://www.info-encheres.com/upload/cadiCCV.pdf) | lu | 13/13 | 0 | mise_a_prix_eur : 45000 (p. 4, texte) | — |
+| [Pièce](https://www.info-encheres.com/upload/diagnostic_assainissement.pdf) | lu | 6/6 | 0 | travaux : necessaires (p. 5, ocr); travaux : necessaires (p. 6, ocr) | — |
+| [Pièce](https://www.info-encheres.com/upload/jzMHhypo.pdf) | lu | 17/17 | 0 | Aucun indice ciblé extrait | — |
+| [Pièce](https://www.info-encheres.com/upload/lrlmddt.pdf) | partiel | 24/88 | 64 | travaux : necessaires (p. 13, texte); occupation : libre (p. 21, texte) | — |
+| [Pièce](https://www.info-encheres.com/upload/qODAcadastre.pdf) | lu | 1/1 | 0 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/104/documents/6aa7af4b1b796ttt.pdf) | lu | 2/2 | 0 | mise_a_prix_eur : 100000.00 (p. 1, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/104/documents/6aa7af4b6f659ttt.pdf) | partiel | 4/14 | 10 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/104/documents/6aa7af4bb7a82ttt.pdf) | partiel | 0/11 | 11 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8848a6c457attt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
 
 ## Indices conservés des passages précédents
 
@@ -122,16 +122,13 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 | Pièce | Dernier accès réussi UTC | Indices et pages |
 |---|---|---|
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9258d6f21ttt.pdf) | 2026-10-13T08:18:26.695283+00:00 | mise_a_prix_eur : 129000 (p. 1) |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/805/documents/6a84004558c94ttt.pdf) | 2026-10-13T12:21:16.973520+00:00 | mise_a_prix_eur : 15000.00 (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/383/documents/6a85d7c9dfb1fttt.pdf) | 2026-10-13T09:17:13.028657+00:00 | occupation : libre (p. 3); mise_a_prix_eur : 75000 (p. 4) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/383/documents/6a85d7c9aa226ttt.pdf) | 2026-10-13T09:17:13.028657+00:00 | mise_a_prix_eur : 75000 (p. 1); occupation : libre (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/409/documents/6a902bd24ab03ttt.pdf) | 2026-10-13T09:17:13.028657+00:00 | mise_a_prix_eur : 45000 (p. 1); occupation : occupe (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/428/documents/6a96ebaa09bb5ttt.pdf) | 2026-10-13T10:17:19.779702+00:00 | travaux : necessaires (p. 3) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/428/documents/6a96eb2e93891ttt.pdf) | 2026-10-13T09:17:13.028657+00:00 | mise_a_prix_eur : 80000 (p. 3) |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/104/documents/6aa7af4b1b796ttt.pdf) | 2026-10-13T07:21:00.341383+00:00 | mise_a_prix_eur : 100000.00 (p. 1) |
-| [Pièce](https://www.info-encheres.com/upload/cadiCCV.pdf) | 2026-10-12T12:26:42.026870+00:00 | mise_a_prix_eur : 45000 (p. 4) |
-| [Pièce](https://www.info-encheres.com/upload/Owtbprocedure.pdf) | 2026-10-12T11:16:51.861286+00:00 | travaux : necessaires (p. 7) |
-| [Pièce](https://www.info-encheres.com/upload/diagnostic_assainissement.pdf) | 2026-10-12T12:26:42.026870+00:00 | travaux : necessaires (p. 5); travaux : necessaires (p. 6) |
-| [Pièce](https://www.info-encheres.com/upload/lrlmddt.pdf) | 2026-10-12T12:26:42.026870+00:00 | travaux : necessaires (p. 13) |
+| [Pièce](https://www.info-encheres.com/upload/JPnHCCV.pdf) | 2026-10-13T12:21:16.973520+00:00 | occupation : libre (p. 1); occupation : libre (p. 5); travaux : necessaires (p. 7) |
 
 ## Couverture restante et contrôles
 
@@ -143,7 +140,7 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
 - PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 149 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 28 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 20 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
