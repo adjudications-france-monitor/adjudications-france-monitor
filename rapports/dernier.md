@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-13T09:21:00.341383+02:00** (Europe/Paris).
+Contrôle : **2026-10-13T10:18:26.695283+02:00** (Europe/Paris).
 
 **0 dossier(s) retenu(s) sur données validées**, 37 à vérifier, 10 rejet(s) dans la fenêtre J+1 à J+4.
 
-18/20 pages sources accessibles ; 728 liens distincts ; 14 pages d'audience et 100 fiches détaillées lues.
+17/20 pages sources accessibles ; 702 liens distincts ; 14 pages d'audience et 93 fiches détaillées lues.
 
-Nouveautés : 32 liens ; 24 fiches modifiées depuis le passage précédent.
+Nouveautés : 5 liens ; 31 fiches modifiées depuis le passage précédent.
 
-Pièces : 10 PDF accessibles ; 53 pages traitées ce passage, 6 lues, dont 6 par OCR. 19 requêtes différées après une limite ou un refus d'accès.
+Pièces : 10 PDF accessibles ; 55 pages traitées ce passage, 6 lues, dont 6 par OCR. 3 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -19,7 +19,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | Adresse du bien | Descriptif du bien | Montant maximal du marteau | Estimation des frais | Montant acte en mains | Estimation de la revente | Montant de la plus-value | Temps de revente | Descriptif | Source | Analyse du marché complète |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 17 Rue de le Nostre, 76000 Rouen, France | Appartement + cave à ROUEN | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-09 ; adjugé À calculer — données manquantes ; délai publié 2026-10-19. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/appartement-cave-a-rouen) ; [mise_a_prix_eur p. 3](https://avoventes.fr/public/uploads/cabinet/428/documents/6a96eb2e93891ttt.pdf#page=3) (contrôle antérieur : 2026-10-12T08:19:06.587719+00:00) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
-| 2059 Rte de Colmar, 88400 Xonrupt-Longemer, France | appartement avec aisances et dépendances | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-09 ; adjugé À calculer — données manquantes ; délai publié 2026-10-19. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/appartement-avec-aisances-et-dependances) ; [mise_a_prix_eur p. 1](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9258d6f21ttt.pdf#page=1) (contrôle antérieur : 2026-10-12T07:21:19.642301+00:00) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| 2059 Rte de Colmar, 88400 Xonrupt-Longemer, France | appartement avec aisances et dépendances | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-09 ; adjugé À calculer — données manquantes ; délai publié 2026-10-19. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/appartement-avec-aisances-et-dependances) ; [mise_a_prix_eur p. 1](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9258d6f21ttt.pdf#page=1) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
 | 63220 Arlanc, France | Une maison d’habitation àARLANC | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; libre ; audience 2026-10-09 ; adjugé À calculer — données manquantes ; délai publié 2026-10-19. état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/une-maison-dhabitation-aarlanc) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
 | Deux immeubles | Deux immeubles | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-09 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/10/96/68/vente-aux-encheres/deux-immeubles/montlucon/allier/109668.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
 | Deux maisons d'habitation | Deux maisons d'habitation | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-09 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/10/99/29/vente-aux-encheres/deux-maisons-d-habitation/blot-l-eglise/puy-de-dome/109929.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
@@ -77,12 +77,12 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 |---|---|---|---|---|---|
 | [Licitor - ventes à venir](https://www.licitor.com/) | ok | 102 | 0 | 0 | — |
 | [Licitor - résultats](https://www.licitor.com/historique-des-adjudications.html) | ok | 168 | 14 | 31 | — |
-| [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 222 | 0 | 12 | — |
+| [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 226 | 0 | 12 | — |
 | [Vench - annonces nationales](https://www.vench.fr/) | ok | 12 | 0 | 0 | — |
-| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
+| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | differe | 0 | 0 | 0 | Accès différé à encheres-publiques.com jusqu'au 2026-10-13T13:21:00.844227+00:00 après HTTP 403 |
 | [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 65 | 0 | 2 | — |
-| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
-| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 10 | — |
+| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | differe | 0 | 0 | 0 | Accès différé à petitesaffiches.fr jusqu'au 2026-10-13T13:21:00.939831+00:00 après HTTP 403 |
+| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | differe | 0 | 0 | 0 | Accès différé à lagazettefrance.fr jusqu'au 2026-10-13T08:21:57.511843+00:00 après HTTP 429 |
 | [Informateur Judiciaire - Grand Ouest](https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/) | ok | 12 | 0 | 0 | — |
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 10 | 0 | 0 | — |
 | [Echos Judiciaires Girondins](https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/) | ok | 12 | 0 | 0 | — |
@@ -92,7 +92,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 1 | — |
 | [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 4 | — |
 | [Vench - ventes à venir](https://www.vench.fr/prochaines-ventes-aux-encheres.html) | ok | 12 | 0 | 0 | — |
-| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 9 | — |
+| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 12 | — |
 | [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 3 | — |
 | [Avoventes - Tribunal de Saint-Etienne](https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133) | ok | 7 | 0 | 0 | — |
 
@@ -102,18 +102,18 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 
 | Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |
 |---|---|---|---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/104/documents/6aa7af4b1b796ttt.pdf) | lu | 2/2 | 0 | mise_a_prix_eur : 100000.00 (p. 1, ocr) | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/104/documents/6aa7af4b6f659ttt.pdf) | partiel | 4/14 | 10 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/104/documents/6aa7af4bb7a82ttt.pdf) | partiel | 0/11 | 11 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8848a6c457attt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8848a737945ttt.pdf) | partiel | 0/11 | 11 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8848a77e528ttt.pdf) | partiel | 0/27 | 27 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8848bebb80cttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d48b5b302cttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d48b5e18a6ttt.pdf) | partiel | 0/12 | 12 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d48b62871fttt.pdf) | partiel | 0/22 | 22 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d48f671856ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d4fe66e8battt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d4fe69d397ttt.pdf) | partiel | 6/12 | 6 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d4fe6df752ttt.pdf) | partiel | 0/23 | 23 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d4ffc1fd4bttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/891/documents/6a9eb9472f276ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/891/documents/6a9eb9475ff47ttt.pdf) | partiel | 0/38 | 38 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/891/documents/6a9eb947c0facttt.pdf) | partiel | 0/27 | 27 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9258d6f21ttt.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 129000 (p. 1, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e926096a17ttt.pdf) | partiel | 11/16 | 5 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9afaa8559ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9b037cc3attt.pdf) | partiel | 0/16 | 16 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9b09c1c57ttt.pdf) | partiel | 0/30 | 30 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9da1f2973ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
 
 ## Indices conservés des passages précédents
 
@@ -121,10 +121,10 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 
 | Pièce | Dernier accès réussi UTC | Indices et pages |
 |---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/15/documents/6a8e9258d6f21ttt.pdf) | 2026-10-12T07:21:19.642301+00:00 | mise_a_prix_eur : 129000 (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/805/documents/6a84004558c94ttt.pdf) | 2026-10-12T11:16:51.861286+00:00 | mise_a_prix_eur : 15000.00 (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/409/documents/6a902bd24ab03ttt.pdf) | 2026-10-12T08:19:06.587719+00:00 | mise_a_prix_eur : 45000 (p. 1); occupation : occupe (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/428/documents/6a96eb2e93891ttt.pdf) | 2026-10-12T08:19:06.587719+00:00 | mise_a_prix_eur : 80000 (p. 3) |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/104/documents/6aa7af4b1b796ttt.pdf) | 2026-10-13T07:21:00.341383+00:00 | mise_a_prix_eur : 100000.00 (p. 1) |
 | [Pièce](https://www.info-encheres.com/upload/Owtbprocedure.pdf) | 2026-10-12T11:16:51.861286+00:00 | travaux : necessaires (p. 7) |
 | [Pièce](https://www.info-encheres.com/upload/cadiCCV.pdf) | 2026-10-12T12:26:42.026870+00:00 | mise_a_prix_eur : 45000 (p. 4) |
 | [Pièce](https://www.info-encheres.com/upload/JPnHCCV.pdf) | 2026-10-12T11:16:51.861286+00:00 | occupation : libre (p. 5); travaux : necessaires (p. 7) |
@@ -133,15 +133,15 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 
 ## Couverture restante et contrôles
 
-- Budget : 40 pages d'audience et 120 fiches par passage ; 3 fiches candidates non lues ce passage.
-- 73 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
+- Budget : 40 pages d'audience et 120 fiches par passage ; 0 fiches candidates non lues ce passage.
+- 50 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
 - Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.
 - Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.
 - Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
 - PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 149 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 22 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 2 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
