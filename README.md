@@ -20,7 +20,7 @@ Les tâches ChatGPT existantes de surveillance horaire et de bilan quotidien peu
 
 ## Ce que le moteur vérifie
 
-1. Il consulte les **20 pages actives** parmi les **23 pages configurées**. La liste et les limites de chaque source sont documentées dans [SOURCES.md](SOURCES.md).
+1. Il consulte les **38 pages actives** parmi les **41 pages configurées**. Les pages actives, les trois exclusions et les limites de collecte sont documentées dans [SOURCES.md](SOURCES.md). Le [référentiel national restauré](REFERENTIEL_NATIONAL.md) contient aussi les fiches de juridictions et d’avocats retrouvées dans la base.
 2. Il détecte des liens d'audiences et de fiches. Les cartes Avoventes incluent date, prix publié et échéance lorsqu'ils sont affichés.
 3. Il ouvre les audiences Licitor entre **J+1 et J+4** et leur pagination, dans la limite de **40 pages d'audience** par passage.
 4. Il lit jusqu'à **120 fiches**, avec priorité aux dates récentes. Les fiches sans date identifiée sont explorées par rotation. Les requêtes sont limitées à quatre traitements concurrents, avec au moins 0,8 seconde entre départs de requêtes d'un même site.
@@ -89,9 +89,15 @@ python veille.py --now 2026-10-07T12:00:00+02:00 --fixtures correspondances.json
 
 Le second mode lit un JSON `URL → chemin HTML ou PDF local` pour vérifier les extracteurs sans réseau. Ajouter `--max-documents 0` pour désactiver la lecture des pièces. Les tests couvrent dates françaises, fuseau Paris, prix/frais, marge et stress, occupation contradictoire, travaux, délai expiré, seconde adjudication, données manquantes, mise à prix, isolation des comparables, pagination, erreurs et actualisation de l'état. Les régressions supplémentaires vérifient les délais HTTP, l'arrêt des requêtes déjà en file, la persistance, la reprise des pages, l'OCR différé, les changements de PDF, la provenance et l'absence de validation automatique d'une opportunité.
 
+## Référentiel national restauré
+
+Les fichiers [repertoire_greffes.csv](repertoire_greffes.csv) et [repertoire_avocats.csv](repertoire_avocats.csv) réintègrent la liste nationale collectée le 30 septembre 2026. Ils contiennent 1 053 fiches de juridictions/contacts et 1 690 fiches d’avocats, dont 706 marquées prioritaires. Les deux catalogues portent 3 536 références URL (1 975 adresses distinctes). Ils conservent aussi les types de contact et les liens de provenance.
+
+Le répertoire des greffes comprend des fiches d’annuaire officiel, dont 157 tribunaux judiciaires, mais aussi des juridictions et contacts sans rapport direct avec les adjudications. Les fiches d’annuaire ne sont pas activées comme pages d’annonces. Parmi les références d’avocats, certaines sont des profils sur des plateformes, non des sites indépendants de cabinets. Vingt pages de vente de cabinets reprises dans la base sont incluses dans les sources actives; trois autres pages d’avocats déjà configurées restent également suivies. Les adresses restaurées sont à contrôler au fil des collectes; leur présence dans le catalogue ne garantit pas qu’elles soient encore accessibles ou à jour.
+
 ## Limites de couverture
 
-La liste ne constitue pas un balayage exhaustif des tribunaux, des annonces ou des 706 fiches de la base nationale d'avocats. Seule la pagination des audiences Licitor récentes est parcourue automatiquement. Le rapport affiche les budgets, les lectures réellement effectuées, les fiches encore sans date et les erreurs d'accès.
+Le référentiel national conserve 1 053 fiches de juridictions et 1 690 fiches d’avocats, dont 706 références prioritaires. Ces fiches sont des pistes et contacts documentés; elles ne signifient pas que 1 690 cabinets disposent d’une page de ventes distincte, ni que tous les greffes publient des annonces. Vingt pages de vente de cabinets sont configurées directement, en plus des sources de plateformes et de journaux. La collecte porte sur les 38 pages actives et leurs liens détectés, dans les budgets du moteur; elle ne constitue pas un balayage exhaustif de tout le web ou des annonces. Le rapport affiche les budgets, les lectures réellement effectuées, les fiches encore sans date et les erreurs d’accès.
 
 La déduplication porte sur les URL. Deux publications du même bien sur deux sites peuvent rester distinctes ; elles ne doivent pas être comptées comme deux opportunités indépendantes sans contrôle. `Registre_Adjudications.xlsx` et la base nationale restent les outils de consolidation : ce programme ne les modifie pas.
 
@@ -102,4 +108,5 @@ Le dépôt est public. Il ne doit contenir ni credentials, ni coordonnées priv�
 Les libellés courts `LIBRE`, `Occupé` et `Loué` sont lus dans les blocs de description du lot reconnus sur Licitor, Avoventes et Vench ; les menus et liens ne fournissent pas ces preuves. Les avis indiquant « les lieux sont occupés » ou « loués et occupés » et les descriptions en mauvais état sont détectés. Les négations et les mentions anciennes, futures ou conditionnelles restent à vérifier.
 
 Une pièce PDF rattachée au dossier et contrôlée depuis au plus sept jours peut écarter un candidat en l'état si elle indique une occupation incompatible ou des travaux. Le motif conserve la page et la méthode texte/OCR, et précise que l'identité du lot et l'actualité du document restent à contrôler. Cette exclusion prudente ne valide aucune opportunité, valeur de revente ou recevabilité juridique. Après un changement des règles d'extraction, les pages déjà traitées avec l'ancienne version sont relues progressivement dans les mêmes budgets.
+
 
