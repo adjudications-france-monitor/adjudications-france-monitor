@@ -1,34 +1,34 @@
 {
   "version": 1,
-  "controle_utc": "2026-10-21T09:28:39.445491+00:00",
-  "controle_paris": "2026-10-21T11:28:39.445491+02:00",
+  "controle_utc": "2026-10-21T10:28:47.321946+00:00",
+  "controle_paris": "2026-10-21T12:28:47.321946+02:00",
   "comptages": {
     "sources_actives": 38,
-    "sources_ok": 32,
-    "liens_distincts": 803,
-    "nouveaux_liens": 7,
+    "sources_ok": 31,
+    "liens_distincts": 776,
+    "nouveaux_liens": 9,
     "audiences_lues": 4,
-    "fiches_lues": 100,
-    "fiches_en_echec": 20,
+    "fiches_lues": 113,
+    "fiches_en_echec": 3,
     "fiches_modifiees": 11,
-    "dossiers_recents": 17,
+    "dossiers_recents": 19,
     "retenus": 0,
-    "a_verifier": 13,
-    "rejetes_recents": 4,
-    "sans_date": 133,
+    "a_verifier": 14,
+    "rejetes_recents": 5,
+    "sans_date": 97,
     "liens_pdf_a_lire": 39,
-    "fiches_candidates_non_lues": 26,
+    "fiches_candidates_non_lues": 0,
     "documents_pdf_consultes": 9,
-    "documents_pdf_complets": 0,
+    "documents_pdf_complets": 1,
     "documents_pdf_detectes": 160,
-    "pages_pdf_traitees": 57,
+    "pages_pdf_traitees": 52,
     "pages_pdf_extraites": 6,
     "pages_ocr_tentees": 6,
     "pages_ocr": 6,
-    "documents_cache_reutilise": 6,
-    "requetes_http": 146,
-    "reponses_429": 1,
-    "acces_differes": 21
+    "documents_cache_reutilise": 9,
+    "requetes_http": 156,
+    "reponses_429": 0,
+    "acces_differes": 3
   },
   "dossiers": [
     {
@@ -62,47 +62,80 @@
         ],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:22.699556+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:30.760994+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
-        "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f161df2ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f12bc8cttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f161df2ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad151a130attt.pdf"
       ],
       "documents_controles_automatiquement": false,
       "extrait_dossier": "retour vers la liste Propriété de 40,70 m2 à NEUILLY PLAISANCE Vente aux enchères Propriété Mise à prix : 50 000,00 € Surenchère possible jusqu'au : 30 octobre 2026 Frais prélables : 10 881,19 € Adjudication : 135 000,00 euros Si vous souhaitez faire surenchère, la mise à prix sera portée à 148 500,00 € et il vous faudra consigner la somme de 14 850,00 € (Par chèque de banque à l'ordre indiqué dans le cahier des conditions de vente) Vente 20 octobre 2026 à 14h00 VISITES : Sur les lieux pour visiter le lundi 12 octobre 2026 de 9h30 à 10h30 % Estimez vos frais d'acquisition 4 pièces 1 chambres 40.7 m² superficie À propos du bien Dans un ensemble immobilier sis à NEUILLY PLAISANCE (93360) 4 Rue Parmentier Cadastré section C n° 3997, Lieudit « 4 Rue Parmentier » pour une superficie de 1a et 73 ca Une propriété de 40,70 m2 composée de : - Un BÂTIMENT PRINCIPAL, au rez-de-chaussée, porte face, comprenant : entrée / cuisine, WC, une pièce, salle d’eau, avec combles de deux pièces - Un BÂTIMENT à l’entrée à droite, comprenant : entrée/cuisine, salle d’eau/WC, une pièce - Une COUR Les lieux sont libres d’occupation.   Propriété composée d'un bâtiment principal avec combles aménageables et d'une remise indépendante. Ancien local d'activité réhabilité en habitation. Surface habitable de 40,70m² sur terrain cadastré de 173m². Située à Neuilly Plaisance, cette propriété offre un potentiel de développement. Construction ancienne nécessitant travaux de rénovation notamment isolation thermique, ventilation et systèmes électriques. Libre d'occupation, elle présente une opportunité d'investissement pour projet de réhabilitation. Vente aux enchères avec mise à prix de 50 000€. ",
       "empreinte_contenu": "d26621ef31fd77d6b2812b4191030c2b40d11624348a5a807a77c6f0c3d58771",
-      "preuves_documentaires": [],
-      "documents_extraits": [
+      "preuves_documentaires": [
         {
-          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f161df2ttt.pdf",
-          "statut": "partiel",
-          "pages_lues": [],
-          "pages_total": 11,
-          "controle_acces_utc": "2026-10-21T07:39:32.097198+00:00",
-          "consulte_ce_passage": false,
-          "validation": "a_verifier"
+          "champ": "mise_a_prix_eur",
+          "valeur": "50000",
+          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
+          "page": 1,
+          "methode": "ocr",
+          "extrait": "mise a prix : 50.000 €",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true
         },
         {
+          "champ": "occupation",
+          "valeur": "libre",
           "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
-          "statut": "partiel",
-          "pages_lues": [],
+          "page": 1,
+          "methode": "ocr",
+          "extrait": "lieux sont libres",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true
+        }
+      ],
+      "documents_extraits": [
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
+          "statut": "lu",
+          "pages_lues": [
+            1
+          ],
           "pages_total": 1,
-          "controle_acces_utc": "2026-10-21T07:39:32.097198+00:00",
-          "consulte_ce_passage": false,
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true,
           "validation": "a_verifier"
         },
         {
           "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f12bc8cttt.pdf",
           "statut": "partiel",
-          "pages_lues": [],
+          "pages_lues": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
           "pages_total": 17,
-          "controle_acces_utc": "2026-10-21T07:39:32.097198+00:00",
-          "consulte_ce_passage": false,
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true,
+          "validation": "a_verifier"
+        },
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f161df2ttt.pdf",
+          "statut": "partiel",
+          "pages_lues": [],
+          "pages_total": 11,
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true,
           "validation": "a_verifier"
         }
       ],
@@ -147,15 +180,15 @@
         ],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:18.995599+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:27.125064+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
+        "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa16535bc669ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165483309bttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa1653651fc3ttt.pdf",
-        "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa16535bc669ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf"
       ],
       "documents_controles_automatiquement": false,
@@ -172,17 +205,26 @@
           "validation": "a_verifier",
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
           "controle_extraction_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true
+          "consulte_ce_passage": false
         }
       ],
       "documents_extraits": [
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa16535bc669ttt.pdf",
+          "statut": "partiel",
+          "pages_lues": [],
+          "pages_total": 1,
+          "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
+          "consulte_ce_passage": false,
+          "validation": "a_verifier"
+        },
         {
           "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165483309bttt.pdf",
           "statut": "partiel",
           "pages_lues": [],
           "pages_total": 39,
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true,
+          "consulte_ce_passage": false,
           "validation": "a_verifier"
         },
         {
@@ -191,15 +233,6 @@
           "pages_lues": [],
           "pages_total": 17,
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true,
-          "validation": "a_verifier"
-        },
-        {
-          "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa16535bc669ttt.pdf",
-          "statut": "partiel",
-          "pages_lues": [],
-          "pages_total": 1,
-          "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
           "consulte_ce_passage": false,
           "validation": "a_verifier"
         },
@@ -216,7 +249,7 @@
           ],
           "pages_total": 24,
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true,
+          "consulte_ce_passage": false,
           "validation": "a_verifier"
         }
       ],
@@ -258,9 +291,9 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:21.589626+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:29.476199+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
@@ -280,7 +313,7 @@
           "pages_lues": [],
           "pages_total": 1,
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true,
+          "consulte_ce_passage": false,
           "validation": "a_verifier"
         },
         {
@@ -296,7 +329,7 @@
           ],
           "pages_total": 13,
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true,
+          "consulte_ce_passage": false,
           "validation": "a_verifier"
         },
         {
@@ -305,7 +338,7 @@
           "pages_lues": [],
           "pages_total": 40,
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true,
+          "consulte_ce_passage": false,
           "validation": "a_verifier"
         }
       ],
@@ -350,15 +383,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:23.974014+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:31.805927+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
-        "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb0733c89ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb076c0e3ttt.pdf",
-        "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb06f3a22ttt.pdf"
+        "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb06f3a22ttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb0733c89ttt.pdf"
       ],
       "documents_controles_automatiquement": false,
       "extrait_dossier": "retour vers la liste UN PAVILLON et deux caves à NOISY-LE-SEC Vente aux enchères Maison Mise à prix : 30 000,00 € Surenchère possible jusqu'au : 30 octobre 2026 Frais prélables : 9 913,91 € Adjudication : 88 000,00 euros Si vous souhaitez faire surenchère, la mise à prix sera portée à 96 800,00 € et il vous faudra consigner la somme de 9 680,00 € (Par chèque de banque à l'ordre indiqué dans le cahier des conditions de vente) Vente 20 octobre 2026 à 14h00 VISITES : Sur les lieux où une visite sera organisée le MARDI 13 OCTOBRE 2026 de 08 H 30 à 09 H 30. % Estimez vos frais d'acquisition 4 pièces 3 chambres 50.52 m² superficie À propos du bien NOISY-LE-SEC (93130) 90 boulevard de la République Cadastré Z 190 pour une contenance de 08 ares 93 centiares. Le lot n° 17 de l’état descriptif de division : UN PAVILLON en rez-de-chaussée, agrémenté d’une verrière-atelier, accessible depuis une véranda d’accueil et comprenant selon le procès-verbal de description dressé le 4 février 2026 par Maître Christine LOUVION, Commissaire de Justice à PARIS 3ème : une pièce principale (séjour) en entrant, une chambre, une cuisine, un dégagement, une salle de bain, des sanitaires et deux mezzanines comportant deux chambres et des placards. Superficie (Loi Carrez - hors surfaces < à 1,80 m) : 50,52 m² - Surface au sol totale : 79,56 m². Et les 95/1.042èmes des P.C.G. Le lot n° 27 de l’état descriptif de division : Un Jardin avec abri de jardin et pergola. Et les 9/1.042èmes des P.C.G. Les lieux étaient occupés à la date du PVD. Le lot n° 12 de l’état descriptif de division : Dans l’immeuble en face du pavillon, au premier sous-sol, depuis le couloir de gauche, une Cave. Et les 2/1.042èmes des P.C.G. Le lot n° 13 de l’état descriptif de division : Dans l’immeuble en face du pavillon, au premier sous-sol, depuis le couloir de gauche, une Cave . Et les 2/1.042èmes des P.C.G. ",
@@ -366,21 +399,12 @@
       "preuves_documentaires": [],
       "documents_extraits": [
         {
-          "url": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb0733c89ttt.pdf",
-          "statut": "partiel",
-          "pages_lues": [],
-          "pages_total": 19,
-          "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true,
-          "validation": "a_verifier"
-        },
-        {
           "url": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb076c0e3ttt.pdf",
           "statut": "partiel",
           "pages_lues": [],
           "pages_total": 80,
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true,
+          "consulte_ce_passage": false,
           "validation": "a_verifier"
         },
         {
@@ -389,7 +413,16 @@
           "pages_lues": [],
           "pages_total": 1,
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true,
+          "consulte_ce_passage": false,
+          "validation": "a_verifier"
+        },
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb0733c89ttt.pdf",
+          "statut": "partiel",
+          "pages_lues": [],
+          "pages_total": 19,
+          "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
+          "consulte_ce_passage": false,
           "validation": "a_verifier"
         }
       ],
@@ -403,6 +436,55 @@
       "indices_exclusion": [],
       "jours_apres_audience": 1,
       "surenchere_minimale_eur": "96800.00",
+      "statut": "a_verifier"
+    },
+    {
+      "id": "b432c25064482b200d0c9e6ffa9b351b8de128c7db733ad0f9590c5745b7de1c",
+      "url_annonce": "https://www.vench.fr/vente-166839-importante-vente-de-materiel-pour-fabrication-armature-metallique-pour-beton-valence.html",
+      "titre": "IMPORTANTE VENTE DE MATERIEL POUR FABRICATION ARMATURE METALLIQUE POUR BETON • Valence",
+      "adresse": "",
+      "sources": [
+        {
+          "nom": "Vench - résultats et surenchères",
+          "categorie": "site_pro",
+          "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html"
+        }
+      ],
+      "faits": {
+        "mise_a_prix_eur": "0.01",
+        "occupation": "inconnue",
+        "travaux": "a_verifier",
+        "retiree": false,
+        "seconde_adjudication": false,
+        "surenchere_impossible": false,
+        "vente_amiable": false,
+        "date_vente": "2026-10-20",
+        "date_limite_surenchere": "2026-10-30",
+        "preuve_occupation": [],
+        "preuve_travaux": [],
+        "date_vente_source": "https://www.vench.fr/vente-166839-importante-vente-de-materiel-pour-fabrication-armature-metallique-pour-beton-valence.html"
+      },
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
+      "detail_lu_ce_passage": true,
+      "controle_detail_utc": "2026-10-21T10:29:54.713916+00:00",
+      "erreur_detail": null,
+      "niveau_preuve": "C — publication à contrôler",
+      "documents": [],
+      "documents_controles_automatiquement": false,
+      "extrait_dossier": "Ce site utilise Google Analytics. En continuant à naviguer, vous nous autorisez à déposer un cookie à des fins de mesure d'audience. OK En savoir plus Le site des ventes aux enchères immobilières en France IMPORTANTE VENTE DE MATERIEL POUR FABRICATION ARMATURE METALLIQUE POUR BETON • Valence Vente aux enchères publiques Adresse 352 Rue Faventines, 26000 Valence Voir la carte DATE DE L'AUDIENCE 20/10/2026 à 14:00 DATE LIMITE DE SURENCHÈRE 30/10/2026 Surenchère possible jusqu'au 30/10/2026 Terminée Divers 26000 Valence Description Conditions de vente (Après LJ ARCM 26) Importante vente de matériel pour fabrication d’armatures métallique pour béton – chaudronnerie – métallurgie. Nombreux matériel dont cadreuse automatiques SCHNELL, machine à dresser et à cintrer, nombreux postes à souder MIG et OERLIKON. Stock de barres d’acier, remorque poids lourd TROUILLET … -- Exposition le 20 Octobre de 10 h à 11 h au 42 Avenue de la Déportation – 26100 ROMANS-SUR-ISERE ATTENTION : Les enlèvements des lots 1 à 29 seront à récupérer impérativement le 28 Octobre. Pour des raisons de sécurité la journée du 29 octobre est réservée à l'enlèvement du stock et des machines lourdes soit des lots 30 à 81 ( POSSIBILITE DE PROLONGATION POUR LES LOTS IMPORTANTS) LE BATIMENT SERA ALIMENTE EN ELECTRICITE Conditions particulières : Les indications de poids et de quantités (nombre de pièces, métrage, etc.) figurant au catalogue ou annoncées verbalement sont données à titre purement indicatif et approximatif. Elles ne constituent pas des déclarations exactes de fait et ne sauraient engager la responsabilité du commissaire-priseur ou de la maison de vente. Les enchérisseurs sont invités à examiner les lots lors de l'exposition. LE BATIMENT SERA ALIMENTE EN ELECTRICITE. Conditions de règlement : Paiement en CB - Espèces jusqu'à 1000€ Frais 14,28 % - TVA (20 %) récupérable pour les assujettis – Paiement CB – Liste, informations et photos sur interenchères.com Frais de vente 14.28 % TTC en judiciaire Frais internet pouvant être facturés par la Maison de ventes : 1.5% HT du prix d'adjudication pour les ventes judiciaires, 1.5% HT pour les ventes volontaires ou 60 € HT par véhicule. Aucun frais supplémentaire ne sera appliqué aux ventes caritatives. Adjudication : Le procès-verbal du Live n'est pas contractuel, les enchères gagnantes sont confirmées après la vente par le commissaire-priseur. Conditions de règlement : Paiement en CB - Espèces jusqu'à 1000€ Frais 14,28 % - TVA (20 %) récupérable pour les assujettis – Paiement CB – Liste, informations et photos sur interenchères.com Conditions particulières : Les indications de poids et de quantités (nombre de pièces, métrage, etc.) figurant au catalogue ou annoncées verbalement sont données à titre purement indicatif et approximatif. Elles ne constituent pas des déclarations exactes de fait et ne sauraient engager la responsabilité du commissaire-priseur ou de la maison de vente. Les enchérisseurs sont invités à examiner les lots lors de l'exposition. LE BATIMENT SERA ALIMENTE EN ELECTRICITE. Conditions de vente : Télécharger les conditions de vente du commissaire-priseur Mentions légales judiciaires : David Monteillet Date de déclaration ou n° d'agrément : 2002-266 TVA intra : FR88341414191 Retrait des lots: Les enlèvements des lots 1 à 29 seront à récupérer impérativement le 28 Octobre. Pour des raisons de sécurité la journée du 29 octobre est réservée à l'enlèvement du stock et des machines lourdes soit des lots 30 à 81. LE BATIMENT SERA ALIMENTE EN ELECTRICITE. Caractéristiques Documents Calculer les frais Résultat de la vente — en cours de récupération Récupération des données en cours auprès de nos partenaires · sous 3 jours ouvrables. En savoir plus ▼ Délai dépassé ? Je relance Demander le résultat Vench s'engage, dans la majorité des cas, à publier les résultats sous 3 jours ouvrables après l'audience. La transmission dépend toutefois des avocats, greffes et sources officielles sollicitées, ce qui peut occasionner certains délais indépendants de notre volonté. Demander le résultat de la vente × ✉ Votre demande est transmise par Vench aux interlocuteurs compétents. Le destinataire est géré automatiquement — vous n'avez pas à le renseigner. ✓ Demande envoyée Nous transmettons votre demande aux interlocuteurs compétents. Vous recevrez le résultat par e-mail dès sa publication. Fermer 352 Rue Faventines, à Valence, Drôme Carte de situation Carte parcellaire Informations PLU Informations PLU réservées aux abonnés Consultez le zonage, les règles d’urbanisme applicables et les informations utiles pour évaluer le potentiel du bien. Je m'abonne Ces données sont fournies par notre partenaire iudo.co Carte parcellaire réservée aux abonnés Visualisez le bien sur le plan cadastral, identifiez les parcelles concernées et analysez son environnement immédiat. Je m'abonne Ces données sont fournies par notre partenaire iudo.co Commissaire de justice Maître David MONTEILLET Demande d'informations 0475565827 [email protected] A l'adresse suivante 352 Rue Faventines, 26000 VALENCE Statistiques Publication : 15/10/2026 Vues : Favoris : Clics : Les photos sont indicatives et non contractuelles. Elles ne sauraient engager la responsabilité du poursuivant, ni celle de son conseil et ni celle du site publicateur. ",
+      "empreinte_contenu": "9be0ef9850215c845e2605a687a2e9f4818305437a011e3c01ab0206951ea8b2",
+      "preuves_documentaires": [],
+      "documents_extraits": [],
+      "motifs_rejet": [],
+      "a_verifier": [
+        "preuve d'un bien libre",
+        "état et diagnostics compatibles avec une revente sans travaux",
+        "prix adjugé (la mise à prix ne le remplace pas)",
+        "confirmation avocat du délai et de la recevabilité de la surenchère",
+        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
+      ],
+      "indices_exclusion": [],
+      "jours_apres_audience": 1,
       "statut": "a_verifier"
     },
     {
@@ -431,18 +513,18 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:21.421558+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:29.376225+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
-        "https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.002.9b1da6288c82.pdf",
-        "https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.001.e854d63ba772.pdf"
+        "https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.001.e854d63ba772.pdf",
+        "https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.002.9b1da6288c82.pdf"
       ],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 4 septembre 2026 109790 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques en un lot mardi 20 octobre 2026 à 14h Un appartement de 49,64 m² , bâtiment B, au 4ème étage, comprenant : entrée, salon, deux chambres, salle d'eau, toilettes, cuisine Une cave au sous-sol, n°20 Un box bâtiment D, n°16 Inoccupé Résultat d'adjudication inconnu (Mise à prix : 30 000 €) Romainville 141, av. du Docteur Vaillant Afficher le plan (exactitude non garantie) Liens vers les documents annexes (CCV / PV descriptif) en pied d'annonce Maître Myriam Calestroupat, de la SCP Calestroupat - Thomas et Associés, Avocat associé 8 ter, bd Henri Barbusse - 93100 Montreuil-sous-Bois Tél.: 01 48 58 17 06 Dépositaire d'une copie du cahier des conditions de vente [email protected] Maître Martin Isal, Avocat 1, rue du Donjon - 94300 Vincennes Tél.: 01 89 38 50 89 PV descriptif Diagnostics 🔎︎ 13.748 ❤ 364 Immolégal - Réf. 2024655 Imprimer ",
-      "empreinte_contenu": "34cc5b36b578b9d445317e6cf7c0e8b56923245a9fd8289144ce7a0c9e9f92e9",
+      "extrait_dossier": "Annonce publiée le 4 septembre 2026 109790 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques en un lot mardi 20 octobre 2026 à 14h Un appartement de 49,64 m² , bâtiment B, au 4ème étage, comprenant : entrée, salon, deux chambres, salle d'eau, toilettes, cuisine Une cave au sous-sol, n°20 Un box bâtiment D, n°16 Inoccupé Résultat d'adjudication inconnu (Mise à prix : 30 000 €) Romainville 141, av. du Docteur Vaillant Afficher le plan (exactitude non garantie) Liens vers les documents annexes (CCV / PV descriptif) en pied d'annonce Maître Myriam Calestroupat, de la SCP Calestroupat - Thomas et Associés, Avocat associé 8 ter, bd Henri Barbusse - 93100 Montreuil-sous-Bois Tél.: 01 48 58 17 06 Dépositaire d'une copie du cahier des conditions de vente [email protected] Maître Martin Isal, Avocat 1, rue du Donjon - 94300 Vincennes Tél.: 01 89 38 50 89 PV descriptif Diagnostics 🔎︎ 13.761 ❤ 364 Immolégal - Réf. 2024655 Imprimer ",
+      "empreinte_contenu": "0c9667dcf55a59d9a359e01d81b5a67ea53594301d5108a212ead78daa48115f",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -483,15 +565,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:24.620721+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:32.581820+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 14 septembre 2026 109998 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Un appartement de 23,20 m², bâtiment B, au rez-de-chaussée, comprenant : entrée, salle de bains avec wc, pièce à usage de salon/séjour/chambre, cuisine Cave au sous-sol Loué Résultat d'adjudication inconnu (Mise à prix : 30 000 €) Saint-Denis 37, rue Paul Eluard Afficher le plan (exactitude non garantie) Maître Sylvie Langlais, de la SCP Langlais - Chopin, Avocat 7 bis, rue de Vincennes - 93100 Montreuil Tél.: 01 48 70 71 75 🔎︎ 6.432 ❤ 337 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "2eb66a89bbc40d9fbe505b99ea95c01a2bdcde5a5467d62b0f0eb0f775298615",
+      "extrait_dossier": "Annonce publiée le 14 septembre 2026 109998 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Un appartement de 23,20 m², bâtiment B, au rez-de-chaussée, comprenant : entrée, salle de bains avec wc, pièce à usage de salon/séjour/chambre, cuisine Cave au sous-sol Loué Résultat d'adjudication inconnu (Mise à prix : 30 000 €) Saint-Denis 37, rue Paul Eluard Afficher le plan (exactitude non garantie) Maître Sylvie Langlais, de la SCP Langlais - Chopin, Avocat 7 bis, rue de Vincennes - 93100 Montreuil Tél.: 01 48 70 71 75 🔎︎ 6.435 ❤ 337 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "f9021de58f982458251cd2a9424643769dc05949fc7af380362b6357ff6765fc",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -532,15 +614,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:27.818291+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:35.723638+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 18 septembre 2026 110056 Tribunal Judiciaire de Bourg-en-Bresse (Ain) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Un local commercial de 471,04 m², bâtiment B, au rez-de-chaussée, comprenant : surface de vente, deux vitrines sur rue, deux bureaux, cuisine, deux vestiaires, wc, salle de repos, salle d'archives, espace de stockage Stationnements Libre Résultat d'adjudication inconnu (Mise à prix : 250 000 €) Arbent 6, rue du Marais Afficher le plan (exactitude non garantie) Maître Jacques Bernasconi, de la SELARL Bernasconi - Rozet - Monnet-Suety - Forest, Avocat associé 9, av. Alsace Lorraine - 01000 Bourg-en-Bresse Tél.: 04 74 45 69 23 [email protected] 🔎︎ 5.310 ❤ 121 Annonce non-officielle - Contenu non certifié Imprimer",
-      "empreinte_contenu": "f9bbc07f24d3e48dfe891980172fb98390ae6842859852869ebeff3d161f4f4f",
+      "extrait_dossier": "Annonce publiée le 18 septembre 2026 110056 Tribunal Judiciaire de Bourg-en-Bresse (Ain) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Un local commercial de 471,04 m², bâtiment B, au rez-de-chaussée, comprenant : surface de vente, deux vitrines sur rue, deux bureaux, cuisine, deux vestiaires, wc, salle de repos, salle d'archives, espace de stockage Stationnements Libre Résultat d'adjudication inconnu (Mise à prix : 250 000 €) Arbent 6, rue du Marais Afficher le plan (exactitude non garantie) Maître Jacques Bernasconi, de la SELARL Bernasconi - Rozet - Monnet-Suety - Forest, Avocat associé 9, av. Alsace Lorraine - 01000 Bourg-en-Bresse Tél.: 04 74 45 69 23 [email protected] 🔎︎ 5.313 ❤ 121 Annonce non-officielle - Contenu non certifié Imprimer",
+      "empreinte_contenu": "6f0cb1fb7c8044e2dd9a6d68898fd2ea891c3f915c5ff263dd896931b20459fa",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -581,15 +663,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:23.815104+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:31.811876+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 14 septembre 2026 109977 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Un pavillon de 50,52 m² (hors surfaces inférieures à 1,80 m), surface au sol totale : 79,56 m², en rez-de-chaussée, agrémenté d'une verrière-atelier, comprenant : séjour en entrant, chambre, cuisine, dégagement, salle de bain, wc et deux mezzanines comportant deux chambres et placards (Lot n°17) Un jardin (Lot n°27) Sur un terrain de 8a 93ca Occupé au 04.02.2026 (date PVD) Deux caves en face, au 1er sous-sol, couloir de gauche (Lots n°s 12 et 13) Résultat d'adjudication inconnu (Mise à prix : 30 000 €) Noisy-le-Sec 90, bd de la République Afficher le plan (exactitude non garantie) Maître Thierry Baquet, membre de la SCP Droux - Baquet, Avocat 14, allée Michelet - 93320 Les Pavillons-sous-Bois Tél.: 01 48 47 43 47 Maître Cécile Lemaistre-Bonnemay, Avocat 75005 Paris Pour plus de détails : www.clbventes.fr 🔎︎ 8.590 ❤ 418 Claude & Goy - Réf. ADJ58209 Imprimer ",
-      "empreinte_contenu": "8369c8851aa7046f0157e1951ed03951faa62e2f64ff8498939becd65f25dcda",
+      "extrait_dossier": "Annonce publiée le 14 septembre 2026 109977 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Un pavillon de 50,52 m² (hors surfaces inférieures à 1,80 m), surface au sol totale : 79,56 m², en rez-de-chaussée, agrémenté d'une verrière-atelier, comprenant : séjour en entrant, chambre, cuisine, dégagement, salle de bain, wc et deux mezzanines comportant deux chambres et placards (Lot n°17) Un jardin (Lot n°27) Sur un terrain de 8a 93ca Occupé au 04.02.2026 (date PVD) Deux caves en face, au 1er sous-sol, couloir de gauche (Lots n°s 12 et 13) Résultat d'adjudication inconnu (Mise à prix : 30 000 €) Noisy-le-Sec 90, bd de la République Afficher le plan (exactitude non garantie) Maître Thierry Baquet, membre de la SCP Droux - Baquet, Avocat 14, allée Michelet - 93320 Les Pavillons-sous-Bois Tél.: 01 48 47 43 47 Maître Cécile Lemaistre-Bonnemay, Avocat 75005 Paris Pour plus de détails : www.clbventes.fr 🔎︎ 8.592 ❤ 418 Claude & Goy - Réf. ADJ58209 Imprimer ",
+      "empreinte_contenu": "1289f99794363bcd7d3bd9aec1bb782e2e298fb1e5e9e63b12ff397e3bef80b4",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -630,15 +712,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:25.477778+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:33.321837+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 14 septembre 2026 110000 Tribunal Judiciaire de Béziers (Hérault) Vente aux enchères publiques mardi 20 octobre 2026 à 11h Une maison d'habitation de 127,03 m², sur rez-de-chaussée élevé d'un étage Jardin à l'avant et jardin à l'arrière de la maison avec garage et cellier Inoccupée Résultat d'adjudication inconnu (Mise à prix : 56 000 €) Pézenas Lotissement Butte Verte II 26, rue Georges Guynemer Afficher le plan (exactitude non garantie) Maître Frédéric Simon, de la SCP Frédéric Simon, Avocat 66, av. Pierre Verdier - 34500 Béziers Tél.: 04 67 28 31 69 [email protected] 🔎︎ 6.474 ❤ 348 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "30a93f8809301bc028c035e705c88d8a548b28a52f0fa38f284136870eb17220",
+      "extrait_dossier": "Annonce publiée le 14 septembre 2026 110000 Tribunal Judiciaire de Béziers (Hérault) Vente aux enchères publiques mardi 20 octobre 2026 à 11h Une maison d'habitation de 127,03 m², sur rez-de-chaussée élevé d'un étage Jardin à l'avant et jardin à l'arrière de la maison avec garage et cellier Inoccupée Résultat d'adjudication inconnu (Mise à prix : 56 000 €) Pézenas Lotissement Butte Verte II 26, rue Georges Guynemer Afficher le plan (exactitude non garantie) Maître Frédéric Simon, de la SCP Frédéric Simon, Avocat 66, av. Pierre Verdier - 34500 Béziers Tél.: 04 67 28 31 69 [email protected] 🔎︎ 6.475 ❤ 348 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "52dc3cdc73cd4c752da401aecb2fff06df3da1dc130918362ce19408909176f9",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -679,15 +761,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:26.690479+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:34.134485+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 14 septembre 2026 110001 Tribunal Judiciaire de Béziers (Hérault) Vente aux enchères publiques mardi 20 octobre 2026 à 11h Une maison d'habitation de 108 m², comprenant : Au rez-de-chaussée : garage, appartement avec séjour, coin-cuisine et chambre avec salle d'eau et wc Au 1er étage : entrée, cuisine, salle d'eau, wc, deux chambres, séjour Piscine Occupée Résultat d'adjudication inconnu (Mise à prix : 60 000 €) Sérignan 9, rue des Jardins du Stade Afficher le plan (exactitude non garantie) SCP Bellissent Avocats, Avocats 2, bd. Du Maréchal Leclerc - 34500 Béziers Tél.: 04 67 49 01 01 [email protected] 🔎︎ 7.016 ❤ 333 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "f279cb72072038d858e442bb1c3b8c04cd6472f7f105dbbffb1368a2ef009f44",
+      "extrait_dossier": "Annonce publiée le 14 septembre 2026 110001 Tribunal Judiciaire de Béziers (Hérault) Vente aux enchères publiques mardi 20 octobre 2026 à 11h Une maison d'habitation de 108 m², comprenant : Au rez-de-chaussée : garage, appartement avec séjour, coin-cuisine et chambre avec salle d'eau et wc Au 1er étage : entrée, cuisine, salle d'eau, wc, deux chambres, séjour Piscine Occupée Résultat d'adjudication inconnu (Mise à prix : 60 000 €) Sérignan 9, rue des Jardins du Stade Afficher le plan (exactitude non garantie) SCP Bellissent Avocats, Avocats 2, bd. Du Maréchal Leclerc - 34500 Béziers Tél.: 04 67 49 01 01 [email protected] 🔎︎ 7.017 ❤ 333 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "7974270ae3faa9b4de8da46eeff9802c9af3d9481b630a35a9f4dbd3d744f544",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -728,15 +810,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:20.641658+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:28.537826+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 20 août 2026 109643 Tribunal Judiciaire de Béziers (Hérault) Vente aux enchères publiques mardi 20 octobre 2026 à 11h Une maison à usage d'habitation de 133,02 m², comprenant : entrée, séjour avec coin-cuisine, cellier, salle d'eau Au 1er étage : deux chambres, dégagement, dressing Au 2ème étage : dégagement, chambre, salon Terrain Occupée Résultat d'adjudication inconnu (Mise à prix : 22 000 €) Riols 78, Grand Rue Rue Mairofoul Afficher le plan (exactitude non garantie) SCP Pijot - Pompier - Mercey, Avocats Le Patio de Montimaran - 13, rue du Docteur Fléming - 34500 Béziers Tél.: 04 67 62 98 43 Maître Vincent Rieu, du Cabinet Doria Avocats, Avocat associé 23 bis, rue Maguelone - 34000 Montpellier Tél.: 04 67 04 07 40 🔎︎ 10.998 ❤ 262 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "fe16d0d4f4aa70bc531393133c77bb942e32c919951e138b0891b0ba3f9acb99",
+      "extrait_dossier": "Annonce publiée le 20 août 2026 109643 Tribunal Judiciaire de Béziers (Hérault) Vente aux enchères publiques mardi 20 octobre 2026 à 11h Une maison à usage d'habitation de 133,02 m², comprenant : entrée, séjour avec coin-cuisine, cellier, salle d'eau Au 1er étage : deux chambres, dégagement, dressing Au 2ème étage : dégagement, chambre, salon Terrain Occupée Résultat d'adjudication inconnu (Mise à prix : 22 000 €) Riols 78, Grand Rue Rue Mairofoul Afficher le plan (exactitude non garantie) SCP Pijot - Pompier - Mercey, Avocats Le Patio de Montimaran - 13, rue du Docteur Fléming - 34500 Béziers Tél.: 04 67 62 98 43 Maître Vincent Rieu, du Cabinet Doria Avocats, Avocat associé 23 bis, rue Maguelone - 34000 Montpellier Tél.: 04 67 04 07 40 🔎︎ 10.999 ❤ 262 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "825a74efc4a5b27692646653f8477e162764a1c2245983b974f86d5764b70d20",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -776,15 +858,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:22.204698+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:30.514708+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 8 septembre 2026 109855 Tribunal Judiciaire de Grenoble (Isère) Vente aux enchères publiques dépendant d'une liquidation judiciaire mardi 20 octobre 2026 à 14h Une parcelle de terrain constructible Libre d'occupation Résultat d'adjudication inconnu (Mise à prix : 55 000 €) Saint-Quentin-sur-Isère Le Replat SELARL Cook - Quenard, Avocats associés 23, rue Docteur Mazet - 38000 Grenoble Tél.: 04 76 46 88 05 🔎︎ 9.132 ❤ 136 Annonce non-officielle - Contenu non certifié Imprimer",
-      "empreinte_contenu": "8c46ce5f603ae73b330528bef9a975baa255b5df163c40627fef67e64353c85c",
+      "extrait_dossier": "Annonce publiée le 8 septembre 2026 109855 Tribunal Judiciaire de Grenoble (Isère) Vente aux enchères publiques dépendant d'une liquidation judiciaire mardi 20 octobre 2026 à 14h Une parcelle de terrain constructible Libre d'occupation Résultat d'adjudication inconnu (Mise à prix : 55 000 €) Saint-Quentin-sur-Isère Le Replat SELARL Cook - Quenard, Avocats associés 23, rue Docteur Mazet - 38000 Grenoble Tél.: 04 76 46 88 05 🔎︎ 9.133 ❤ 136 Annonce non-officielle - Contenu non certifié Imprimer",
+      "empreinte_contenu": "98301edd71b4fbad3a1e0eecd54bd05b02f6bae46085b6eb505de7e9453ddd7d",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -825,15 +907,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:23.029541+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:30.926711+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 8 septembre 2026 109882 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Une propriété de 40,70 m², comprenant : un bâtiment principal au rez-de-chaussée, porte face, comprenant : entrée/cuisine, wc, pièce, salle d'eau avec combles de deux pièces un bâtiment à l'entrée à droite, comprenant : entrée/cuisine, salle d'eau/wc, pièce cour Libre Résultat d'adjudication inconnu (Mise à prix : 50 000 €) Neuilly-Plaisance 4, rue Parmentier Afficher le plan (exactitude non garantie) Maître Sylvie Langlais, de la SCP Langlais - Chopin, Avocat 7 bis, rue de Vincennes - 93100 Montreuil Tél.: 01 48 70 71 75 [email protected] Maître Maryvonne El-Assaad, Avocat 2, av. de l'Abbé Roussel - 75016 Paris Tél.: 01 44 70 74 00 🔎︎ 8.327 ❤ 341 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "634b30d08fb9552f9d5feb3aafe1c0fa2e1017de0a20af311a2b3269ecc6f4d7",
+      "extrait_dossier": "Annonce publiée le 8 septembre 2026 109882 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Une propriété de 40,70 m², comprenant : un bâtiment principal au rez-de-chaussée, porte face, comprenant : entrée/cuisine, wc, pièce, salle d'eau avec combles de deux pièces un bâtiment à l'entrée à droite, comprenant : entrée/cuisine, salle d'eau/wc, pièce cour Libre Résultat d'adjudication inconnu (Mise à prix : 50 000 €) Neuilly-Plaisance 4, rue Parmentier Afficher le plan (exactitude non garantie) Maître Sylvie Langlais, de la SCP Langlais - Chopin, Avocat 7 bis, rue de Vincennes - 93100 Montreuil Tél.: 01 48 70 71 75 [email protected] Maître Maryvonne El-Assaad, Avocat 2, av. de l'Abbé Roussel - 75016 Paris Tél.: 01 44 70 74 00 🔎︎ 8.331 ❤ 341 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "ce85828fd423d6a6fdf8711aab9e7e85c4364573e9c9b2bd4cf2c4feb8c1f3ac",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -877,30 +959,21 @@
           "mauvais etat"
         ]
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:16.341224+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:24.617021+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
-        "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072e3d996ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072deabb6ttt.pdf",
-        "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072db4a57ttt.pdf"
+        "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072db4a57ttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072e3d996ttt.pdf"
       ],
       "documents_controles_automatiquement": false,
       "extrait_dossier": "retour vers la liste APPARTEMENT à BONDY Vente aux enchères Appartement Mise à prix : 27 000,00 € Surenchère possible jusqu'au : 30 octobre 2026 Frais prélables : Ces frais seront connus une semaine avant la vente Consignation : 3 000,00 € (Par chèque de banque à l'ordre indiqué dans le cahier des conditions de vente) Vente 20 octobre 2026 à 14h00 VISITES : Sur les lieux pour visiter le Lundi 12 octobre 2026 de 09 H 30 à 10 Heures % Estimez vos frais d'acquisition 2 pièces 17.33 m² superficie À propos du bien Dans un ensemble immobilier sis à BONDY (93140), 57 avenue de la République et 10 rue Louis Auguste Blanqui Figurant au cadastre de la manière suivante Section AJ numéro 47, « 10 rue Louis Auguste Blanqui » pour une contenance de 05 ares 75 centiares Et plus précisément 10 rue Louis Auguste Blanqui LOT numéro 58 : Escalier rue Louis Auguste Blanqui, au troisième étage, couloir de gauche porte face, UN APPARTEMENT portant le numéro 3451, comprenant selon procès-verbal de description dressé le 18 décembre 2024 par Maître Sarah BLAIN, Commissaire de Justice à BAGNOLET (93) : une entrée, une pièce principale (séjour) , une cuisine/une salle d’eau, un w.-c. SUPERFICIE (Loi Carrez) : 17,33 m² . Et les 95/10.000èmes des parties communes générales de l’immeuble. Les lieux étaient occupés (à la date du PVD)   Studio de 17,33 m² situé au 3e étage d'un immeuble R+5 à Bondy, proche gare SNCF et RER. Comprenant une entrée, pièce principale, cuisine/salle d'eau et WC séparés. Actuellement loué. État général nécessitant rénovation : plafonds fissuré et peint en mauvais état, murs présentant des traces d'humidité, sanitaires vétustes, huisserie fenêtre défaillante. Immeuble sécurisé par digicode. Chauffage central collectif. Syndic Cabinet DWELLING. Bien idéal pour investisseur ou projet de rénovation dans secteur dynamique avec transports en commun abondants. ",
       "empreinte_contenu": "35f03f769b75a32b2c068878b4dec55b5971fc1b24381bb30ca45888911ede7b",
       "preuves_documentaires": [],
       "documents_extraits": [
-        {
-          "url": "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072e3d996ttt.pdf",
-          "statut": "partiel",
-          "pages_lues": [],
-          "pages_total": 18,
-          "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
-          "consulte_ce_passage": false,
-          "validation": "a_verifier"
-        },
         {
           "url": "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072deabb6ttt.pdf",
           "statut": "partiel",
@@ -915,6 +988,15 @@
           "statut": "partiel",
           "pages_lues": [],
           "pages_total": 2,
+          "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
+          "consulte_ce_passage": false,
+          "validation": "a_verifier"
+        },
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072e3d996ttt.pdf",
+          "statut": "partiel",
+          "pages_lues": [],
+          "pages_total": 18,
           "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
           "consulte_ce_passage": false,
           "validation": "a_verifier"
@@ -964,16 +1046,16 @@
         ],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:17.689790+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:25.878013+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
         "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066b9f6bbttt.pdf",
-        "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066bdfafcttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac072de6d09ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066c2463attt.pdf",
-        "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac072de6d09ttt.pdf"
+        "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066bdfafcttt.pdf"
       ],
       "documents_controles_automatiquement": false,
       "extrait_dossier": "retour vers la liste APPARTEMENT + CAVE à SAINT-DENIS Vente aux enchères Appartement Mise à prix : 30 000,00 € Surenchère possible jusqu'au : 30 octobre 2026 Frais prélables : 10 685,92 € Adjudication : 30 000,01 euros Si vous souhaitez faire surenchère, la mise à prix sera portée à 33 000,01 € et il vous faudra consigner la somme de 3 300,00 € (Par chèque de banque à l'ordre indiqué dans le cahier des conditions de vente) Vente 20 octobre 2026 à 14h00 VISITES : Sur les lieux pour visiter le lundi 12 octobre 2026 de 11h00 à 11h30 % Estimez vos frais d'acquisition 1 pièces 23.2 m² superficie À propos du bien Dans un ensemble immobilier sis à SAINT-DENIS (93200) 37 rue Paul Éluard Cadastré section AB n° 3, Lieudit « 37 rue Paul Éluard » pour une contenance de 8a et 88ca Lot n°33 : Un APPARTEMENT de 23,20 m2 , situé dans le bâtiment B, au rez-dechaussée, escalier B, comprenant : une entrée, une salle de bains avec WC, une pièce à usage de salon/séjour/chambre, une cuisine. Lot n°52 : Dans le bâtiment B, au sous-sol, escalier B, une CAVE portant le n° 22. Les lieux sont loués .   Studio de 23,20 m² situé au rez-de-chaussée de l'immeuble 37 rue Paul Éluard à Saint-Denis. Ce petit bien composé d'une entrée, d'une salle de bains avec WC, d'une pièce multifonctionnelle salon/séjour/chambre et d'une cuisine offre une solution compacte et pratique. Un accès à une cave au sous-sol complète l'ensemble. Actuellement loué, ce bien présente un potentiel d'investissement locatif. Vendu aux enchères publiques avec mise à prix de 30 000 euros. ",
@@ -985,8 +1067,17 @@
           "statut": "partiel",
           "pages_lues": [],
           "pages_total": 1,
-          "controle_acces_utc": "2026-10-21T07:39:32.097198+00:00",
-          "consulte_ce_passage": false,
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true,
+          "validation": "a_verifier"
+        },
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066c2463attt.pdf",
+          "statut": "partiel",
+          "pages_lues": [],
+          "pages_total": 28,
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true,
           "validation": "a_verifier"
         },
         {
@@ -1001,17 +1092,8 @@
             6
           ],
           "pages_total": 15,
-          "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
-          "consulte_ce_passage": false,
-          "validation": "a_verifier"
-        },
-        {
-          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066c2463attt.pdf",
-          "statut": "partiel",
-          "pages_lues": [],
-          "pages_total": 28,
-          "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
-          "consulte_ce_passage": false,
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true,
           "validation": "a_verifier"
         }
       ],
@@ -1059,16 +1141,16 @@
           "a renover"
         ]
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:20.335592+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:28.292416+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
-        "https://avoventes.fr/public/uploads/cabinet/195/documents/6ac6663ca11b0ttt.pdf",
-        "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf",
-        "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eab1d88ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eb2ec8attt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/195/documents/6ac6663ca11b0ttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eab1d88ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0fac2f1bbcttt.pdf"
       ],
       "documents_controles_automatiquement": false,
@@ -1076,6 +1158,24 @@
       "empreinte_contenu": "fd5fd43aab7bf6a54eeb800d5af85c20759006d09b6a016069f872b6c136c759",
       "preuves_documentaires": [],
       "documents_extraits": [
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eb2ec8attt.pdf",
+          "statut": "partiel",
+          "pages_lues": [],
+          "pages_total": 42,
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true,
+          "validation": "a_verifier"
+        },
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf",
+          "statut": "partiel",
+          "pages_lues": [],
+          "pages_total": 35,
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true,
+          "validation": "a_verifier"
+        },
         {
           "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ac6663ca11b0ttt.pdf",
           "statut": "partiel",
@@ -1086,30 +1186,12 @@
           "validation": "a_verifier"
         },
         {
-          "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf",
-          "statut": "partiel",
-          "pages_lues": [],
-          "pages_total": 35,
-          "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
-          "consulte_ce_passage": false,
-          "validation": "a_verifier"
-        },
-        {
           "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eab1d88ttt.pdf",
           "statut": "partiel",
           "pages_lues": [],
           "pages_total": 2,
-          "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
-          "consulte_ce_passage": false,
-          "validation": "a_verifier"
-        },
-        {
-          "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eb2ec8attt.pdf",
-          "statut": "partiel",
-          "pages_lues": [],
-          "pages_total": 42,
-          "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
-          "consulte_ce_passage": false,
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true,
           "validation": "a_verifier"
         }
       ],
@@ -1120,6 +1202,57 @@
       "a_verifier": [
         "prix adjugé (la mise à prix ne le remplace pas)",
         "confirmation avocat du délai et de la recevabilité de la surenchère",
+        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
+      ],
+      "indices_exclusion": [],
+      "jours_apres_audience": 1,
+      "statut": "rejete"
+    },
+    {
+      "id": "820858407600935726e90efead9ecde9b7598aaf39d50544143c7fb9e89eb336",
+      "url_annonce": "https://www.vench.fr/vente-166489-une-maison-d-habitation-pezenas.html",
+      "titre": "UNE MAISON D'HABITATION • Pézenas",
+      "adresse": "",
+      "sources": [
+        {
+          "nom": "Vench - résultats et surenchères",
+          "categorie": "site_pro",
+          "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html"
+        }
+      ],
+      "faits": {
+        "mise_a_prix_eur": "56000.00",
+        "occupation": "inconnue",
+        "travaux": "a_verifier",
+        "retiree": false,
+        "seconde_adjudication": false,
+        "surenchere_impossible": true,
+        "vente_amiable": false,
+        "date_vente": "2026-10-20",
+        "preuve_occupation": [],
+        "preuve_travaux": [],
+        "date_vente_source": "https://www.vench.fr/vente-166489-une-maison-d-habitation-pezenas.html"
+      },
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
+      "detail_lu_ce_passage": true,
+      "controle_detail_utc": "2026-10-21T10:29:47.726360+00:00",
+      "erreur_detail": null,
+      "niveau_preuve": "C — publication à contrôler",
+      "documents": [],
+      "documents_controles_automatiquement": false,
+      "extrait_dossier": "Ce site utilise Google Analytics. En continuant à naviguer, vous nous autorisez à déposer un cookie à des fins de mesure d'audience. OK En savoir plus Le site des ventes aux enchères immobilières en France UNE MAISON D'HABITATION • Pézenas Ventes aux enchères publiques - Tribunal judiciaire de BEZIERS Adresse 34120 Pézenas Voir la carte DATE DE L'AUDIENCE 20/10/2026 à 11:00 VENTE TERMINÉE Cette vente est terminée, aucune surenchère possible. Terminée Maison 34120 Pézenas Description Pour consulter l'intégralité des informations disponibles sur cette vente, vous devez être abonné. Grâce à l'abonnement à Vench, à partir de 40€ par an, vous avez accès à l'ensemble des ventes judiciaires référencées en France, aux visites, aux résultats ... ainsi qu'à un panel de services pour cibler au mieux les opportunités des ventes aux enchères : alertes, documents liés à la vente (si fournis par l'avocat), représentations, ... S'abonner Caractéristiques Documents Mise à prix : 56 000.00 € Calculer les frais Pézenas, Hérault Avocat poursuivant S'abonner pour consulter Journal publicateur Vente publiée par MIDI LIBRE - BEZIERS le 13/09/2026 Midi Libre abonnements , 34 438 SAINT JEAN DE VEDAS CEDEX Tribunal Judiciaire de BEZIERS 1, Place de la Révolution, 34 500 BEZIERS Statistiques Publication : 13/09/2026 Vues : Favoris : Clics : Les photos sont indicatives et non contractuelles. Elles ne sauraient engager la responsabilité du poursuivant, ni celle de son conseil et ni celle du site publicateur. ",
+      "empreinte_contenu": "e349060539e00983d646ea3dc1416aed892d505a86881687f3289dd873226f20",
+      "restriction_acces": "description complète réservée aux abonnés",
+      "preuves_documentaires": [],
+      "documents_extraits": [],
+      "motifs_rejet": [
+        "surenchère annoncée impossible"
+      ],
+      "a_verifier": [
+        "preuve d'un bien libre",
+        "état et diagnostics compatibles avec une revente sans travaux",
+        "prix adjugé (la mise à prix ne le remplace pas)",
+        "date limite et recevabilité de la surenchère",
         "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
       ],
       "indices_exclusion": [],
@@ -1154,15 +1287,15 @@
         ],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_liste_utc": "2026-10-21T10:28:47.321946+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-21T09:29:26.999859+00:00",
+      "controle_detail_utc": "2026-10-21T10:29:35.370717+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110006 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Un appartement de 17,33 m² , escalier rue Louis Auguste Blanqui, au 3ème étage, couloir de gauche porte face, comprenant : entrée, séjour, cuisine/salle d'eau, wc Occupé à la date du PVD (18.12.2024) Résultat d'adjudication inconnu (Mise à prix : 27 000 €) Bondy 10, rue Louis Auguste Blanqui Afficher le plan (exactitude non garantie) Maître Jérôme Hocquard, de la SELARL Eloca, Avocat 79, bd du Montparnasse - 75006 Paris Tél.: 01 43 26 82 98 (de 10h à 12h) dgassocies-eloca.fr Maître Sylvie Langlais, membre de la SCP Langlais - Chopin, Avocat 7 bis, rue de Vincennes - 93100 Montreuil-sous-Bois 🔎︎ 6.130 ❤ 243 Claude & Goy - Réf. ADJ58367 Imprimer ",
-      "empreinte_contenu": "a239f673f4bece34a40bf4349e0365e51b48cd44432e4e48c84bf5b85249109c",
+      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110006 Tribunal Judiciaire de Bobigny (Seine Saint Denis) Vente aux enchères publiques mardi 20 octobre 2026 à 14h Un appartement de 17,33 m² , escalier rue Louis Auguste Blanqui, au 3ème étage, couloir de gauche porte face, comprenant : entrée, séjour, cuisine/salle d'eau, wc Occupé à la date du PVD (18.12.2024) Résultat d'adjudication inconnu (Mise à prix : 27 000 €) Bondy 10, rue Louis Auguste Blanqui Afficher le plan (exactitude non garantie) Maître Jérôme Hocquard, de la SELARL Eloca, Avocat 79, bd du Montparnasse - 75006 Paris Tél.: 01 43 26 82 98 (de 10h à 12h) dgassocies-eloca.fr Maître Sylvie Langlais, membre de la SCP Langlais - Chopin, Avocat 7 bis, rue de Vincennes - 93100 Montreuil-sous-Bois 🔎︎ 6.133 ❤ 243 Claude & Goy - Réf. ADJ58367 Imprimer ",
+      "empreinte_contenu": "a12a90cb17d9d41d5b5c8b615349f71c3515cee8d6566fcc3e02c4476898411b",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [
@@ -1184,7 +1317,7 @@
       "nom": "Licitor - ventes à venir",
       "categorie": "site_pro",
       "url": "https://www.licitor.com/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 100,
       "pages_audiences_lues": 0,
@@ -1195,7 +1328,7 @@
       "nom": "Licitor - résultats",
       "categorie": "site_pro",
       "url": "https://www.licitor.com/historique-des-adjudications.html",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 168,
       "pages_audiences_lues": 4,
@@ -1206,9 +1339,9 @@
       "nom": "Avoventes CNB - annonces nationales",
       "categorie": "site_pro",
       "url": "https://avoventes.fr/recherche/?display=liste&order=asc&sort=date",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
-      "liens_detectes": 218,
+      "liens_detectes": 221,
       "pages_audiences_lues": 0,
       "fiches_lues": 7,
       "erreur": ""
@@ -1217,7 +1350,7 @@
       "nom": "Vench - annonces nationales",
       "categorie": "site_pro",
       "url": "https://www.vench.fr/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -1228,7 +1361,7 @@
       "nom": "Enchères Publiques - immobilier",
       "categorie": "site_pro",
       "url": "https://encheres-publiques.com/fr/ventes/immobilier",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "differe",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1243,7 +1376,7 @@
       "nom": "Info Enchères - annonces nationales",
       "categorie": "site_pro",
       "url": "https://www.info-encheres.com/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 75,
       "pages_audiences_lues": 0,
@@ -1254,7 +1387,7 @@
       "nom": "Petites Affiches - enchères immobilières",
       "categorie": "journal",
       "url": "https://www.petitesaffiches.fr/encheres-immobilieres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "differe",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1269,18 +1402,22 @@
       "nom": "La Gazette France - adjudications",
       "categorie": "journal",
       "url": "https://www.lagazettefrance.fr/annonces-legales/ventes-encheres",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
-      "statut": "ok",
-      "liens_detectes": 30,
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
+      "statut": "differe",
+      "liens_detectes": 0,
       "pages_audiences_lues": 0,
-      "fiches_lues": 10,
-      "erreur": ""
+      "fiches_lues": 0,
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
+      "phase": "source",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
+      "code_http": 429
     },
     {
       "nom": "Informateur Judiciaire - Grand Ouest",
       "categorie": "journal",
       "url": "https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -1291,7 +1428,7 @@
       "nom": "7 Jours - Bretagne",
       "categorie": "journal",
       "url": "https://www.7jours.fr/ventes-aux-encheres-immobilieres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 11,
       "pages_audiences_lues": 0,
@@ -1302,7 +1439,7 @@
       "nom": "Echos Judiciaires Girondins",
       "categorie": "journal",
       "url": "https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -1313,7 +1450,7 @@
       "nom": "La Vie Economique - Sud-Ouest",
       "categorie": "journal",
       "url": "https://www.vie-economique.com/ventes-aux-encheres-immobilieres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1324,7 +1461,7 @@
       "nom": "Défis Avocats - ventes judiciaires",
       "categorie": "avocat",
       "url": "https://defis-avocats.com/ventes-judiciaires/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 8,
       "pages_audiences_lues": 0,
@@ -1335,7 +1472,7 @@
       "nom": "Elige Avocats - ventes immobilières",
       "categorie": "avocat",
       "url": "https://elige-avocats.com/ventes-immobilieres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 27,
       "pages_audiences_lues": 0,
@@ -1346,7 +1483,7 @@
       "nom": "AHBL Avocats - ventes immobilières",
       "categorie": "avocat",
       "url": "https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1357,7 +1494,7 @@
       "nom": "Legalyon - ventes aux enchères",
       "categorie": "avocat",
       "url": "https://legalyon.fr/fr/page/vente-aux-encheres",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 4,
       "pages_audiences_lues": 0,
@@ -1368,7 +1505,7 @@
       "nom": "Vench - ventes à venir",
       "categorie": "site_pro",
       "url": "https://www.vench.fr/prochaines-ventes-aux-encheres.html",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -1379,18 +1516,18 @@
       "nom": "Vench - résultats et surenchères",
       "categorie": "site_pro",
       "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
-      "fiches_lues": 0,
+      "fiches_lues": 12,
       "erreur": ""
     },
     {
       "nom": "UDA Avocats - Saint-Etienne",
       "categorie": "avocat",
       "url": "https://uda-avocats.com/nos-saisies-immobilieres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1401,7 +1538,7 @@
       "nom": "Avoventes - Tribunal de Saint-Etienne",
       "categorie": "site_pro",
       "url": "https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 7,
       "pages_audiences_lues": 0,
@@ -1412,7 +1549,7 @@
       "nom": "9 Janvier Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.9janvier-avocats.com/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 2,
       "pages_audiences_lues": 0,
@@ -1423,7 +1560,7 @@
       "nom": "AARPI PLATON MAGNE TURNER — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://pmt-avocats.fr/ventes-encheres-octobre-2026.php",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 7,
       "pages_audiences_lues": 0,
@@ -1434,7 +1571,7 @@
       "nom": "Audineau & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.audineau.fr/ventes-aux-encheres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1445,7 +1582,7 @@
       "nom": "Briffod Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.briffod-avocats.fr/briffod-avocats-droit-commercial-civil-encheres-bonneville-haute-savoie-3/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 5,
       "pages_audiences_lues": 0,
@@ -1456,7 +1593,7 @@
       "nom": "C2PW / Maître Didier Pilot — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.c2pw.fr/vente-encheres",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1467,7 +1604,7 @@
       "nom": "DCL Avocats & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.dcl-avocats.fr/nos-ventes-aux-encheres-immobilieres",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 2,
       "pages_audiences_lues": 0,
@@ -1478,7 +1615,7 @@
       "nom": "ELCY Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.elcyavocats.fr/ventes-immobilieres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "aucun lien détecté — structure à contrôler",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1489,7 +1626,7 @@
       "nom": "Guedj Haas-Biri — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.avocats-guedj-haasbiri.com/encheres-immobilieres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 4,
       "pages_audiences_lues": 0,
@@ -1500,7 +1637,7 @@
       "nom": "Imbert & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://imbert-avocats.com/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1511,18 +1648,18 @@
       "nom": "Kapia Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.kapia-avocats.com/ventes-aux-encheres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 4,
       "pages_audiences_lues": 0,
-      "fiches_lues": 0,
+      "fiches_lues": 1,
       "erreur": ""
     },
     {
       "nom": "Maître Lobbens — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.avocat-lobbens-marseille.fr/annonces-ventes-aux-encheres/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 6,
       "pages_audiences_lues": 0,
@@ -1533,7 +1670,7 @@
       "nom": "Mermet & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.mermet-associes.com/fr/vente-enchere",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1544,7 +1681,7 @@
       "nom": "Patrick Barret et Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.barret-associes.fr/ventes-aux-encheres/nos-ventes.htm",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "echec",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1556,7 +1693,7 @@
       "nom": "QUADRIGE AVOCATS — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.quadrige-avocats.com/ventes/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1567,18 +1704,18 @@
       "nom": "SCP Gualbert Reche Banuls — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.gualbert-reche-banuls.fr/saisies-immobilieres/nos-ventes-aux-encheres.htm",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 49,
       "pages_audiences_lues": 0,
-      "fiches_lues": 3,
+      "fiches_lues": 13,
       "erreur": ""
     },
     {
       "nom": "SELARL BOST-AVRIL — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.bost-avril.com/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "aucun lien détecté — structure à contrôler",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1589,7 +1726,7 @@
       "nom": "TGA Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://tga-avocats.com/nos-ventes/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1600,7 +1737,7 @@
       "nom": "Touraut Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://immobilier.touraut-avocats.com/",
-      "controle_utc": "2026-10-21T09:28:39.445491+00:00",
+      "controle_utc": "2026-10-21T10:28:47.321946+00:00",
       "statut": "aucun lien détecté — structure à contrôler",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1610,320 +1747,163 @@
   ],
   "incidents": [
     {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261006112047-550303-000091518979",
+      "url": "https://www.mermet-associes.com/fr/vente-enchere",
       "phase": "fiche",
-      "erreur": "HTTP Error 429: Too Many Requests",
-      "code_http": 429
+      "erreur": "structure de fiche non reconnue ou contenu vide"
     },
     {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261006114328-474745-000091518998",
+      "url": "https://www.mermet-associes.com/fr/vente-enchere/un-appartement-21-rue-du-lieutenant-genot-a-gaillard-bien-adjuge-a-36000-euros-79",
       "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
+      "erreur": "structure de fiche non reconnue ou contenu vide"
     },
     {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261006152021-567525-000091519135",
+      "url": "https://www.quadrige-avocats.com/ventes/",
       "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
+      "erreur": "structure de fiche non reconnue ou contenu vide"
     },
     {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261006171929-707594-000091519238",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261008121435-650173-000091520038",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261008124106-506781-000091520049",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261008143831-748336-000091520120",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261008150909-570363-000091520154",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261009111609-867674-000091520505",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012102242-922495-000091521084",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012140704-583213-000091521224",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012144757-443668-000091521253",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012154249-804512-000091521302",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012160200-664795-000091521319",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013100314-164678-000091521572",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013111450-974478-000091521629",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013115452-442907-000091521679",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261015111601-858564-000091522531",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261016110613-161679-000091523106",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261016113219-985663-000091523126",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-21T10:29:36.962317+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-21T10:29:36.962317+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.001.e854d63ba772.pdf",
-      "phase": "pdf",
-      "erreur": "PDF protégé : contrôle manuel requis"
-    },
-    {
-      "url": "https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.002.9b1da6288c82.pdf",
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad151a130attt.pdf",
       "phase": "pdf",
       "erreur": "page ou document dépassant 10 Mo"
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d538c85f11ttt.pdf",
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac072de6d09ttt.pdf",
+      "phase": "pdf",
+      "erreur": "page ou document dépassant 10 Mo"
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0fac2f1bbcttt.pdf",
       "phase": "pdf",
       "erreur": "page ou document dépassant 10 Mo"
     }
   ],
   "limites": [
-    "Budget : 40 pages d'audience et 120 fiches par passage ; 26 fiches candidates non lues ce passage.",
-    "133 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.",
+    "Budget : 40 pages d'audience et 120 fiches par passage ; 0 fiches candidates non lues ce passage.",
+    "97 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.",
     "Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.",
     "Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.",
     "Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.",
     "Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.",
     "PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 148 documents détectés non consultés ce passage ; 39 liens directs vers un PDF.",
     "Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.",
-    "23 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json."
+    "6 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json."
   ],
   "documents": [
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf",
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "empreinte_pdf": "9a7b5a8d97da50b50f5ebd0da1b4d4d3b43d6e56946eda2d8355bae394eddbc2",
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "empreinte_pdf": "fc3b7c8ee39f931ceaf0c6980420febebe69776f3f9c5b21c9eb385108320f4a",
       "version_extraction": 2,
       "extractions": {
         "1": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T09:28:39.445491+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "2": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T09:28:39.445491+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "3": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T09:28:39.445491+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "4": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T09:28:39.445491+00:00",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": [
             {
+              "champ": "mise_a_prix_eur",
+              "valeur": "50000",
+              "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
+              "page": 1,
+              "methode": "ocr",
+              "extrait": "mise a prix : 50.000 €",
+              "validation": "a_verifier"
+            },
+            {
               "champ": "occupation",
               "valeur": "libre",
-              "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf",
-              "page": 4,
+              "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
+              "page": 1,
               "methode": "ocr",
               "extrait": "lieux sont libres",
               "validation": "a_verifier"
             }
           ]
-        },
-        "5": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T09:28:39.445491+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "6": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T09:28:39.445491+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "7": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "8": {
-          "methode": "en_attente_ocr",
-          "preuves": []
         }
       },
-      "pages_traitees_ce_passage": 8,
-      "pages_lues_ce_passage": 6,
-      "pages_ocr_ce_passage": 6,
-      "cache_reutilise": false,
+      "pages_traitees_ce_passage": 1,
+      "pages_lues_ce_passage": 1,
+      "pages_ocr_ce_passage": 1,
+      "cache_reutilise": true,
       "incidents_pages": [],
-      "pages_total": 24,
+      "pages_total": 1,
       "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
+        1
       ],
-      "pages_restantes": 18,
+      "pages_restantes": 0,
       "preuves": [
+        {
+          "champ": "mise_a_prix_eur",
+          "valeur": "50000",
+          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
+          "page": 1,
+          "methode": "ocr",
+          "extrait": "mise a prix : 50.000 €",
+          "validation": "a_verifier"
+        },
         {
           "champ": "occupation",
           "valeur": "libre",
-          "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf",
-          "page": 4,
+          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
+          "page": 1,
           "methode": "ocr",
           "extrait": "lieux sont libres",
           "validation": "a_verifier"
         }
       ],
       "faits_candidats": {
+        "mise_a_prix_eur": "50000",
         "occupation": "libre"
       },
       "contradictions": {},
-      "statut": "partiel",
+      "statut": "lu",
       "validation": "a_verifier",
-      "url_origine": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
       "annonces": [
-        "https://avoventes.fr/enchere/local-commercial-stationnements-a-arbent"
+        "https://avoventes.fr/enchere/propriete-de-4070-m2-a-neuilly-plaisance"
       ],
-      "derniere_tentative_utc": "2026-10-21T09:28:39.445491+00:00"
+      "derniere_tentative_utc": "2026-10-21T10:28:47.321946+00:00"
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa1653651fc3ttt.pdf",
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "empreinte_pdf": "66a6006c752726112c2ddbd9859534f9634f54254833bbbbdfa66714b5b6cdd7",
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f12bc8cttt.pdf",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "empreinte_pdf": "dd8bcb9fa71911762d11459fb15f5e80bbb2378ac18ab5fd47f77553eb65617a",
       "version_extraction": 2,
       "extractions": {
         "1": {
-          "methode": "en_attente_ocr",
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
           "preuves": []
         },
         "2": {
-          "methode": "en_attente_ocr",
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
           "preuves": []
         },
         "3": {
-          "methode": "en_attente_ocr",
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
           "preuves": []
         },
         "4": {
-          "methode": "en_attente_ocr",
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
           "preuves": []
         },
         "5": {
-          "methode": "en_attente_ocr",
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
           "preuves": []
         },
         "6": {
@@ -1940,28 +1920,34 @@
         }
       },
       "pages_traitees_ce_passage": 8,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": false,
+      "pages_lues_ce_passage": 5,
+      "pages_ocr_ce_passage": 5,
+      "cache_reutilise": true,
       "incidents_pages": [],
       "pages_total": 17,
-      "pages_lues": [],
-      "pages_restantes": 17,
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pages_restantes": 12,
       "preuves": [],
       "faits_candidats": {},
       "contradictions": {},
       "statut": "partiel",
       "validation": "a_verifier",
-      "url_origine": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa1653651fc3ttt.pdf",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f12bc8cttt.pdf",
       "annonces": [
-        "https://avoventes.fr/enchere/local-commercial-stationnements-a-arbent"
+        "https://avoventes.fr/enchere/propriete-de-4070-m2-a-neuilly-plaisance"
       ],
-      "derniere_tentative_utc": "2026-10-21T09:28:39.445491+00:00"
+      "derniere_tentative_utc": "2026-10-21T10:28:47.321946+00:00"
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165483309bttt.pdf",
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "empreinte_pdf": "324c1badd6478ae4a09dd975e65a4696bb7fefb39a693028a3aa138b2f4093a4",
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f161df2ttt.pdf",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "empreinte_pdf": "4628c18c6feae8d09b2b418d1f1e951f8e6281b4ebd8445a01e56b3bb0570a4e",
       "version_extraction": 2,
       "extractions": {
         "1": {
@@ -2000,84 +1986,105 @@
       "pages_traitees_ce_passage": 8,
       "pages_lues_ce_passage": 0,
       "pages_ocr_ce_passage": 0,
-      "cache_reutilise": false,
+      "cache_reutilise": true,
       "incidents_pages": [],
-      "pages_total": 39,
+      "pages_total": 11,
       "pages_lues": [],
-      "pages_restantes": 39,
+      "pages_restantes": 11,
       "preuves": [],
       "faits_candidats": {},
       "contradictions": {},
       "statut": "partiel",
       "validation": "a_verifier",
-      "url_origine": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165483309bttt.pdf",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f161df2ttt.pdf",
       "annonces": [
-        "https://avoventes.fr/enchere/local-commercial-stationnements-a-arbent"
+        "https://avoventes.fr/enchere/propriete-de-4070-m2-a-neuilly-plaisance"
       ],
-      "derniere_tentative_utc": "2026-10-21T09:28:39.445491+00:00"
+      "derniere_tentative_utc": "2026-10-21T10:28:47.321946+00:00"
     },
     {
-      "url": "https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.001.e854d63ba772.pdf",
-      "phase": "pdf",
-      "erreur": "PDF protégé : contrôle manuel requis",
-      "statut": "echec",
-      "annonces": [
-        "https://www.licitor.com/annonce/10/97/90/vente-aux-encheres/un-appartement/romainville/seine-saint-denis/109790.html"
-      ]
-    },
-    {
-      "url": "https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.002.9b1da6288c82.pdf",
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad151a130attt.pdf",
       "phase": "pdf",
       "erreur": "page ou document dépassant 10 Mo",
       "statut": "echec",
       "annonces": [
-        "https://www.licitor.com/annonce/10/97/90/vente-aux-encheres/un-appartement/romainville/seine-saint-denis/109790.html"
+        "https://avoventes.fr/enchere/propriete-de-4070-m2-a-neuilly-plaisance"
       ]
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d534054b44ttt.pdf",
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "empreinte_pdf": "dc14b45c0a99b25509cc7ba7afcf4beff40eddbe79f74b04432d0594dafb00e9",
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066b9f6bbttt.pdf",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "empreinte_pdf": "42bcfef46f7290ae67622892b5ce34a71203eeba3e8214f2fd2371b03fe62645",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 1,
+      "pages_lues_ce_passage": 0,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": true,
+      "incidents_pages": [],
+      "pages_total": 1,
+      "pages_lues": [],
+      "pages_restantes": 1,
+      "preuves": [],
+      "faits_candidats": {},
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066b9f6bbttt.pdf",
+      "annonces": [
+        "https://avoventes.fr/enchere/appartement-cave-a-saint-denis-2"
+      ],
+      "derniere_tentative_utc": "2026-10-21T10:28:47.321946+00:00"
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066bdfafcttt.pdf",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "empreinte_pdf": "5d84b2f4862cbb7f02100f8a7293b7e6b760b2b99d07e2792f1024dc864f4412",
       "version_extraction": 2,
       "extractions": {
         "1": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T07:39:32.097198+00:00",
+          "controle_extraction_utc": "2026-10-21T08:30:27.072414+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         },
         "2": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T07:39:32.097198+00:00",
+          "controle_extraction_utc": "2026-10-21T08:30:27.072414+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         },
         "3": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T07:39:32.097198+00:00",
+          "controle_extraction_utc": "2026-10-21T08:30:27.072414+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         },
         "4": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T07:39:32.097198+00:00",
+          "controle_extraction_utc": "2026-10-21T08:30:27.072414+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         },
         "5": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T07:39:32.097198+00:00",
+          "controle_extraction_utc": "2026-10-21T08:30:27.072414+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         },
         "6": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-21T07:39:32.097198+00:00",
+          "controle_extraction_utc": "2026-10-21T08:30:27.072414+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
@@ -2109,14 +2116,18 @@
         "13": {
           "methode": "en_attente_ocr",
           "preuves": []
+        },
+        "14": {
+          "methode": "en_attente_ocr",
+          "preuves": []
         }
       },
-      "pages_traitees_ce_passage": 7,
+      "pages_traitees_ce_passage": 8,
       "pages_lues_ce_passage": 0,
       "pages_ocr_ce_passage": 0,
       "cache_reutilise": true,
       "incidents_pages": [],
-      "pages_total": 13,
+      "pages_total": 15,
       "pages_lues": [
         1,
         2,
@@ -2125,22 +2136,22 @@
         5,
         6
       ],
-      "pages_restantes": 7,
+      "pages_restantes": 9,
       "preuves": [],
       "faits_candidats": {},
       "contradictions": {},
       "statut": "partiel",
       "validation": "a_verifier",
-      "url_origine": "https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d534054b44ttt.pdf",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066bdfafcttt.pdf",
       "annonces": [
-        "https://avoventes.fr/enchere/maison-terrain-a-riols"
+        "https://avoventes.fr/enchere/appartement-cave-a-saint-denis-2"
       ],
-      "derniere_tentative_utc": "2026-10-21T09:28:39.445491+00:00"
+      "derniere_tentative_utc": "2026-10-21T10:28:47.321946+00:00"
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d53408f704ttt.pdf",
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "empreinte_pdf": "67556fbdd110ae208908f027e2df07d1922aeef8b1350771d268742676b0b252",
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066c2463attt.pdf",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "empreinte_pdf": "ed7cf7514b5cfd43ba3f0b364f68180d00b5dcd24d2bdd185937e51f313b4fa6",
       "version_extraction": 2,
       "extractions": {
         "1": {
@@ -2181,93 +2192,67 @@
       "pages_ocr_ce_passage": 0,
       "cache_reutilise": true,
       "incidents_pages": [],
-      "pages_total": 40,
+      "pages_total": 28,
       "pages_lues": [],
-      "pages_restantes": 40,
+      "pages_restantes": 28,
       "preuves": [],
       "faits_candidats": {},
       "contradictions": {},
       "statut": "partiel",
       "validation": "a_verifier",
-      "url_origine": "https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d53408f704ttt.pdf",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066c2463attt.pdf",
       "annonces": [
-        "https://avoventes.fr/enchere/maison-terrain-a-riols"
+        "https://avoventes.fr/enchere/appartement-cave-a-saint-denis-2"
       ],
-      "derniere_tentative_utc": "2026-10-21T09:28:39.445491+00:00"
+      "derniere_tentative_utc": "2026-10-21T10:28:47.321946+00:00"
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d538c85f11ttt.pdf",
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac072de6d09ttt.pdf",
       "phase": "pdf",
       "erreur": "page ou document dépassant 10 Mo",
       "statut": "echec",
       "annonces": [
-        "https://avoventes.fr/enchere/maison-terrain-a-riols"
+        "https://avoventes.fr/enchere/appartement-cave-a-saint-denis-2"
       ]
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d58e1ec02bttt.pdf",
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "empreinte_pdf": "ad8f9b734dead3fb45cdf33acfc9bea7a41de88e17b4d129e6c23fe78c8bf3ea",
+      "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eab1d88ttt.pdf",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "empreinte_pdf": "64f7de206311a80790defc25666dd59486bc1c37e1721bdc7457d8a8674eba2a",
       "version_extraction": 2,
       "extractions": {
         "1": {
           "methode": "en_attente_ocr",
           "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 1,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": true,
-      "incidents_pages": [],
-      "pages_total": 1,
-      "pages_lues": [],
-      "pages_restantes": 1,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "partiel",
-      "validation": "a_verifier",
-      "url_origine": "https://avoventes.fr/public/uploads/cabinet/141/documents/6a8d58e1ec02bttt.pdf",
-      "annonces": [
-        "https://avoventes.fr/enchere/maison-terrain-a-riols"
-      ],
-      "derniere_tentative_utc": "2026-10-21T09:28:39.445491+00:00"
-    },
-    {
-      "url": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb06f3a22ttt.pdf",
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "empreinte_pdf": "29033a6c3bdea17a975a6580f9c7c05ef1d80226f242d2379a15a4e4107164ee",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
+        },
+        "2": {
           "methode": "en_attente_ocr",
           "preuves": []
         }
       },
-      "pages_traitees_ce_passage": 1,
+      "pages_traitees_ce_passage": 2,
       "pages_lues_ce_passage": 0,
       "pages_ocr_ce_passage": 0,
       "cache_reutilise": true,
       "incidents_pages": [],
-      "pages_total": 1,
+      "pages_total": 2,
       "pages_lues": [],
-      "pages_restantes": 1,
+      "pages_restantes": 2,
       "preuves": [],
       "faits_candidats": {},
       "contradictions": {},
       "statut": "partiel",
       "validation": "a_verifier",
-      "url_origine": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb06f3a22ttt.pdf",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eab1d88ttt.pdf",
       "annonces": [
-        "https://avoventes.fr/enchere/un-pavillon-et-deux-caves-a-noisy-le-sec"
+        "https://avoventes.fr/enchere/maison-a-la-muraz"
       ],
-      "derniere_tentative_utc": "2026-10-21T09:28:39.445491+00:00"
+      "derniere_tentative_utc": "2026-10-21T10:28:47.321946+00:00"
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb0733c89ttt.pdf",
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "empreinte_pdf": "c8234ab5b5cb20849ced200f5565c4b2e760ccbeba82fe860f34c8eb5e09864e",
+      "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "empreinte_pdf": "f85828278d1e795735d35c3ba36d121e8dca0113c5c3cbe3ebb0a571747f44a0",
       "version_extraction": 2,
       "extractions": {
         "1": {
@@ -2308,24 +2293,24 @@
       "pages_ocr_ce_passage": 0,
       "cache_reutilise": true,
       "incidents_pages": [],
-      "pages_total": 19,
+      "pages_total": 35,
       "pages_lues": [],
-      "pages_restantes": 19,
+      "pages_restantes": 35,
       "preuves": [],
       "faits_candidats": {},
       "contradictions": {},
       "statut": "partiel",
       "validation": "a_verifier",
-      "url_origine": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb0733c89ttt.pdf",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf",
       "annonces": [
-        "https://avoventes.fr/enchere/un-pavillon-et-deux-caves-a-noisy-le-sec"
+        "https://avoventes.fr/enchere/maison-a-la-muraz"
       ],
-      "derniere_tentative_utc": "2026-10-21T09:28:39.445491+00:00"
+      "derniere_tentative_utc": "2026-10-21T10:28:47.321946+00:00"
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb076c0e3ttt.pdf",
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "empreinte_pdf": "72e944d1945594be1ea6954d548967d34046faac18a36cc44b75d76eb637dede",
+      "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eb2ec8attt.pdf",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "empreinte_pdf": "a89d3767a0a9dc856927a0d86c78ca9596b9edc6fae6be04699791fecac1e550",
       "version_extraction": 2,
       "extractions": {
         "1": {
@@ -2366,19 +2351,28 @@
       "pages_ocr_ce_passage": 0,
       "cache_reutilise": true,
       "incidents_pages": [],
-      "pages_total": 80,
+      "pages_total": 42,
       "pages_lues": [],
-      "pages_restantes": 80,
+      "pages_restantes": 42,
       "preuves": [],
       "faits_candidats": {},
       "contradictions": {},
       "statut": "partiel",
       "validation": "a_verifier",
-      "url_origine": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb076c0e3ttt.pdf",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eb2ec8attt.pdf",
       "annonces": [
-        "https://avoventes.fr/enchere/un-pavillon-et-deux-caves-a-noisy-le-sec"
+        "https://avoventes.fr/enchere/maison-a-la-muraz"
       ],
-      "derniere_tentative_utc": "2026-10-21T09:28:39.445491+00:00"
+      "derniere_tentative_utc": "2026-10-21T10:28:47.321946+00:00"
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0fac2f1bbcttt.pdf",
+      "phase": "pdf",
+      "erreur": "page ou document dépassant 10 Mo",
+      "statut": "echec",
+      "annonces": [
+        "https://avoventes.fr/enchere/maison-a-la-muraz"
+      ]
     }
   ],
   "delais_acces": {
@@ -2412,7 +2406,7 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -2433,7 +2427,7 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -2447,7 +2441,21 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa16535bc669ttt.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 1,
+      "pages_restantes": 1,
+      "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -2461,7 +2469,7 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -2472,20 +2480,6 @@
       "pages_total": 17,
       "pages_restantes": 17,
       "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://avoventes.fr/public/uploads/cabinet/78/documents/6aa16535bc669ttt.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 1,
-      "pages_restantes": 1,
-      "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -2522,24 +2516,10 @@
           "validation": "a_verifier",
           "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
           "controle_extraction_utc": "2026-10-21T09:28:39.445491+00:00",
-          "consulte_ce_passage": true
+          "consulte_ce_passage": false
         }
       ],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb0733c89ttt.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 19,
-      "pages_restantes": 19,
-      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -2553,7 +2533,7 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -2567,17 +2547,17 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072e3d996ttt.pdf",
+      "url": "https://avoventes.fr/public/uploads/cabinet/158/documents/6aa2eb0733c89ttt.pdf",
       "statut": "partiel",
       "pages_lues": [],
-      "pages_total": 18,
-      "pages_restantes": 18,
-      "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
+      "pages_total": 19,
+      "pages_restantes": 19,
+      "controle_acces_utc": "2026-10-21T09:28:39.445491+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -2614,12 +2594,12 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f161df2ttt.pdf",
+      "url": "https://avoventes.fr/public/uploads/cabinet/673/documents/6aa4072e3d996ttt.pdf",
       "statut": "partiel",
       "pages_lues": [],
-      "pages_total": 11,
-      "pages_restantes": 11,
-      "controle_acces_utc": "2026-10-21T07:39:32.097198+00:00",
+      "pages_total": 18,
+      "pages_restantes": 18,
+      "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -2629,29 +2609,79 @@
     },
     {
       "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
+      "statut": "lu",
+      "pages_lues": [
+        1
+      ],
       "pages_total": 1,
-      "pages_restantes": 1,
-      "controle_acces_utc": "2026-10-21T07:39:32.097198+00:00",
-      "faits_candidats": {},
+      "pages_restantes": 0,
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "faits_candidats": {
+        "mise_a_prix_eur": "50000",
+        "occupation": "libre"
+      },
       "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
+      "preuves": [
+        {
+          "champ": "mise_a_prix_eur",
+          "valeur": "50000",
+          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
+          "page": 1,
+          "methode": "ocr",
+          "extrait": "mise a prix : 50.000 €",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true
+        },
+        {
+          "champ": "occupation",
+          "valeur": "libre",
+          "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf",
+          "page": 1,
+          "methode": "ocr",
+          "extrait": "lieux sont libres",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+          "controle_extraction_utc": "2026-10-21T10:28:47.321946+00:00",
+          "consulte_ce_passage": true
+        }
+      ],
+      "consulte_ce_passage": true,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
     {
       "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f12bc8cttt.pdf",
       "statut": "partiel",
-      "pages_lues": [],
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
       "pages_total": 17,
-      "pages_restantes": 17,
-      "controle_acces_utc": "2026-10-21T07:39:32.097198+00:00",
+      "pages_restantes": 12,
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": false,
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f161df2ttt.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 11,
+      "pages_restantes": 11,
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": true,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -2661,11 +2691,25 @@
       "pages_lues": [],
       "pages_total": 1,
       "pages_restantes": 1,
-      "controle_acces_utc": "2026-10-21T07:39:32.097198+00:00",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": false,
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066c2463attt.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 28,
+      "pages_restantes": 28,
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": true,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -2682,25 +2726,39 @@
       ],
       "pages_total": 15,
       "pages_restantes": 9,
-      "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": false,
+      "consulte_ce_passage": true,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066c2463attt.pdf",
+      "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eb2ec8attt.pdf",
       "statut": "partiel",
       "pages_lues": [],
-      "pages_total": 28,
-      "pages_restantes": 28,
-      "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
+      "pages_total": 42,
+      "pages_restantes": 42,
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": false,
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 35,
+      "pages_restantes": 35,
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": true,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -2719,44 +2777,16 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 35,
-      "pages_restantes": 35,
-      "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
       "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eab1d88ttt.pdf",
       "statut": "partiel",
       "pages_lues": [],
       "pages_total": 2,
       "pages_restantes": 2,
-      "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
+      "controle_acces_utc": "2026-10-21T10:28:47.321946+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eb2ec8attt.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 42,
-      "pages_restantes": 42,
-      "controle_acces_utc": "2026-10-21T08:30:27.072414+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
+      "consulte_ce_passage": true,
       "validation": "a_verifier",
       "derniere_erreur": null
     }
