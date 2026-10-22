@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-22T14:36:27.123919+02:00** (Europe/Paris).
+Contrôle : **2026-10-22T15:40:02.672183+02:00** (Europe/Paris).
 
-**0 dossier(s) retenu(s) sur données validées**, 29 à vérifier, 20 rejet(s) dans la fenêtre J+1 à J+4.
+**0 dossier(s) retenu(s) sur données validées**, 30 à vérifier, 22 rejet(s) dans la fenêtre J+1 à J+4.
 
-31/38 pages sources accessibles ; 830 liens distincts ; 10 pages d'audience et 100 fiches détaillées lues.
+32/38 pages sources accessibles ; 832 liens distincts ; 10 pages d'audience et 117 fiches détaillées lues.
 
-Nouveautés : 2 liens ; 32 fiches modifiées depuis le passage précédent.
+Nouveautés : 4 liens ; 32 fiches modifiées depuis le passage précédent.
 
-Pièces : 9 PDF accessibles ; 55 pages traitées ce passage, 6 lues, dont 6 par OCR. 21 requêtes différées après une limite ou un refus d'accès.
+Pièces : 10 PDF accessibles ; 50 pages traitées ce passage, 6 lues, dont 6 par OCR. 2 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -18,10 +18,11 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 
 | Adresse du bien | Descriptif du bien | Montant maximal du marteau | Estimation des frais | Montant acte en mains | Estimation de la revente | Montant de la plus-value | Temps de revente | Descriptif | Source | Analyse du marché complète |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 4 Rue Parmentier, 93360 Neuilly-Plaisance, France | Propriété de 40,70 m2 à NEUILLY PLAISANCE | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; libre ; audience 2026-10-20 ; adjugé 135 000.00 € ; délai publié 2026-10-30. état et diagnostics compatibles avec une revente sans travaux; confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/propriete-de-4070-m2-a-neuilly-plaisance) ; [mise_a_prix_eur p. 1](https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf#page=1) ; [occupation p. 1](https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf#page=1) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
-| 6 Rue du Marais, 01100 Arbent, France | LOCAL COMMERCIAL + Stationnements à ARBENT | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; libre ; audience 2026-10-20 ; adjugé À calculer — données manquantes ; délai publié 2026-10-30. état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/local-commercial-stationnements-a-arbent) ; [occupation p. 4](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf#page=4) ; [occupation p. 12](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf#page=12) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| 4 Rue Parmentier, 93360 Neuilly-Plaisance, France | Propriété de 40,70 m2 à NEUILLY PLAISANCE | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; libre ; audience 2026-10-20 ; adjugé 135 000.00 € ; délai publié 2026-10-30. état et diagnostics compatibles avec une revente sans travaux; confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/propriete-de-4070-m2-a-neuilly-plaisance) ; [mise_a_prix_eur p. 1](https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf#page=1) (contrôle antérieur : 2026-10-22T12:36:27.123919+00:00) ; [occupation p. 1](https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf#page=1) (contrôle antérieur : 2026-10-22T12:36:27.123919+00:00) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| 6 Rue du Marais, 01100 Arbent, France | LOCAL COMMERCIAL + Stationnements à ARBENT | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; libre ; audience 2026-10-20 ; adjugé À calculer — données manquantes ; délai publié 2026-10-30. état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/local-commercial-stationnements-a-arbent) ; [occupation p. 4](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf#page=4) (contrôle antérieur : 2026-10-22T12:36:27.123919+00:00) ; [occupation p. 12](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf#page=12) (contrôle antérieur : 2026-10-22T12:36:27.123919+00:00) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
 | 78 Grand Rue, 34220 Riols, France | MAISON + TERRAIN à RIOLS | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-20 ; adjugé À calculer — données manquantes ; délai publié 2026-10-30. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/maison-terrain-a-riols) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
 | 90 Bd de la République a, 93130 Noisy-le-Sec, France | UN PAVILLON et deux caves à NOISY-LE-SEC | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-20 ; adjugé 88 000.00 € ; délai publié 2026-10-30. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/un-pavillon-et-deux-caves-a-noisy-le-sec) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| IMPORTANTE VENTE DE MATERIEL POUR FABRICATION ARMATURE METALLIQUE POUR BETON • Valence | IMPORTANTE VENTE DE MATERIEL POUR FABRICATION ARMATURE METALLIQUE POUR BETON • Valence | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-20 ; adjugé À calculer — données manquantes ; délai publié 2026-10-30. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.vench.fr/vente-166839-importante-vente-de-materiel-pour-fabrication-armature-metallique-pour-beton-valence.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
 | Un appartement | Un appartement | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-20 ; adjugé 170 000.00 € ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/10/97/90/vente-aux-encheres/un-appartement/romainville/seine-saint-denis/109790.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
 | Un appartement | Un appartement | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-20 ; adjugé 30 001.00 € ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/10/99/98/vente-aux-encheres/un-appartement/saint-denis/seine-saint-denis/109998.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
 | Un local commercial | Un local commercial | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-20 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/56/vente-aux-encheres/un-local-commercial/arbent/ain/110056.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
@@ -63,7 +64,9 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | 250 Av. Charles de Gaulle, 78955 Carrières-sous-Poissy, France | 138 000.00 € | occupation incompatible ou contradictoire | [Annonce](https://avoventes.fr/enchere/un-appartement-a-carrieres-sous-poissy) |
 | 7 Rue du Faubourg, 21110 Échigey, France | À calculer — données manquantes | travaux nécessaires à la revente en l'état | [Annonce](https://avoventes.fr/enchere/parcelle-a-echigey) |
 | Rue de la, 31 Rue Combe Jean Robert, 21400 Châtillon-sur-Seine, France | À calculer — données manquantes | indice documentaire incompatible : travaux=necessaires, p. 5 (ocr) — identité et actualité à contrôler | [Annonce](https://avoventes.fr/enchere/une-maison-dhabitation-a-chatillon-sur-seine) ; [Indice travaux p. 5](https://avoventes.fr/public/uploads/cabinet/11/documents/6a9fb9cc223efttt.pdf#page=5) |
+| UN IMMEUBLE • 539,51m² • Athis-Mons | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166499-un-immeuble-athis-mons.html) |
 | UN PAVILLON • 239,49m² • Yerres | À calculer — données manquantes | vente retirée, reportée ou non requise; surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166498-un-pavillon-yerres.html) |
+| UN TERRAIN • Echigey | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166492-un-terrain-echigey.html) |
 | Un appartement | 125 000.00 € | occupation incompatible ou contradictoire | [Annonce](https://www.licitor.com/annonce/10/97/34/vente-aux-encheres/un-appartement/sartrouville/yvelines/109734.html) |
 | Un appartement | 107 000.00 € | occupation incompatible ou contradictoire | [Annonce](https://www.licitor.com/annonce/10/97/88/vente-aux-encheres/un-appartement/mantes-la-jolie/yvelines/109788.html) |
 | Un pavillon | 300 000.00 € | occupation incompatible ou contradictoire | [Annonce](https://www.licitor.com/annonce/10/97/76/vente-aux-encheres/un-pavillon/viry-chatillon/essonne/109776.html) |
@@ -84,36 +87,36 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | differe | 0 | 0 | 0 | Accès différé à encheres-publiques.com jusqu'au 2026-10-22T13:40:41.200643+00:00 après HTTP 403 |
 | [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 78 | 0 | 0 | — |
 | [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | differe | 0 | 0 | 0 | Accès différé à petitesaffiches.fr jusqu'au 2026-10-22T13:40:41.598052+00:00 après HTTP 403 |
-| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 10 | — |
+| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 0 | — |
 | [Informateur Judiciaire - Grand Ouest](https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/) | ok | 12 | 0 | 0 | — |
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 11 | 0 | 0 | — |
 | [Echos Judiciaires Girondins](https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/) | ok | 12 | 0 | 0 | — |
 | [La Vie Economique - Sud-Ouest](https://www.vie-economique.com/ventes-aux-encheres-immobilieres/) | ok | 3 | 0 | 0 | — |
 | [Défis Avocats - ventes judiciaires](https://defis-avocats.com/ventes-judiciaires/) | ok | 8 | 0 | 1 | — |
-| [Elige Avocats - ventes immobilières](https://elige-avocats.com/ventes-immobilieres/) | ok | 27 | 0 | 16 | — |
+| [Elige Avocats - ventes immobilières](https://elige-avocats.com/ventes-immobilieres/) | ok | 27 | 0 | 23 | — |
 | [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 1 | — |
-| [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 0 | — |
+| [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 4 | — |
 | [Vench - ventes à venir](https://www.vench.fr/prochaines-ventes-aux-encheres.html) | ok | 12 | 0 | 0 | — |
-| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 1 | — |
-| [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 0 | — |
+| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 12 | — |
+| [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 3 | — |
 | [Avoventes - Tribunal de Saint-Etienne](https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133) | ok | 7 | 0 | 0 | — |
-| [9 Janvier Avocats — ventes judiciaires](https://www.9janvier-avocats.com/) | aucun lien détecté — structure à contrôler | 0 | 0 | 0 | — |
-| [AARPI PLATON MAGNE TURNER — ventes judiciaires](https://pmt-avocats.fr/ventes-encheres-octobre-2026.php) | ok | 7 | 0 | 0 | — |
-| [Audineau & Associés — ventes judiciaires](https://www.audineau.fr/ventes-aux-encheres/) | ok | 3 | 0 | 3 | — |
-| [Briffod Avocats — ventes judiciaires](https://www.briffod-avocats.fr/briffod-avocats-droit-commercial-civil-encheres-bonneville-haute-savoie-3/) | ok | 5 | 0 | 5 | — |
-| [C2PW / Maître Didier Pilot — ventes judiciaires](https://www.c2pw.fr/vente-encheres) | ok | 3 | 0 | 0 | — |
-| [DCL Avocats & Associés — ventes judiciaires](https://www.dcl-avocats.fr/nos-ventes-aux-encheres-immobilieres) | ok | 2 | 0 | 2 | — |
+| [9 Janvier Avocats — ventes judiciaires](https://www.9janvier-avocats.com/) | ok | 2 | 0 | 2 | — |
+| [AARPI PLATON MAGNE TURNER — ventes judiciaires](https://pmt-avocats.fr/ventes-encheres-octobre-2026.php) | ok | 7 | 0 | 7 | — |
+| [Audineau & Associés — ventes judiciaires](https://www.audineau.fr/ventes-aux-encheres/) | ok | 3 | 0 | 0 | — |
+| [Briffod Avocats — ventes judiciaires](https://www.briffod-avocats.fr/briffod-avocats-droit-commercial-civil-encheres-bonneville-haute-savoie-3/) | ok | 5 | 0 | 0 | — |
+| [C2PW / Maître Didier Pilot — ventes judiciaires](https://www.c2pw.fr/vente-encheres) | ok | 3 | 0 | 3 | — |
+| [DCL Avocats & Associés — ventes judiciaires](https://www.dcl-avocats.fr/nos-ventes-aux-encheres-immobilieres) | ok | 2 | 0 | 0 | — |
 | [ELCY Avocats — ventes judiciaires](https://www.elcyavocats.fr/ventes-immobilieres/) | aucun lien détecté — structure à contrôler | 0 | 0 | 0 | — |
-| [Guedj Haas-Biri — ventes judiciaires](https://www.avocats-guedj-haasbiri.com/encheres-immobilieres/) | ok | 4 | 0 | 4 | — |
-| [Imbert & Associés — ventes judiciaires](https://imbert-avocats.com/) | ok | 1 | 0 | 0 | — |
-| [Kapia Avocats — ventes judiciaires](https://www.kapia-avocats.com/ventes-aux-encheres/) | ok | 4 | 0 | 0 | — |
-| [Maître Lobbens — ventes judiciaires](https://www.avocat-lobbens-marseille.fr/annonces-ventes-aux-encheres/) | ok | 6 | 0 | 6 | — |
+| [Guedj Haas-Biri — ventes judiciaires](https://www.avocats-guedj-haasbiri.com/encheres-immobilieres/) | ok | 4 | 0 | 0 | — |
+| [Imbert & Associés — ventes judiciaires](https://imbert-avocats.com/) | ok | 1 | 0 | 1 | — |
+| [Kapia Avocats — ventes judiciaires](https://www.kapia-avocats.com/ventes-aux-encheres/) | ok | 4 | 0 | 1 | — |
+| [Maître Lobbens — ventes judiciaires](https://www.avocat-lobbens-marseille.fr/annonces-ventes-aux-encheres/) | ok | 6 | 0 | 0 | — |
 | [Mermet & Associés — ventes judiciaires](https://www.mermet-associes.com/fr/vente-enchere) | ok | 3 | 0 | 0 | — |
 | [Patrick Barret et Associés — ventes judiciaires](https://www.barret-associes.fr/ventes-aux-encheres/nos-ventes.htm) | echec | 0 | 0 | 0 | <urlopen error timed out> |
 | [QUADRIGE AVOCATS — ventes judiciaires](https://www.quadrige-avocats.com/ventes/) | ok | 1 | 0 | 0 | — |
-| [SCP Gualbert Reche Banuls — ventes judiciaires](https://www.gualbert-reche-banuls.fr/saisies-immobilieres/nos-ventes-aux-encheres.htm) | ok | 49 | 0 | 3 | — |
+| [SCP Gualbert Reche Banuls — ventes judiciaires](https://www.gualbert-reche-banuls.fr/saisies-immobilieres/nos-ventes-aux-encheres.htm) | ok | 49 | 0 | 10 | — |
 | [SELARL BOST-AVRIL — ventes judiciaires](https://www.bost-avril.com/) | aucun lien détecté — structure à contrôler | 0 | 0 | 0 | — |
-| [TGA Avocats — ventes judiciaires](https://tga-avocats.com/nos-ventes/) | ok | 1 | 0 | 0 | — |
+| [TGA Avocats — ventes judiciaires](https://tga-avocats.com/nos-ventes/) | ok | 1 | 0 | 1 | — |
 | [Touraut Avocats — ventes judiciaires](https://immobilier.touraut-avocats.com/) | aucun lien détecté — structure à contrôler | 0 | 0 | 0 | — |
 
 ## Pièces PDF consultées
@@ -122,18 +125,18 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 
 | Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |
 |---|---|---|---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf) | lu | 24/24 | 0 | occupation : libre (p. 4, ocr); occupation : libre (p. 12, ocr) | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa1653651fc3ttt.pdf) | partiel | 0/17 | 17 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165483309bttt.pdf) | partiel | 0/39 | 39 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.001.e854d63ba772.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | PDF protégé : contrôle manuel requis |
-| [Pièce](https://www.licitor.com/data/pub/media/annonce/10/97/90/109790.000.002.9b1da6288c82.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 50000 (p. 1, ocr); occupation : libre (p. 1, ocr) | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f12bc8cttt.pdf) | partiel | 5/17 | 12 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f161df2ttt.pdf) | partiel | 0/11 | 11 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad151a130attt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066b9f6bbttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066bdfafcttt.pdf) | partiel | 6/15 | 9 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/185/documents/6aac066c2463attt.pdf) | partiel | 0/28 | 28 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/185/documents/6aac072de6d09ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eab1d88ttt.pdf) | lu | 2/2 | 0 | date_vente : 2026-11-20 (p. 1, ocr); mise_a_prix_eur : 325000 (p. 1, ocr); occupation : occupe (p. 1, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf) | partiel | 16/35 | 19 | mise_a_prix_eur : 325000 (p. 1, ocr); occupation : occupe (p. 7, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eb2ec8attt.pdf) | partiel | 0/42 | 42 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0fac2f1bbcttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/11/documents/6a9fb9cbdd730ttt.pdf) | lu | 1/1 | 0 | date_vente : 2026-10-21 (p. 1, ocr); mise_a_prix_eur : 15000 (p. 1, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/11/documents/6a9fb9cc223efttt.pdf) | partiel | 5/23 | 18 | mise_a_prix_eur : 15000 (p. 1, ocr); travaux : necessaires (p. 5, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/11/documents/6a9fb9cc55674ttt.pdf) | partiel | 0/42 | 42 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/11/documents/6a9fb9d388cddttt.pdf) | partiel | 0/39 | 39 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/11/documents/6a9fb9d9cbbf1ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/138/documents/6aa187f3c3f31ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/138/documents/6aa187f403ee4ttt.pdf) | partiel | 0/11 | 11 | Aucun indice ciblé extrait | — |
 
 ## Indices conservés des passages précédents
 
@@ -141,25 +144,23 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 
 | Pièce | Dernier accès réussi UTC | Indices et pages |
 |---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eae5e4dttt.pdf) | 2026-10-21T16:27:58.032353+00:00 | mise_a_prix_eur : 325000 (p. 1); occupation : occupe (p. 7) |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/195/documents/6ab0f9eab1d88ttt.pdf) | 2026-10-21T16:27:58.032353+00:00 | date_vente : 2026-11-20 (p. 1); mise_a_prix_eur : 325000 (p. 1); occupation : occupe (p. 1) |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/78/documents/6aa165360601attt.pdf) | 2026-10-22T12:36:27.123919+00:00 | occupation : libre (p. 4); occupation : libre (p. 12) |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/185/documents/6aaad0f0e2418ttt.pdf) | 2026-10-22T12:36:27.123919+00:00 | mise_a_prix_eur : 50000 (p. 1); occupation : libre (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/477/documents/6aa90774e93f8ttt.pdf) | 2026-10-22T10:29:21.872362+00:00 | mise_a_prix_eur : 220000 (p. 1); occupation : occupe (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/477/documents/6aa9077532dd9ttt.pdf) | 2026-10-22T10:29:21.872362+00:00 | travaux : necessaires (p. 5) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/198/documents/6aae9241b91b4ttt.pdf) | 2026-10-22T09:30:09.412089+00:00 | date_vente : 2013-08-21 (p. 5) |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/11/documents/6a9fb9cc223efttt.pdf) | 2026-10-22T07:40:40.681295+00:00 | mise_a_prix_eur : 15000 (p. 1); travaux : necessaires (p. 5) |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/11/documents/6a9fb9cbdd730ttt.pdf) | 2026-10-22T07:40:40.681295+00:00 | date_vente : 2026-10-21 (p. 1); mise_a_prix_eur : 15000 (p. 1) |
 
 ## Couverture restante et contrôles
 
-- Budget : 40 pages d'audience et 120 fiches par passage ; 55 fiches candidates non lues ce passage.
-- 140 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
+- Budget : 40 pages d'audience et 120 fiches par passage ; 57 fiches candidates non lues ce passage.
+- 133 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
 - Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.
 - Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.
 - Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
-- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 134 documents détectés non consultés ce passage ; 39 liens directs vers un PDF.
+- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 196 documents détectés non consultés ce passage ; 39 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 23 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 5 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
