@@ -1,39 +1,39 @@
 ﻿nom,url,statut,liens_detectes,pages_audiences_lues,fiches_lues,erreur,controle_utc
-Licitor - ventes à venir,https://www.licitor.com/,ok,100,5,20,,2026-10-25T16:22:38.035515+00:00
-Licitor - résultats,https://www.licitor.com/historique-des-adjudications.html,ok,168,13,31,,2026-10-25T16:22:38.035515+00:00
-Avoventes CNB - annonces nationales,https://avoventes.fr/recherche/?display=liste&order=asc&sort=date,ok,217,0,14,,2026-10-25T16:22:38.035515+00:00
-Vench - annonces nationales,https://www.vench.fr/,ok,12,0,0,,2026-10-25T16:22:38.035515+00:00
-Enchères Publiques - immobilier,https://encheres-publiques.com/fr/ventes/immobilier,differe,0,0,0,Accès différé à encheres-publiques.com jusqu'au 2026-10-25T21:22:20.785635+00:00 après HTTP 403,2026-10-25T16:22:38.035515+00:00
-Info Enchères - annonces nationales,https://www.info-encheres.com/,ok,85,0,4,,2026-10-25T16:22:38.035515+00:00
-Petites Affiches - enchères immobilières,https://www.petitesaffiches.fr/encheres-immobilieres/,differe,0,0,0,Accès différé à petitesaffiches.fr jusqu'au 2026-10-25T21:22:21.015818+00:00 après HTTP 403,2026-10-25T16:22:38.035515+00:00
-La Gazette France - adjudications,https://www.lagazettefrance.fr/annonces-legales/ventes-encheres,ok,30,0,10,,2026-10-25T16:22:38.035515+00:00
-Informateur Judiciaire - Grand Ouest,https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/,ok,12,0,0,,2026-10-25T16:22:38.035515+00:00
-7 Jours - Bretagne,https://www.7jours.fr/ventes-aux-encheres-immobilieres/,ok,10,0,0,,2026-10-25T16:22:38.035515+00:00
-Echos Judiciaires Girondins,https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/,ok,12,0,0,,2026-10-25T16:22:38.035515+00:00
-La Vie Economique - Sud-Ouest,https://www.vie-economique.com/ventes-aux-encheres-immobilieres/,ok,3,0,0,,2026-10-25T16:22:38.035515+00:00
-Défis Avocats - ventes judiciaires,https://defis-avocats.com/ventes-judiciaires/,ok,8,0,0,,2026-10-25T16:22:38.035515+00:00
-Elige Avocats - ventes immobilières,https://elige-avocats.com/ventes-immobilieres/,ok,27,0,9,,2026-10-25T16:22:38.035515+00:00
-AHBL Avocats - ventes immobilières,https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres,ok,1,0,0,,2026-10-25T16:22:38.035515+00:00
-Legalyon - ventes aux enchères,https://legalyon.fr/fr/page/vente-aux-encheres,ok,4,0,4,,2026-10-25T16:22:38.035515+00:00
-Vench - ventes à venir,https://www.vench.fr/prochaines-ventes-aux-encheres.html,ok,12,0,0,,2026-10-25T16:22:38.035515+00:00
-Vench - résultats et surenchères,https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html,ok,12,0,3,,2026-10-25T16:22:38.035515+00:00
-UDA Avocats - Saint-Etienne,https://uda-avocats.com/nos-saisies-immobilieres/,ok,3,0,3,,2026-10-25T16:22:38.035515+00:00
-Avoventes - Tribunal de Saint-Etienne,https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133,ok,7,0,0,,2026-10-25T16:22:38.035515+00:00
-9 Janvier Avocats — ventes judiciaires,https://www.9janvier-avocats.com/,ok,2,0,1,,2026-10-25T16:22:38.035515+00:00
-AARPI PLATON MAGNE TURNER — ventes judiciaires,https://pmt-avocats.fr/ventes-encheres-octobre-2026.php,ok,7,0,7,,2026-10-25T16:22:38.035515+00:00
-Audineau & Associés — ventes judiciaires,https://www.audineau.fr/ventes-aux-encheres/,ok,3,0,1,,2026-10-25T16:22:38.035515+00:00
-Briffod Avocats — ventes judiciaires,https://www.briffod-avocats.fr/briffod-avocats-droit-commercial-civil-encheres-bonneville-haute-savoie-3/,ok,5,0,0,,2026-10-25T16:22:38.035515+00:00
-C2PW / Maître Didier Pilot — ventes judiciaires,https://www.c2pw.fr/vente-encheres,ok,3,0,0,,2026-10-25T16:22:38.035515+00:00
-DCL Avocats & Associés — ventes judiciaires,https://www.dcl-avocats.fr/nos-ventes-aux-encheres-immobilieres,ok,2,0,0,,2026-10-25T16:22:38.035515+00:00
-ELCY Avocats — ventes judiciaires,https://www.elcyavocats.fr/ventes-immobilieres/,aucun lien détecté — structure à contrôler,0,0,0,,2026-10-25T16:22:38.035515+00:00
-Guedj Haas-Biri — ventes judiciaires,https://www.avocats-guedj-haasbiri.com/encheres-immobilieres/,ok,4,0,0,,2026-10-25T16:22:38.035515+00:00
-Imbert & Associés — ventes judiciaires,https://imbert-avocats.com/,ok,1,0,1,,2026-10-25T16:22:38.035515+00:00
-Kapia Avocats — ventes judiciaires,https://www.kapia-avocats.com/ventes-aux-encheres/,ok,4,0,0,,2026-10-25T16:22:38.035515+00:00
-Maître Lobbens — ventes judiciaires,https://www.avocat-lobbens-marseille.fr/annonces-ventes-aux-encheres/,ok,6,0,0,,2026-10-25T16:22:38.035515+00:00
-Mermet & Associés — ventes judiciaires,https://www.mermet-associes.com/fr/vente-enchere,ok,3,0,0,,2026-10-25T16:22:38.035515+00:00
-Patrick Barret et Associés — ventes judiciaires,https://www.barret-associes.fr/ventes-aux-encheres/nos-ventes.htm,echec,0,0,0,<urlopen error timed out>,2026-10-25T16:22:38.035515+00:00
-QUADRIGE AVOCATS — ventes judiciaires,https://www.quadrige-avocats.com/ventes/,ok,1,0,0,,2026-10-25T16:22:38.035515+00:00
-SCP Gualbert Reche Banuls — ventes judiciaires,https://www.gualbert-reche-banuls.fr/saisies-immobilieres/nos-ventes-aux-encheres.htm,ok,16,0,4,,2026-10-25T16:22:38.035515+00:00
-SELARL BOST-AVRIL — ventes judiciaires,https://www.bost-avril.com/,aucun lien détecté — structure à contrôler,0,0,0,,2026-10-25T16:22:38.035515+00:00
-TGA Avocats — ventes judiciaires,https://tga-avocats.com/nos-ventes/,ok,1,0,1,,2026-10-25T16:22:38.035515+00:00
-Touraut Avocats — ventes judiciaires,https://immobilier.touraut-avocats.com/,aucun lien détecté — structure à contrôler,0,0,0,,2026-10-25T16:22:38.035515+00:00
+Licitor - ventes à venir,https://www.licitor.com/,ok,100,5,20,,2026-10-25T17:21:37.509493+00:00
+Licitor - résultats,https://www.licitor.com/historique-des-adjudications.html,ok,168,13,31,,2026-10-25T17:21:37.509493+00:00
+Avoventes CNB - annonces nationales,https://avoventes.fr/recherche/?display=liste&order=asc&sort=date,ok,217,0,14,,2026-10-25T17:21:37.509493+00:00
+Vench - annonces nationales,https://www.vench.fr/,ok,12,0,0,,2026-10-25T17:21:37.509493+00:00
+Enchères Publiques - immobilier,https://encheres-publiques.com/fr/ventes/immobilier,differe,0,0,0,Accès différé à encheres-publiques.com jusqu'au 2026-10-25T21:22:20.785635+00:00 après HTTP 403,2026-10-25T17:21:37.509493+00:00
+Info Enchères - annonces nationales,https://www.info-encheres.com/,ok,85,0,4,,2026-10-25T17:21:37.509493+00:00
+Petites Affiches - enchères immobilières,https://www.petitesaffiches.fr/encheres-immobilieres/,differe,0,0,0,Accès différé à petitesaffiches.fr jusqu'au 2026-10-25T21:22:21.015818+00:00 après HTTP 403,2026-10-25T17:21:37.509493+00:00
+La Gazette France - adjudications,https://www.lagazettefrance.fr/annonces-legales/ventes-encheres,differe,0,0,0,Accès différé à lagazettefrance.fr jusqu'au 2026-10-25T17:24:26.523330+00:00 après HTTP 429,2026-10-25T17:21:37.509493+00:00
+Informateur Judiciaire - Grand Ouest,https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/,ok,12,0,0,,2026-10-25T17:21:37.509493+00:00
+7 Jours - Bretagne,https://www.7jours.fr/ventes-aux-encheres-immobilieres/,ok,10,0,0,,2026-10-25T17:21:37.509493+00:00
+Echos Judiciaires Girondins,https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/,ok,12,0,0,,2026-10-25T17:21:37.509493+00:00
+La Vie Economique - Sud-Ouest,https://www.vie-economique.com/ventes-aux-encheres-immobilieres/,ok,3,0,0,,2026-10-25T17:21:37.509493+00:00
+Défis Avocats - ventes judiciaires,https://defis-avocats.com/ventes-judiciaires/,ok,8,0,1,,2026-10-25T17:21:37.509493+00:00
+Elige Avocats - ventes immobilières,https://elige-avocats.com/ventes-immobilieres/,ok,27,0,18,,2026-10-25T17:21:37.509493+00:00
+AHBL Avocats - ventes immobilières,https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres,ok,1,0,1,,2026-10-25T17:21:37.509493+00:00
+Legalyon - ventes aux enchères,https://legalyon.fr/fr/page/vente-aux-encheres,ok,4,0,0,,2026-10-25T17:21:37.509493+00:00
+Vench - ventes à venir,https://www.vench.fr/prochaines-ventes-aux-encheres.html,ok,12,0,0,,2026-10-25T17:21:37.509493+00:00
+Vench - résultats et surenchères,https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html,ok,12,0,7,,2026-10-25T17:21:37.509493+00:00
+UDA Avocats - Saint-Etienne,https://uda-avocats.com/nos-saisies-immobilieres/,ok,3,0,0,,2026-10-25T17:21:37.509493+00:00
+Avoventes - Tribunal de Saint-Etienne,https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133,ok,7,0,0,,2026-10-25T17:21:37.509493+00:00
+9 Janvier Avocats — ventes judiciaires,https://www.9janvier-avocats.com/,ok,2,0,1,,2026-10-25T17:21:37.509493+00:00
+AARPI PLATON MAGNE TURNER — ventes judiciaires,https://pmt-avocats.fr/ventes-encheres-octobre-2026.php,ok,7,0,0,,2026-10-25T17:21:37.509493+00:00
+Audineau & Associés — ventes judiciaires,https://www.audineau.fr/ventes-aux-encheres/,ok,3,0,2,,2026-10-25T17:21:37.509493+00:00
+Briffod Avocats — ventes judiciaires,https://www.briffod-avocats.fr/briffod-avocats-droit-commercial-civil-encheres-bonneville-haute-savoie-3/,ok,5,0,5,,2026-10-25T17:21:37.509493+00:00
+C2PW / Maître Didier Pilot — ventes judiciaires,https://www.c2pw.fr/vente-encheres,ok,3,0,2,,2026-10-25T17:21:37.509493+00:00
+DCL Avocats & Associés — ventes judiciaires,https://www.dcl-avocats.fr/nos-ventes-aux-encheres-immobilieres,ok,2,0,0,,2026-10-25T17:21:37.509493+00:00
+ELCY Avocats — ventes judiciaires,https://www.elcyavocats.fr/ventes-immobilieres/,aucun lien détecté — structure à contrôler,0,0,0,,2026-10-25T17:21:37.509493+00:00
+Guedj Haas-Biri — ventes judiciaires,https://www.avocats-guedj-haasbiri.com/encheres-immobilieres/,ok,4,0,4,,2026-10-25T17:21:37.509493+00:00
+Imbert & Associés — ventes judiciaires,https://imbert-avocats.com/,ok,1,0,0,,2026-10-25T17:21:37.509493+00:00
+Kapia Avocats — ventes judiciaires,https://www.kapia-avocats.com/ventes-aux-encheres/,ok,4,0,1,,2026-10-25T17:21:37.509493+00:00
+Maître Lobbens — ventes judiciaires,https://www.avocat-lobbens-marseille.fr/annonces-ventes-aux-encheres/,ok,6,0,6,,2026-10-25T17:21:37.509493+00:00
+Mermet & Associés — ventes judiciaires,https://www.mermet-associes.com/fr/vente-enchere,ok,3,0,0,,2026-10-25T17:21:37.509493+00:00
+Patrick Barret et Associés — ventes judiciaires,https://www.barret-associes.fr/ventes-aux-encheres/nos-ventes.htm,echec,0,0,0,<urlopen error timed out>,2026-10-25T17:21:37.509493+00:00
+QUADRIGE AVOCATS — ventes judiciaires,https://www.quadrige-avocats.com/ventes/,ok,1,0,0,,2026-10-25T17:21:37.509493+00:00
+SCP Gualbert Reche Banuls — ventes judiciaires,https://www.gualbert-reche-banuls.fr/saisies-immobilieres/nos-ventes-aux-encheres.htm,ok,16,0,0,,2026-10-25T17:21:37.509493+00:00
+SELARL BOST-AVRIL — ventes judiciaires,https://www.bost-avril.com/,aucun lien détecté — structure à contrôler,0,0,0,,2026-10-25T17:21:37.509493+00:00
+TGA Avocats — ventes judiciaires,https://tga-avocats.com/nos-ventes/,ok,1,0,0,,2026-10-25T17:21:37.509493+00:00
+Touraut Avocats — ventes judiciaires,https://immobilier.touraut-avocats.com/,aucun lien détecté — structure à contrôler,0,0,0,,2026-10-25T17:21:37.509493+00:00
