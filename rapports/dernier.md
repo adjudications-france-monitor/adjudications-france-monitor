@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-27T14:45:48.957651+01:00** (Europe/Paris).
+Contrôle : **2026-10-27T15:43:18.419182+01:00** (Europe/Paris).
 
 **0 dossier(s) retenu(s) sur données validées**, 7 à vérifier, 6 rejet(s) dans la fenêtre J+1 à J+4.
 
-32/38 pages sources accessibles ; 761 liens distincts ; 3 pages d'audience et 111 fiches détaillées lues.
+31/38 pages sources accessibles ; 732 liens distincts ; 3 pages d'audience et 101 fiches détaillées lues.
 
-Nouveautés : 3 liens ; 7 fiches modifiées depuis le passage précédent.
+Nouveautés : 2 liens ; 7 fiches modifiées depuis le passage précédent.
 
-Pièces : 8 PDF accessibles ; 8 pages traitées ce passage, 8 lues, dont 0 par OCR. 10 requêtes différées après une limite ou un refus d'accès.
+Pièces : 8 PDF accessibles ; 5 pages traitées ce passage, 5 lues, dont 0 par OCR. 1 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -43,12 +43,12 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 |---|---|---|---|---|---|
 | [Licitor - ventes à venir](https://www.licitor.com/) | ok | 98 | 0 | 0 | — |
 | [Licitor - résultats](https://www.licitor.com/historique-des-adjudications.html) | ok | 167 | 3 | 6 | — |
-| [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 203 | 0 | 0 | — |
+| [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 204 | 0 | 0 | — |
 | [Vench - annonces nationales](https://www.vench.fr/) | ok | 12 | 0 | 0 | — |
-| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | differe | 0 | 0 | 0 | Accès différé à encheres-publiques.com jusqu'au 2026-10-27T14:34:55.495328+00:00 après HTTP 403 |
+| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
 | [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 87 | 0 | 3 | — |
-| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | differe | 0 | 0 | 0 | Accès différé à petitesaffiches.fr jusqu'au 2026-10-27T14:34:55.667234+00:00 après HTTP 403 |
-| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 10 | — |
+| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
+| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | differe | 0 | 0 | 0 | Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T14:47:42.230266+00:00 après HTTP 429 |
 | [Informateur Judiciaire - Grand Ouest](https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/) | ok | 12 | 0 | 0 | — |
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 10 | 0 | 0 | — |
 | [Echos Judiciaires Girondins](https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/) | ok | 12 | 0 | 0 | — |
@@ -94,22 +94,22 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 | [Pièce](https://www.info-encheres.com/upload/cqWKSYNTHESE_DIAGNOSTICS.pdf) | lu | 2/2 | 0 | Aucun indice ciblé extrait | — |
 | [Pièce](https://www.info-encheres.com/upload/m2N0DDT.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
 | [Pièce](https://www.info-encheres.com/upload/ou9GPVD.pdf) | lu | 25/25 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/pJnBpvd.pdf) | partiel | 80/85 | 5 | Aucun indice ciblé extrait | — |
+| [Pièce](https://www.info-encheres.com/upload/pJnBpvd.pdf) | lu | 85/85 | 0 | Aucun indice ciblé extrait | — |
 | [Pièce](https://www.info-encheres.com/upload/xbZpSYNTHESE_DIAGNOSTICS_C.pdf) | lu | 2/2 | 0 | Aucun indice ciblé extrait | — |
 | [Pièce](https://www.info-encheres.com/upload/yG25ddt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](http://uda-avocats.com/wp-content/uploads/2026/04/DIAGNOSTICS-SITE-AUDIENCE-07.05.2026-APPT-1ER-ETAGE.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](http://uda-avocats.com/wp-content/uploads/2026/04/DIAGNOSTICS-SITE-AUDIENCE-07.05.2026-APPT-2EME-ETAGE-1.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
 
 ## Couverture restante et contrôles
 
-- Budget : 40 pages d'audience et 120 fiches par passage ; 14 fiches candidates non lues ce passage.
-- 108 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
+- Budget : 40 pages d'audience et 120 fiches par passage ; 0 fiches candidates non lues ce passage.
+- 88 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
 - Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.
 - Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.
 - Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
 - PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 129 documents détectés non consultés ce passage ; 38 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 13 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 7 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
