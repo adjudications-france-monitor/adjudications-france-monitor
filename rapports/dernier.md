@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-28T10:41:48.503721+01:00** (Europe/Paris).
+Contrôle : **2026-10-28T11:39:40.865354+01:00** (Europe/Paris).
 
-**0 dossier(s) retenu(s) sur données validées**, 7 à vérifier, 5 rejet(s) dans la fenêtre J+1 à J+4.
+**0 dossier(s) retenu(s) sur données validées**, 7 à vérifier, 2 rejet(s) dans la fenêtre J+1 à J+4.
 
-31/38 pages sources accessibles ; 740 liens distincts ; 4 pages d'audience et 102 fiches détaillées lues.
+32/38 pages sources accessibles ; 770 liens distincts ; 4 pages d'audience et 100 fiches détaillées lues.
 
-Nouveautés : 9 liens ; 8 fiches modifiées depuis le passage précédent.
+Nouveautés : 2 liens ; 19 fiches modifiées depuis le passage précédent.
 
-Pièces : 11 PDF accessibles ; 62 pages traitées ce passage, 51 lues, dont 6 par OCR. 3 requêtes différées après une limite ou un refus d'accès.
+Pièces : 11 PDF accessibles ; 58 pages traitées ce passage, 6 lues, dont 6 par OCR. 21 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -30,10 +30,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 
 | Bien | Prix adjugé publié | Motif | Source |
 |---|---|---|---|
-| UNE PARCELLE • Tourrettes | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166606-une-parcelle-tourrettes.html) |
 | 3 Rue Basse, 71640 Saint-Jean-de-Vaux, France | À calculer — données manquantes | indice documentaire incompatible : occupation=occupe, p. 7 (ocr) — identité et actualité à contrôler | [Annonce](https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1) ; [Indice occupation p. 7](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf#page=7) |
-| UNE MAISON BOURGEOISE À USAGE D'HABITATION • 349m² • Chalon-sur-Saône | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166529-une-maison-bourgeoise-a-usage-d-habitation-chalon-sur-saone.html) |
-| UNE MAISON À USAGE D'HABITATION • Saint-Germain-Chassenay | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166600-une-maison-a-usage-d-habitation-saint-germain-chassenay.html) |
 | Une ferme bressane | À calculer — données manquantes | travaux nécessaires à la revente en l'état | [Annonce](https://www.licitor.com/annonce/11/00/15/vente-aux-encheres/une-ferme-bressane/dommartin-les-cuiseaux/saone-et-loire/110015.html) |
 
 ## Sources effectivement contrôlées
@@ -47,7 +44,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | differe | 0 | 0 | 0 | Accès différé à encheres-publiques.com jusqu'au 2026-10-28T14:44:28.295859+00:00 après HTTP 403 |
 | [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 87 | 0 | 0 | — |
 | [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | differe | 0 | 0 | 0 | Accès différé à petitesaffiches.fr jusqu'au 2026-10-28T14:44:29.122174+00:00 après HTTP 403 |
-| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | differe | 0 | 0 | 0 | Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T09:46:37.705920+00:00 après HTTP 429 |
+| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 10 | — |
 | [Informateur Judiciaire - Grand Ouest](https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/) | ok | 12 | 0 | 0 | — |
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 9 | 0 | 0 | — |
 | [Echos Judiciaires Girondins](https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/) | ok | 12 | 0 | 0 | — |
@@ -57,7 +54,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 1 | — |
 | [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 4 | — |
 | [Vench - ventes à venir](https://www.vench.fr/prochaines-ventes-aux-encheres.html) | ok | 12 | 0 | 0 | — |
-| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 12 | — |
+| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 0 | — |
 | [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 3 | — |
 | [Avoventes - Tribunal de Saint-Etienne](https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133) | ok | 7 | 0 | 0 | — |
 | [9 Janvier Avocats — ventes judiciaires](https://www.9janvier-avocats.com/) | ok | 2 | 0 | 2 | — |
@@ -86,17 +83,17 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 | Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |
 |---|---|---|---|---|---|
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf) | lu | 3/3 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf) | partiel | 9/24 | 15 | occupation : occupe (p. 7, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf) | partiel | 15/24 | 9 | occupation : occupe (p. 7, ocr) | — |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf) | partiel | 0/36 | 36 | Aucun indice ciblé extrait | — |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904bd350b4ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/CCV.pdf) | partiel | 8/20 | 12 | date_vente : 2007-07-17 (p. 6, texte) | — |
-| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Certificat-durbanisme.pdf) | lu | 3/3 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/DDT-AMIANTE-2026.pdf) | partiel | 8/74 | 66 | Aucun indice ciblé extrait | — |
-| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/DPE-2025.pdf) | partiel | 8/19 | 11 | Aucun indice ciblé extrait | — |
-| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Etat-date.pdf) | partiel | 8/15 | 7 | Aucun indice ciblé extrait | — |
-| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Extrait-cadastral-M1.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Fiche-synthetique-de-copro.pdf) | lu | 2/2 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/PPPT-2025.pdf) | partiel | 8/73 | 65 | travaux : necessaires (p. 3, texte); travaux : necessaires (p. 4, texte); travaux : necessaires (p. 6, texte) | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-17.04.2024.pdf) | partiel | 0/8 | 8 | Aucun indice ciblé extrait | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-18.12.2024.pdf) | partiel | 0/6 | 6 | Aucun indice ciblé extrait | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-27.03.2026.pdf) | partiel | 0/18 | 18 | Aucun indice ciblé extrait | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-28.04.2025.pdf) | partiel | 0/10 | 10 | Aucun indice ciblé extrait | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/PVD.pdf) | partiel | 0/58 | 58 | Aucun indice ciblé extrait | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Plan-de-situation.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Plan-parcellaire.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Releve-de-propriete.pdf) | partiel | 0/2 | 2 | Aucun indice ciblé extrait | — |
 
 ## Indices conservés des passages précédents
 
@@ -104,20 +101,22 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 
 | Pièce | Dernier accès réussi UTC | Indices et pages |
 |---|---|---|
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/PPPT-2025.pdf) | 2026-10-28T09:41:48.503721+00:00 | travaux : necessaires (p. 3); travaux : necessaires (p. 4); travaux : necessaires (p. 6) |
 | [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf) | 2026-10-28T08:44:26.788576+00:00 | mise_a_prix_eur : 15000.00 (p. 1); occupation : occupe (p. 1) |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/CCV.pdf) | 2026-10-28T09:41:48.503721+00:00 | date_vente : 2007-07-17 (p. 6) |
 | [Pièce](https://uda-avocats.com/wp-content/uploads/2026/04/PV-DESCRIPTION-SITE-AUDIENCE-07.05.2026.pdf) | 2026-10-27T17:50:24.483648+00:00 | occupation : occupe (p. 2) |
 
 ## Couverture restante et contrôles
 
-- Budget : 40 pages d'audience et 120 fiches par passage ; 0 fiches candidates non lues ce passage.
-- 87 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
+- Budget : 40 pages d'audience et 120 fiches par passage ; 15 fiches candidates non lues ce passage.
+- 119 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
 - Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.
 - Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.
 - Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
 - PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 121 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 4 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 21 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
