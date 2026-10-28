@@ -1,34 +1,34 @@
 {
   "version": 1,
-  "controle_utc": "2026-10-28T16:43:35.856423+00:00",
-  "controle_paris": "2026-10-28T17:43:35.856423+01:00",
+  "controle_utc": "2026-10-28T17:39:43.934182+00:00",
+  "controle_paris": "2026-10-28T18:39:43.934182+01:00",
   "comptages": {
     "sources_actives": 38,
-    "sources_ok": 31,
-    "liens_distincts": 743,
-    "nouveaux_liens": 2,
+    "sources_ok": 32,
+    "liens_distincts": 773,
+    "nouveaux_liens": 0,
     "audiences_lues": 4,
-    "fiches_lues": 102,
-    "fiches_en_echec": 3,
+    "fiches_lues": 100,
+    "fiches_en_echec": 20,
     "fiches_modifiees": 9,
-    "dossiers_recents": 12,
+    "dossiers_recents": 9,
     "retenus": 0,
     "a_verifier": 7,
-    "rejetes_recents": 5,
-    "sans_date": 89,
+    "rejetes_recents": 2,
+    "sans_date": 121,
     "liens_pdf_a_lire": 39,
-    "fiches_candidates_non_lues": 0,
-    "documents_pdf_consultes": 11,
+    "fiches_candidates_non_lues": 15,
+    "documents_pdf_consultes": 10,
     "documents_pdf_complets": 4,
     "documents_pdf_detectes": 135,
-    "pages_pdf_traitees": 51,
-    "pages_pdf_extraites": 11,
+    "pages_pdf_traitees": 47,
+    "pages_pdf_extraites": 25,
     "pages_ocr_tentees": 6,
     "pages_ocr": 6,
     "documents_cache_reutilise": 3,
-    "requetes_http": 145,
-    "reponses_429": 0,
-    "acces_differes": 3
+    "requetes_http": 144,
+    "reponses_429": 1,
+    "acces_differes": 21
   },
   "dossiers": [
     {
@@ -56,15 +56,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_liste_utc": "2026-10-28T17:39:43.934182+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:09.781531+00:00",
+      "controle_detail_utc": "2026-10-28T17:40:19.008396+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 10 septembre 2026 109967 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Deux ensembles immobiliers à savoir : Un ensemble immobilier comprenant : Au rez-de-chaussée : bâtiment de stockage, hall de dégagement, deux pièces À l'étage : trois pièces Cour extérieure Inoccupé Un ensemble immobilier, comprenant : Au rez-de-chaussée : atelier mécanique, chaudière, lavabo, wc, dégagement, chaufferie, réserve À l'étage : pièce à usage de bureau, réserve Cour avec deux bâtiments ouverts Loué Résultat d'adjudication inconnu (Mise à prix : 160 000 €) Montcenis 1, bd de la Mouillelongue Afficher le plan (exactitude non garantie) SELARL Oppidum Conseils, Avocats 29, rue de la Grille - 71400 Autun Tél.: 03 85 52 31 52 🔎︎ 6.138 ❤ 90 Annonce non-officielle - Contenu non certifié Imprimer",
-      "empreinte_contenu": "21e8639aa848ba0e3fc46244f6264aa6ac0509b87a300bd546b14bc68eab434a",
+      "extrait_dossier": "Annonce publiée le 10 septembre 2026 109967 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Deux ensembles immobiliers à savoir : Un ensemble immobilier comprenant : Au rez-de-chaussée : bâtiment de stockage, hall de dégagement, deux pièces À l'étage : trois pièces Cour extérieure Inoccupé Un ensemble immobilier, comprenant : Au rez-de-chaussée : atelier mécanique, chaudière, lavabo, wc, dégagement, chaufferie, réserve À l'étage : pièce à usage de bureau, réserve Cour avec deux bâtiments ouverts Loué Résultat d'adjudication inconnu (Mise à prix : 160 000 €) Montcenis 1, bd de la Mouillelongue Afficher le plan (exactitude non garantie) SELARL Oppidum Conseils, Avocats 29, rue de la Grille - 71400 Autun Tél.: 03 85 52 31 52 🔎︎ 6.139 ❤ 90 Annonce non-officielle - Contenu non certifié Imprimer",
+      "empreinte_contenu": "0568ed4ba5742d778318351009cb6d37b540d83d77ffda49a860f04dbedd8455",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -105,15 +105,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_liste_utc": "2026-10-28T17:39:43.934182+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:13.771354+00:00",
+      "controle_detail_utc": "2026-10-28T17:40:22.988518+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 16 septembre 2026 110031 Tribunal Judiciaire de Poitiers (Vienne) Vente aux enchères publiques mardi 27 octobre 2026 à 9h Trois lots de copropriété d'une surface globale d'environ 144 m², au sous-sol du bâtiment, à usage de laboratoire et de réserve, comprenant : buanderie, deux congélateurs, deux chambres froides, une réserve, deux laboratoires, local stockage, local salaison Résultat d'adjudication inconnu (Mise à prix : 30 000 €) Poitiers Centre commercial des Couronneries 40-76 bis, place de Provence Afficher le plan (exactitude non garantie) Maître Nicolas Duflos, de la SCP d'Avocats Duflos, Avocat 14, bd Chasseigne - CS 60062 - 86002 Poitiers Cedex Tél.: 05 49 88 96 40 [email protected] 🔎︎ 13.612 ❤ 156 Annonce non-officielle - Contenu non certifié Imprimer",
-      "empreinte_contenu": "3b2ea57528901be8566795c3e19ed2df19526841dae94087696000112a43434d",
+      "extrait_dossier": "Annonce publiée le 16 septembre 2026 110031 Tribunal Judiciaire de Poitiers (Vienne) Vente aux enchères publiques mardi 27 octobre 2026 à 9h Trois lots de copropriété d'une surface globale d'environ 144 m², au sous-sol du bâtiment, à usage de laboratoire et de réserve, comprenant : buanderie, deux congélateurs, deux chambres froides, une réserve, deux laboratoires, local stockage, local salaison Résultat d'adjudication inconnu (Mise à prix : 30 000 €) Poitiers Centre commercial des Couronneries 40-76 bis, place de Provence Afficher le plan (exactitude non garantie) Maître Nicolas Duflos, de la SCP d'Avocats Duflos, Avocat 14, bd Chasseigne - CS 60062 - 86002 Poitiers Cedex Tél.: 05 49 88 96 40 [email protected] 🔎︎ 13.613 ❤ 156 Annonce non-officielle - Contenu non certifié Imprimer",
+      "empreinte_contenu": "66dff981bc3a6bc290c19cf5dd25de695077c1f2684664a5ff3a018d7c53f953",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -153,15 +153,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_liste_utc": "2026-10-28T17:39:43.934182+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:10.576241+00:00",
+      "controle_detail_utc": "2026-10-28T17:40:19.809216+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 10 septembre 2026 109976 Tribunal Judiciaire de Guéret (Creuse) Vente aux enchères publiques mardi 27 octobre 2026 à 14h30 Une grange et deux parcelles viabilisées Résultat d'adjudication inconnu (Mise à prix : 12 000 €) Glénic Maître Philippe Lefaure, Avocat 3, av. Pierre Mendès-France - 23000 Guéret Tél.: 05 55 41 86 36 🔎︎ 6.625 ❤ 112 Annonce non-officielle - Contenu non certifié Imprimer",
-      "empreinte_contenu": "49a567b28557ca75a9a67e52face3362e14298b81d50417a83c268371f61544e",
+      "extrait_dossier": "Annonce publiée le 10 septembre 2026 109976 Tribunal Judiciaire de Guéret (Creuse) Vente aux enchères publiques mardi 27 octobre 2026 à 14h30 Une grange et deux parcelles viabilisées Résultat d'adjudication inconnu (Mise à prix : 12 000 €) Glénic Maître Philippe Lefaure, Avocat 3, av. Pierre Mendès-France - 23000 Guéret Tél.: 05 55 41 86 36 🔎︎ 6.626 ❤ 112 Annonce non-officielle - Contenu non certifié Imprimer",
+      "empreinte_contenu": "12e04833a19231b49bf455097d76874236c7b45c91c022a395ccad4e52e6984a",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -201,15 +201,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_liste_utc": "2026-10-28T17:39:43.934182+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:12.382857+00:00",
+      "controle_detail_utc": "2026-10-28T17:40:21.385712+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110014 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Une maison de type T2, comprenant : entrée, buanderie-wc, chambre, dégagement, séjour, cuisine ouverte, salle de bains Le tout sur atelier, cave Grenier au-dessus Occupée Résultat d'adjudication inconnu (Mise à prix : 72 000 €) Saint-Jean-de-Vaux 3, rue Basse Afficher le plan (exactitude non garantie) Maître Sophie Delahaut, de la SELARL Delahaut - Thomas, Avocat associé 25, rue d'Autun - 71100 Chalon-sur-Saône SELAS Lancelin - Lambert, Avocats 4, rue Docteur Maret - 21000 Dijon 🔎︎ 5.519 ❤ 96 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "afc5c2e5a71939cc9f6061608b27e3962841d190a67bf658d94c86949f7cbb57",
+      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110014 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Une maison de type T2, comprenant : entrée, buanderie-wc, chambre, dégagement, séjour, cuisine ouverte, salle de bains Le tout sur atelier, cave Grenier au-dessus Occupée Résultat d'adjudication inconnu (Mise à prix : 72 000 €) Saint-Jean-de-Vaux 3, rue Basse Afficher le plan (exactitude non garantie) Maître Sophie Delahaut, de la SELARL Delahaut - Thomas, Avocat associé 25, rue d'Autun - 71100 Chalon-sur-Saône SELAS Lancelin - Lambert, Avocats 4, rue Docteur Maret - 21000 Dijon 🔎︎ 5.520 ❤ 96 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "78b078e47e68d576e3db16778de42a745cbb57247d9c8b98db9f11e06a0eb346",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -250,15 +250,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_liste_utc": "2026-10-28T17:39:43.934182+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:15.277887+00:00",
+      "controle_detail_utc": "2026-10-28T17:40:24.587223+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 22 septembre 2026 110089 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Une maison bourgeoise de 349 m², à usage d'habitation, comprenant : Au rez-de-chaussée : entrée, couloir, salon avec cheminée, coin dressing, dégagement, cuisine, wc, vestiaires, grande salle à manger, bureau Au 1er étage : couloir, grande chambre ouvrant sur balcon, trois chambres, rangements, salle de bains privative avec wc, salle de bains avec douche, salle de bains avec baignoire et wc Au 2ème étage : trois pièces, buanderie, salle d'eau et bureau Caves, dépendance, terrasse avec petit jardin Résultat d'adjudication inconnu (Mise à prix : 340 000 €) Chalon-sur-Saône 8, quai Sainte Marie Afficher le plan (exactitude non garantie) SELAS Adida et Associés, Avocats 15, place du Châtelet - BP 20309 - 71108 Chalon-sur-Saône Tél.: 03 85 48 65 86 - Fax : 03 85 48 33 24 🔎︎ 5.605 ❤ 106 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "89ca6e6d897d7e7bc1863e82de2ab2d5255f0035b665740040837188ec981380",
+      "extrait_dossier": "Annonce publiée le 22 septembre 2026 110089 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Une maison bourgeoise de 349 m², à usage d'habitation, comprenant : Au rez-de-chaussée : entrée, couloir, salon avec cheminée, coin dressing, dégagement, cuisine, wc, vestiaires, grande salle à manger, bureau Au 1er étage : couloir, grande chambre ouvrant sur balcon, trois chambres, rangements, salle de bains privative avec wc, salle de bains avec douche, salle de bains avec baignoire et wc Au 2ème étage : trois pièces, buanderie, salle d'eau et bureau Caves, dépendance, terrasse avec petit jardin Résultat d'adjudication inconnu (Mise à prix : 340 000 €) Chalon-sur-Saône 8, quai Sainte Marie Afficher le plan (exactitude non garantie) SELAS Adida et Associés, Avocats 15, place du Châtelet - BP 20309 - 71108 Chalon-sur-Saône Tél.: 03 85 48 65 86 - Fax : 03 85 48 33 24 🔎︎ 5.606 ❤ 106 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "fb1cbe3420c17344254c485209655dd5a3d7901290f60f8eecae25bf4533d602",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -298,15 +298,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_liste_utc": "2026-10-28T17:39:43.934182+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:11.418292+00:00",
+      "controle_detail_utc": "2026-10-28T17:40:20.602685+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110011 Tribunal Judiciaire de Nevers (Nièvre) Vente aux enchères publiques mardi 27 octobre 2026 à 10h45 Une maison à usage d'habitation de plain-pied, avec combles aménagés, comprenant : cuisine, salle d'eau, salle à manger, trois chambres Garage intégré Terrasse non close Occupée Résultat d'adjudication inconnu (Mise à prix : 80 000 €) Saint-Germain-Chassenay Lieudit Les Oudilles 3, rue des Charmes Maître Émilie Clème, Avocat 10, av. Saint Just - 58000 Nevers Tél.: 03 86 21 96 41 🔎︎ 7.195 ❤ 79 Annonce non-officielle - Contenu non certifié Imprimer",
-      "empreinte_contenu": "5f519ca9c04540b31bd7f7b2fa90c74e9e6de797d6a2bdfb02a06006cb0398b8",
+      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110011 Tribunal Judiciaire de Nevers (Nièvre) Vente aux enchères publiques mardi 27 octobre 2026 à 10h45 Une maison à usage d'habitation de plain-pied, avec combles aménagés, comprenant : cuisine, salle d'eau, salle à manger, trois chambres Garage intégré Terrasse non close Occupée Résultat d'adjudication inconnu (Mise à prix : 80 000 €) Saint-Germain-Chassenay Lieudit Les Oudilles 3, rue des Charmes Maître Émilie Clème, Avocat 10, av. Saint Just - 58000 Nevers Tél.: 03 86 21 96 41 🔎︎ 7.197 ❤ 79 Annonce non-officielle - Contenu non certifié Imprimer",
+      "empreinte_contenu": "f272e30ed9094d978ffd0c3b4d745764e173b9e2defb5e2b5dd686928be45a26",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -346,15 +346,15 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_liste_utc": "2026-10-28T17:39:43.934182+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:14.590429+00:00",
+      "controle_detail_utc": "2026-10-28T17:40:23.781134+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 22 septembre 2026 110082 Tribunal Judiciaire de Poitiers (Vienne) Vente aux enchères publiques mardi 27 octobre 2026 à 9h Une maison à usage d'habitation individuelle, comprenant : Au rez-de-chaussée : cuisine, chambre, salle d'eau avec wc, salon À l'étage : deux chambres, salle d'eau Sous-sol Terrain entièrement clos Occupée Résultat d'adjudication inconnu (Mise à prix : 38 000 €) Châtellerault 17, rue du Champ-des-Bordes Afficher le plan (exactitude non garantie) SELARL 1927 Avocats, SELARL Marie-Anne Bussières Avocats, membres de l'AARPI Drouineau 1927, Avocats 124, route de Poitiers - 86280 Saint-Benoît Tél.: 05 49 88 02 38 - Fax : 05 49 88 98 96 [email protected] 🔎︎ 8.280 ❤ 145 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "75091382f19251f64b598a78ce93a5defe4df7cecda10124ac98ecf74e1d8d17",
+      "extrait_dossier": "Annonce publiée le 22 septembre 2026 110082 Tribunal Judiciaire de Poitiers (Vienne) Vente aux enchères publiques mardi 27 octobre 2026 à 9h Une maison à usage d'habitation individuelle, comprenant : Au rez-de-chaussée : cuisine, chambre, salle d'eau avec wc, salon À l'étage : deux chambres, salle d'eau Sous-sol Terrain entièrement clos Occupée Résultat d'adjudication inconnu (Mise à prix : 38 000 €) Châtellerault 17, rue du Champ-des-Bordes Afficher le plan (exactitude non garantie) SELARL 1927 Avocats, SELARL Marie-Anne Bussières Avocats, membres de l'AARPI Drouineau 1927, Avocats 124, route de Poitiers - 86280 Saint-Benoît Tél.: 05 49 88 02 38 - Fax : 05 49 88 98 96 [email protected] 🔎︎ 8.281 ❤ 145 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "14b77f59a45f4d89972d15855d300cd4339beb13a459ceaff00dea70ca03eecc",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -368,57 +368,6 @@
       "indices_exclusion": [],
       "jours_apres_audience": 1,
       "statut": "a_verifier"
-    },
-    {
-      "id": "7015a103bb12406ef1cc3147473e5c00aa011c860589149a03b08618a5da7306",
-      "url_annonce": "https://www.vench.fr/vente-166606-une-parcelle-tourrettes.html",
-      "titre": "UNE PARCELLE • Tourrettes",
-      "adresse": "",
-      "sources": [
-        {
-          "nom": "Vench - résultats et surenchères",
-          "categorie": "site_pro",
-          "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html"
-        }
-      ],
-      "faits": {
-        "mise_a_prix_eur": "0.01",
-        "occupation": "inconnue",
-        "travaux": "a_verifier",
-        "retiree": false,
-        "seconde_adjudication": false,
-        "surenchere_impossible": true,
-        "vente_amiable": false,
-        "date_vente": "2026-10-26",
-        "surface_m2": "501",
-        "preuve_occupation": [],
-        "preuve_travaux": [],
-        "date_vente_source": "https://www.vench.fr/vente-166606-une-parcelle-tourrettes.html"
-      },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
-      "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:19.722421+00:00",
-      "erreur_detail": null,
-      "niveau_preuve": "C — publication à contrôler",
-      "documents": [],
-      "documents_controles_automatiquement": false,
-      "extrait_dossier": "Ce site utilise Google Analytics. En continuant à naviguer, vous nous autorisez à déposer un cookie à des fins de mesure d'audience. OK En savoir plus Le site des ventes aux enchères immobilières en France UNE PARCELLE • Tourrettes Vente aux enchères sur appel d’offre Adresse 3100 route de Bagnols-en-Forêt 83440 Tourrettes Voir la carte DATE DE L'AUDIENCE 26/10/2026 à 17:00 VENTE TERMINÉE Cette vente est terminée, aucune surenchère possible. Terminée Divers 83440 Tourrettes Description Appel d'offre Cession immobilière d'un bien sis à Tourrettes Dans le cadre de la LIQUIDATION JUDICIAIRE DE LA SAS SIFT Bien sis DOMAINE DE TERRE BLANCHE - TOURRETTES (VAR) ACTIF À CÉDER : Parcelle de 35 501 m² cadastrée section F n°1285, au sein du prestigieux Domaine de Terre Blanche. Dossier de présentation sur demande auprés de la SELAFA MJA DATE LIMITE DE DÉPÔT DES OFFRES 26 NOVEMBRE 2026 À 17h sous pli fermé entre les mains de Maître VAN KEMMEL, Commissaire de Justice 1 quai de Corse – 75004 Paris Audience d’examen des offres : 27 novembre 2026 à 14h30 Renseignements Contact : MJA mail [email protected] Caractéristiques Documents Calculer les frais Résultat de la vente — en cours de récupération Récupération des données en cours auprès de nos partenaires · sous 3 jours ouvrables. En savoir plus ▼ Délai dépassé ? Je relance Demander le résultat Vench s'engage, dans la majorité des cas, à publier les résultats sous 3 jours ouvrables après l'audience. La transmission dépend toutefois des avocats, greffes et sources officielles sollicitées, ce qui peut occasionner certains délais indépendants de notre volonté. Demander le résultat de la vente × ✉ Votre demande est transmise par Vench aux interlocuteurs compétents. Le destinataire est géré automatiquement — vous n'avez pas à le renseigner. ✓ Demande envoyée Nous transmettons votre demande aux interlocuteurs compétents. Vous recevrez le résultat par e-mail dès sa publication. Fermer 3100 route de Bagnols-en-Forêt à Tourrettes, Var Carte de situation Carte parcellaire Informations PLU Informations PLU réservées aux abonnés Consultez le zonage, les règles d’urbanisme applicables et les informations utiles pour évaluer le potentiel du bien. Je m'abonne Ces données sont fournies par notre partenaire iudo.co Carte parcellaire réservée aux abonnés Visualisez le bien sur le plan cadastral, identifiez les parcelles concernées et analysez son environnement immédiat. Je m'abonne Ces données sont fournies par notre partenaire iudo.co Commissaire de justice Maître Eric ASSOULINE Demande d'informations 01 44 24 65 65 [email protected] A l'adresse suivante , Statistiques Publication : 29/09/2026 Vues : Favoris : Clics : Les photos sont indicatives et non contractuelles. Elles ne sauraient engager la responsabilité du poursuivant, ni celle de son conseil et ni celle du site publicateur. ",
-      "empreinte_contenu": "67a373a65db793705be4fd7ddad446950a9bbad2225e260f86edb1021a6e7451",
-      "preuves_documentaires": [],
-      "documents_extraits": [],
-      "motifs_rejet": [
-        "surenchère annoncée impossible"
-      ],
-      "a_verifier": [
-        "preuve d'un bien libre",
-        "état et diagnostics compatibles avec une revente sans travaux",
-        "prix adjugé (la mise à prix ne le remplace pas)",
-        "date limite et recevabilité de la surenchère",
-        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
-      ],
-      "indices_exclusion": [],
-      "jours_apres_audience": 2,
-      "statut": "rejete"
     },
     {
       "id": "d8fcd213b8bfd8a258fd4df88c3de904d8fb7ffb0a35672cfb7f8cc3a1ab6aa3",
@@ -448,16 +397,16 @@
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_liste_utc": "2026-10-28T17:39:43.934182+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:09.850376+00:00",
+      "controle_detail_utc": "2026-10-28T17:40:19.328726+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
-        "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904bd350b4ttt.pdf",
         "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
-        "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf"
+        "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf"
       ],
       "documents_controles_automatiquement": false,
       "extrait_dossier": "retour vers la liste Maison à vendre aux enchères publiques Vente aux enchères Maison Mise à prix : 72 000,00 € Surenchère possible jusqu'au : 06 novembre 2026 Frais prélables : 3 593,89 € Adjudication : 72 000,00 euros Si vous souhaitez faire surenchère, la mise à prix sera portée à 79 200,00 € et il vous faudra consigner la somme de 7 920,00 € (Par chèque de banque à l'ordre de la CARPA d'un montant de 7200 €) Vente 27 octobre 2026 à 13h30 VISITES : la visite est fixée le : Mardi 13 octobre 2026 à 11 heures . Elle sera assurée par l'ETUDE ACTALAW 71, commissaires de justice associés à Chalon sur SAône. Il est inutile de prendre rendez-vous préalablement avec l'huissier. Se rendre directement sur place aux jour et heure fixés. % Estimez vos frais d'acquisition À propos du bien Commune de SAINT JEAN DE VAUX (71640) 3 rue Basse Une maison T2 comprenant à l’étage : entrée, buanderie-WC, grande chambre, petit dégagement, grande séjour, cuisine ouverte sur le séjour, salle de bains. Le tout sur atelier, cave. Grenier au-dessus. Le tout cadastré B 916 d’une contenance de 1a 70ca. ",
@@ -466,76 +415,29 @@
         {
           "champ": "occupation",
           "valeur": "occupe",
-          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
-          "page": 7,
-          "methode": "ocr",
-          "extrait": "bien est occupe",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-          "controle_extraction_utc": "2026-10-28T09:41:48.503721+00:00",
-          "consulte_ce_passage": true
-        },
-        {
-          "champ": "occupation",
-          "valeur": "occupe",
           "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
           "page": 8,
           "methode": "ocr",
           "extrait": "actuellement occupe",
           "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
           "controle_extraction_utc": "2026-10-28T13:52:04.732569+00:00",
+          "consulte_ce_passage": true
+        },
+        {
+          "champ": "occupation",
+          "valeur": "occupe",
+          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
+          "page": 7,
+          "methode": "ocr",
+          "extrait": "bien est occupe",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "controle_extraction_utc": "2026-10-28T09:41:48.503721+00:00",
           "consulte_ce_passage": true
         }
       ],
       "documents_extraits": [
-        {
-          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
-          "statut": "lu",
-          "pages_lues": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24
-          ],
-          "pages_total": 24,
-          "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-          "consulte_ce_passage": true,
-          "validation": "a_verifier"
-        },
-        {
-          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
-          "statut": "lu",
-          "pages_lues": [
-            1,
-            2,
-            3
-          ],
-          "pages_total": 3,
-          "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-          "consulte_ce_passage": true,
-          "validation": "a_verifier"
-        },
         {
           "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
           "statut": "partiel",
@@ -566,17 +468,70 @@
             24,
             25,
             26,
-            27
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
           ],
           "pages_total": 36,
-          "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "consulte_ce_passage": true,
+          "validation": "a_verifier"
+        },
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
+          "statut": "lu",
+          "pages_lues": [
+            1,
+            2,
+            3
+          ],
+          "pages_total": 3,
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "consulte_ce_passage": true,
+          "validation": "a_verifier"
+        },
+        {
+          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
+          "statut": "lu",
+          "pages_lues": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "pages_total": 24,
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
           "consulte_ce_passage": true,
           "validation": "a_verifier"
         }
       ],
       "motifs_rejet": [
-        "indice documentaire incompatible : occupation=occupe, p. 7 (ocr) — identité et actualité à contrôler",
-        "indice documentaire incompatible : occupation=occupe, p. 8 (ocr) — identité et actualité à contrôler"
+        "indice documentaire incompatible : occupation=occupe, p. 8 (ocr) — identité et actualité à contrôler",
+        "indice documentaire incompatible : occupation=occupe, p. 7 (ocr) — identité et actualité à contrôler"
       ],
       "a_verifier": [
         "preuve d'un bien libre",
@@ -588,125 +543,22 @@
         {
           "champ": "occupation",
           "valeur": "occupe",
-          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
-          "page": 7,
+          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
+          "page": 8,
           "methode": "ocr",
-          "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00"
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00"
         },
         {
           "champ": "occupation",
           "valeur": "occupe",
-          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
-          "page": 8,
+          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
+          "page": 7,
           "methode": "ocr",
-          "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00"
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00"
         }
       ],
       "jours_apres_audience": 1,
       "surenchere_minimale_eur": "79200.00",
-      "statut": "rejete"
-    },
-    {
-      "id": "aee3805cdc934c663e5d479c923bc8f38d0794bb75c18e6f6f0ea40003ca24bc",
-      "url_annonce": "https://www.vench.fr/vente-166529-une-maison-bourgeoise-a-usage-d-habitation-chalon-sur-saone.html",
-      "titre": "UNE MAISON BOURGEOISE À USAGE D'HABITATION • 349m² • Chalon-sur-Saône",
-      "adresse": "",
-      "sources": [
-        {
-          "nom": "Vench - résultats et surenchères",
-          "categorie": "site_pro",
-          "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html"
-        }
-      ],
-      "faits": {
-        "mise_a_prix_eur": "340000.00",
-        "occupation": "inconnue",
-        "travaux": "a_verifier",
-        "retiree": false,
-        "seconde_adjudication": false,
-        "surenchere_impossible": true,
-        "vente_amiable": false,
-        "surface_m2": "349",
-        "date_vente": "2026-10-27",
-        "preuve_occupation": [],
-        "preuve_travaux": [],
-        "date_vente_source": "https://www.vench.fr/vente-166529-une-maison-bourgeoise-a-usage-d-habitation-chalon-sur-saone.html"
-      },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
-      "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:14.919072+00:00",
-      "erreur_detail": null,
-      "niveau_preuve": "C — publication à contrôler",
-      "documents": [],
-      "documents_controles_automatiquement": false,
-      "extrait_dossier": "Ce site utilise Google Analytics. En continuant à naviguer, vous nous autorisez à déposer un cookie à des fins de mesure d'audience. OK En savoir plus Le site des ventes aux enchères immobilières en France UNE MAISON BOURGEOISE À USAGE D'HABITATION • 349m² • Chalon-sur-Saône Ventes aux enchères publiques - Tribunal judiciaire de CHALON SUR SAONE Adresse 71100 Chalon-sur-Saône Voir la carte DATE DE L'AUDIENCE 27/10/2026 à 13:30 VENTE TERMINÉE Cette vente est terminée, aucune surenchère possible. Terminée Maison • 349m² 71100 Chalon-sur-Saône Description Pour consulter l'intégralité des informations disponibles sur cette vente, vous devez être abonné. Grâce à l'abonnement à Vench, à partir de 40€ par an, vous avez accès à l'ensemble des ventes judiciaires référencées en France, aux visites, aux résultats ... ainsi qu'à un panel de services pour cibler au mieux les opportunités des ventes aux enchères : alertes, documents liés à la vente (si fournis par l'avocat), représentations, ... S'abonner Caractéristiques Balcon Terrasse Cave Jardin Documents Mise à prix : 340 000.00 € Calculer les frais Consignation : 34 000,00 € libellé à l'ordre CARPA Chalon-sur-Saône, Saône-et-Loire Avocat poursuivant S'abonner pour consulter Journal publicateur Vente publiée par JOURNAL DE SAONE ET LOIRE - SAONE ET LOIRE le 18/09/2026 15, rue des Tonneliers B.P. 30134, 71104 CHALON SUR SAONE CEDEX Tribunal Judiciaire de CHALON SUR SAONE Rue Emiland Menand, 71 100 CHALON SUR SAONE Statistiques Publication : 18/09/2026 Vues : Favoris : Clics : Les photos sont indicatives et non contractuelles. Elles ne sauraient engager la responsabilité du poursuivant, ni celle de son conseil et ni celle du site publicateur. ",
-      "empreinte_contenu": "60743da3d65a5601ced4bb939592873ad6fd15f2db4e05256ae90fcb8b65baa5",
-      "restriction_acces": "description complète réservée aux abonnés",
-      "preuves_documentaires": [],
-      "documents_extraits": [],
-      "motifs_rejet": [
-        "surenchère annoncée impossible"
-      ],
-      "a_verifier": [
-        "preuve d'un bien libre",
-        "état et diagnostics compatibles avec une revente sans travaux",
-        "prix adjugé (la mise à prix ne le remplace pas)",
-        "date limite et recevabilité de la surenchère",
-        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
-      ],
-      "indices_exclusion": [],
-      "jours_apres_audience": 1,
-      "statut": "rejete"
-    },
-    {
-      "id": "21ea700a82227fe83675004afad3269a1e48439ed77a76721fbdddbe27fe10fc",
-      "url_annonce": "https://www.vench.fr/vente-166600-une-maison-a-usage-d-habitation-saint-germain-chassenay.html",
-      "titre": "UNE MAISON À USAGE D'HABITATION • Saint-Germain-Chassenay",
-      "adresse": "",
-      "sources": [
-        {
-          "nom": "Vench - résultats et surenchères",
-          "categorie": "site_pro",
-          "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html"
-        }
-      ],
-      "faits": {
-        "mise_a_prix_eur": "80000.00",
-        "occupation": "inconnue",
-        "travaux": "a_verifier",
-        "retiree": false,
-        "seconde_adjudication": false,
-        "surenchere_impossible": true,
-        "vente_amiable": false,
-        "date_vente": "2026-10-27",
-        "preuve_occupation": [],
-        "preuve_travaux": [],
-        "date_vente_source": "https://www.vench.fr/vente-166600-une-maison-a-usage-d-habitation-saint-germain-chassenay.html"
-      },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
-      "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:18.897429+00:00",
-      "erreur_detail": null,
-      "niveau_preuve": "C — publication à contrôler",
-      "documents": [],
-      "documents_controles_automatiquement": false,
-      "extrait_dossier": "Ce site utilise Google Analytics. En continuant à naviguer, vous nous autorisez à déposer un cookie à des fins de mesure d'audience. OK En savoir plus Le site des ventes aux enchères immobilières en France UNE MAISON À USAGE D'HABITATION • Saint-Germain-Chassenay Ventes aux enchères publiques - Tribunal judiciaire de NEVERS Adresse 58300 Saint-Germain-Chassenay Voir la carte DATE DE L'AUDIENCE 27/10/2026 à 10:45 VENTE TERMINÉE Cette vente est terminée, aucune surenchère possible. Terminée Maison 58300 Saint-Germain-Chassenay Description Pour consulter l'intégralité des informations disponibles sur cette vente, vous devez être abonné. Grâce à l'abonnement à Vench, à partir de 40€ par an, vous avez accès à l'ensemble des ventes judiciaires référencées en France, aux visites, aux résultats ... ainsi qu'à un panel de services pour cibler au mieux les opportunités des ventes aux enchères : alertes, documents liés à la vente (si fournis par l'avocat), représentations, ... S'abonner Caractéristiques Documents Mise à prix : 80 000.00 € Calculer les frais Consignation : 8 000 € à l'ordre du Séquestre Saint-Germain-Chassenay, Nièvre Avocat poursuivant S'abonner pour consulter Journal publicateur Vente publiée par JOURNAL DU CENTRE - NIEVRE le 26/09/2026 GROUPE CENTRE FRANCE 45 rue du Clos Four, 63 056 CLERMONT FERRAND CEDEX 2 Tribunal Judiciaire de NEVERS Place du Palais, 58 000 NEVERS Statistiques Publication : 26/09/2026 Vues : Favoris : Clics : Les photos sont indicatives et non contractuelles. Elles ne sauraient engager la responsabilité du poursuivant, ni celle de son conseil et ni celle du site publicateur. ",
-      "empreinte_contenu": "cc846d7a4b914d8e5f62f66ea3ab784c898930cc6128f737f0fc0d0fd668ed6e",
-      "restriction_acces": "description complète réservée aux abonnés",
-      "preuves_documentaires": [],
-      "documents_extraits": [],
-      "motifs_rejet": [
-        "surenchère annoncée impossible"
-      ],
-      "a_verifier": [
-        "preuve d'un bien libre",
-        "état et diagnostics compatibles avec une revente sans travaux",
-        "prix adjugé (la mise à prix ne le remplace pas)",
-        "date limite et recevabilité de la surenchère",
-        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
-      ],
-      "indices_exclusion": [],
-      "jours_apres_audience": 1,
       "statut": "rejete"
     },
     {
@@ -736,15 +588,15 @@
           "a renover"
         ]
       },
-      "controle_liste_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_liste_utc": "2026-10-28T17:39:43.934182+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-28T16:44:13.225685+00:00",
+      "controle_detail_utc": "2026-10-28T17:40:22.186094+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110015 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Une ferme bressane à rénover, comprenant : Au rez-de-chaussée : entrée, cuisine, séjour, couloir, wc, salle de bains, trois chambres, garage et grange À l'étage : grenier Jardin Résultat d'adjudication inconnu (Mise à prix : 10 000 €) Dommartin-lès-Cuiseaux 1792, route de Varennes Afficher le plan (exactitude non garantie) Maître Frédéric Hopgood, de la SELARL Hopgood - Couillerot - Corneloup - Doret, Avocat 16, bd de la République - 71100 Chalon-sur-Saône 🔎︎ 6.455 ❤ 150 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "a4d78f5998b9d06d5494e87e1d21ff772eed4ff2e54b873cb6457aa30d4fe98c",
+      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110015 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Une ferme bressane à rénover, comprenant : Au rez-de-chaussée : entrée, cuisine, séjour, couloir, wc, salle de bains, trois chambres, garage et grange À l'étage : grenier Jardin Résultat d'adjudication inconnu (Mise à prix : 10 000 €) Dommartin-lès-Cuiseaux 1792, route de Varennes Afficher le plan (exactitude non garantie) Maître Frédéric Hopgood, de la SELARL Hopgood - Couillerot - Corneloup - Doret, Avocat 16, bd de la République - 71100 Chalon-sur-Saône 🔎︎ 6.456 ❤ 150 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "86607709d75605dd0d400d8cbbd8f5c4f7e2d5364957734f279dc6e9e88c15ec",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [
@@ -766,7 +618,7 @@
       "nom": "Licitor - ventes à venir",
       "categorie": "site_pro",
       "url": "https://www.licitor.com/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 103,
       "pages_audiences_lues": 0,
@@ -777,7 +629,7 @@
       "nom": "Licitor - résultats",
       "categorie": "site_pro",
       "url": "https://www.licitor.com/historique-des-adjudications.html",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 167,
       "pages_audiences_lues": 4,
@@ -788,7 +640,7 @@
       "nom": "Avoventes CNB - annonces nationales",
       "categorie": "site_pro",
       "url": "https://avoventes.fr/recherche/?display=liste&order=asc&sort=date",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 208,
       "pages_audiences_lues": 0,
@@ -799,7 +651,7 @@
       "nom": "Vench - annonces nationales",
       "categorie": "site_pro",
       "url": "https://www.vench.fr/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -810,7 +662,7 @@
       "nom": "Enchères Publiques - immobilier",
       "categorie": "site_pro",
       "url": "https://encheres-publiques.com/fr/ventes/immobilier",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "differe",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -825,7 +677,7 @@
       "nom": "Info Enchères - annonces nationales",
       "categorie": "site_pro",
       "url": "https://www.info-encheres.com/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 87,
       "pages_audiences_lues": 0,
@@ -836,7 +688,7 @@
       "nom": "Petites Affiches - enchères immobilières",
       "categorie": "journal",
       "url": "https://www.petitesaffiches.fr/encheres-immobilieres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "differe",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -851,22 +703,18 @@
       "nom": "La Gazette France - adjudications",
       "categorie": "journal",
       "url": "https://www.lagazettefrance.fr/annonces-legales/ventes-encheres",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
-      "statut": "differe",
-      "liens_detectes": 0,
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
+      "statut": "ok",
+      "liens_detectes": 30,
       "pages_audiences_lues": 0,
-      "fiches_lues": 0,
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T16:45:32.887955+00:00 après HTTP 429",
-      "phase": "source",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-28T16:45:32.887955+00:00",
-      "code_http": 429
+      "fiches_lues": 10,
+      "erreur": ""
     },
     {
       "nom": "Informateur Judiciaire - Grand Ouest",
       "categorie": "journal",
       "url": "https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -877,7 +725,7 @@
       "nom": "7 Jours - Bretagne",
       "categorie": "journal",
       "url": "https://www.7jours.fr/ventes-aux-encheres-immobilieres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 11,
       "pages_audiences_lues": 0,
@@ -888,7 +736,7 @@
       "nom": "Echos Judiciaires Girondins",
       "categorie": "journal",
       "url": "https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -899,7 +747,7 @@
       "nom": "La Vie Economique - Sud-Ouest",
       "categorie": "journal",
       "url": "https://www.vie-economique.com/ventes-aux-encheres-immobilieres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -910,7 +758,7 @@
       "nom": "Défis Avocats - ventes judiciaires",
       "categorie": "avocat",
       "url": "https://defis-avocats.com/ventes-judiciaires/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 8,
       "pages_audiences_lues": 0,
@@ -921,7 +769,7 @@
       "nom": "Elige Avocats - ventes immobilières",
       "categorie": "avocat",
       "url": "https://elige-avocats.com/ventes-immobilieres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 27,
       "pages_audiences_lues": 0,
@@ -932,7 +780,7 @@
       "nom": "AHBL Avocats - ventes immobilières",
       "categorie": "avocat",
       "url": "https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -943,7 +791,7 @@
       "nom": "Legalyon - ventes aux enchères",
       "categorie": "avocat",
       "url": "https://legalyon.fr/fr/page/vente-aux-encheres",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 4,
       "pages_audiences_lues": 0,
@@ -954,7 +802,7 @@
       "nom": "Vench - ventes à venir",
       "categorie": "site_pro",
       "url": "https://www.vench.fr/prochaines-ventes-aux-encheres.html",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -965,18 +813,18 @@
       "nom": "Vench - résultats et surenchères",
       "categorie": "site_pro",
       "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
-      "fiches_lues": 12,
+      "fiches_lues": 0,
       "erreur": ""
     },
     {
       "nom": "UDA Avocats - Saint-Etienne",
       "categorie": "avocat",
       "url": "https://uda-avocats.com/nos-saisies-immobilieres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -987,7 +835,7 @@
       "nom": "Avoventes - Tribunal de Saint-Etienne",
       "categorie": "site_pro",
       "url": "https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 7,
       "pages_audiences_lues": 0,
@@ -998,7 +846,7 @@
       "nom": "9 Janvier Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.9janvier-avocats.com/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 2,
       "pages_audiences_lues": 0,
@@ -1009,7 +857,7 @@
       "nom": "AARPI PLATON MAGNE TURNER — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://pmt-avocats.fr/ventes-encheres-octobre-2026.php",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 7,
       "pages_audiences_lues": 0,
@@ -1020,7 +868,7 @@
       "nom": "Audineau & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.audineau.fr/ventes-aux-encheres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1031,7 +879,7 @@
       "nom": "Briffod Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.briffod-avocats.fr/briffod-avocats-droit-commercial-civil-encheres-bonneville-haute-savoie-3/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 5,
       "pages_audiences_lues": 0,
@@ -1042,7 +890,7 @@
       "nom": "C2PW / Maître Didier Pilot — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.c2pw.fr/vente-encheres",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1053,7 +901,7 @@
       "nom": "DCL Avocats & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.dcl-avocats.fr/nos-ventes-aux-encheres-immobilieres",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 2,
       "pages_audiences_lues": 0,
@@ -1064,7 +912,7 @@
       "nom": "ELCY Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.elcyavocats.fr/ventes-immobilieres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "aucun lien détecté — structure à contrôler",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1075,7 +923,7 @@
       "nom": "Guedj Haas-Biri — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.avocats-guedj-haasbiri.com/encheres-immobilieres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 4,
       "pages_audiences_lues": 0,
@@ -1086,7 +934,7 @@
       "nom": "Imbert & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://imbert-avocats.com/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1097,7 +945,7 @@
       "nom": "Kapia Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.kapia-avocats.com/ventes-aux-encheres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 4,
       "pages_audiences_lues": 0,
@@ -1108,7 +956,7 @@
       "nom": "Maître Lobbens — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.avocat-lobbens-marseille.fr/annonces-ventes-aux-encheres/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 6,
       "pages_audiences_lues": 0,
@@ -1119,7 +967,7 @@
       "nom": "Mermet & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.mermet-associes.com/fr/vente-enchere",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1130,7 +978,7 @@
       "nom": "Patrick Barret et Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.barret-associes.fr/ventes-aux-encheres/nos-ventes.htm",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "echec",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1142,7 +990,7 @@
       "nom": "QUADRIGE AVOCATS — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.quadrige-avocats.com/ventes/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1153,7 +1001,7 @@
       "nom": "SCP Gualbert Reche Banuls — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.gualbert-reche-banuls.fr/saisies-immobilieres/nos-ventes-aux-encheres.htm",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 16,
       "pages_audiences_lues": 0,
@@ -1164,7 +1012,7 @@
       "nom": "SELARL BOST-AVRIL — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.bost-avril.com/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "aucun lien détecté — structure à contrôler",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1175,7 +1023,7 @@
       "nom": "TGA Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://tga-avocats.com/nos-ventes/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1186,7 +1034,7 @@
       "nom": "Touraut Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://immobilier.touraut-avocats.com/",
-      "controle_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_utc": "2026-10-28T17:39:43.934182+00:00",
       "statut": "aucun lien détecté — structure à contrôler",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1196,41 +1044,189 @@
   ],
   "incidents": [
     {
-      "url": "https://www.mermet-associes.com/fr/vente-enchere",
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261008171716-546755-000091520249",
       "phase": "fiche",
-      "erreur": "structure de fiche non reconnue ou contenu vide"
+      "erreur": "HTTP Error 429: Too Many Requests",
+      "code_http": 429
     },
     {
-      "url": "https://www.mermet-associes.com/fr/vente-enchere/un-appartement-21-rue-du-lieutenant-genot-a-gaillard-bien-adjuge-a-36000-euros-79",
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261009111609-867674-000091520505",
       "phase": "fiche",
-      "erreur": "structure de fiche non reconnue ou contenu vide"
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
     },
     {
-      "url": "https://www.quadrige-avocats.com/ventes/",
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012102242-922495-000091521084",
       "phase": "fiche",
-      "erreur": "structure de fiche non reconnue ou contenu vide"
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012140704-583213-000091521224",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012144757-443668-000091521253",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012154249-804512-000091521302",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012160200-664795-000091521319",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013100314-164678-000091521572",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013102524-953060-000091521588",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013111450-974478-000091521629",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013115452-442907-000091521679",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261014115904-486816-000091522134",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261014131959-439267-000091522168",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261015111601-858564-000091522531",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261016110613-161679-000091523106",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261016113219-985663-000091523126",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261016152011-260933-000091523243",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261019121519-350072-000091523745",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261019143651-283092-000091523822",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
+    },
+    {
+      "url": "https://www.lagazettefrance.fr/annonce-legale/20261022105649-939662-000091525162",
+      "phase": "fiche",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T18:40:32.205606+00:00 après HTTP 429",
+      "differe": true,
+      "nouvel_essai_utc": "2026-10-28T18:40:32.205606+00:00",
+      "code_http": 429
     },
     {
       "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904bd350b4ttt.pdf",
       "phase": "pdf",
       "erreur": "page ou document dépassant 10 Mo"
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/CDCV-INTEGRAL.pdf",
+      "phase": "pdf",
+      "erreur": "page ou document dépassant 10 Mo"
     }
   ],
   "limites": [
-    "Budget : 40 pages d'audience et 120 fiches par passage ; 0 fiches candidates non lues ce passage.",
-    "89 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.",
+    "Budget : 40 pages d'audience et 120 fiches par passage ; 15 fiches candidates non lues ce passage.",
+    "121 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.",
     "Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.",
     "Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.",
     "Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.",
     "Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.",
     "PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 123 documents détectés non consultés ce passage ; 39 liens directs vers un PDF.",
     "Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.",
-    "4 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json."
+    "22 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json."
   ],
   "documents": [
     {
       "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
       "empreinte_pdf": "e7223459c52bb0d5f81ccf93f85040c6bacc74b2140350fab9045713950b4345",
       "version_extraction": 2,
       "extractions": {
@@ -1277,11 +1273,11 @@
       "annonces": [
         "https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1"
       ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
     },
     {
       "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
       "empreinte_pdf": "5f7539472f88a9de5a5aa578c4c78a9e5e03f4e08bbf011d6f79326850f9bf37",
       "version_extraction": 2,
       "extractions": {
@@ -1518,11 +1514,11 @@
       "annonces": [
         "https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1"
       ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
     },
     {
       "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
       "empreinte_pdf": "7ff2d46e611e8eb572327b862a66759c124724fe561fb5eee419e3f73adb5b80",
       "version_extraction": 2,
       "extractions": {
@@ -1726,10 +1722,52 @@
           "preuves": []
         },
         "28": {
-          "methode": "en_attente_ocr",
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
           "preuves": []
         },
         "29": {
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "30": {
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "31": {
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "32": {
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "33": {
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": "fra+eng",
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "34": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "35": {
           "methode": "en_attente_ocr",
           "preuves": []
         }
@@ -1767,9 +1805,15 @@
         24,
         25,
         26,
-        27
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
       ],
-      "pages_restantes": 9,
+      "pages_restantes": 3,
       "preuves": [
         {
           "champ": "occupation",
@@ -1791,7 +1835,7 @@
       "annonces": [
         "https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1"
       ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
     },
     {
       "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904bd350b4ttt.pdf",
@@ -1803,152 +1847,34 @@
       ]
     },
     {
-      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/SIP-TOULON_MANDRILE_22_10_2026/PVD.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "empreinte_pdf": "f8563c1c43ebddc188e1423ec8e346b5710dc90887a82b4b18b691c465291398",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "2": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "3": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "4": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "5": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "6": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "7": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "8": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 8,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": false,
-      "incidents_pages": [],
-      "pages_total": 19,
-      "pages_lues": [],
-      "pages_restantes": 19,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "partiel",
-      "validation": "a_verifier",
-      "url_origine": "https://pmt-avocats.fr/ventes/2026/Octobre/SIP-TOULON_MANDRILE_22_10_2026/PVD.pdf",
-      "annonces": [
-        "https://pmt-avocats.fr/ventes-encheres-octobre-2026.php"
-      ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/AFFICHE.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "empreinte_pdf": "0086583868fac68bec0836fe8ae547d9140595624b1f40fbb30b602279f65862",
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/PVD.pdf",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "empreinte_pdf": "27c093073c4b643c5cd6d5838da80f34c03a5c6f1d4dffa6e5a82f6d9c095b60",
       "version_extraction": 2,
       "extractions": {
         "1": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-28T16:43:35.856423+00:00",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "2": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
           "preuves": [
             {
-              "champ": "mise_a_prix_eur",
-              "valeur": "45000.00",
-              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/AFFICHE.pdf",
-              "page": 1,
-              "methode": "texte",
-              "extrait": "mise a prix : 45.000,00 €",
-              "validation": "a_verifier"
-            },
-            {
               "champ": "occupation",
               "valeur": "occupe",
-              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/AFFICHE.pdf",
-              "page": 1,
+              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/PVD.pdf",
+              "page": 2,
               "methode": "texte",
-              "extrait": "biens occupes",
+              "extrait": "actuellement occupe",
               "validation": "a_verifier"
             }
           ]
-        }
-      },
-      "pages_traitees_ce_passage": 1,
-      "pages_lues_ce_passage": 1,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": false,
-      "incidents_pages": [],
-      "pages_total": 1,
-      "pages_lues": [
-        1
-      ],
-      "pages_restantes": 0,
-      "preuves": [
-        {
-          "champ": "mise_a_prix_eur",
-          "valeur": "45000.00",
-          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/AFFICHE.pdf",
-          "page": 1,
-          "methode": "texte",
-          "extrait": "mise a prix : 45.000,00 €",
-          "validation": "a_verifier"
-        },
-        {
-          "champ": "occupation",
-          "valeur": "occupe",
-          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/AFFICHE.pdf",
-          "page": 1,
-          "methode": "texte",
-          "extrait": "biens occupes",
-          "validation": "a_verifier"
-        }
-      ],
-      "faits_candidats": {
-        "mise_a_prix_eur": "45000.00",
-        "occupation": "occupe"
-      },
-      "contradictions": {},
-      "statut": "lu",
-      "validation": "a_verifier",
-      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/AFFICHE.pdf",
-      "annonces": [
-        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
-      ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/CDCV.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "empreinte_pdf": "216587b6d69e652227bd6955e578e02c97bdd6d4160d756066ef62c5d506fda0",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "2": {
-          "methode": "en_attente_ocr",
-          "preuves": []
         },
         "3": {
           "methode": "en_attente_ocr",
@@ -1959,296 +1885,10 @@
           "preuves": []
         },
         "5": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "6": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "7": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "8": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 8,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": false,
-      "incidents_pages": [],
-      "pages_total": 132,
-      "pages_lues": [],
-      "pages_restantes": 132,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "partiel",
-      "validation": "a_verifier",
-      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/CDCV.pdf",
-      "annonces": [
-        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
-      ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/Note-de-synthese.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "empreinte_pdf": "585011168cab0029723cacc92bfa54bee03cecab05fe07e942451e30cb0c27f7",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 1,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": false,
-      "incidents_pages": [],
-      "pages_total": 1,
-      "pages_lues": [],
-      "pages_restantes": 1,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "partiel",
-      "validation": "a_verifier",
-      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/Note-de-synthese.pdf",
-      "annonces": [
-        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
-      ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/PVD-et-Mesurage.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "empreinte_pdf": "0b2e6f91fcc79946ced86c3e20dd74c5b505c1bd1753f4b850bba0903b2004e8",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "2": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "3": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "4": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "5": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "6": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "7": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "8": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 8,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": false,
-      "incidents_pages": [],
-      "pages_total": 29,
-      "pages_lues": [],
-      "pages_restantes": 29,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "partiel",
-      "validation": "a_verifier",
-      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/PVD-et-Mesurage.pdf",
-      "annonces": [
-        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
-      ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/AFFICHE.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "empreinte_pdf": "95dfd9364c720959d0d8c250b5e05b703dc61c94ae57ab25d696d787d9dfa9e1",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-28T16:43:35.856423+00:00",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
-          "preuves": [
-            {
-              "champ": "mise_a_prix_eur",
-              "valeur": "18000.00",
-              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/AFFICHE.pdf",
-              "page": 1,
-              "methode": "texte",
-              "extrait": "mise a prix : 18.000,00 €",
-              "validation": "a_verifier"
-            },
-            {
-              "champ": "occupation",
-              "valeur": "occupe",
-              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/AFFICHE.pdf",
-              "page": 1,
-              "methode": "texte",
-              "extrait": "occupes par",
-              "validation": "a_verifier"
-            }
-          ]
-        }
-      },
-      "pages_traitees_ce_passage": 1,
-      "pages_lues_ce_passage": 1,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": false,
-      "incidents_pages": [],
-      "pages_total": 1,
-      "pages_lues": [
-        1
-      ],
-      "pages_restantes": 0,
-      "preuves": [
-        {
-          "champ": "mise_a_prix_eur",
-          "valeur": "18000.00",
-          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/AFFICHE.pdf",
-          "page": 1,
-          "methode": "texte",
-          "extrait": "mise a prix : 18.000,00 €",
-          "validation": "a_verifier"
-        },
-        {
-          "champ": "occupation",
-          "valeur": "occupe",
-          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/AFFICHE.pdf",
-          "page": 1,
-          "methode": "texte",
-          "extrait": "occupes par",
-          "validation": "a_verifier"
-        }
-      ],
-      "faits_candidats": {
-        "mise_a_prix_eur": "18000.00",
-        "occupation": "occupe"
-      },
-      "contradictions": {},
-      "statut": "lu",
-      "validation": "a_verifier",
-      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/AFFICHE.pdf",
-      "annonces": [
-        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
-      ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/CDCV.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "empreinte_pdf": "a1457be356b23d96cfc422132966e8ca7a6e3d82e656797898fe628757914cd3",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "2": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "3": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "4": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "5": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "6": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "7": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "8": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 8,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": false,
-      "incidents_pages": [],
-      "pages_total": 162,
-      "pages_lues": [],
-      "pages_restantes": 162,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "partiel",
-      "validation": "a_verifier",
-      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/CDCV.pdf",
-      "annonces": [
-        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
-      ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/DIAGNOSTICS.pdf",
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "empreinte_pdf": "2f47e3d8610c65ef9125639c2ceae491c7282c91280be6de4fc2b15369ddfb46",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-28T16:43:35.856423+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "2": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-28T16:43:35.856423+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "3": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-28T16:43:35.856423+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "4": {
-          "methode": "en_attente_ocr",
-          "preuves": []
-        },
-        "5": {
-          "methode": "en_attente_ocr",
           "preuves": []
         },
         "6": {
@@ -2269,23 +1909,496 @@
       "pages_ocr_ce_passage": 0,
       "cache_reutilise": false,
       "incidents_pages": [],
-      "pages_total": 69,
+      "pages_total": 44,
       "pages_lues": [
         1,
         2,
-        3
+        5
       ],
-      "pages_restantes": 66,
+      "pages_restantes": 41,
+      "preuves": [
+        {
+          "champ": "occupation",
+          "valeur": "occupe",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/PVD.pdf",
+          "page": 2,
+          "methode": "texte",
+          "extrait": "actuellement occupe",
+          "validation": "a_verifier"
+        }
+      ],
+      "faits_candidats": {
+        "occupation": "occupe"
+      },
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/PVD.pdf",
+      "annonces": [
+        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
+      ],
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AFFICHE.pdf",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "empreinte_pdf": "4d58040a0e397ae7f4d607b96130e1bc1b1ffce810f8287a20a638db4b9ecb63",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": [
+            {
+              "champ": "mise_a_prix_eur",
+              "valeur": "17600.00",
+              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AFFICHE.pdf",
+              "page": 1,
+              "methode": "texte",
+              "extrait": "mise a prix : 17.600,00 €",
+              "validation": "a_verifier"
+            }
+          ]
+        }
+      },
+      "pages_traitees_ce_passage": 1,
+      "pages_lues_ce_passage": 1,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 1,
+      "pages_lues": [
+        1
+      ],
+      "pages_restantes": 0,
+      "preuves": [
+        {
+          "champ": "mise_a_prix_eur",
+          "valeur": "17600.00",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AFFICHE.pdf",
+          "page": 1,
+          "methode": "texte",
+          "extrait": "mise a prix : 17.600,00 €",
+          "validation": "a_verifier"
+        }
+      ],
+      "faits_candidats": {
+        "mise_a_prix_eur": "17600.00"
+      },
+      "contradictions": {},
+      "statut": "lu",
+      "validation": "a_verifier",
+      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AFFICHE.pdf",
+      "annonces": [
+        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
+      ],
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "empreinte_pdf": "0c031e2057ee680c401ffe0d4e83f3256095482c49aaf7f5d6a8cfc6300edf5f",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": [
+            {
+              "champ": "occupation",
+              "valeur": "loue",
+              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+              "page": 1,
+              "methode": "texte",
+              "extrait": "biens loues",
+              "validation": "a_verifier"
+            }
+          ]
+        },
+        "2": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": [
+            {
+              "champ": "occupation",
+              "valeur": "loue",
+              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+              "page": 2,
+              "methode": "texte",
+              "extrait": "biens loues",
+              "validation": "a_verifier"
+            }
+          ]
+        },
+        "3": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "4": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "5": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": [
+            {
+              "champ": "occupation",
+              "valeur": "loue",
+              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+              "page": 5,
+              "methode": "texte",
+              "extrait": "locaux loues; bien loue",
+              "validation": "a_verifier"
+            }
+          ]
+        },
+        "6": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "7": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "8": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 8,
+      "pages_lues_ce_passage": 8,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 10,
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages_restantes": 2,
+      "preuves": [
+        {
+          "champ": "occupation",
+          "valeur": "loue",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+          "page": 1,
+          "methode": "texte",
+          "extrait": "biens loues",
+          "validation": "a_verifier"
+        },
+        {
+          "champ": "occupation",
+          "valeur": "loue",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+          "page": 2,
+          "methode": "texte",
+          "extrait": "biens loues",
+          "validation": "a_verifier"
+        },
+        {
+          "champ": "occupation",
+          "valeur": "loue",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+          "page": 5,
+          "methode": "texte",
+          "extrait": "locaux loues; bien loue",
+          "validation": "a_verifier"
+        }
+      ],
+      "faits_candidats": {
+        "occupation": "loue"
+      },
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+      "annonces": [
+        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
+      ],
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/CDCV-INTEGRAL.pdf",
+      "phase": "pdf",
+      "erreur": "page ou document dépassant 10 Mo",
+      "statut": "echec",
+      "annonces": [
+        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
+      ]
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/CONTRAT-21082.pdf",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "empreinte_pdf": "2fc5e68e530defec95047c4b2f224cdc4ffe86ecdbae8f13fa77fbc3e88c6284",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "2": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "3": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "4": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "5": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 5,
+      "pages_lues_ce_passage": 0,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 5,
+      "pages_lues": [],
+      "pages_restantes": 5,
       "preuves": [],
       "faits_candidats": {},
       "contradictions": {},
       "statut": "partiel",
       "validation": "a_verifier",
-      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/DIAGNOSTICS.pdf",
+      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/CONTRAT-21082.pdf",
       "annonces": [
         "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
       ],
-      "derniere_tentative_utc": "2026-10-28T16:43:35.856423+00:00"
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/PVD.pdf",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "empreinte_pdf": "f6114dfd754d6651ff4666b67b82d53d301116d2b71f50e7d5dcbc40361c4e22",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "2": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "3": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "4": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "5": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "6": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        },
+        "7": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "8": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 8,
+      "pages_lues_ce_passage": 6,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 18,
+      "pages_lues": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "pages_restantes": 12,
+      "preuves": [],
+      "faits_candidats": {},
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/PVD.pdf",
+      "annonces": [
+        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
+      ],
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/AFFICHE.pdf",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "empreinte_pdf": "964ca5453dcb3d6e223c5eb22769b45e743404ef39933538ac2cf17483094f67",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "texte",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "langues_ocr": null,
+          "texte_detecte": true,
+          "preuves": [
+            {
+              "champ": "mise_a_prix_eur",
+              "valeur": "2500000.00",
+              "url": "https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/AFFICHE.pdf",
+              "page": 1,
+              "methode": "texte",
+              "extrait": "mise a prix : 2.500.000,00 €",
+              "validation": "a_verifier"
+            }
+          ]
+        }
+      },
+      "pages_traitees_ce_passage": 1,
+      "pages_lues_ce_passage": 1,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 1,
+      "pages_lues": [
+        1
+      ],
+      "pages_restantes": 0,
+      "preuves": [
+        {
+          "champ": "mise_a_prix_eur",
+          "valeur": "2500000.00",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/AFFICHE.pdf",
+          "page": 1,
+          "methode": "texte",
+          "extrait": "mise a prix : 2.500.000,00 €",
+          "validation": "a_verifier"
+        }
+      ],
+      "faits_candidats": {
+        "mise_a_prix_eur": "2500000.00"
+      },
+      "contradictions": {},
+      "statut": "lu",
+      "validation": "a_verifier",
+      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/AFFICHE.pdf",
+      "annonces": [
+        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
+      ],
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/CDCV.pdf",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "empreinte_pdf": "d969f862f24035326bf51f14cbc66002d83d7868d117d99908f4fc8bc484f855",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "2": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "3": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "4": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "5": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "6": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "7": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "8": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 8,
+      "pages_lues_ce_passage": 0,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 166,
+      "pages_lues": [],
+      "pages_restantes": 166,
+      "preuves": [],
+      "faits_candidats": {},
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/CDCV.pdf",
+      "annonces": [
+        "https://pmt-avocats.fr/ventes-encheres-septembre-2026.php"
+      ],
+      "derniere_tentative_utc": "2026-10-28T17:39:43.934182+00:00"
     }
   ],
   "delais_acces": {
@@ -2302,13 +2415,94 @@
       "echecs_consecutifs": 44
     },
     "lagazettefrance.fr": {
-      "attendre_jusqua_utc": "2026-10-28T16:45:32.887955+00:00",
+      "attendre_jusqua_utc": "2026-10-28T18:40:32.205606+00:00",
       "code_http": 429,
-      "dernier_echec_utc": "2026-10-28T15:45:32.887980+00:00",
+      "dernier_echec_utc": "2026-10-28T17:40:32.205632+00:00",
       "echecs_consecutifs": 1
     }
   },
   "historique_documents": [
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "pages_total": 36,
+      "pages_restantes": 3,
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "faits_candidats": {
+        "occupation": "occupe"
+      },
+      "contradictions": {},
+      "preuves": [
+        {
+          "champ": "occupation",
+          "valeur": "occupe",
+          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
+          "page": 8,
+          "methode": "ocr",
+          "extrait": "actuellement occupe",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "controle_extraction_utc": "2026-10-28T13:52:04.732569+00:00",
+          "consulte_ce_passage": true
+        }
+      ],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
+      "statut": "lu",
+      "pages_lues": [
+        1,
+        2,
+        3
+      ],
+      "pages_total": 3,
+      "pages_restantes": 0,
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
     {
       "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
       "statut": "lu",
@@ -2340,7 +2534,7 @@
       ],
       "pages_total": 24,
       "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
       "faits_candidats": {
         "occupation": "occupe"
       },
@@ -2354,7 +2548,7 @@
           "methode": "ocr",
           "extrait": "bien est occupe",
           "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
           "controle_extraction_utc": "2026-10-28T09:41:48.503721+00:00",
           "consulte_ce_passage": true
         }
@@ -2364,82 +2558,7 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1,
-        2,
-        3
-      ],
-      "pages_total": 3,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
-      "statut": "partiel",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27
-      ],
-      "pages_total": 36,
-      "pages_restantes": 9,
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "faits_candidats": {
-        "occupation": "occupe"
-      },
-      "contradictions": {},
-      "preuves": [
-        {
-          "champ": "occupation",
-          "valeur": "occupe",
-          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
-          "page": 8,
-          "methode": "ocr",
-          "extrait": "actuellement occupe",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-          "controle_extraction_utc": "2026-10-28T13:52:04.732569+00:00",
-          "consulte_ce_passage": true
-        }
-      ],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf",
+      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/3602-DIAG-DT-Parcelles-Roc-PLASSAC_SILVESTRI-BAUJET_ROBIN_656497.pdf",
       "statut": "partiel",
       "pages_lues": [
         1,
@@ -2451,49 +2570,57 @@
         7,
         8
       ],
-      "pages_total": 15,
-      "pages_restantes": 7,
+      "pages_total": 46,
+      "pages_restantes": 38,
       "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/PV-DESCRIPTIF-ROBIN-JEAN-MICHEL-17.02.2025_SILVESTRI-BAUJET_ROBIN_656486.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "pages_total": 40,
+      "pages_restantes": 34,
+      "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
       "faits_candidats": {
-        "travaux": "necessaires",
-        "occupation": "libre"
+        "travaux": "necessaires"
       },
       "contradictions": {},
       "preuves": [
         {
           "champ": "travaux",
           "valeur": "necessaires",
-          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf",
+          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/PV-DESCRIPTIF-ROBIN-JEAN-MICHEL-17.02.2025_SILVESTRI-BAUJET_ROBIN_656486.pdf",
           "page": 1,
           "methode": "texte",
           "extrait": "a renover",
           "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
-          "controle_extraction_utc": "2026-10-28T11:35:23.476356+00:00",
+          "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
+          "controle_extraction_utc": "2026-10-28T12:40:59.089130+00:00",
           "consulte_ce_passage": false
         },
         {
           "champ": "travaux",
           "valeur": "necessaires",
-          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf",
+          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/PV-DESCRIPTIF-ROBIN-JEAN-MICHEL-17.02.2025_SILVESTRI-BAUJET_ROBIN_656486.pdf",
           "page": 3,
           "methode": "texte",
           "extrait": "a renover",
           "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
-          "controle_extraction_utc": "2026-10-28T11:35:23.476356+00:00",
-          "consulte_ce_passage": false
-        },
-        {
-          "champ": "occupation",
-          "valeur": "libre",
-          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf",
-          "page": 7,
-          "methode": "texte",
-          "extrait": "bien est libre; biens sont libres",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
-          "controle_extraction_utc": "2026-10-28T11:35:23.476356+00:00",
+          "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
+          "controle_extraction_utc": "2026-10-28T12:40:59.089130+00:00",
           "consulte_ce_passage": false
         }
       ],
@@ -2502,7 +2629,7 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/3601-DIAG-DT-Parcelle-21-rue-de-la-Mandraude_SILVESTRI-BAUJET_ROBIN_656496.pdf",
+      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/3598-DIAG-DT-PARCELLES-LE-PEUYE-PLASSAC_SILVESTRI-BAUJET_ROBIN_656501.pdf",
       "statut": "partiel",
       "pages_lues": [
         1,
@@ -2571,7 +2698,7 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/3598-DIAG-DT-PARCELLES-LE-PEUYE-PLASSAC_SILVESTRI-BAUJET_ROBIN_656501.pdf",
+      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/3601-DIAG-DT-Parcelle-21-rue-de-la-Mandraude_SILVESTRI-BAUJET_ROBIN_656496.pdf",
       "statut": "partiel",
       "pages_lues": [
         1,
@@ -2589,77 +2716,6 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/3600-DIAG-DT_SILVESTRI-BAUJET_ROBIN_656503.pdf",
-      "statut": "partiel",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "pages_total": 48,
-      "pages_restantes": 40,
-      "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/PV-DESCRIPTIF-ROBIN-JEAN-MICHEL-17.02.2025_SILVESTRI-BAUJET_ROBIN_656486.pdf",
-      "statut": "partiel",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        5,
-        6,
-        7
-      ],
-      "pages_total": 40,
-      "pages_restantes": 34,
-      "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
-      "faits_candidats": {
-        "travaux": "necessaires"
-      },
-      "contradictions": {},
-      "preuves": [
-        {
-          "champ": "travaux",
-          "valeur": "necessaires",
-          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/PV-DESCRIPTIF-ROBIN-JEAN-MICHEL-17.02.2025_SILVESTRI-BAUJET_ROBIN_656486.pdf",
-          "page": 1,
-          "methode": "texte",
-          "extrait": "a renover",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
-          "controle_extraction_utc": "2026-10-28T12:40:59.089130+00:00",
-          "consulte_ce_passage": false
-        },
-        {
-          "champ": "travaux",
-          "valeur": "necessaires",
-          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/PV-DESCRIPTIF-ROBIN-JEAN-MICHEL-17.02.2025_SILVESTRI-BAUJET_ROBIN_656486.pdf",
-          "page": 3,
-          "methode": "texte",
-          "extrait": "a renover",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
-          "controle_extraction_utc": "2026-10-28T12:40:59.089130+00:00",
-          "consulte_ce_passage": false
-        }
-      ],
       "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
@@ -2702,7 +2758,7 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/3602-DIAG-DT-Parcelles-Roc-PLASSAC_SILVESTRI-BAUJET_ROBIN_656497.pdf",
+      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf",
       "statut": "partiel",
       "pages_lues": [
         1,
@@ -2714,8 +2770,71 @@
         7,
         8
       ],
-      "pages_total": 46,
-      "pages_restantes": 38,
+      "pages_total": 15,
+      "pages_restantes": 7,
+      "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
+      "faits_candidats": {
+        "travaux": "necessaires",
+        "occupation": "libre"
+      },
+      "contradictions": {},
+      "preuves": [
+        {
+          "champ": "travaux",
+          "valeur": "necessaires",
+          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf",
+          "page": 1,
+          "methode": "texte",
+          "extrait": "a renover",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
+          "controle_extraction_utc": "2026-10-28T11:35:23.476356+00:00",
+          "consulte_ce_passage": false
+        },
+        {
+          "champ": "travaux",
+          "valeur": "necessaires",
+          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf",
+          "page": 3,
+          "methode": "texte",
+          "extrait": "a renover",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
+          "controle_extraction_utc": "2026-10-28T11:35:23.476356+00:00",
+          "consulte_ce_passage": false
+        },
+        {
+          "champ": "occupation",
+          "valeur": "libre",
+          "url": "https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf",
+          "page": 7,
+          "methode": "texte",
+          "extrait": "bien est libre; biens sont libres",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
+          "controle_extraction_utc": "2026-10-28T11:35:23.476356+00:00",
+          "consulte_ce_passage": false
+        }
+      ],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://defis-avocats.com/wp-content/uploads/2025/04/3600-DIAG-DT_SILVESTRI-BAUJET_ROBIN_656503.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages_total": 48,
+      "pages_restantes": 40,
       "controle_acces_utc": "2026-10-28T11:35:23.476356+00:00",
       "faits_candidats": {},
       "contradictions": {},
@@ -2739,67 +2858,8 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-27.03.2026.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 18,
-      "pages_restantes": 18,
-      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Fiche-synthetique-de-copro.pdf",
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/CARNET-ENTRETIEN-15.09.2026.pdf",
       "statut": "lu",
-      "pages_lues": [
-        1,
-        2
-      ],
-      "pages_total": 2,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PVD.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 58,
-      "pages_restantes": 58,
-      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-28.04.2025.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 10,
-      "pages_restantes": 10,
-      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Etat-date.pdf",
-      "statut": "partiel",
       "pages_lues": [
         1,
         2,
@@ -2810,9 +2870,23 @@
         7,
         8
       ],
-      "pages_total": 15,
-      "pages_restantes": 7,
-      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
+      "pages_total": 8,
+      "pages_restantes": 0,
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-18.12.2024.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 6,
+      "pages_restantes": 6,
+      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -2827,34 +2901,6 @@
       "pages_total": 140,
       "pages_restantes": 140,
       "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Releve-de-propriete.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 2,
-      "pages_restantes": 2,
-      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-17.04.2024.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 8,
-      "pages_restantes": 8,
-      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -2925,12 +2971,182 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-18.12.2024.pdf",
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Etat-date.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages_total": 15,
+      "pages_restantes": 7,
+      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Extrait-cadastral-M1.pdf",
       "statut": "partiel",
       "pages_lues": [],
-      "pages_total": 6,
-      "pages_restantes": 6,
+      "pages_total": 1,
+      "pages_restantes": 1,
+      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-28.04.2025.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 10,
+      "pages_restantes": 10,
       "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Fiche-synthetique-de-copro.pdf",
+      "statut": "lu",
+      "pages_lues": [
+        1,
+        2
+      ],
+      "pages_total": 2,
+      "pages_restantes": 0,
+      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Releve-de-propriete.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 2,
+      "pages_restantes": 2,
+      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-17.04.2024.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 8,
+      "pages_restantes": 8,
+      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PVD.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 58,
+      "pages_restantes": 58,
+      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/PV-AG-27.03.2026.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 18,
+      "pages_restantes": 18,
+      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/DDT-AMIANTE-2026.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages_total": 74,
+      "pages_restantes": 66,
+      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Plan-de-situation.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 1,
+      "pages_restantes": 1,
+      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/DPE-2025.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages_total": 19,
+      "pages_restantes": 11,
+      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -2978,20 +3194,6 @@
           "consulte_ce_passage": false
         }
       ],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Extrait-cadastral-M1.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 1,
-      "pages_restantes": 1,
-      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
       "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
@@ -3053,89 +3255,6 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/DDT-AMIANTE-2026.pdf",
-      "statut": "partiel",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "pages_total": 74,
-      "pages_restantes": 66,
-      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/CARNET-ENTRETIEN-15.09.2026.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "pages_total": 8,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/DPE-2025.pdf",
-      "statut": "partiel",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "pages_total": 19,
-      "pages_restantes": 11,
-      "controle_acces_utc": "2026-10-28T09:41:48.503721+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Plan-de-situation.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 1,
-      "pages_restantes": 1,
-      "controle_acces_utc": "2026-10-28T10:39:40.865354+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
       "url": "https://uda-avocats.com/wp-content/uploads/2026/06/CCV-SITE-ST-JUST-SAINT-RAMBERT.pdf",
       "statut": "partiel",
       "pages_lues": [],
@@ -3156,27 +3275,6 @@
       "pages_total": 56,
       "pages_restantes": 56,
       "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://uda-avocats.com/wp-content/uploads/2026/04/DIAGNOSTICS-SITE-AUDIENCE-07.05.2026-DEPOT.pdf",
-      "statut": "partiel",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "pages_total": 14,
-      "pages_restantes": 8,
-      "controle_acces_utc": "2026-10-27T16:42:38.816716+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -3244,30 +3342,7 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://uda-avocats.com/wp-content/uploads/2025/03/DIAG-DT-19550-SITE-ADJ-03.04.2025-PEV.pdf",
-      "statut": "partiel",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "pages_total": 115,
-      "pages_restantes": 107,
-      "controle_acces_utc": "2026-10-27T09:33:43.789333+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://uda-avocats.com/wp-content/uploads/2025/03/PVD-SITE-ADJ-03.04.2025-PEV.pdf",
+      "url": "https://uda-avocats.com/wp-content/uploads/2026/04/DIAGNOSTICS-SITE-AUDIENCE-07.05.2026-DEPOT.pdf",
       "statut": "partiel",
       "pages_lues": [
         1,
@@ -3279,7 +3354,7 @@
       ],
       "pages_total": 14,
       "pages_restantes": 8,
-      "controle_acces_utc": "2026-10-27T11:30:41.198074+00:00",
+      "controle_acces_utc": "2026-10-27T16:42:38.816716+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -3309,6 +3384,118 @@
       "derniere_erreur": null
     },
     {
+      "url": "https://uda-avocats.com/wp-content/uploads/2025/03/PVD-SITE-ADJ-03.04.2025-PEV.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pages_total": 14,
+      "pages_restantes": 8,
+      "controle_acces_utc": "2026-10-27T11:30:41.198074+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://uda-avocats.com/wp-content/uploads/2025/03/DIAG-DT-19550-SITE-ADJ-03.04.2025-PEV.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages_total": 115,
+      "pages_restantes": 107,
+      "controle_acces_utc": "2026-10-27T09:33:43.789333+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_FLISSI_15_10_2026/AFFICHE.pdf",
+      "statut": "lu",
+      "pages_lues": [
+        1
+      ],
+      "pages_total": 1,
+      "pages_restantes": 0,
+      "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
+      "faits_candidats": {
+        "mise_a_prix_eur": "15000.00"
+      },
+      "contradictions": {},
+      "preuves": [
+        {
+          "champ": "mise_a_prix_eur",
+          "valeur": "15000.00",
+          "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_FLISSI_15_10_2026/AFFICHE.pdf",
+          "page": 1,
+          "methode": "texte",
+          "extrait": "mise a prix : 15.000,00 €",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
+          "controle_extraction_utc": "2026-10-28T15:44:41.927144+00:00",
+          "consulte_ce_passage": false
+        }
+      ],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_FLISSI_15_10_2026/PVD.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 30,
+      "pages_restantes": 30,
+      "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_EVRARD_15_10_2026/PVD.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages_total": 21,
+      "pages_restantes": 13,
+      "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
       "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_EVRARD_15_10_2026/CDCV.pdf",
       "statut": "partiel",
       "pages_lues": [],
@@ -3318,37 +3505,6 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/SIP-TOULON_MANDRILE_22_10_2026/AFFICHE.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1
-      ],
-      "pages_total": 1,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
-      "faits_candidats": {
-        "mise_a_prix_eur": "178200.00"
-      },
-      "contradictions": {},
-      "preuves": [
-        {
-          "champ": "mise_a_prix_eur",
-          "valeur": "178200.00",
-          "url": "https://pmt-avocats.fr/ventes/2026/Octobre/SIP-TOULON_MANDRILE_22_10_2026/AFFICHE.pdf",
-          "page": 1,
-          "methode": "texte",
-          "extrait": "mise a prix : 178.200,00 €",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
-          "controle_extraction_utc": "2026-10-28T15:44:41.927144+00:00",
-          "consulte_ce_passage": false
-        }
-      ],
       "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
@@ -3369,6 +3525,20 @@
       "pages_total": 123,
       "pages_restantes": 115,
       "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_CHIGNARD_13_10_2026/CDCV.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 149,
+      "pages_restantes": 149,
+      "controle_acces_utc": "2026-10-28T14:46:12.133253+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -3403,20 +3573,6 @@
           "consulte_ce_passage": false
         }
       ],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_CHIGNARD_13_10_2026/CDCV.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 149,
-      "pages_restantes": 149,
-      "controle_acces_utc": "2026-10-28T14:46:12.133253+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
       "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
@@ -3467,38 +3623,32 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_CHIGNARD_13_10_2026/DIAGNOSTICS.pdf",
-      "statut": "partiel",
+      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/SIP-TOULON_MANDRILE_22_10_2026/AFFICHE.pdf",
+      "statut": "lu",
       "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
+        1
       ],
-      "pages_total": 68,
-      "pages_restantes": 60,
-      "controle_acces_utc": "2026-10-28T14:46:12.133253+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_FLISSI_15_10_2026/PVD.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 30,
-      "pages_restantes": 30,
+      "pages_total": 1,
+      "pages_restantes": 0,
       "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
-      "faits_candidats": {},
+      "faits_candidats": {
+        "mise_a_prix_eur": "178200.00"
+      },
       "contradictions": {},
-      "preuves": [],
+      "preuves": [
+        {
+          "champ": "mise_a_prix_eur",
+          "valeur": "178200.00",
+          "url": "https://pmt-avocats.fr/ventes/2026/Octobre/SIP-TOULON_MANDRILE_22_10_2026/AFFICHE.pdf",
+          "page": 1,
+          "methode": "texte",
+          "extrait": "mise a prix : 178.200,00 €",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
+          "controle_extraction_utc": "2026-10-28T15:44:41.927144+00:00",
+          "consulte_ce_passage": false
+        }
+      ],
       "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
@@ -3513,7 +3663,7 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -3541,38 +3691,7 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_FLISSI_15_10_2026/AFFICHE.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1
-      ],
-      "pages_total": 1,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
-      "faits_candidats": {
-        "mise_a_prix_eur": "15000.00"
-      },
-      "contradictions": {},
-      "preuves": [
-        {
-          "champ": "mise_a_prix_eur",
-          "valeur": "15000.00",
-          "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_FLISSI_15_10_2026/AFFICHE.pdf",
-          "page": 1,
-          "methode": "texte",
-          "extrait": "mise a prix : 15.000,00 €",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
-          "controle_extraction_utc": "2026-10-28T15:44:41.927144+00:00",
-          "consulte_ce_passage": false
-        }
-      ],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_EVRARD_15_10_2026/PVD.pdf",
+      "url": "https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_CHIGNARD_13_10_2026/DIAGNOSTICS.pdf",
       "statut": "partiel",
       "pages_lues": [
         1,
@@ -3584,9 +3703,9 @@
         7,
         8
       ],
-      "pages_total": 21,
-      "pages_restantes": 13,
-      "controle_acces_utc": "2026-10-28T15:44:41.927144+00:00",
+      "pages_total": 68,
+      "pages_restantes": 60,
+      "controle_acces_utc": "2026-10-28T14:46:12.133253+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -3680,48 +3799,6 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/CDCV.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 162,
-      "pages_restantes": 162,
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/Note-de-synthese.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 1,
-      "pages_restantes": 1,
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/CDCV.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 132,
-      "pages_restantes": 132,
-      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
       "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/AFFICHE.pdf",
       "statut": "lu",
       "pages_lues": [
@@ -3746,7 +3823,7 @@
           "validation": "a_verifier",
           "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
           "controle_extraction_utc": "2026-10-28T16:43:35.856423+00:00",
-          "consulte_ce_passage": true
+          "consulte_ce_passage": false
         },
         {
           "champ": "occupation",
@@ -3758,10 +3835,10 @@
           "validation": "a_verifier",
           "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
           "controle_extraction_utc": "2026-10-28T16:43:35.856423+00:00",
-          "consulte_ce_passage": true
+          "consulte_ce_passage": false
         }
       ],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -3779,7 +3856,7 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
@@ -3808,7 +3885,7 @@
           "validation": "a_verifier",
           "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
           "controle_extraction_utc": "2026-10-28T16:43:35.856423+00:00",
-          "consulte_ce_passage": true
+          "consulte_ce_passage": false
         },
         {
           "champ": "occupation",
@@ -3820,9 +3897,243 @@
           "validation": "a_verifier",
           "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
           "controle_extraction_utc": "2026-10-28T16:43:35.856423+00:00",
+          "consulte_ce_passage": false
+        }
+      ],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/AFFICHE.pdf",
+      "statut": "lu",
+      "pages_lues": [
+        1
+      ],
+      "pages_total": 1,
+      "pages_restantes": 0,
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "faits_candidats": {
+        "mise_a_prix_eur": "2500000.00"
+      },
+      "contradictions": {},
+      "preuves": [
+        {
+          "champ": "mise_a_prix_eur",
+          "valeur": "2500000.00",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/AFFICHE.pdf",
+          "page": 1,
+          "methode": "texte",
+          "extrait": "mise a prix : 2.500.000,00 €",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
           "consulte_ce_passage": true
         }
       ],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/CDCV.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 132,
+      "pages_restantes": 132,
+      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pages_total": 10,
+      "pages_restantes": 2,
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "faits_candidats": {
+        "occupation": "loue"
+      },
+      "contradictions": {},
+      "preuves": [
+        {
+          "champ": "occupation",
+          "valeur": "loue",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+          "page": 1,
+          "methode": "texte",
+          "extrait": "biens loues",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "consulte_ce_passage": true
+        },
+        {
+          "champ": "occupation",
+          "valeur": "loue",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+          "page": 2,
+          "methode": "texte",
+          "extrait": "biens loues",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "consulte_ce_passage": true
+        },
+        {
+          "champ": "occupation",
+          "valeur": "loue",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf",
+          "page": 5,
+          "methode": "texte",
+          "extrait": "locaux loues; bien loue",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "consulte_ce_passage": true
+        }
+      ],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AFFICHE.pdf",
+      "statut": "lu",
+      "pages_lues": [
+        1
+      ],
+      "pages_total": 1,
+      "pages_restantes": 0,
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "faits_candidats": {
+        "mise_a_prix_eur": "17600.00"
+      },
+      "contradictions": {},
+      "preuves": [
+        {
+          "champ": "mise_a_prix_eur",
+          "valeur": "17600.00",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AFFICHE.pdf",
+          "page": 1,
+          "methode": "texte",
+          "extrait": "mise a prix : 17.600,00 €",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "consulte_ce_passage": true
+        }
+      ],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/CONTRAT-21082.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 5,
+      "pages_restantes": 5,
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/PVD.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        5
+      ],
+      "pages_total": 44,
+      "pages_restantes": 41,
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "faits_candidats": {
+        "occupation": "occupe"
+      },
+      "contradictions": {},
+      "preuves": [
+        {
+          "champ": "occupation",
+          "valeur": "occupe",
+          "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/PVD.pdf",
+          "page": 2,
+          "methode": "texte",
+          "extrait": "actuellement occupe",
+          "validation": "a_verifier",
+          "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+          "controle_extraction_utc": "2026-10-28T17:39:43.934182+00:00",
+          "consulte_ce_passage": true
+        }
+      ],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/Note-de-synthese.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 1,
+      "pages_restantes": 1,
+      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/CDCV.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 166,
+      "pages_restantes": 166,
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/PVD.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "pages_total": 18,
+      "pages_restantes": 12,
+      "controle_acces_utc": "2026-10-28T17:39:43.934182+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
       "consulte_ce_passage": true,
       "validation": "a_verifier",
       "derniere_erreur": null
@@ -3837,17 +4148,17 @@
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
     {
-      "url": "https://pmt-avocats.fr/ventes/2026/Juin/SIP-TOULON_MANDRILE_25_06_2026/PVD.pdf",
+      "url": "https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/CDCV.pdf",
       "statut": "partiel",
       "pages_lues": [],
-      "pages_total": 19,
-      "pages_restantes": 19,
-      "controle_acces_utc": "2026-10-28T13:52:04.732569+00:00",
+      "pages_total": 162,
+      "pages_restantes": 162,
+      "controle_acces_utc": "2026-10-28T16:43:35.856423+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -3932,6 +4243,20 @@
       "derniere_erreur": null
     },
     {
+      "url": "https://pmt-avocats.fr/ventes/2026/Juin/SIP-TOULON_MANDRILE_25_06_2026/PVD.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 19,
+      "pages_restantes": 19,
+      "controle_acces_utc": "2026-10-28T13:52:04.732569+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
       "url": "https://pmt-avocats.fr/ventes/2026/Mars/SIPHYERES_ROLAND_12_03_2026/PVD_12-02-2024.pdf",
       "statut": "partiel",
       "pages_lues": [],
@@ -3988,11 +4313,15 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://pmt-avocats.fr/ventes/2025/Novembre/CEGC_FORT_06_11_2025/CDCV.pdf",
-      "statut": "partiel",
-      "pages_lues": [],
-      "pages_total": 74,
-      "pages_restantes": 74,
+      "url": "https://pmt-avocats.fr/ventes/2025/Novembre/CEGC_FORT_06_11_2025/PVD.pdf",
+      "statut": "lu",
+      "pages_lues": [
+        1,
+        2,
+        3
+      ],
+      "pages_total": 3,
+      "pages_restantes": 0,
       "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
       "faits_candidats": {},
       "contradictions": {},
@@ -4016,24 +4345,6 @@
       ],
       "pages_total": 15,
       "pages_restantes": 7,
-      "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://pmt-avocats.fr/ventes/2025/Novembre/CEGC_FORT_06_11_2025/PVD.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1,
-        2,
-        3
-      ],
-      "pages_total": 3,
-      "pages_restantes": 0,
       "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
       "faits_candidats": {},
       "contradictions": {},
@@ -4069,6 +4380,20 @@
           "consulte_ce_passage": false
         }
       ],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://pmt-avocats.fr/ventes/2025/Novembre/CEGC_FORT_06_11_2025/CDCV.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 74,
+      "pages_restantes": 74,
+      "controle_acces_utc": "2026-10-28T12:40:59.089130+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
       "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null

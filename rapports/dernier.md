@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-28T17:43:35.856423+01:00** (Europe/Paris).
+Contrôle : **2026-10-28T18:39:43.934182+01:00** (Europe/Paris).
 
-**0 dossier(s) retenu(s) sur données validées**, 7 à vérifier, 5 rejet(s) dans la fenêtre J+1 à J+4.
+**0 dossier(s) retenu(s) sur données validées**, 7 à vérifier, 2 rejet(s) dans la fenêtre J+1 à J+4.
 
-31/38 pages sources accessibles ; 743 liens distincts ; 4 pages d'audience et 102 fiches détaillées lues.
+32/38 pages sources accessibles ; 773 liens distincts ; 4 pages d'audience et 100 fiches détaillées lues.
 
-Nouveautés : 2 liens ; 9 fiches modifiées depuis le passage précédent.
+Nouveautés : 0 liens ; 9 fiches modifiées depuis le passage précédent.
 
-Pièces : 11 PDF accessibles ; 51 pages traitées ce passage, 11 lues, dont 6 par OCR. 3 requêtes différées après une limite ou un refus d'accès.
+Pièces : 10 PDF accessibles ; 47 pages traitées ce passage, 25 lues, dont 6 par OCR. 21 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -30,10 +30,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 
 | Bien | Prix adjugé publié | Motif | Source |
 |---|---|---|---|
-| UNE PARCELLE • Tourrettes | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166606-une-parcelle-tourrettes.html) |
-| 3 Rue Basse, 71640 Saint-Jean-de-Vaux, France | 72 000.00 € | indice documentaire incompatible : occupation=occupe, p. 7 (ocr) — identité et actualité à contrôler; indice documentaire incompatible : occupation=occupe, p. 8 (ocr) — identité et actualité à contrôler | [Annonce](https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1) ; [Indice occupation p. 7](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf#page=7) ; [Indice occupation p. 8](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf#page=8) |
-| UNE MAISON BOURGEOISE À USAGE D'HABITATION • 349m² • Chalon-sur-Saône | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166529-une-maison-bourgeoise-a-usage-d-habitation-chalon-sur-saone.html) |
-| UNE MAISON À USAGE D'HABITATION • Saint-Germain-Chassenay | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166600-une-maison-a-usage-d-habitation-saint-germain-chassenay.html) |
+| 3 Rue Basse, 71640 Saint-Jean-de-Vaux, France | 72 000.00 € | indice documentaire incompatible : occupation=occupe, p. 8 (ocr) — identité et actualité à contrôler; indice documentaire incompatible : occupation=occupe, p. 7 (ocr) — identité et actualité à contrôler | [Annonce](https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1) ; [Indice occupation p. 8](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf#page=8) ; [Indice occupation p. 7](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf#page=7) |
 | Une ferme bressane | À calculer — données manquantes | travaux nécessaires à la revente en l'état | [Annonce](https://www.licitor.com/annonce/11/00/15/vente-aux-encheres/une-ferme-bressane/dommartin-les-cuiseaux/saone-et-loire/110015.html) |
 
 ## Sources effectivement contrôlées
@@ -47,7 +44,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | differe | 0 | 0 | 0 | Accès différé à encheres-publiques.com jusqu'au 2026-10-28T20:46:12.774386+00:00 après HTTP 403 |
 | [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 87 | 0 | 0 | — |
 | [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | differe | 0 | 0 | 0 | Accès différé à petitesaffiches.fr jusqu'au 2026-10-28T20:46:13.099867+00:00 après HTTP 403 |
-| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | differe | 0 | 0 | 0 | Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T16:45:32.887955+00:00 après HTTP 429 |
+| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 10 | — |
 | [Informateur Judiciaire - Grand Ouest](https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/) | ok | 12 | 0 | 0 | — |
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 11 | 0 | 0 | — |
 | [Echos Judiciaires Girondins](https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/) | ok | 12 | 0 | 0 | — |
@@ -57,7 +54,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 1 | — |
 | [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 4 | — |
 | [Vench - ventes à venir](https://www.vench.fr/prochaines-ventes-aux-encheres.html) | ok | 12 | 0 | 0 | — |
-| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 12 | — |
+| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 0 | — |
 | [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 3 | — |
 | [Avoventes - Tribunal de Saint-Etienne](https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133) | ok | 7 | 0 | 0 | — |
 | [9 Janvier Avocats — ventes judiciaires](https://www.9janvier-avocats.com/) | ok | 2 | 0 | 2 | — |
@@ -87,16 +84,16 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 |---|---|---|---|---|---|
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf) | lu | 3/3 | 0 | Aucun indice ciblé extrait | — |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf) | lu | 24/24 | 0 | occupation : occupe (p. 7, ocr) | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf) | partiel | 27/36 | 9 | occupation : occupe (p. 8, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf) | partiel | 33/36 | 3 | occupation : occupe (p. 8, ocr) | — |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904bd350b4ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Octobre/SIP-TOULON_MANDRILE_22_10_2026/PVD.pdf) | partiel | 0/19 | 19 | Aucun indice ciblé extrait | — |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/AFFICHE.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 45000.00 (p. 1, texte); occupation : occupe (p. 1, texte) | — |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/CDCV.pdf) | partiel | 0/132 | 132 | Aucun indice ciblé extrait | — |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/Note-de-synthese.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/PVD-et-Mesurage.pdf) | partiel | 0/29 | 29 | Aucun indice ciblé extrait | — |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/AFFICHE.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 18000.00 (p. 1, texte); occupation : occupe (p. 1, texte) | — |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/CDCV.pdf) | partiel | 0/162 | 162 | Aucun indice ciblé extrait | — |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/DIAGNOSTICS.pdf) | partiel | 3/69 | 66 | Aucun indice ciblé extrait | — |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/PVD.pdf) | partiel | 3/44 | 41 | occupation : occupe (p. 2, texte) | — |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AFFICHE.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 17600.00 (p. 1, texte) | — |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/AVENANT-RENOUVELLEMENT-21082.pdf) | partiel | 8/10 | 2 | occupation : loue (p. 1, texte); occupation : loue (p. 2, texte); occupation : loue (p. 5, texte) | — |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/CDCV-INTEGRAL.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/CONTRAT-21082.pdf) | partiel | 0/5 | 5 | Aucun indice ciblé extrait | — |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_HOUDANT_03_09_2026/PVD.pdf) | partiel | 6/18 | 12 | Aucun indice ciblé extrait | — |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/AFFICHE.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 2500000.00 (p. 1, texte) | — |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/DNVSF_STEMER-MERRAN_18_09_2026/CDCV.pdf) | partiel | 0/166 | 166 | Aucun indice ciblé extrait | — |
 
 ## Indices conservés des passages précédents
 
@@ -104,33 +101,35 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 
 | Pièce | Dernier accès réussi UTC | Indices et pages |
 |---|---|---|
-| [Pièce](https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf) | 2026-10-28T11:35:23.476356+00:00 | travaux : necessaires (p. 1); travaux : necessaires (p. 3); occupation : libre (p. 7) |
 | [Pièce](https://defis-avocats.com/wp-content/uploads/2025/04/PV-DESCRIPTIF-ROBIN-JEAN-MICHEL-17.02.2025_SILVESTRI-BAUJET_ROBIN_656486.pdf) | 2026-10-28T12:40:59.089130+00:00 | travaux : necessaires (p. 1); travaux : necessaires (p. 3) |
+| [Pièce](https://defis-avocats.com/wp-content/uploads/2025/04/CAHIER-DES-CONDITIONS-DE-VENTE.pdf) | 2026-10-28T11:35:23.476356+00:00 | travaux : necessaires (p. 1); travaux : necessaires (p. 3); occupation : libre (p. 7) |
 | [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/PPPT-2025.pdf) | 2026-10-28T09:41:48.503721+00:00 | travaux : necessaires (p. 3); travaux : necessaires (p. 4); travaux : necessaires (p. 6) |
 | [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf) | 2026-10-28T08:44:26.788576+00:00 | mise_a_prix_eur : 15000.00 (p. 1); occupation : occupe (p. 1) |
 | [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/CCV.pdf) | 2026-10-28T09:41:48.503721+00:00 | date_vente : 2007-07-17 (p. 6) |
 | [Pièce](https://uda-avocats.com/wp-content/uploads/2026/04/PV-DESCRIPTION-SITE-AUDIENCE-07.05.2026.pdf) | 2026-10-27T17:50:24.483648+00:00 | occupation : occupe (p. 2) |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Octobre/SIP-TOULON_MANDRILE_22_10_2026/AFFICHE.pdf) | 2026-10-28T15:44:41.927144+00:00 | mise_a_prix_eur : 178200.00 (p. 1) |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_FLISSI_15_10_2026/AFFICHE.pdf) | 2026-10-28T15:44:41.927144+00:00 | mise_a_prix_eur : 15000.00 (p. 1) |
 | [Pièce](https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_EVRARD_15_10_2026/AFFICHE.pdf) | 2026-10-28T14:46:12.133253+00:00 | mise_a_prix_eur : 35000.00 (p. 1) |
 | [Pièce](https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_CHIGNARD_13_10_2026/AFFICHE.pdf) | 2026-10-28T14:46:12.133253+00:00 | mise_a_prix_eur : 55000.00 (p. 1) |
-| [Pièce](https://pmt-avocats.fr/ventes/2026/Octobre/CEGC_FLISSI_15_10_2026/AFFICHE.pdf) | 2026-10-28T15:44:41.927144+00:00 | mise_a_prix_eur : 15000.00 (p. 1) |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Octobre/SIP-TOULON_MANDRILE_22_10_2026/AFFICHE.pdf) | 2026-10-28T15:44:41.927144+00:00 | mise_a_prix_eur : 178200.00 (p. 1) |
 | [Pièce](https://pmt-avocats.fr/ventes/2026/Novembre/DDFIP-VAR_TENKARRA_20_11_2026/AFFICHE.pdf) | 2026-10-28T14:46:12.133253+00:00 | mise_a_prix_eur : 5000 (p. 1); mise_a_prix_eur : 5000.00 (p. 2) |
 | [Pièce](https://pmt-avocats.fr/ventes/2026/Novembre/DDFIP-VAR_TENKARRA_20_11_2026/CCV.pdf) | 2026-10-28T14:46:12.133253+00:00 | date_vente : 2024-09-03 (p. 3) |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_BEUNARD_24_09_2026/AFFICHE.pdf) | 2026-10-28T16:43:35.856423+00:00 | mise_a_prix_eur : 45000.00 (p. 1); occupation : occupe (p. 1) |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Septembre/CEGC_GAETANI_14_09_2026/AFFICHE.pdf) | 2026-10-28T16:43:35.856423+00:00 | mise_a_prix_eur : 18000.00 (p. 1); occupation : occupe (p. 1) |
 | [Pièce](https://pmt-avocats.fr/ventes/2026/Juin/CEGC_GUINE_25_06_2026/AFFICHE.pdf) | 2026-10-28T12:40:59.089130+00:00 | mise_a_prix_eur : 20000.00 (p. 1) |
 | [Pièce](https://pmt-avocats.fr/ventes/2026/Juin/SIP-TOULON_MANDRILE_25_06_2026/AFFICHE.pdf) | 2026-10-28T13:52:04.732569+00:00 | mise_a_prix_eur : 80000.00 (p. 1) |
 | [Pièce](https://pmt-avocats.fr/ventes/2025/Novembre/CEGC_FORT_06_11_2025/AFFICHE.pdf) | 2026-10-28T12:40:59.089130+00:00 | mise_a_prix_eur : 50000.00 (p. 1) |
 
 ## Couverture restante et contrôles
 
-- Budget : 40 pages d'audience et 120 fiches par passage ; 0 fiches candidates non lues ce passage.
-- 89 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
+- Budget : 40 pages d'audience et 120 fiches par passage ; 15 fiches candidates non lues ce passage.
+- 121 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
 - Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.
 - Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.
 - Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
 - PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 123 documents détectés non consultés ce passage ; 39 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 4 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 22 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
