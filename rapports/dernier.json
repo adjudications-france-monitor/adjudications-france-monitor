@@ -1,287 +1,111 @@
 {
   "version": 1,
-  "controle_utc": "2026-10-27T17:50:24.483648+00:00",
-  "controle_paris": "2026-10-27T18:50:24.483648+01:00",
+  "controle_utc": "2026-10-28T08:44:26.788576+00:00",
+  "controle_paris": "2026-10-28T09:44:26.788576+01:00",
   "comptages": {
     "sources_actives": 38,
     "sources_ok": 32,
-    "liens_distincts": 764,
-    "nouveaux_liens": 0,
+    "liens_distincts": 769,
+    "nouveaux_liens": 27,
     "audiences_lues": 3,
-    "fiches_lues": 100,
-    "fiches_en_echec": 20,
-    "fiches_modifiees": 7,
-    "dossiers_recents": 9,
+    "fiches_lues": 111,
+    "fiches_en_echec": 9,
+    "fiches_modifiees": 11,
+    "dossiers_recents": 11,
     "retenus": 0,
     "a_verifier": 7,
-    "rejetes_recents": 2,
-    "sans_date": 118,
+    "rejetes_recents": 4,
+    "sans_date": 107,
     "liens_pdf_a_lire": 37,
     "fiches_candidates_non_lues": 14,
-    "documents_pdf_consultes": 9,
-    "documents_pdf_complets": 8,
-    "documents_pdf_detectes": 140,
-    "pages_pdf_traitees": 8,
-    "pages_pdf_extraites": 8,
+    "documents_pdf_consultes": 8,
+    "documents_pdf_complets": 3,
+    "documents_pdf_detectes": 133,
+    "pages_pdf_traitees": 52,
+    "pages_pdf_extraites": 15,
     "pages_ocr_tentees": 6,
     "pages_ocr": 6,
-    "documents_cache_reutilise": 8,
-    "requetes_http": 143,
+    "documents_cache_reutilise": 0,
+    "requetes_http": 158,
     "reponses_429": 1,
-    "acces_differes": 21
+    "acces_differes": 5
   },
   "dossiers": [
     {
-      "id": "f9db135fe5b80ed6111ccb3a719c2e8aba343a366b4934b4e7a1afee6e7819c6",
-      "url_annonce": "https://www.info-encheres.com/108345-d-vente-encheres-immobilieres-appartement-avec-cellier-perpignan-66-ref-6103.html",
-      "titre": "PERPIGNAN (66) Appartement avec cellier Vente le 23/10/2026 Mise à prix : 16.000€ SCP VIAL - PECH DE LACLAUSE – ESCALE - KNOEPFFLER - HUOT – PIRET - JOUBES",
-      "adresse": "",
+      "id": "d8fcd213b8bfd8a258fd4df88c3de904d8fb7ffb0a35672cfb7f8cc3a1ab6aa3",
+      "url_annonce": "https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1",
+      "titre": "Maison à vendre aux enchères publiques",
+      "adresse": "3 Rue Basse, 71640 Saint-Jean-de-Vaux, France",
       "sources": [
         {
-          "nom": "Info Enchères - annonces nationales",
+          "nom": "Avoventes CNB - annonces nationales",
           "categorie": "site_pro",
-          "url": "https://www.info-encheres.com/"
+          "url": "https://avoventes.fr/recherche/?display=liste&order=asc&sort=date"
         }
       ],
       "faits": {
-        "date_vente": "2026-10-23",
-        "mise_a_prix_eur": "16000",
+        "date_vente": "2026-10-27",
+        "date_limite_surenchere": "2026-11-06",
+        "mise_a_prix_eur": "72000.00",
         "occupation": "inconnue",
         "travaux": "a_verifier",
         "retiree": false,
         "seconde_adjudication": false,
         "surenchere_impossible": false,
         "vente_amiable": false,
-        "date_vente_source": "https://www.info-encheres.com/108345-d-vente-encheres-immobilieres-appartement-avec-cellier-perpignan-66-ref-6103.html",
-        "surface_m2": "1.60",
+        "date_vente_source": "https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1",
+        "frais_prealables_publies_eur": "3593.89",
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-27T17:51:08.444754+00:00",
+      "controle_detail_utc": "2026-10-28T08:45:23.859074+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [
-        "https://www.info-encheres.com/upload/m2N0DDT.pdf",
-        "https://www.info-encheres.com/upload/DsrAPVD.pdf",
-        "https://www.info-encheres.com/upload/xbZpSYNTHESE_DIAGNOSTICS_C.pdf",
-        "https://www.info-encheres.com/upload/1W2VCCV.pdf"
+        "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904bd350b4ttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
+        "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf"
       ],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Mardi 27 Octobre 2026 67 annonces en ligne enchères pratiques Guide Lexique Docs à fournir Recherche par critères : Recherche par n° d'annonce : alerte mail Faites partie des premiers informés des nouveaux avis de vente dès leur publication sur le site Créez votre alerte SCP VIAL - PECH DE LACLAUSE – ESCALE - KNOEPFFLER - HUOT – PIRET - JOUBES 04.68.51.22.29 Voir la fiche Voir le site Référence : 6103 Nature du bien : Appartement avec cellier Adresse : 8 Avenue du Tech 66100 PERPIGNAN Mise à prix 16 000 € Vente le : 23/10/2026 Au Tribunal Judiciaire de : Perpignan 4 Rue André Bosch - 66000 Perpignan Date de visite : MERCREDI 07 OCTOBRE 2026 de 09H00 à 10H00 Géolocalisation Photos cahier des conditions de la vente Annexes au cahier des conditions de la vente • Procès-verbal descriptif • Diagnostics techniques • Divers Description VENTE AUX ENCHERES PUBLIQUES : COMMUNE DE PERPIGNAN : Les parties divises et indivises dépendant d’un ensemble immobilier, situé sur la Commune de PERPIGNAN, 8 Avenue du Tech, cadastré Section BC, Numéro 15, pour une contenance de 6a 77ca, LE LOT NUMERO CINQUANTE SIX (56) : un appartement de type F1 Bis , situé au 2ème étage, composé de : entrée (1,60m²), chambre (10,05m²), séjour-cuisine (13,20m²), salle d’eau-wc (2,25m²), et les 114/10.000èmes de la propriété du sol et des parties communes générales, LE LOT NUMERO CENT TRENTE SIX (136) : au rez de chaussée, un cellier et les 4/10.000 des parties communes générales, L’ensemble immobilier a fait l’objet d’un état descriptif de division et règlement de copropriété établi aux termes d’un acte reçu par Maître NICOLAU, Notaire à PERPIGNAN, le 31 octobre 1967, publié au Service de la Publicité Foncière de PERPIGNAN (1er bureau) le 15 novembre 1967, Volume 1865, Numéro 4, modifié suivant : - acte reçu par Maître NICOLAU, Notaire à PERPIGNAN, le 1er avril 1968, publié le 3 avril 1968, Volume 1986, Numéro 24, - acte reçu par Maître NICOLAU, Notaire à PERPIGNAN, le 1er avril 1968, publié le 3 avril 1968, Volume 1986, Numéro 25, - acte reçu par Maître NICOLAU, Notaire à PERPIGNAN, le 1er avril 1968, publié le 3 avril 1968, Volume 1986, Numéro 26. Le tout plus amplement décrit dans un procès-verbal dressé le 22 juillet 2025 par Maître COPOVI, Commissaire de Justice à MILLAS. OCCUPATION : Au jour du procès-verbal descriptif, le bien est inoccupé. L’adjudicataire fera son affaire personnelle de toute nouvelle occupation éventuelle, sans recours contre le créancier poursuivant. LIEU DE CONSULTATION DU CAHIER DES CONDITIONS DE LA VENTE : - Greffe du Juge de l’Exécution du Tribunal Judiciaire de PERPIGNAN, situé 5 Boulevard des Pyrénées, 66000 PERPIGNAN. - SCP VIAL - PECH DE LACLAUSE – ESCALE – KNOEPFFLER – HUOT – PIRET - JOUBES, Villa Jean, 12 Cours Lazare Escarguel, 66000 PERPIGNAN (Tél : 04.68.51.22.29). Les enchères ne pourront être portées que par le ministère d’un avocat inscrit au Barreau de PERPIGNAN. Les audiences de vente débutent à 9h (salle Tribunal de commerce, au rez de chaussée). Présentation Contact Liens Mentions légales Publication des annonces de ventes aux enchères immobilières judiciaires en France, avec descriptif complet, photographies et cahier des conditions de la vente. Site réalisé par des professionnels de l'annonce légale, avec un contenu informatif complet sur les enchères judiciaires. Guide de l'acheteur aux encheres immobilieres, alertes email pour être informé des nouvelles ventes judiciaires, publication des résultats d'adjudication pour pouvoir former une surenchère et tout un ensemble de documents pour participer aux enchères. Les annonces sont publiées à l'initiative de nos partenaires avocats.",
-      "empreinte_contenu": "0db3c2fdbf95919321e9fbd838ee54576da11f05b900a9de63c33b64b58bd6e7",
+      "extrait_dossier": "retour vers la liste Maison à vendre aux enchères publiques Vente aux enchères Maison Mise à prix : 72 000,00 € Surenchère possible jusqu'au : 06 novembre 2026 Frais prélables : 3 593,89 € Consignation : 7 200,00 € (Par chèque de banque à l'ordre de la CARPA d'un montant de 7200 €) Vente 27 octobre 2026 à 13h30 VISITES : la visite est fixée le : Mardi 13 octobre 2026 à 11 heures . Elle sera assurée par l'ETUDE ACTALAW 71, commissaires de justice associés à Chalon sur SAône. Il est inutile de prendre rendez-vous préalablement avec l'huissier. Se rendre directement sur place aux jour et heure fixés. % Estimez vos frais d'acquisition À propos du bien Commune de SAINT JEAN DE VAUX (71640) 3 rue Basse Une maison T2 comprenant à l’étage : entrée, buanderie-WC, grande chambre, petit dégagement, grande séjour, cuisine ouverte sur le séjour, salle de bains. Le tout sur atelier, cave. Grenier au-dessus. Le tout cadastré B 916 d’une contenance de 1a 70ca. ",
+      "empreinte_contenu": "66bc223e9147a6b1cc351aba0d069895e539e7e53eda61380a957573766c3ecd",
       "preuves_documentaires": [],
       "documents_extraits": [
         {
-          "url": "https://www.info-encheres.com/upload/DsrAPVD.pdf",
-          "statut": "lu",
+          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
+          "statut": "partiel",
           "pages_lues": [
             1,
             2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20
-          ],
-          "pages_total": 20,
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "consulte_ce_passage": true,
-          "validation": "a_verifier"
-        },
-        {
-          "url": "https://www.info-encheres.com/upload/xbZpSYNTHESE_DIAGNOSTICS_C.pdf",
-          "statut": "lu",
-          "pages_lues": [
-            1,
-            2
-          ],
-          "pages_total": 2,
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "consulte_ce_passage": true,
-          "validation": "a_verifier"
-        },
-        {
-          "url": "https://www.info-encheres.com/upload/1W2VCCV.pdf",
-          "statut": "lu",
-          "pages_lues": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24
+            3
           ],
           "pages_total": 24,
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
+          "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
           "consulte_ce_passage": true,
           "validation": "a_verifier"
-        }
-      ],
-      "motifs_rejet": [],
-      "a_verifier": [
-        "preuve d'un bien libre",
-        "état et diagnostics compatibles avec une revente sans travaux",
-        "prix adjugé (la mise à prix ne le remplace pas)",
-        "date limite et recevabilité de la surenchère",
-        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
-      ],
-      "indices_exclusion": [],
-      "jours_apres_audience": 4,
-      "statut": "a_verifier"
-    },
-    {
-      "id": "9e9e7014777750cdad71330a05fb9328b1e47ff64855baa85dbc693e3ecf9ded",
-      "url_annonce": "https://www.info-encheres.com/108342-d-vente-encheres-immobilieres-appartement-et-parking-perpignan-66-ref-6100.html",
-      "titre": "PERPIGNAN (66) Appartement et Parking Vente le 23/10/2026 Mise à prix : 27.000€ SCP VIAL - PECH DE LACLAUSE – ESCALE - KNOEPFFLER - HUOT – PIRET - JOUBES",
-      "adresse": "",
-      "sources": [
+        },
         {
-          "nom": "Info Enchères - annonces nationales",
-          "categorie": "site_pro",
-          "url": "https://www.info-encheres.com/"
-        }
-      ],
-      "faits": {
-        "date_vente": "2026-10-23",
-        "mise_a_prix_eur": "27000",
-        "occupation": "inconnue",
-        "travaux": "a_verifier",
-        "retiree": false,
-        "seconde_adjudication": false,
-        "surenchere_impossible": false,
-        "vente_amiable": false,
-        "date_vente_source": "https://www.info-encheres.com/108342-d-vente-encheres-immobilieres-appartement-et-parking-perpignan-66-ref-6100.html",
-        "surface_m2": "4.70",
-        "preuve_occupation": [],
-        "preuve_travaux": []
-      },
-      "controle_liste_utc": "2026-10-27T17:50:24.483648+00:00",
-      "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-27T17:51:06.101062+00:00",
-      "erreur_detail": null,
-      "niveau_preuve": "C — publication à contrôler",
-      "documents": [
-        "https://www.info-encheres.com/upload/Pox2CCV.pdf",
-        "https://www.info-encheres.com/upload/ou9GPVD.pdf",
-        "https://www.info-encheres.com/upload/HTQkDDT.pdf",
-        "https://www.info-encheres.com/upload/cqWKSYNTHESE_DIAGNOSTICS.pdf"
-      ],
-      "documents_controles_automatiquement": false,
-      "extrait_dossier": "Mardi 27 Octobre 2026 67 annonces en ligne enchères pratiques Guide Lexique Docs à fournir Recherche par critères : Recherche par n° d'annonce : alerte mail Faites partie des premiers informés des nouveaux avis de vente dès leur publication sur le site Créez votre alerte SCP VIAL - PECH DE LACLAUSE – ESCALE - KNOEPFFLER - HUOT – PIRET - JOUBES 04.68.51.22.29 Voir la fiche Voir le site Référence : 6100 Nature du bien : Appartement et Parking Adresse : 72 à 84 Avenue de Prades 66000 PERPIGNAN Mise à prix 27 000 € Vente le : 23/10/2026 Au Tribunal Judiciaire de : Perpignan 4 Rue André Bosch - 66000 Perpignan Date de visite : MARDI 06 OCTOBRE 2026 de 16H00 à 17H00 Géolocalisation Photos cahier des conditions de la vente Annexes au cahier des conditions de la vente • Procès-verbal descriptif • Diagnostics techniques • Divers Description Vente aux enchères publiques : COMMUNE DE PERPIGNAN : Les parties divises et indivises d’un ensemble immobilier dénommé Résidence Les Oréades, situé sur la Commune de PERPIGNAN, 72 à 84 Avenue de Prades, cadastré Section BV, Numéro : - 266, pour une contenance de 25a 12ca - 300, pour une contenance de 03a 30ca, - 305, pour une contenance de 02a 25ca, - 308, pour une contenance de 15a 23ca, LE LOT NUMERO DOUZE (12) : dans le bâtiment A, au 1er étage, un appartement composé de : entrée (4,70m2), séjour-cuisine (24,05m2), chambre 1 (10,15m2), chambre 2 (9,45m2), débarras (3,70m2), wc (1,80m2), salle de bains (5,15m2), terrasse (7,50m2), et les 129/10.000èmes de la propriété du sol et des parties communes générales et les 251/10.000èmes des parties communes particulières au bâtiment A, LE LOT NUMÉRO CENT QUARANTE (140) : au rez de chaussée, un parking portant le numéro 69 sur le plan avec les 4/10.000èmes de la propriété du sol et des parties communes générales, Avec y attaché une quote-part des charges d’ascenseur du bâtiment A, à savoir au lot numéro 12 pour 257/10.000èmes, et une quote-part des charges d’entretien du hall d’escalier et coursives du bâtiment A, à savoir au lot numéro 12 pour 252/10.000èmes, L’ensemble immobilier est soumis à l’état descriptif de division et règlement de copropriété selon acte reçu par Maître DELCOS, Notaire à PERPIGNAN, le 15.05.2008, publié au Service de la Publicité Foncière de PERPIGNAN (1er bureau) le 23.06.2008, Volume 2008P, Numéro 7851. Le tout plus amplement décrit dans un procès-verbal dressé le 11 JANVIER 2024 par Maître COPOVI, Commissaire de Justice à MILLAS. OCCUPATION : Le bien fait l’objet d’ un contrat de location à usage d’habitation principale signé le 27.01.2016 ayant pris effet le 01.02.2016, pour un loyer de 525,91 € hors charges, et 51 € de charges, avec accès extranet à 1,75 €. LIEU DE CONSULTATION DU CAHIER DES CONDITIONS DE LA VENTE Greffe du Juge de l’Exécution du Tribunal Judiciaire de PERPIGNAN, situé 5 Boulevard des Pyrénées, 66000 PERPIGNAN. SCP VIAL - PECH DE LACLAUSE – ESCALE – KNOEPFFLER – HUOT – PIRET - JOUBES, Villa Jean, 12 Cours Lazare Escarguel, 66000 PERPIGNAN (Tél : 04.68.51.22.29). Les enchères ne pourront être portées que par le ministère d’un avocat inscrit au Barreau de PERPIGNAN. Les audiences de vente débutent à 9h (salle Tribunal de commerce, au rez de chaussée). Présentation Contact Liens Mentions légales Publication des annonces de ventes aux enchères immobilières judiciaires en France, avec descriptif complet, photographies et cahier des conditions de la vente. Site réalisé par des professionnels de l'annonce légale, avec un contenu informatif complet sur les enchères judiciaires. Guide de l'acheteur aux encheres immobilieres, alertes email pour être informé des nouvelles ventes judiciaires, publication des résultats d'adjudication pour pouvoir former une surenchère et tout un ensemble de documents pour participer aux enchères. Les annonces sont publiées à l'initiative de nos partenaires avocats.",
-      "empreinte_contenu": "95dd37c9affa526db0c90e243ff6f47f8be0d5aad139f8829a32214f8e37fd31",
-      "preuves_documentaires": [],
-      "documents_extraits": [
-        {
-          "url": "https://www.info-encheres.com/upload/Pox2CCV.pdf",
+          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
           "statut": "lu",
           "pages_lues": [
             1,
             2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24
+            3
           ],
-          "pages_total": 24,
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
+          "pages_total": 3,
+          "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
           "consulte_ce_passage": true,
           "validation": "a_verifier"
         },
         {
-          "url": "https://www.info-encheres.com/upload/ou9GPVD.pdf",
-          "statut": "lu",
-          "pages_lues": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25
-          ],
-          "pages_total": 25,
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "consulte_ce_passage": true,
-          "validation": "a_verifier"
-        },
-        {
-          "url": "https://www.info-encheres.com/upload/cqWKSYNTHESE_DIAGNOSTICS.pdf",
-          "statut": "lu",
-          "pages_lues": [
-            1,
-            2
-          ],
-          "pages_total": 2,
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
+          "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
+          "statut": "partiel",
+          "pages_lues": [],
+          "pages_total": 36,
+          "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
           "consulte_ce_passage": true,
           "validation": "a_verifier"
         }
@@ -291,17 +115,17 @@
         "preuve d'un bien libre",
         "état et diagnostics compatibles avec une revente sans travaux",
         "prix adjugé (la mise à prix ne le remplace pas)",
-        "date limite et recevabilité de la surenchère",
+        "confirmation avocat du délai et de la recevabilité de la surenchère",
         "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
       ],
       "indices_exclusion": [],
-      "jours_apres_audience": 4,
+      "jours_apres_audience": 1,
       "statut": "a_verifier"
     },
     {
-      "id": "eb0de430f9ea5def7869704a2d393a4b38ece27a4cc64e0ea6dd6fb0477d73af",
-      "url_annonce": "https://www.licitor.com/annonce/11/00/77/vente-aux-encheres/parts-sociales-de-la-sci-daitouch/courbevoie/hauts-de-seine/110077.html",
-      "titre": "Parts sociales de la SCI Daitouch",
+      "id": "ce50a41ff7a8e3d73e8350fe98276a63c1c929095d9232f4aefe3c47aa084f5e",
+      "url_annonce": "https://www.licitor.com/annonce/10/99/67/vente-aux-encheres/deux-ensembles-immobiliers/montcenis/saone-et-loire/109967.html",
+      "titre": "Deux ensembles immobiliers",
       "adresse": "",
       "sources": [
         {
@@ -317,22 +141,21 @@
         "seconde_adjudication": false,
         "surenchere_impossible": false,
         "vente_amiable": false,
-        "date_vente": "2026-10-23",
-        "date_vente_source": "https://www.licitor.com/annonce/11/00/77/vente-aux-encheres/parts-sociales-de-la-sci-daitouch/courbevoie/hauts-de-seine/110077.html",
-        "mise_a_prix_eur": "100000",
-        "surface_m2": "115",
+        "date_vente": "2026-10-27",
+        "date_vente_source": "https://www.licitor.com/annonce/10/99/67/vente-aux-encheres/deux-ensembles-immobiliers/montcenis/saone-et-loire/109967.html",
+        "mise_a_prix_eur": "160000",
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-27T17:51:03.041596+00:00",
+      "controle_detail_utc": "2026-10-28T08:45:23.797405+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 25 septembre 2026 110077 Étude de la SELARL Dubois et Associés, Commissaires de Justice Associés Vente aux enchères publiques vendredi 23 octobre 2026 à 14h Parts sociales de la SCI Daitouch Vente de 2.100 parts en pleine propriété soit 22,22% du capital social et 2.600 parts sociales en usufruit soit 27,51% de l'usufruit, de la Société Civile Immobilière DAITOUCH. Cette société est immatriculée au RCS de Reims sous le n°500.372.099. Cette SCI serait propriétaire des biens immobiliers suivants : Un appartement de 115 m² environ avec un box situé sur la commune de Reims (51) Un immeuble de rapport situé sur la commune de Courbevoie (92) comprenant des locaux commerciaux d'une surface comprise entre 165 m² et 187 m² environ et des appartements pour une surface comprise entre 878 et 980 m² Et ce tel que plus amplement détaillé au cahier des charges vers lequel les adjudicataires sont expressément renvoyés. Le débiteur a engagé une procédure pour annuler la vente. L'assignation est intégrée à l'observation qui sera communiquée avec le cahier des charges et ses annexes Résultat d'adjudication inconnu (Mise à prix : 100 000 €) Courbevoie SELARL Dubois et Associés, Commissaires de Justice Associés 8, rue Saint Ferdinand - 75017 Paris 23, av. Paul Vaillant-Couturier - 93420 Villepinte 1, rue du Docteur Georges Assant - 93290 Tremblay-en-France [email protected] www.dubois-cdj.fr 🔎︎ 8.440 ❤ 229 Claude & Goy - Réf. ADJ58606 Imprimer",
-      "empreinte_contenu": "894ff414f739400479cd63ec384957d13ee5604e636c9cecab1b476515028806",
+      "extrait_dossier": "Annonce publiée le 10 septembre 2026 109967 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Deux ensembles immobiliers à savoir : Un ensemble immobilier comprenant : Au rez-de-chaussée : bâtiment de stockage, hall de dégagement, deux pièces À l'étage : trois pièces Cour extérieure Inoccupé Un ensemble immobilier, comprenant : Au rez-de-chaussée : atelier mécanique, chaudière, lavabo, wc, dégagement, chaufferie, réserve À l'étage : pièce à usage de bureau, réserve Cour avec deux bâtiments ouverts Loué Résultat d'adjudication inconnu (Mise à prix : 160 000 €) Montcenis 1, bd de la Mouillelongue Afficher le plan (exactitude non garantie) SELARL Oppidum Conseils, Avocats 29, rue de la Grille - 71400 Autun Tél.: 03 85 52 31 52 🔎︎ 6.118 ❤ 90 Annonce non-officielle - Contenu non certifié Imprimer",
+      "empreinte_contenu": "8e0c4ec783cf3ebcfa8d16d246d607b84644fa8461b0760e7a452c29e4841bc0",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -344,13 +167,13 @@
         "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
       ],
       "indices_exclusion": [],
-      "jours_apres_audience": 4,
+      "jours_apres_audience": 1,
       "statut": "a_verifier"
     },
     {
-      "id": "1331bda30162338506b6b1cf1cb8867962bebb2b1ca55a885bdfe7d4352f4567",
-      "url_annonce": "https://www.licitor.com/annonce/11/00/76/vente-aux-encheres/parts-sociales-de-la-sci-daitouch/reims/marne/110076.html",
-      "titre": "Parts sociales de la SCI Daitouch",
+      "id": "c3b4c89c4b31d35e0e2c4179bc41c3940aadc7c200fd42bc201e49affa05b49b",
+      "url_annonce": "https://www.licitor.com/annonce/11/00/31/vente-aux-encheres/trois-lots-de-copropriete/poitiers/vienne/110031.html",
+      "titre": "Trois lots de copropriété",
       "adresse": "",
       "sources": [
         {
@@ -366,22 +189,22 @@
         "seconde_adjudication": false,
         "surenchere_impossible": false,
         "vente_amiable": false,
-        "date_vente": "2026-10-23",
-        "date_vente_source": "https://www.licitor.com/annonce/11/00/76/vente-aux-encheres/parts-sociales-de-la-sci-daitouch/reims/marne/110076.html",
-        "mise_a_prix_eur": "100000",
-        "surface_m2": "115",
+        "surface_m2": "144",
+        "date_vente": "2026-10-27",
+        "date_vente_source": "https://www.licitor.com/annonce/11/00/31/vente-aux-encheres/trois-lots-de-copropriete/poitiers/vienne/110031.html",
+        "mise_a_prix_eur": "30000",
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-27T17:51:02.311759+00:00",
+      "controle_detail_utc": "2026-10-28T08:45:30.102046+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 25 septembre 2026 110076 Étude de la SELARL Dubois et Associés, Commissaires de Justice Associés Vente aux enchères publiques vendredi 23 octobre 2026 à 14h Parts sociales de la SCI Daitouch Vente de 2.100 parts en pleine propriété soit 22,22% du capital social et 2.600 parts sociales en usufruit soit 27,51% de l'usufruit, de la Société Civile Immobilière DAITOUCH. Cette société est immatriculée au RCS de Reims sous le n°500.372.099. Cette SCI serait propriétaire des biens immobiliers suivants : Un appartement de 115 m² environ avec un box situé sur la commune de Reims (51) Un immeuble de rapport situé sur la commune de Courbevoie (92) comprenant des locaux commerciaux d'une surface comprise entre 165 m² et 187 m² environ et des appartements pour une surface comprise entre 878 et 980 m² Et ce tel que plus amplement détaillé au cahier des charges vers lequel les adjudicataires sont expressément renvoyés. Le débiteur a engagé une procédure pour annuler la vente. L'assignation est intégrée à l'observation qui sera communiquée avec le cahier des charges et ses annexes Résultat d'adjudication inconnu (Mise à prix : 100 000 €) Reims SELARL Dubois et Associés, Commissaires de Justice Associés 8, rue Saint Ferdinand - 75017 Paris 23, av. Paul Vaillant-Couturier - 93420 Villepinte 1, rue du Docteur Georges Assant - 93290 Tremblay-en-France [email protected] www.dubois-cdj.fr 🔎︎ 4.759 ❤ 99 Claude & Goy - Réf. ADJ58605 Imprimer",
-      "empreinte_contenu": "c64f46174b1ad21dbb87b23009948d4449f8d05ca59bc178b560fe4896dff399",
+      "extrait_dossier": "Annonce publiée le 16 septembre 2026 110031 Tribunal Judiciaire de Poitiers (Vienne) Vente aux enchères publiques mardi 27 octobre 2026 à 9h Trois lots de copropriété d'une surface globale d'environ 144 m², au sous-sol du bâtiment, à usage de laboratoire et de réserve, comprenant : buanderie, deux congélateurs, deux chambres froides, une réserve, deux laboratoires, local stockage, local salaison Résultat d'adjudication inconnu (Mise à prix : 30 000 €) Poitiers Centre commercial des Couronneries 40-76 bis, place de Provence Afficher le plan (exactitude non garantie) Maître Nicolas Duflos, de la SCP d'Avocats Duflos, Avocat 14, bd Chasseigne - CS 60062 - 86002 Poitiers Cedex Tél.: 05 49 88 96 40 [email protected] 🔎︎ 13.589 ❤ 156 Annonce non-officielle - Contenu non certifié Imprimer",
+      "empreinte_contenu": "41b2a49480914c64fb319721d214e85dd737233a66ec3c29f889e232e0d24d84",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -393,13 +216,13 @@
         "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
       ],
       "indices_exclusion": [],
-      "jours_apres_audience": 4,
+      "jours_apres_audience": 1,
       "statut": "a_verifier"
     },
     {
-      "id": "92ea43a9d09bc70bc63fa363dd48ff3fa3b72159e59161915c47f540d6704c5a",
-      "url_annonce": "https://www.licitor.com/annonce/11/00/63/vente-aux-encheres/un-appartement/perpignan/pyrenees-orientales/110063.html",
-      "titre": "Un appartement",
+      "id": "81a751f1b1ccbcbd8b223d395b563592efe826ccf223aaa001f9d5c509db8bde",
+      "url_annonce": "https://www.licitor.com/annonce/10/99/76/vente-aux-encheres/une-grange/glenic/creuse/109976.html",
+      "titre": "Une grange",
       "adresse": "",
       "sources": [
         {
@@ -415,22 +238,21 @@
         "seconde_adjudication": false,
         "surenchere_impossible": false,
         "vente_amiable": false,
-        "surface_m2": "70.60",
-        "date_vente": "2026-10-23",
-        "date_vente_source": "https://www.licitor.com/annonce/11/00/63/vente-aux-encheres/un-appartement/perpignan/pyrenees-orientales/110063.html",
-        "mise_a_prix_eur": "25000",
+        "date_vente": "2026-10-27",
+        "date_vente_source": "https://www.licitor.com/annonce/10/99/76/vente-aux-encheres/une-grange/glenic/creuse/109976.html",
+        "mise_a_prix_eur": "12000",
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-27T17:51:01.533273+00:00",
+      "controle_detail_utc": "2026-10-28T08:45:24.589753+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 21 septembre 2026 110063 Tribunal Judiciaire de Perpignan (Pyrénées orientales) Vente aux enchères publiques vendredi 23 octobre 2026 à 9h Un appartement de 70,60 m², au 2ème étage, comprenant : hall d'entrée avec dégagement, cuisine, séjour avec balcon, wc, salle de bains, chambre Libre Résultat d'adjudication inconnu (Mise à prix : 25 000 €) Perpignan 1, rue Ernest Renan Afficher le plan (exactitude non garantie) Maître Cendrine Tobailem, Avocat 3, place Arago - 66000 Perpignan Tél.: 06 09 31 19 25 (ligne directe) [email protected] Maître Sarah Sahnoun, de la SELARL Sahnoun et Avocats Associés, Avocat 18, bd Carnot - 06400 Cannes Tél.: 04 93 30 30 70 [email protected] 🔎︎ 6.986 ❤ 248 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "8134194d4c5f888e46f0ae537a1c441c3a31a45a280c42fc858244b902aabde8",
+      "extrait_dossier": "Annonce publiée le 10 septembre 2026 109976 Tribunal Judiciaire de Guéret (Creuse) Vente aux enchères publiques mardi 27 octobre 2026 à 14h30 Une grange et deux parcelles viabilisées Résultat d'adjudication inconnu (Mise à prix : 12 000 €) Glénic Maître Philippe Lefaure, Avocat 3, av. Pierre Mendès-France - 23000 Guéret Tél.: 05 55 41 86 36 🔎︎ 6.603 ❤ 112 Annonce non-officielle - Contenu non certifié Imprimer",
+      "empreinte_contenu": "c7d698d7899565bf5c4800529221c9032e3f052c593ff731cc579bb9fc7b0f6d",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -442,13 +264,13 @@
         "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
       ],
       "indices_exclusion": [],
-      "jours_apres_audience": 4,
+      "jours_apres_audience": 1,
       "statut": "a_verifier"
     },
     {
-      "id": "a8c42d8a8f062eb1465a7bb1e32ba0cc7a6f09b0882d4faf5cb86ee37373abb3",
-      "url_annonce": "https://www.licitor.com/annonce/11/00/95/vente-aux-encheres/un-appartement/perpignan/pyrenees-orientales/110095.html",
-      "titre": "Un appartement",
+      "id": "71c44f7b6a98e7dcdc6984c1fbfb97eae6a8e37bec9ee7cb07ebd6a17b91847e",
+      "url_annonce": "https://www.licitor.com/annonce/11/00/14/vente-aux-encheres/une-maison/saint-jean-de-vaux/saone-et-loire/110014.html",
+      "titre": "Une maison",
       "adresse": "",
       "sources": [
         {
@@ -464,21 +286,21 @@
         "seconde_adjudication": false,
         "surenchere_impossible": false,
         "vente_amiable": false,
-        "date_vente": "2026-10-23",
-        "date_vente_source": "https://www.licitor.com/annonce/11/00/95/vente-aux-encheres/un-appartement/perpignan/pyrenees-orientales/110095.html",
-        "mise_a_prix_eur": "27000",
+        "date_vente": "2026-10-27",
+        "date_vente_source": "https://www.licitor.com/annonce/11/00/14/vente-aux-encheres/une-maison/saint-jean-de-vaux/saone-et-loire/110014.html",
+        "mise_a_prix_eur": "72000",
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-27T17:51:03.838192+00:00",
+      "controle_detail_utc": "2026-10-28T08:45:25.444388+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 22 septembre 2026 110095 Tribunal Judiciaire de Perpignan (Pyrénées orientales) Vente aux enchères publiques vendredi 23 octobre 2026 à 9h Un appartement bâtiment A, au 1er étage, comprenant : entrée, séjour-cuisine, deux chambres, débarras, wc, salle de bains, terrasse Parking, au rez-de-chaussée, portant le n°69 Loué Résultat d'adjudication inconnu (Mise à prix : 27 000 €) Perpignan Résidence Les Oréades 72 à 84, av. de Prades Afficher le plan (exactitude non garantie) SCP Vial - Pech de Laclause - Escalé - Knoepffler - Huot - Piret - Joubes, Avocats Villa Jean - 12, cours Lazare Escarguel - CS 80531 - 66005 Perpignan Cedex Tél.: 04 68 51 22 29 [email protected] 🔎︎ 6.979 ❤ 225 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "562776759fdecdbf6f8235fd8f43f780b197a7820a0c23ba3f50284f54b466b8",
+      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110014 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Une maison de type T2, comprenant : entrée, buanderie-wc, chambre, dégagement, séjour, cuisine ouverte, salle de bains Le tout sur atelier, cave Grenier au-dessus Occupée Résultat d'adjudication inconnu (Mise à prix : 72 000 €) Saint-Jean-de-Vaux 3, rue Basse Afficher le plan (exactitude non garantie) Maître Sophie Delahaut, de la SELARL Delahaut - Thomas, Avocat associé 25, rue d'Autun - 71100 Chalon-sur-Saône SELAS Lancelin - Lambert, Avocats 4, rue Docteur Maret - 21000 Dijon 🔎︎ 5.496 ❤ 96 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "f3dfcd112b06eee43f5c1e239a1287abb5ae0b721c157fe43444da43102ee192",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -490,13 +312,13 @@
         "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
       ],
       "indices_exclusion": [],
-      "jours_apres_audience": 4,
+      "jours_apres_audience": 1,
       "statut": "a_verifier"
     },
     {
-      "id": "a2b35e3c792d0ad66915e2f22c893d36ad901e28a6b5611e33ed2d898b17ff32",
-      "url_annonce": "https://www.licitor.com/annonce/11/00/96/vente-aux-encheres/un-appartement/perpignan/pyrenees-orientales/110096.html",
-      "titre": "Un appartement",
+      "id": "22ae1918cb3ac866f48cf8201a1c226b96cea61136875f3eb0517a2e3c0c51fa",
+      "url_annonce": "https://www.licitor.com/annonce/11/00/89/vente-aux-encheres/une-maison-bourgeoise/chalon-sur-saone/saone-et-loire/110089.html",
+      "titre": "Une maison bourgeoise",
       "adresse": "",
       "sources": [
         {
@@ -512,21 +334,22 @@
         "seconde_adjudication": false,
         "surenchere_impossible": false,
         "vente_amiable": false,
-        "date_vente": "2026-10-23",
-        "date_vente_source": "https://www.licitor.com/annonce/11/00/96/vente-aux-encheres/un-appartement/perpignan/pyrenees-orientales/110096.html",
-        "mise_a_prix_eur": "16000",
+        "surface_m2": "349",
+        "date_vente": "2026-10-27",
+        "date_vente_source": "https://www.licitor.com/annonce/11/00/89/vente-aux-encheres/une-maison-bourgeoise/chalon-sur-saone/saone-et-loire/110089.html",
+        "mise_a_prix_eur": "340000",
         "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-27T17:51:04.665945+00:00",
+      "controle_detail_utc": "2026-10-28T08:45:33.107843+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 22 septembre 2026 110096 Tribunal Judiciaire de Perpignan (Pyrénées orientales) Vente aux enchères publiques vendredi 23 octobre 2026 à 9h Un appartement au 2ème étage, de type F1 bis, comprenant : entrée, chambre, séjour-cuisine, salle d'eau-wc Cellier, au rez-de-chaussée Inoccupé Résultat d'adjudication inconnu (Mise à prix : 16 000 €) Perpignan 8, av. du Tech Afficher le plan (exactitude non garantie) SCP Vial - Pech de Laclause - Escalé - Knoepffler - Huot - Piret - Joubes, Avocats Villa Jean - 12, cours Lazare Escarguel - CS 80531 - 66005 Perpignan Cedex Tél.: 04 68 51 22 29 [email protected] 🔎︎ 5.998 ❤ 247 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "46dad0ef9322bbd0a0fb8bc326d9c0d35cd2750380e9ad77c8fe6f859988ea42",
+      "extrait_dossier": "Annonce publiée le 22 septembre 2026 110089 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Une maison bourgeoise de 349 m², à usage d'habitation, comprenant : Au rez-de-chaussée : entrée, couloir, salon avec cheminée, coin dressing, dégagement, cuisine, wc, vestiaires, grande salle à manger, bureau Au 1er étage : couloir, grande chambre ouvrant sur balcon, trois chambres, rangements, salle de bains privative avec wc, salle de bains avec douche, salle de bains avec baignoire et wc Au 2ème étage : trois pièces, buanderie, salle d'eau et bureau Caves, dépendance, terrasse avec petit jardin Résultat d'adjudication inconnu (Mise à prix : 340 000 €) Chalon-sur-Saône 8, quai Sainte Marie Afficher le plan (exactitude non garantie) SELAS Adida et Associés, Avocats 15, place du Châtelet - BP 20309 - 71108 Chalon-sur-Saône Tél.: 03 85 48 65 86 - Fax : 03 85 48 33 24 🔎︎ 5.584 ❤ 106 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "4eebec2910052c183b915844a375fd39cdfc10279d3b212dc5d86b852f089724",
       "preuves_documentaires": [],
       "documents_extraits": [],
       "motifs_rejet": [],
@@ -538,252 +361,12 @@
         "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
       ],
       "indices_exclusion": [],
-      "jours_apres_audience": 4,
+      "jours_apres_audience": 1,
       "statut": "a_verifier"
     },
     {
-      "id": "e36ba1aaf5f736845cec7fa72dc91aa4799429e7b8b86c9583ff6a7c3b1e2d9e",
-      "url_annonce": "https://www.info-encheres.com/108340-d-vente-encheres-immobilieres-appartement-t3-perpignan-66-ref-6098.html",
-      "titre": "PERPIGNAN (66) Appartement T3 Vente le 23/10/2026 Mise à prix : 25.000€ Maître Cendrine TOBAILEM",
-      "adresse": "",
-      "sources": [
-        {
-          "nom": "Info Enchères - annonces nationales",
-          "categorie": "site_pro",
-          "url": "https://www.info-encheres.com/"
-        }
-      ],
-      "faits": {
-        "date_vente": "2026-10-23",
-        "mise_a_prix_eur": "25000",
-        "occupation": "libre",
-        "travaux": "a_verifier",
-        "retiree": false,
-        "seconde_adjudication": false,
-        "surenchere_impossible": false,
-        "vente_amiable": false,
-        "date_vente_source": "https://www.info-encheres.com/108340-d-vente-encheres-immobilieres-appartement-t3-perpignan-66-ref-6098.html",
-        "surface_m2": "70.60",
-        "preuve_occupation": [
-          "occupation : libre"
-        ],
-        "preuve_travaux": []
-      },
-      "controle_liste_utc": "2026-10-27T17:50:24.483648+00:00",
-      "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-27T17:51:02.905774+00:00",
-      "erreur_detail": null,
-      "niveau_preuve": "C — publication à contrôler",
-      "documents": [
-        "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-        "https://www.info-encheres.com/upload/pJnBpvd.pdf",
-        "https://www.info-encheres.com/upload/yG25ddt.pdf"
-      ],
-      "documents_controles_automatiquement": false,
-      "extrait_dossier": "Mardi 27 Octobre 2026 67 annonces en ligne enchères pratiques Guide Lexique Docs à fournir Recherche par critères : Recherche par n° d'annonce : alerte mail Faites partie des premiers informés des nouveaux avis de vente dès leur publication sur le site Créez votre alerte Maître Cendrine TOBAILEM 06 09 31 19 25 Voir la fiche Référence : 6098 Nature du bien : Appartement T3 Adresse : 1 rue Ernest Renan 66000 PERPIGNAN Superficie : 70.60 m² Mise à prix 25 000 € Vente le : 23/10/2026 Au Tribunal Judiciaire de : Perpignan 4 Rue André Bosch - 66000 Perpignan Date de visite : Jeudi 1er octobre 2026 à 9h30 - Jeudi 8 octobre 2026 à 10h30 Par SOLUTIONS ET ASSOCIES, Commissaires de Justice à PERPIGNAN, 36 Avenue Eole, Immeuble l’Odyssée - 66100 PERPIGNAN Géolocalisation Photos cahier des conditions de la vente Annexes au cahier des conditions de la vente • Procès-verbal descriptif • Diagnostics techniques Description VENTE AUX ENCHERES PUBLIQUES - EN UN SEUL LOT À PERPIGNAN (66000), 1 rue Ernest Renan Cadastre section AW 731- Superficie 2 a 04 ca Lot 4 : UN APPARTEMENT de type F3 à usage d’habitation au 2ème étage, d’une superficie totale de 70,60 m² , avec les 1317/10000èmes OCCUPATION : libre d’occupation Sur la Commune de PERPIGNAN (66000), 1 rue Ernest Rénan, un appartement de 2 pièces, d’une superficie de 70,60 m² au deuxième étage sans ascenseur, composé d’un hall d’entrée avec dégagement, d’une cuisine, d’un séjour donnant sur un balcon, d’un WC, d’une salle de bains et d’une chambre. DIAGNOSTICS : dans le Cahier des conditions de la vente. CONSIGNATION : 3.000 euros. SURENCHERE DE 10 % : dans les dix jours de l’adjudication, par un avocat inscrit au Barreau de PERPIGNAN. ASSURANCE : L’adjudicataire est tenu d’assurer l’immeuble contre tous risques à compter du jour de l’adjudication et sous sa seule responsabilité. SYNDIC : GAVALDA IMMOBILIER - 8 Place de l’Europe - 66000 PERPIGNAN CLAUSES ET CONDITIONS insérées au cahier des conditions de la vente n°26/00036 déposé le 31 mars 2026 qui peut être consulté : - au Greffe du TJ de PERPIGNAN, Service du JEX (immobilier) , - au Cabinet de l’avocat poursuivant, Me Cendrine TOBAILEM, Avocat au Barreau de PERPIGNAN - 3 Place Arago - 66000 PERPIGNAN - Ligne directe : 06 09 31 19 25 - Mail : ctobailem-avocat@bbox.fr - Maître Sarah SAHNOUN - SELARL SAHNOUN & Avocats Associés Avocat plaidant - Avocat au Barreau de GRASSE -18 boulevard Carnot - 06400 CANNES - Ligne ventes : 04.93.30.30.70 - Mail : contact@avocat-sahnoun.com - Site internet : www.avocat-sahnoun.com - sur rendez-vous. La vente ne pourra être renvoyée qu’en cas de force majeure ou à la demande éventuelle de la commission de surendettement. Les enchères ne peuvent être portées que par un avocat inscrit au Barreau de PERPIGNAN. Les audiences de vente débutent à 9h. Présentation Contact Liens Mentions légales Publication des annonces de ventes aux enchères immobilières judiciaires en France, avec descriptif complet, photographies et cahier des conditions de la vente. Site réalisé par des professionnels de l'annonce légale, avec un contenu informatif complet sur les enchères judiciaires. Guide de l'acheteur aux encheres immobilieres, alertes email pour être informé des nouvelles ventes judiciaires, publication des résultats d'adjudication pour pouvoir former une surenchère et tout un ensemble de documents pour participer aux enchères. Les annonces sont publiées à l'initiative de nos partenaires avocats.",
-      "empreinte_contenu": "4de1366260bb10aa561beb47c9c30fda99b4d710e7f7bd88204ab9e2298bbeeb",
-      "preuves_documentaires": [
-        {
-          "champ": "mise_a_prix_eur",
-          "valeur": "25000.00",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 2,
-          "methode": "ocr",
-          "extrait": "mise a prix: 25.000,00 €",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "consulte_ce_passage": true
-        },
-        {
-          "champ": "date_vente",
-          "valeur": "2021-02-19",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 6,
-          "methode": "ocr",
-          "extrait": "vente du 19/02/2021",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "consulte_ce_passage": true
-        },
-        {
-          "champ": "travaux",
-          "valeur": "necessaires",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 8,
-          "methode": "texte",
-          "extrait": "mauvais etat",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "consulte_ce_passage": true
-        },
-        {
-          "champ": "date_vente",
-          "valeur": "2021-02-19",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 20,
-          "methode": "texte",
-          "extrait": "vente du 19/02/2021",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "consulte_ce_passage": true
-        }
-      ],
-      "documents_extraits": [
-        {
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "statut": "lu",
-          "pages_lues": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20
-          ],
-          "pages_total": 20,
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "consulte_ce_passage": true,
-          "validation": "a_verifier"
-        },
-        {
-          "url": "https://www.info-encheres.com/upload/pJnBpvd.pdf",
-          "statut": "lu",
-          "pages_lues": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            53,
-            54,
-            55,
-            56,
-            57,
-            58,
-            59,
-            60,
-            61,
-            62,
-            63,
-            64,
-            65,
-            66,
-            67,
-            68,
-            69,
-            70,
-            71,
-            72,
-            73,
-            74,
-            75,
-            76,
-            77,
-            78,
-            79,
-            80,
-            81,
-            82,
-            83,
-            84,
-            85
-          ],
-          "pages_total": 85,
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "consulte_ce_passage": true,
-          "validation": "a_verifier"
-        }
-      ],
-      "motifs_rejet": [
-        "indice documentaire incompatible : travaux=necessaires, p. 8 (texte) — identité et actualité à contrôler"
-      ],
-      "a_verifier": [
-        "état et diagnostics compatibles avec une revente sans travaux",
-        "prix adjugé (la mise à prix ne le remplace pas)",
-        "date limite et recevabilité de la surenchère",
-        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
-      ],
-      "indices_exclusion": [
-        {
-          "champ": "travaux",
-          "valeur": "necessaires",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 8,
-          "methode": "texte",
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00"
-        }
-      ],
-      "jours_apres_audience": 4,
-      "statut": "rejete"
-    },
-    {
-      "id": "f55de2605a353994a0f645704ae69d9341ad070a83c9cbf240430f107bec1cd4",
-      "url_annonce": "https://www.licitor.com/annonce/11/00/46/vente-aux-encheres/une-maison-a-usage-d-habitation/perpignan/pyrenees-orientales/110046.html",
+      "id": "417ee3b29eea11369c9b49f3f5b80d3173527b7e84a5ddf5bbcaba05560bb2a2",
+      "url_annonce": "https://www.licitor.com/annonce/11/00/82/vente-aux-encheres/une-maison-a-usage-d-habitation/chatellerault/vienne/110082.html",
       "titre": "Une maison à usage d'habitation",
       "adresse": "",
       "sources": [
@@ -794,42 +377,244 @@
         }
       ],
       "faits": {
-        "occupation": "occupe",
+        "occupation": "inconnue",
         "travaux": "a_verifier",
         "retiree": false,
         "seconde_adjudication": false,
         "surenchere_impossible": false,
         "vente_amiable": false,
-        "date_vente": "2026-10-23",
-        "date_vente_source": "https://www.licitor.com/ventes-judiciaires-immobilieres/tj-perpignan/vendredi-23-octobre-2026.html",
-        "mise_a_prix_eur": "96800",
-        "preuve_occupation": [
-          "appartements sont occupes"
-        ],
+        "date_vente": "2026-10-27",
+        "date_vente_source": "https://www.licitor.com/annonce/11/00/82/vente-aux-encheres/une-maison-a-usage-d-habitation/chatellerault/vienne/110082.html",
+        "mise_a_prix_eur": "38000",
+        "preuve_occupation": [],
         "preuve_travaux": []
       },
-      "controle_liste_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
       "detail_lu_ce_passage": true,
-      "controle_detail_utc": "2026-10-27T17:51:00.687727+00:00",
+      "controle_detail_utc": "2026-10-28T08:45:31.191765+00:00",
       "erreur_detail": null,
       "niveau_preuve": "C — publication à contrôler",
       "documents": [],
       "documents_controles_automatiquement": false,
-      "extrait_dossier": "Annonce publiée le 18 septembre 2026 110046 Tribunal Judiciaire de Perpignan (Pyrénées orientales) Vente aux enchères publiques sur surenchère vendredi 23 octobre 2026 à 9h Une maison à usage d'habitation élevée de trois étages sur rez-de-chaussée, comprenant : huit appartements Cour et combles Six appartements sont occupés et loués Résultat d'adjudication inconnu (Mise à prix : 96 800 €) Perpignan 7, rue Claude Monet Afficher le plan (exactitude non garantie) Maître Caroline Da Luz Sousa, Avocat Tecnosud II - 339, av. Eole - 66000 Perpignan Tél.: 09 72 65 53 42 🔎︎ 8.449 ❤ 201 Annonce non-officielle - Contenu non certifié Imprimer ",
-      "empreinte_contenu": "20277b213df3e241fa291e5a3bd9f9366718f1be40f4959f31091d6c17df3a4c",
+      "extrait_dossier": "Annonce publiée le 22 septembre 2026 110082 Tribunal Judiciaire de Poitiers (Vienne) Vente aux enchères publiques mardi 27 octobre 2026 à 9h Une maison à usage d'habitation individuelle, comprenant : Au rez-de-chaussée : cuisine, chambre, salle d'eau avec wc, salon À l'étage : deux chambres, salle d'eau Sous-sol Terrain entièrement clos Occupée Résultat d'adjudication inconnu (Mise à prix : 38 000 €) Châtellerault 17, rue du Champ-des-Bordes Afficher le plan (exactitude non garantie) SELARL 1927 Avocats, SELARL Marie-Anne Bussières Avocats, membres de l'AARPI Drouineau 1927, Avocats 124, route de Poitiers - 86280 Saint-Benoît Tél.: 05 49 88 02 38 - Fax : 05 49 88 98 96 [email protected] 🔎︎ 8.260 ❤ 145 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "3040266c5625ca4af78d8498aa1778c12e73d1283ca0b0f077c43794b761c898",
       "preuves_documentaires": [],
       "documents_extraits": [],
-      "motifs_rejet": [
-        "occupation incompatible ou contradictoire"
-      ],
+      "motifs_rejet": [],
       "a_verifier": [
+        "preuve d'un bien libre",
         "état et diagnostics compatibles avec une revente sans travaux",
         "prix adjugé (la mise à prix ne le remplace pas)",
         "date limite et recevabilité de la surenchère",
         "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
       ],
       "indices_exclusion": [],
-      "jours_apres_audience": 4,
+      "jours_apres_audience": 1,
+      "statut": "a_verifier"
+    },
+    {
+      "id": "7015a103bb12406ef1cc3147473e5c00aa011c860589149a03b08618a5da7306",
+      "url_annonce": "https://www.vench.fr/vente-166606-une-parcelle-tourrettes.html",
+      "titre": "UNE PARCELLE • Tourrettes",
+      "adresse": "",
+      "sources": [
+        {
+          "nom": "Vench - résultats et surenchères",
+          "categorie": "site_pro",
+          "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html"
+        }
+      ],
+      "faits": {
+        "mise_a_prix_eur": "0.01",
+        "occupation": "inconnue",
+        "travaux": "a_verifier",
+        "retiree": false,
+        "seconde_adjudication": false,
+        "surenchere_impossible": true,
+        "vente_amiable": false,
+        "date_vente": "2026-10-26",
+        "surface_m2": "501",
+        "preuve_occupation": [],
+        "preuve_travaux": [],
+        "date_vente_source": "https://www.vench.fr/vente-166606-une-parcelle-tourrettes.html"
+      },
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
+      "detail_lu_ce_passage": true,
+      "controle_detail_utc": "2026-10-28T08:45:35.694604+00:00",
+      "erreur_detail": null,
+      "niveau_preuve": "C — publication à contrôler",
+      "documents": [],
+      "documents_controles_automatiquement": false,
+      "extrait_dossier": "Ce site utilise Google Analytics. En continuant à naviguer, vous nous autorisez à déposer un cookie à des fins de mesure d'audience. OK En savoir plus Le site des ventes aux enchères immobilières en France UNE PARCELLE • Tourrettes Vente aux enchères sur appel d’offre Adresse 3100 route de Bagnols-en-Forêt 83440 Tourrettes Voir la carte DATE DE L'AUDIENCE 26/10/2026 à 17:00 VENTE TERMINÉE Cette vente est terminée, aucune surenchère possible. Terminée Divers 83440 Tourrettes Description Appel d'offre Cession immobilière d'un bien sis à Tourrettes Dans le cadre de la LIQUIDATION JUDICIAIRE DE LA SAS SIFT Bien sis DOMAINE DE TERRE BLANCHE - TOURRETTES (VAR) ACTIF À CÉDER : Parcelle de 35 501 m² cadastrée section F n°1285, au sein du prestigieux Domaine de Terre Blanche. Dossier de présentation sur demande auprés de la SELAFA MJA DATE LIMITE DE DÉPÔT DES OFFRES 26 NOVEMBRE 2026 À 17h sous pli fermé entre les mains de Maître VAN KEMMEL, Commissaire de Justice 1 quai de Corse – 75004 Paris Audience d’examen des offres : 27 novembre 2026 à 14h30 Renseignements Contact : MJA mail [email protected] Caractéristiques Documents Calculer les frais Résultat de la vente — en cours de récupération Récupération des données en cours auprès de nos partenaires · sous 3 jours ouvrables. En savoir plus ▼ Délai dépassé ? Je relance Demander le résultat Vench s'engage, dans la majorité des cas, à publier les résultats sous 3 jours ouvrables après l'audience. La transmission dépend toutefois des avocats, greffes et sources officielles sollicitées, ce qui peut occasionner certains délais indépendants de notre volonté. Demander le résultat de la vente × ✉ Votre demande est transmise par Vench aux interlocuteurs compétents. Le destinataire est géré automatiquement — vous n'avez pas à le renseigner. ✓ Demande envoyée Nous transmettons votre demande aux interlocuteurs compétents. Vous recevrez le résultat par e-mail dès sa publication. Fermer 3100 route de Bagnols-en-Forêt à Tourrettes, Var Carte de situation Carte parcellaire Informations PLU Informations PLU réservées aux abonnés Consultez le zonage, les règles d’urbanisme applicables et les informations utiles pour évaluer le potentiel du bien. Je m'abonne Ces données sont fournies par notre partenaire iudo.co Carte parcellaire réservée aux abonnés Visualisez le bien sur le plan cadastral, identifiez les parcelles concernées et analysez son environnement immédiat. Je m'abonne Ces données sont fournies par notre partenaire iudo.co Commissaire de justice Maître Eric ASSOULINE Demande d'informations 01 44 24 65 65 [email protected] A l'adresse suivante , Statistiques Publication : 29/09/2026 Vues : Favoris : Clics : Les photos sont indicatives et non contractuelles. Elles ne sauraient engager la responsabilité du poursuivant, ni celle de son conseil et ni celle du site publicateur. ",
+      "empreinte_contenu": "67a373a65db793705be4fd7ddad446950a9bbad2225e260f86edb1021a6e7451",
+      "preuves_documentaires": [],
+      "documents_extraits": [],
+      "motifs_rejet": [
+        "surenchère annoncée impossible"
+      ],
+      "a_verifier": [
+        "preuve d'un bien libre",
+        "état et diagnostics compatibles avec une revente sans travaux",
+        "prix adjugé (la mise à prix ne le remplace pas)",
+        "date limite et recevabilité de la surenchère",
+        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
+      ],
+      "indices_exclusion": [],
+      "jours_apres_audience": 2,
+      "statut": "rejete"
+    },
+    {
+      "id": "aee3805cdc934c663e5d479c923bc8f38d0794bb75c18e6f6f0ea40003ca24bc",
+      "url_annonce": "https://www.vench.fr/vente-166529-une-maison-bourgeoise-a-usage-d-habitation-chalon-sur-saone.html",
+      "titre": "UNE MAISON BOURGEOISE À USAGE D'HABITATION • 349m² • Chalon-sur-Saône",
+      "adresse": "",
+      "sources": [
+        {
+          "nom": "Vench - résultats et surenchères",
+          "categorie": "site_pro",
+          "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html"
+        }
+      ],
+      "faits": {
+        "mise_a_prix_eur": "340000.00",
+        "occupation": "inconnue",
+        "travaux": "a_verifier",
+        "retiree": false,
+        "seconde_adjudication": false,
+        "surenchere_impossible": true,
+        "vente_amiable": false,
+        "surface_m2": "349",
+        "date_vente": "2026-10-27",
+        "preuve_occupation": [],
+        "preuve_travaux": [],
+        "date_vente_source": "https://www.vench.fr/vente-166529-une-maison-bourgeoise-a-usage-d-habitation-chalon-sur-saone.html"
+      },
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
+      "detail_lu_ce_passage": true,
+      "controle_detail_utc": "2026-10-28T08:45:30.079067+00:00",
+      "erreur_detail": null,
+      "niveau_preuve": "C — publication à contrôler",
+      "documents": [],
+      "documents_controles_automatiquement": false,
+      "extrait_dossier": "Ce site utilise Google Analytics. En continuant à naviguer, vous nous autorisez à déposer un cookie à des fins de mesure d'audience. OK En savoir plus Le site des ventes aux enchères immobilières en France UNE MAISON BOURGEOISE À USAGE D'HABITATION • 349m² • Chalon-sur-Saône Ventes aux enchères publiques - Tribunal judiciaire de CHALON SUR SAONE Adresse 71100 Chalon-sur-Saône Voir la carte DATE DE L'AUDIENCE 27/10/2026 à 13:30 VENTE TERMINÉE Cette vente est terminée, aucune surenchère possible. Terminée Maison • 349m² 71100 Chalon-sur-Saône Description Pour consulter l'intégralité des informations disponibles sur cette vente, vous devez être abonné. Grâce à l'abonnement à Vench, à partir de 40€ par an, vous avez accès à l'ensemble des ventes judiciaires référencées en France, aux visites, aux résultats ... ainsi qu'à un panel de services pour cibler au mieux les opportunités des ventes aux enchères : alertes, documents liés à la vente (si fournis par l'avocat), représentations, ... S'abonner Caractéristiques Balcon Terrasse Cave Jardin Documents Mise à prix : 340 000.00 € Calculer les frais Consignation : 34 000,00 € libellé à l'ordre CARPA Chalon-sur-Saône, Saône-et-Loire Avocat poursuivant S'abonner pour consulter Journal publicateur Vente publiée par JOURNAL DE SAONE ET LOIRE - SAONE ET LOIRE le 18/09/2026 15, rue des Tonneliers B.P. 30134, 71104 CHALON SUR SAONE CEDEX Tribunal Judiciaire de CHALON SUR SAONE Rue Emiland Menand, 71 100 CHALON SUR SAONE Statistiques Publication : 18/09/2026 Vues : Favoris : Clics : Les photos sont indicatives et non contractuelles. Elles ne sauraient engager la responsabilité du poursuivant, ni celle de son conseil et ni celle du site publicateur. ",
+      "empreinte_contenu": "60743da3d65a5601ced4bb939592873ad6fd15f2db4e05256ae90fcb8b65baa5",
+      "restriction_acces": "description complète réservée aux abonnés",
+      "preuves_documentaires": [],
+      "documents_extraits": [],
+      "motifs_rejet": [
+        "surenchère annoncée impossible"
+      ],
+      "a_verifier": [
+        "preuve d'un bien libre",
+        "état et diagnostics compatibles avec une revente sans travaux",
+        "prix adjugé (la mise à prix ne le remplace pas)",
+        "date limite et recevabilité de la surenchère",
+        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
+      ],
+      "indices_exclusion": [],
+      "jours_apres_audience": 1,
+      "statut": "rejete"
+    },
+    {
+      "id": "21ea700a82227fe83675004afad3269a1e48439ed77a76721fbdddbe27fe10fc",
+      "url_annonce": "https://www.vench.fr/vente-166600-une-maison-a-usage-d-habitation-saint-germain-chassenay.html",
+      "titre": "UNE MAISON À USAGE D'HABITATION • Saint-Germain-Chassenay",
+      "adresse": "",
+      "sources": [
+        {
+          "nom": "Vench - résultats et surenchères",
+          "categorie": "site_pro",
+          "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html"
+        }
+      ],
+      "faits": {
+        "mise_a_prix_eur": "80000.00",
+        "occupation": "inconnue",
+        "travaux": "a_verifier",
+        "retiree": false,
+        "seconde_adjudication": false,
+        "surenchere_impossible": true,
+        "vente_amiable": false,
+        "date_vente": "2026-10-27",
+        "preuve_occupation": [],
+        "preuve_travaux": [],
+        "date_vente_source": "https://www.vench.fr/vente-166600-une-maison-a-usage-d-habitation-saint-germain-chassenay.html"
+      },
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
+      "detail_lu_ce_passage": true,
+      "controle_detail_utc": "2026-10-28T08:45:30.879228+00:00",
+      "erreur_detail": null,
+      "niveau_preuve": "C — publication à contrôler",
+      "documents": [],
+      "documents_controles_automatiquement": false,
+      "extrait_dossier": "Ce site utilise Google Analytics. En continuant à naviguer, vous nous autorisez à déposer un cookie à des fins de mesure d'audience. OK En savoir plus Le site des ventes aux enchères immobilières en France UNE MAISON À USAGE D'HABITATION • Saint-Germain-Chassenay Ventes aux enchères publiques - Tribunal judiciaire de NEVERS Adresse 58300 Saint-Germain-Chassenay Voir la carte DATE DE L'AUDIENCE 27/10/2026 à 10:45 VENTE TERMINÉE Cette vente est terminée, aucune surenchère possible. Terminée Maison 58300 Saint-Germain-Chassenay Description Pour consulter l'intégralité des informations disponibles sur cette vente, vous devez être abonné. Grâce à l'abonnement à Vench, à partir de 40€ par an, vous avez accès à l'ensemble des ventes judiciaires référencées en France, aux visites, aux résultats ... ainsi qu'à un panel de services pour cibler au mieux les opportunités des ventes aux enchères : alertes, documents liés à la vente (si fournis par l'avocat), représentations, ... S'abonner Caractéristiques Documents Mise à prix : 80 000.00 € Calculer les frais Consignation : 8 000 € à l'ordre du Séquestre Saint-Germain-Chassenay, Nièvre Avocat poursuivant S'abonner pour consulter Journal publicateur Vente publiée par JOURNAL DU CENTRE - NIEVRE le 26/09/2026 GROUPE CENTRE FRANCE 45 rue du Clos Four, 63 056 CLERMONT FERRAND CEDEX 2 Tribunal Judiciaire de NEVERS Place du Palais, 58 000 NEVERS Statistiques Publication : 26/09/2026 Vues : Favoris : Clics : Les photos sont indicatives et non contractuelles. Elles ne sauraient engager la responsabilité du poursuivant, ni celle de son conseil et ni celle du site publicateur. ",
+      "empreinte_contenu": "cc846d7a4b914d8e5f62f66ea3ab784c898930cc6128f737f0fc0d0fd668ed6e",
+      "restriction_acces": "description complète réservée aux abonnés",
+      "preuves_documentaires": [],
+      "documents_extraits": [],
+      "motifs_rejet": [
+        "surenchère annoncée impossible"
+      ],
+      "a_verifier": [
+        "preuve d'un bien libre",
+        "état et diagnostics compatibles avec une revente sans travaux",
+        "prix adjugé (la mise à prix ne le remplace pas)",
+        "date limite et recevabilité de la surenchère",
+        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
+      ],
+      "indices_exclusion": [],
+      "jours_apres_audience": 1,
+      "statut": "rejete"
+    },
+    {
+      "id": "5defbf8203bf45645a2f26fbda98149c3b9b226628dce8d6c16dab6724c34fb0",
+      "url_annonce": "https://www.licitor.com/annonce/11/00/15/vente-aux-encheres/une-ferme-bressane/dommartin-les-cuiseaux/saone-et-loire/110015.html",
+      "titre": "Une ferme bressane",
+      "adresse": "",
+      "sources": [
+        {
+          "nom": "Licitor - résultats",
+          "categorie": "site_pro",
+          "url": "https://www.licitor.com/historique-des-adjudications.html"
+        }
+      ],
+      "faits": {
+        "occupation": "inconnue",
+        "travaux": "necessaires",
+        "retiree": false,
+        "seconde_adjudication": false,
+        "surenchere_impossible": false,
+        "vente_amiable": false,
+        "date_vente": "2026-10-27",
+        "date_vente_source": "https://www.licitor.com/annonce/11/00/15/vente-aux-encheres/une-ferme-bressane/dommartin-les-cuiseaux/saone-et-loire/110015.html",
+        "mise_a_prix_eur": "10000",
+        "preuve_occupation": [],
+        "preuve_travaux": [
+          "a renover"
+        ]
+      },
+      "controle_liste_utc": "2026-10-28T08:44:26.788576+00:00",
+      "detail_lu_ce_passage": true,
+      "controle_detail_utc": "2026-10-28T08:45:29.938038+00:00",
+      "erreur_detail": null,
+      "niveau_preuve": "C — publication à contrôler",
+      "documents": [],
+      "documents_controles_automatiquement": false,
+      "extrait_dossier": "Annonce publiée le 15 septembre 2026 110015 Tribunal Judiciaire de Chalon-sur-Saône (Saône et Loire) Vente aux enchères publiques mardi 27 octobre 2026 à 13h30 Une ferme bressane à rénover, comprenant : Au rez-de-chaussée : entrée, cuisine, séjour, couloir, wc, salle de bains, trois chambres, garage et grange À l'étage : grenier Jardin Résultat d'adjudication inconnu (Mise à prix : 10 000 €) Dommartin-lès-Cuiseaux 1792, route de Varennes Afficher le plan (exactitude non garantie) Maître Frédéric Hopgood, de la SELARL Hopgood - Couillerot - Corneloup - Doret, Avocat 16, bd de la République - 71100 Chalon-sur-Saône 🔎︎ 6.432 ❤ 150 Annonce non-officielle - Contenu non certifié Imprimer ",
+      "empreinte_contenu": "f0548afdc8fc2238c4328d80a3d1a7337f7718b4a8393fb0abd02c920439ea58",
+      "preuves_documentaires": [],
+      "documents_extraits": [],
+      "motifs_rejet": [
+        "travaux nécessaires à la revente en l'état"
+      ],
+      "a_verifier": [
+        "preuve d'un bien libre",
+        "prix adjugé (la mise à prix ne le remplace pas)",
+        "date limite et recevabilité de la surenchère",
+        "valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 %"
+      ],
+      "indices_exclusion": [],
+      "jours_apres_audience": 1,
       "statut": "rejete"
     }
   ],
@@ -838,9 +623,9 @@
       "nom": "Licitor - ventes à venir",
       "categorie": "site_pro",
       "url": "https://www.licitor.com/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
-      "liens_detectes": 98,
+      "liens_detectes": 103,
       "pages_audiences_lues": 0,
       "fiches_lues": 0,
       "erreur": ""
@@ -849,29 +634,29 @@
       "nom": "Licitor - résultats",
       "categorie": "site_pro",
       "url": "https://www.licitor.com/historique-des-adjudications.html",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 167,
       "pages_audiences_lues": 3,
-      "fiches_lues": 6,
+      "fiches_lues": 7,
       "erreur": ""
     },
     {
       "nom": "Avoventes CNB - annonces nationales",
       "categorie": "site_pro",
       "url": "https://avoventes.fr/recherche/?display=liste&order=asc&sort=date",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 207,
       "pages_audiences_lues": 0,
-      "fiches_lues": 0,
+      "fiches_lues": 1,
       "erreur": ""
     },
     {
       "nom": "Vench - annonces nationales",
       "categorie": "site_pro",
       "url": "https://www.vench.fr/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -882,48 +667,44 @@
       "nom": "Enchères Publiques - immobilier",
       "categorie": "site_pro",
       "url": "https://encheres-publiques.com/fr/ventes/immobilier",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
-      "statut": "differe",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
+      "statut": "echec",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
       "fiches_lues": 0,
-      "erreur": "Accès différé à encheres-publiques.com jusqu'au 2026-10-27T20:43:18.981732+00:00 après HTTP 403",
+      "erreur": "HTTP Error 403: Forbidden",
       "phase": "source",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T20:43:18.981732+00:00",
       "code_http": 403
     },
     {
       "nom": "Info Enchères - annonces nationales",
       "categorie": "site_pro",
       "url": "https://www.info-encheres.com/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 87,
       "pages_audiences_lues": 0,
-      "fiches_lues": 3,
+      "fiches_lues": 0,
       "erreur": ""
     },
     {
       "nom": "Petites Affiches - enchères immobilières",
       "categorie": "journal",
       "url": "https://www.petitesaffiches.fr/encheres-immobilieres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
-      "statut": "differe",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
+      "statut": "echec",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
       "fiches_lues": 0,
-      "erreur": "Accès différé à petitesaffiches.fr jusqu'au 2026-10-27T20:43:19.250941+00:00 après HTTP 403",
+      "erreur": "HTTP Error 403: Forbidden",
       "phase": "source",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T20:43:19.250941+00:00",
       "code_http": 403
     },
     {
       "nom": "La Gazette France - adjudications",
       "categorie": "journal",
       "url": "https://www.lagazettefrance.fr/annonces-legales/ventes-encheres",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 30,
       "pages_audiences_lues": 0,
@@ -934,7 +715,7 @@
       "nom": "Informateur Judiciaire - Grand Ouest",
       "categorie": "journal",
       "url": "https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -945,7 +726,7 @@
       "nom": "7 Jours - Bretagne",
       "categorie": "journal",
       "url": "https://www.7jours.fr/ventes-aux-encheres-immobilieres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 9,
       "pages_audiences_lues": 0,
@@ -956,7 +737,7 @@
       "nom": "Echos Judiciaires Girondins",
       "categorie": "journal",
       "url": "https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -967,7 +748,7 @@
       "nom": "La Vie Economique - Sud-Ouest",
       "categorie": "journal",
       "url": "https://www.vie-economique.com/ventes-aux-encheres-immobilieres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -978,7 +759,7 @@
       "nom": "Défis Avocats - ventes judiciaires",
       "categorie": "avocat",
       "url": "https://defis-avocats.com/ventes-judiciaires/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 8,
       "pages_audiences_lues": 0,
@@ -989,7 +770,7 @@
       "nom": "Elige Avocats - ventes immobilières",
       "categorie": "avocat",
       "url": "https://elige-avocats.com/ventes-immobilieres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 27,
       "pages_audiences_lues": 0,
@@ -1000,7 +781,7 @@
       "nom": "AHBL Avocats - ventes immobilières",
       "categorie": "avocat",
       "url": "https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1011,7 +792,7 @@
       "nom": "Legalyon - ventes aux enchères",
       "categorie": "avocat",
       "url": "https://legalyon.fr/fr/page/vente-aux-encheres",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 4,
       "pages_audiences_lues": 0,
@@ -1022,7 +803,7 @@
       "nom": "Vench - ventes à venir",
       "categorie": "site_pro",
       "url": "https://www.vench.fr/prochaines-ventes-aux-encheres.html",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
@@ -1033,18 +814,18 @@
       "nom": "Vench - résultats et surenchères",
       "categorie": "site_pro",
       "url": "https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 12,
       "pages_audiences_lues": 0,
-      "fiches_lues": 0,
+      "fiches_lues": 12,
       "erreur": ""
     },
     {
       "nom": "UDA Avocats - Saint-Etienne",
       "categorie": "avocat",
       "url": "https://uda-avocats.com/nos-saisies-immobilieres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1055,7 +836,7 @@
       "nom": "Avoventes - Tribunal de Saint-Etienne",
       "categorie": "site_pro",
       "url": "https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 7,
       "pages_audiences_lues": 0,
@@ -1066,7 +847,7 @@
       "nom": "9 Janvier Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.9janvier-avocats.com/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 2,
       "pages_audiences_lues": 0,
@@ -1077,7 +858,7 @@
       "nom": "AARPI PLATON MAGNE TURNER — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://pmt-avocats.fr/ventes-encheres-octobre-2026.php",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 7,
       "pages_audiences_lues": 0,
@@ -1088,7 +869,7 @@
       "nom": "Audineau & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.audineau.fr/ventes-aux-encheres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1099,7 +880,7 @@
       "nom": "Briffod Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.briffod-avocats.fr/briffod-avocats-droit-commercial-civil-encheres-bonneville-haute-savoie-3/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 5,
       "pages_audiences_lues": 0,
@@ -1110,7 +891,7 @@
       "nom": "C2PW / Maître Didier Pilot — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.c2pw.fr/vente-encheres",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1121,7 +902,7 @@
       "nom": "DCL Avocats & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.dcl-avocats.fr/nos-ventes-aux-encheres-immobilieres",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 2,
       "pages_audiences_lues": 0,
@@ -1132,7 +913,7 @@
       "nom": "ELCY Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.elcyavocats.fr/ventes-immobilieres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "aucun lien détecté — structure à contrôler",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1143,7 +924,7 @@
       "nom": "Guedj Haas-Biri — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.avocats-guedj-haasbiri.com/encheres-immobilieres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 4,
       "pages_audiences_lues": 0,
@@ -1154,7 +935,7 @@
       "nom": "Imbert & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://imbert-avocats.com/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1165,7 +946,7 @@
       "nom": "Kapia Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.kapia-avocats.com/ventes-aux-encheres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 4,
       "pages_audiences_lues": 0,
@@ -1176,7 +957,7 @@
       "nom": "Maître Lobbens — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.avocat-lobbens-marseille.fr/annonces-ventes-aux-encheres/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 6,
       "pages_audiences_lues": 0,
@@ -1187,7 +968,7 @@
       "nom": "Mermet & Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.mermet-associes.com/fr/vente-enchere",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 3,
       "pages_audiences_lues": 0,
@@ -1198,7 +979,7 @@
       "nom": "Patrick Barret et Associés — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.barret-associes.fr/ventes-aux-encheres/nos-ventes.htm",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "echec",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1210,7 +991,7 @@
       "nom": "QUADRIGE AVOCATS — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.quadrige-avocats.com/ventes/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1221,7 +1002,7 @@
       "nom": "SCP Gualbert Reche Banuls — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.gualbert-reche-banuls.fr/saisies-immobilieres/nos-ventes-aux-encheres.htm",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 16,
       "pages_audiences_lues": 0,
@@ -1232,7 +1013,7 @@
       "nom": "SELARL BOST-AVRIL — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://www.bost-avril.com/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "aucun lien détecté — structure à contrôler",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1243,7 +1024,7 @@
       "nom": "TGA Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://tga-avocats.com/nos-ventes/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "ok",
       "liens_detectes": 1,
       "pages_audiences_lues": 0,
@@ -1254,7 +1035,7 @@
       "nom": "Touraut Avocats — ventes judiciaires",
       "categorie": "avocat",
       "url": "https://immobilier.touraut-avocats.com/",
-      "controle_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_utc": "2026-10-28T08:44:26.788576+00:00",
       "statut": "aucun lien détecté — structure à contrôler",
       "liens_detectes": 0,
       "pages_audiences_lues": 0,
@@ -1264,6 +1045,26 @@
   ],
   "incidents": [
     {
+      "url": "https://www.licitor.com/ventes-judiciaires-immobilieres/tj-nevers/mardi-27-octobre-2026.html",
+      "phase": "audience",
+      "erreur": "The read operation timed out"
+    },
+    {
+      "url": "https://www.mermet-associes.com/fr/vente-enchere",
+      "phase": "fiche",
+      "erreur": "structure de fiche non reconnue ou contenu vide"
+    },
+    {
+      "url": "https://www.mermet-associes.com/fr/vente-enchere/un-appartement-21-rue-du-lieutenant-genot-a-gaillard-bien-adjuge-a-36000-euros-79",
+      "phase": "fiche",
+      "erreur": "structure de fiche non reconnue ou contenu vide"
+    },
+    {
+      "url": "https://www.quadrige-avocats.com/ventes/",
+      "phase": "fiche",
+      "erreur": "structure de fiche non reconnue ou contenu vide"
+    },
+    {
       "url": "https://www.lagazettefrance.fr/annonce-legale/20261008171716-546755-000091520249",
       "phase": "fiche",
       "erreur": "HTTP Error 429: Too Many Requests",
@@ -1272,389 +1073,114 @@
     {
       "url": "https://www.lagazettefrance.fr/annonce-legale/20261009111609-867674-000091520505",
       "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T09:46:37.705920+00:00 après HTTP 429",
       "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
+      "nouvel_essai_utc": "2026-10-28T09:46:37.705920+00:00",
       "code_http": 429
     },
     {
       "url": "https://www.lagazettefrance.fr/annonce-legale/20261012102242-922495-000091521084",
       "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T09:46:37.705920+00:00 après HTTP 429",
       "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
+      "nouvel_essai_utc": "2026-10-28T09:46:37.705920+00:00",
       "code_http": 429
     },
     {
       "url": "https://www.lagazettefrance.fr/annonce-legale/20261012140704-583213-000091521224",
       "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T09:46:37.705920+00:00 après HTTP 429",
       "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
+      "nouvel_essai_utc": "2026-10-28T09:46:37.705920+00:00",
       "code_http": 429
     },
     {
       "url": "https://www.lagazettefrance.fr/annonce-legale/20261012144757-443668-000091521253",
       "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T09:46:37.705920+00:00 après HTTP 429",
       "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
+      "nouvel_essai_utc": "2026-10-28T09:46:37.705920+00:00",
       "code_http": 429
     },
     {
       "url": "https://www.lagazettefrance.fr/annonce-legale/20261012154249-804512-000091521302",
       "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
+      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-28T09:46:37.705920+00:00 après HTTP 429",
       "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
+      "nouvel_essai_utc": "2026-10-28T09:46:37.705920+00:00",
       "code_http": 429
     },
     {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261012160200-664795-000091521319",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013100314-164678-000091521572",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013102524-953060-000091521588",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013111450-974478-000091521629",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261013115452-442907-000091521679",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261014115904-486816-000091522134",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261014131959-439267-000091522168",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261015111601-858564-000091522531",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261016110613-161679-000091523106",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261016113219-985663-000091523126",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261016152011-260933-000091523243",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261019121519-350072-000091523745",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261019143651-283092-000091523822",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.lagazettefrance.fr/annonce-legale/20261022105649-939662-000091525162",
-      "phase": "fiche",
-      "erreur": "Accès différé à lagazettefrance.fr jusqu'au 2026-10-27T18:51:14.803159+00:00 après HTTP 429",
-      "differe": true,
-      "nouvel_essai_utc": "2026-10-27T18:51:14.803159+00:00",
-      "code_http": 429
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/HTQkDDT.pdf",
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904bd350b4ttt.pdf",
       "phase": "pdf",
       "erreur": "page ou document dépassant 10 Mo"
     },
     {
-      "url": "https://www.info-encheres.com/upload/m2N0DDT.pdf",
+      "url": "http://uda-avocats.com/wp-content/uploads/2026/06/DIAGS-SITE-SAINT-JUST-SAINT-RAMBERT.pdf",
       "phase": "pdf",
       "erreur": "page ou document dépassant 10 Mo"
     },
     {
-      "url": "https://www.info-encheres.com/upload/yG25ddt.pdf",
+      "url": "http://uda-avocats.com/wp-content/uploads/2026/06/PVD-SITE-SAINT-JUST-SAINT-RAMBERT.pdf",
+      "phase": "pdf",
+      "erreur": "page ou document dépassant 10 Mo"
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Annexes-PVD-1.pdf",
       "phase": "pdf",
       "erreur": "page ou document dépassant 10 Mo"
     }
   ],
   "limites": [
     "Budget : 40 pages d'audience et 120 fiches par passage ; 14 fiches candidates non lues ce passage.",
-    "118 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.",
+    "107 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.",
     "Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.",
     "Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.",
     "Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.",
     "Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.",
-    "PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 128 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.",
+    "PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 121 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.",
     "Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.",
-    "23 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json."
+    "14 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json."
   ],
   "documents": [
     {
-      "url": "https://www.info-encheres.com/upload/1W2VCCV.pdf",
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "empreinte_pdf": "ca3ef3a3b5e399ed73641339238785e359050096e38e00a5a9766ef55c219f50",
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "empreinte_pdf": "e7223459c52bb0d5f81ccf93f85040c6bacc74b2140350fab9045713950b4345",
       "version_extraction": 2,
       "extractions": {
         "1": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
+          "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         },
         "2": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
+          "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         },
         "3": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "4": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "5": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "6": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "7": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "8": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "9": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "10": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "11": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "12": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "13": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "14": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "15": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "16": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "17": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "18": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "19": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "20": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "21": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "22": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "23": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "24": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
+          "methode": "ocr",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
+          "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         }
       },
-      "pages_traitees_ce_passage": 0,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": true,
+      "pages_traitees_ce_passage": 3,
+      "pages_lues_ce_passage": 3,
+      "pages_ocr_ce_passage": 3,
+      "cache_reutilise": false,
       "incidents_pages": [],
-      "pages_total": 24,
+      "pages_total": 3,
       "pages_lues": [
         1,
         2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24
+        3
       ],
       "pages_restantes": 0,
       "preuves": [],
@@ -1662,1812 +1188,496 @@
       "contradictions": {},
       "statut": "lu",
       "validation": "a_verifier",
-      "url_origine": "https://www.info-encheres.com/upload/1W2VCCV.pdf",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
       "annonces": [
-        "https://www.info-encheres.com/108345-d-vente-encheres-immobilieres-appartement-avec-cellier-perpignan-66-ref-6103.html"
+        "https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1"
       ],
-      "derniere_tentative_utc": "2026-10-27T17:50:24.483648+00:00"
+      "derniere_tentative_utc": "2026-10-28T08:44:26.788576+00:00"
     },
     {
-      "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "empreinte_pdf": "df6af4f9aea47c358f80fc82d33a202077935a030759799fb1b943f0b3b3351b",
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "empreinte_pdf": "5f7539472f88a9de5a5aa578c4c78a9e5e03f4e08bbf011d6f79326850f9bf37",
       "version_extraction": 2,
       "extractions": {
         "1": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         },
         "2": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
-          "preuves": [
-            {
-              "champ": "mise_a_prix_eur",
-              "valeur": "25000.00",
-              "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-              "page": 2,
-              "methode": "ocr",
-              "extrait": "mise a prix: 25.000,00 €",
-              "validation": "a_verifier"
-            }
-          ]
+          "preuves": []
         },
         "3": {
           "methode": "ocr",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         },
         "4": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
+          "methode": "en_attente_ocr",
           "preuves": []
         },
         "5": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
+          "methode": "en_attente_ocr",
           "preuves": []
         },
         "6": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": [
-            {
-              "champ": "date_vente",
-              "valeur": "2021-02-19",
-              "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-              "page": 6,
-              "methode": "ocr",
-              "extrait": "vente du 19/02/2021",
-              "validation": "a_verifier"
-            }
-          ]
+          "methode": "en_attente_ocr",
+          "preuves": []
         },
         "7": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
+          "methode": "en_attente_ocr",
           "preuves": []
         },
         "8": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 8,
+      "pages_lues_ce_passage": 3,
+      "pages_ocr_ce_passage": 3,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 24,
+      "pages_lues": [
+        1,
+        2,
+        3
+      ],
+      "pages_restantes": 21,
+      "preuves": [],
+      "faits_candidats": {},
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
+      "annonces": [
+        "https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1"
+      ],
+      "derniere_tentative_utc": "2026-10-28T08:44:26.788576+00:00"
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "empreinte_pdf": "7ff2d46e611e8eb572327b862a66759c124724fe561fb5eee419e3f73adb5b80",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "2": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "3": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "4": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "5": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "6": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "7": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "8": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 8,
+      "pages_lues_ce_passage": 0,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 36,
+      "pages_lues": [],
+      "pages_restantes": 36,
+      "preuves": [],
+      "faits_candidats": {},
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
+      "annonces": [
+        "https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1"
+      ],
+      "derniere_tentative_utc": "2026-10-28T08:44:26.788576+00:00"
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904bd350b4ttt.pdf",
+      "phase": "pdf",
+      "erreur": "page ou document dépassant 10 Mo",
+      "statut": "echec",
+      "annonces": [
+        "https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1"
+      ]
+    },
+    {
+      "url": "https://uda-avocats.com/wp-content/uploads/2026/06/CCV-SITE-ST-JUST-SAINT-RAMBERT.pdf",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "empreinte_pdf": "b555253464a5a50d77cf5f7a9465c193ad8d992e59a1874d5ec13e10cd5e63f9",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "2": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "3": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "4": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "5": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "6": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "7": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "8": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 8,
+      "pages_lues_ce_passage": 0,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 20,
+      "pages_lues": [],
+      "pages_restantes": 20,
+      "preuves": [],
+      "faits_candidats": {},
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "http://uda-avocats.com/wp-content/uploads/2026/06/CCV-SITE-ST-JUST-SAINT-RAMBERT.pdf",
+      "annonces": [
+        "https://uda-avocats.com/nos-saisies/vente-aux-encheres-publiques-dune-maison-dhabitation-situee-a-saint-just-saint-rambert/"
+      ],
+      "derniere_tentative_utc": "2026-10-28T08:44:26.788576+00:00"
+    },
+    {
+      "url": "http://uda-avocats.com/wp-content/uploads/2026/06/DIAGS-SITE-SAINT-JUST-SAINT-RAMBERT.pdf",
+      "phase": "pdf",
+      "erreur": "page ou document dépassant 10 Mo",
+      "statut": "echec",
+      "annonces": [
+        "https://uda-avocats.com/nos-saisies/vente-aux-encheres-publiques-dune-maison-dhabitation-situee-a-saint-just-saint-rambert/"
+      ]
+    },
+    {
+      "url": "https://uda-avocats.com/wp-content/uploads/2026/06/DIRE-AU-GREFFE-DOSSIER-URBANISME-SITE-SAINT-JUST-SAINT-RAMBERT.pdf",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "empreinte_pdf": "4fa5d726238b88e8f5884c6e3a8f3a04d1d07384a16dc2f723ea07348727bd26",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "2": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "3": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "4": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "5": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "6": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "7": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "8": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 8,
+      "pages_lues_ce_passage": 0,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 56,
+      "pages_lues": [],
+      "pages_restantes": 56,
+      "preuves": [],
+      "faits_candidats": {},
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "http://uda-avocats.com/wp-content/uploads/2026/06/DIRE-AU-GREFFE-DOSSIER-URBANISME-SITE-SAINT-JUST-SAINT-RAMBERT.pdf",
+      "annonces": [
+        "https://uda-avocats.com/nos-saisies/vente-aux-encheres-publiques-dune-maison-dhabitation-situee-a-saint-just-saint-rambert/"
+      ],
+      "derniere_tentative_utc": "2026-10-28T08:44:26.788576+00:00"
+    },
+    {
+      "url": "http://uda-avocats.com/wp-content/uploads/2026/06/PVD-SITE-SAINT-JUST-SAINT-RAMBERT.pdf",
+      "phase": "pdf",
+      "erreur": "page ou document dépassant 10 Mo",
+      "statut": "echec",
+      "annonces": [
+        "https://uda-avocats.com/nos-saisies/vente-aux-encheres-publiques-dune-maison-dhabitation-situee-a-saint-just-saint-rambert/"
+      ]
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "empreinte_pdf": "356df3f8545c80989422f6e34cbdc995e0b96fbf8af120a7db80b4c6046e1263",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
           "preuves": [
             {
-              "champ": "travaux",
-              "valeur": "necessaires",
-              "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-              "page": 8,
+              "champ": "mise_a_prix_eur",
+              "valeur": "15000.00",
+              "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf",
+              "page": 1,
               "methode": "texte",
-              "extrait": "mauvais etat",
+              "extrait": "mise a prix : 15.000, 00 €",
               "validation": "a_verifier"
-            }
-          ]
-        },
-        "9": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "10": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "11": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "12": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "13": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "14": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "15": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "16": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "17": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "18": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "19": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "20": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": [
+            },
             {
-              "champ": "date_vente",
-              "valeur": "2021-02-19",
-              "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-              "page": 20,
+              "champ": "occupation",
+              "valeur": "occupe",
+              "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf",
+              "page": 1,
               "methode": "texte",
-              "extrait": "vente du 19/02/2021",
+              "extrait": "biens occupes",
               "validation": "a_verifier"
             }
           ]
         }
       },
-      "pages_traitees_ce_passage": 0,
-      "pages_lues_ce_passage": 0,
+      "pages_traitees_ce_passage": 1,
+      "pages_lues_ce_passage": 1,
       "pages_ocr_ce_passage": 0,
-      "cache_reutilise": true,
+      "cache_reutilise": false,
       "incidents_pages": [],
-      "pages_total": 20,
+      "pages_total": 1,
       "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
+        1
       ],
       "pages_restantes": 0,
       "preuves": [
         {
           "champ": "mise_a_prix_eur",
-          "valeur": "25000.00",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 2,
-          "methode": "ocr",
-          "extrait": "mise a prix: 25.000,00 €",
-          "validation": "a_verifier"
-        },
-        {
-          "champ": "date_vente",
-          "valeur": "2021-02-19",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 6,
-          "methode": "ocr",
-          "extrait": "vente du 19/02/2021",
-          "validation": "a_verifier"
-        },
-        {
-          "champ": "travaux",
-          "valeur": "necessaires",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 8,
+          "valeur": "15000.00",
+          "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf",
+          "page": 1,
           "methode": "texte",
-          "extrait": "mauvais etat",
+          "extrait": "mise a prix : 15.000, 00 €",
           "validation": "a_verifier"
         },
         {
-          "champ": "date_vente",
-          "valeur": "2021-02-19",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 20,
+          "champ": "occupation",
+          "valeur": "occupe",
+          "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf",
+          "page": 1,
           "methode": "texte",
-          "extrait": "vente du 19/02/2021",
+          "extrait": "biens occupes",
           "validation": "a_verifier"
         }
       ],
       "faits_candidats": {
-        "mise_a_prix_eur": "25000.00",
-        "date_vente": "2021-02-19",
-        "travaux": "necessaires"
+        "mise_a_prix_eur": "15000.00",
+        "occupation": "occupe"
       },
       "contradictions": {},
       "statut": "lu",
       "validation": "a_verifier",
-      "url_origine": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
+      "url_origine": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf",
       "annonces": [
-        "https://www.info-encheres.com/108340-d-vente-encheres-immobilieres-appartement-t3-perpignan-66-ref-6098.html"
+        "https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres/appartement-cave-et-garage-a-limoges"
       ],
-      "derniere_tentative_utc": "2026-10-27T17:50:24.483648+00:00"
+      "derniere_tentative_utc": "2026-10-28T08:44:26.788576+00:00"
     },
     {
-      "url": "https://www.info-encheres.com/upload/DsrAPVD.pdf",
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "empreinte_pdf": "625a92f1d82c876130c1d2802073ca174684b5c1108940edc49547ce6ec0c65c",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "2": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "3": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "4": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "5": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "6": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "7": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "8": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "9": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-26T14:40:51.451911+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "10": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "11": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "12": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "13": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "14": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "15": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "16": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "17": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "18": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "19": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "20": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 0,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": true,
-      "incidents_pages": [],
-      "pages_total": 20,
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "pages_restantes": 0,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "lu",
-      "validation": "a_verifier",
-      "url_origine": "https://www.info-encheres.com/upload/DsrAPVD.pdf",
-      "annonces": [
-        "https://www.info-encheres.com/108345-d-vente-encheres-immobilieres-appartement-avec-cellier-perpignan-66-ref-6103.html"
-      ],
-      "derniere_tentative_utc": "2026-10-27T17:50:24.483648+00:00"
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/HTQkDDT.pdf",
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Annexes-PVD-1.pdf",
       "phase": "pdf",
       "erreur": "page ou document dépassant 10 Mo",
       "statut": "echec",
       "annonces": [
-        "https://www.info-encheres.com/108342-d-vente-encheres-immobilieres-appartement-et-parking-perpignan-66-ref-6100.html"
+        "https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres/appartement-cave-et-garage-a-limoges"
       ]
     },
     {
-      "url": "https://www.info-encheres.com/upload/Pox2CCV.pdf",
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "empreinte_pdf": "a900895dd3638e0f896ddba6519caf1735715b438af49b9d322de558bc65685a",
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Annexes-PVD-2.pdf",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "empreinte_pdf": "66bf2aa252ef13bb7100b9d5139126d6ca6bbbc693f97f903a3d89d6fb8e0be0",
+      "version_extraction": 2,
+      "extractions": {
+        "1": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "2": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "3": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "4": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "5": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "6": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "7": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        },
+        "8": {
+          "methode": "en_attente_ocr",
+          "preuves": []
+        }
+      },
+      "pages_traitees_ce_passage": 8,
+      "pages_lues_ce_passage": 0,
+      "pages_ocr_ce_passage": 0,
+      "cache_reutilise": false,
+      "incidents_pages": [],
+      "pages_total": 140,
+      "pages_lues": [],
+      "pages_restantes": 140,
+      "preuves": [],
+      "faits_candidats": {},
+      "contradictions": {},
+      "statut": "partiel",
+      "validation": "a_verifier",
+      "url_origine": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Annexes-PVD-2.pdf",
+      "annonces": [
+        "https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres/appartement-cave-et-garage-a-limoges"
+      ],
+      "derniere_tentative_utc": "2026-10-28T08:44:26.788576+00:00"
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/CARNET-ENTRETIEN-15.09.2026.pdf",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "empreinte_pdf": "bd5442a7deba0cdd0f7d514ff3e2ccf6bdcf6b56a9d28caef2673430d7569847",
       "version_extraction": 2,
       "extractions": {
         "1": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
           "preuves": []
         },
         "2": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
           "preuves": []
         },
         "3": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
           "preuves": []
         },
         "4": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
           "preuves": []
         },
         "5": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
           "preuves": []
         },
         "6": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
           "preuves": []
         },
         "7": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": null,
           "texte_detecte": true,
           "preuves": []
         },
         "8": {
           "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "9": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "10": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "11": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "12": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "13": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "14": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "15": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "16": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "17": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "18": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "19": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "20": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "21": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "22": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "23": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "24": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 0,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": true,
-      "incidents_pages": [],
-      "pages_total": 24,
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24
-      ],
-      "pages_restantes": 0,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "lu",
-      "validation": "a_verifier",
-      "url_origine": "https://www.info-encheres.com/upload/Pox2CCV.pdf",
-      "annonces": [
-        "https://www.info-encheres.com/108342-d-vente-encheres-immobilieres-appartement-et-parking-perpignan-66-ref-6100.html"
-      ],
-      "derniere_tentative_utc": "2026-10-27T17:50:24.483648+00:00"
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/cqWKSYNTHESE_DIAGNOSTICS.pdf",
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "empreinte_pdf": "d226c38c23c47256469354ee2851680cf5efaaeeb8be31090b0e73a4024c8016",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "2": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 0,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": true,
-      "incidents_pages": [],
-      "pages_total": 2,
-      "pages_lues": [
-        1,
-        2
-      ],
-      "pages_restantes": 0,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "lu",
-      "validation": "a_verifier",
-      "url_origine": "https://www.info-encheres.com/upload/cqWKSYNTHESE_DIAGNOSTICS.pdf",
-      "annonces": [
-        "https://www.info-encheres.com/108342-d-vente-encheres-immobilieres-appartement-et-parking-perpignan-66-ref-6100.html"
-      ],
-      "derniere_tentative_utc": "2026-10-27T17:50:24.483648+00:00"
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/m2N0DDT.pdf",
-      "phase": "pdf",
-      "erreur": "page ou document dépassant 10 Mo",
-      "statut": "echec",
-      "annonces": [
-        "https://www.info-encheres.com/108345-d-vente-encheres-immobilieres-appartement-avec-cellier-perpignan-66-ref-6103.html"
-      ]
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/ou9GPVD.pdf",
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "empreinte_pdf": "d262f6bab0b6c830cd9485dd5a916699236626d16259c7f588e1d036a6345305",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "2": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "3": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "4": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "5": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "6": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "7": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "8": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "9": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "10": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "11": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "12": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "13": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "14": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "15": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "16": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "17": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "18": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "19": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "20": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "21": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "22": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "23": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "24": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "25": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 0,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": true,
-      "incidents_pages": [],
-      "pages_total": 25,
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25
-      ],
-      "pages_restantes": 0,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "lu",
-      "validation": "a_verifier",
-      "url_origine": "https://www.info-encheres.com/upload/ou9GPVD.pdf",
-      "annonces": [
-        "https://www.info-encheres.com/108342-d-vente-encheres-immobilieres-appartement-et-parking-perpignan-66-ref-6100.html"
-      ],
-      "derniere_tentative_utc": "2026-10-27T17:50:24.483648+00:00"
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/pJnBpvd.pdf",
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "empreinte_pdf": "ea0f88f42efc0ed3324ed394f27840ec6c51dac02979da2907269cc2b0e7ee99",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "2": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "3": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "4": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "5": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "6": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "7": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "8": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "9": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "10": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "11": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "12": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "13": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "14": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "15": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "16": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-25T09:23:21.241089+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "17": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "18": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "19": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "20": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "21": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "22": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "23": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "24": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T08:39:48.576892+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "25": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "26": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "27": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "28": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "29": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "30": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "31": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "32": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-26T15:58:51.964823+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "33": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T08:34:54.821204+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "34": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T08:34:54.821204+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "35": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T08:34:54.821204+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "36": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T08:34:54.821204+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "37": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T08:34:54.821204+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "38": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T08:34:54.821204+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "39": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T08:34:54.821204+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "40": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T08:34:54.821204+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "41": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T09:33:43.789333+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "42": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T09:33:43.789333+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "43": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T09:33:43.789333+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "44": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T09:33:43.789333+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "45": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T09:33:43.789333+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "46": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T09:33:43.789333+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "47": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T09:33:43.789333+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "48": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T09:33:43.789333+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "49": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T10:32:26.029283+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "50": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T10:32:26.029283+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "51": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T10:32:26.029283+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "52": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T10:32:26.029283+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "53": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-27T10:32:26.029283+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "54": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T10:32:26.029283+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "55": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T10:32:26.029283+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "56": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T10:32:26.029283+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "57": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T11:30:41.198074+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "58": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T11:30:41.198074+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "59": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T11:30:41.198074+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "60": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T11:30:41.198074+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "61": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T11:30:41.198074+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "62": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T11:30:41.198074+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "63": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T11:30:41.198074+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "64": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T11:30:41.198074+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "65": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T12:36:02.765186+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "66": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T12:36:02.765186+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "67": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T12:36:02.765186+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "68": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T12:36:02.765186+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "69": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T12:36:02.765186+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "70": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T12:36:02.765186+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "71": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T12:36:02.765186+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "72": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T12:36:02.765186+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "73": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T13:45:48.957651+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "74": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T13:45:48.957651+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "75": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T13:45:48.957651+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "76": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T13:45:48.957651+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "77": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T13:45:48.957651+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "78": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T13:45:48.957651+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "79": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T13:45:48.957651+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "80": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T13:45:48.957651+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "81": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T14:43:18.419182+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "82": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T14:43:18.419182+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "83": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T14:43:18.419182+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "84": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T14:43:18.419182+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "85": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T14:43:18.419182+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 0,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": true,
-      "incidents_pages": [],
-      "pages_total": 85,
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85
-      ],
-      "pages_restantes": 0,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "lu",
-      "validation": "a_verifier",
-      "url_origine": "https://www.info-encheres.com/upload/pJnBpvd.pdf",
-      "annonces": [
-        "https://www.info-encheres.com/108340-d-vente-encheres-immobilieres-appartement-t3-perpignan-66-ref-6098.html"
-      ],
-      "derniere_tentative_utc": "2026-10-27T17:50:24.483648+00:00"
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/xbZpSYNTHESE_DIAGNOSTICS_C.pdf",
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "empreinte_pdf": "bb8e1b5ba9de47e973987d3afc37200ae9cdc64dac6030581e0451d83b1ea6d6",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "2": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        }
-      },
-      "pages_traitees_ce_passage": 0,
-      "pages_lues_ce_passage": 0,
-      "pages_ocr_ce_passage": 0,
-      "cache_reutilise": true,
-      "incidents_pages": [],
-      "pages_total": 2,
-      "pages_lues": [
-        1,
-        2
-      ],
-      "pages_restantes": 0,
-      "preuves": [],
-      "faits_candidats": {},
-      "contradictions": {},
-      "statut": "lu",
-      "validation": "a_verifier",
-      "url_origine": "https://www.info-encheres.com/upload/xbZpSYNTHESE_DIAGNOSTICS_C.pdf",
-      "annonces": [
-        "https://www.info-encheres.com/108345-d-vente-encheres-immobilieres-appartement-avec-cellier-perpignan-66-ref-6103.html"
-      ],
-      "derniere_tentative_utc": "2026-10-27T17:50:24.483648+00:00"
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/yG25ddt.pdf",
-      "phase": "pdf",
-      "erreur": "page ou document dépassant 10 Mo",
-      "statut": "echec",
-      "annonces": [
-        "https://www.info-encheres.com/108340-d-vente-encheres-immobilieres-appartement-t3-perpignan-66-ref-6098.html"
-      ]
-    },
-    {
-      "url": "https://uda-avocats.com/wp-content/uploads/2026/04/PV-DESCRIPTION-SITE-AUDIENCE-07.05.2026.pdf",
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "empreinte_pdf": "c8e5d27e77dacfc799e541f5b30d40d5e016f0850f4c010bf8cc4c5dd6b6b7ea",
-      "version_extraction": 2,
-      "extractions": {
-        "1": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T17:50:24.483648+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "2": {
-          "methode": "texte",
-          "controle_extraction_utc": "2026-10-27T17:50:24.483648+00:00",
-          "langues_ocr": null,
-          "texte_detecte": true,
-          "preuves": [
-            {
-              "champ": "occupation",
-              "valeur": "occupe",
-              "url": "https://uda-avocats.com/wp-content/uploads/2026/04/PV-DESCRIPTION-SITE-AUDIENCE-07.05.2026.pdf",
-              "page": 2,
-              "methode": "texte",
-              "extrait": "occupes par",
-              "validation": "a_verifier"
-            }
-          ]
-        },
-        "3": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-27T17:50:24.483648+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "4": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-27T17:50:24.483648+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "5": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-27T17:50:24.483648+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "6": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-27T17:50:24.483648+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "7": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-27T17:50:24.483648+00:00",
-          "langues_ocr": "fra+eng",
-          "texte_detecte": true,
-          "preuves": []
-        },
-        "8": {
-          "methode": "ocr",
-          "controle_extraction_utc": "2026-10-27T17:50:24.483648+00:00",
-          "langues_ocr": "fra+eng",
           "texte_detecte": true,
           "preuves": []
         }
       },
       "pages_traitees_ce_passage": 8,
       "pages_lues_ce_passage": 8,
-      "pages_ocr_ce_passage": 6,
+      "pages_ocr_ce_passage": 0,
       "cache_reutilise": false,
       "incidents_pages": [],
-      "pages_total": 51,
+      "pages_total": 8,
       "pages_lues": [
         1,
         2,
@@ -3478,136 +1688,51 @@
         7,
         8
       ],
-      "pages_restantes": 43,
-      "preuves": [
-        {
-          "champ": "occupation",
-          "valeur": "occupe",
-          "url": "https://uda-avocats.com/wp-content/uploads/2026/04/PV-DESCRIPTION-SITE-AUDIENCE-07.05.2026.pdf",
-          "page": 2,
-          "methode": "texte",
-          "extrait": "occupes par",
-          "validation": "a_verifier"
-        }
-      ],
-      "faits_candidats": {
-        "occupation": "occupe"
-      },
+      "pages_restantes": 0,
+      "preuves": [],
+      "faits_candidats": {},
       "contradictions": {},
-      "statut": "partiel",
+      "statut": "lu",
       "validation": "a_verifier",
-      "url_origine": "http://uda-avocats.com/wp-content/uploads/2026/04/PV-DESCRIPTION-SITE-AUDIENCE-07.05.2026.pdf",
+      "url_origine": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/CARNET-ENTRETIEN-15.09.2026.pdf",
       "annonces": [
-        "https://uda-avocats.com/nos-saisies/vente-aux-encheres-publiques-dun-tenement-immobilier-situe-au-chambon-feugerolles/"
+        "https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres/appartement-cave-et-garage-a-limoges"
       ],
-      "derniere_tentative_utc": "2026-10-27T17:50:24.483648+00:00"
+      "derniere_tentative_utc": "2026-10-28T08:44:26.788576+00:00"
     }
   ],
   "delais_acces": {
     "encheres-publiques.com": {
-      "attendre_jusqua_utc": "2026-10-27T20:43:18.981732+00:00",
+      "attendre_jusqua_utc": "2026-10-28T14:44:28.295859+00:00",
       "code_http": 403,
-      "dernier_echec_utc": "2026-10-27T14:43:18.981761+00:00",
-      "echecs_consecutifs": 42
+      "dernier_echec_utc": "2026-10-28T08:44:28.295885+00:00",
+      "echecs_consecutifs": 43
     },
     "petitesaffiches.fr": {
-      "attendre_jusqua_utc": "2026-10-27T20:43:19.250941+00:00",
+      "attendre_jusqua_utc": "2026-10-28T14:44:29.122174+00:00",
       "code_http": 403,
-      "dernier_echec_utc": "2026-10-27T14:43:19.250960+00:00",
-      "echecs_consecutifs": 42
+      "dernier_echec_utc": "2026-10-28T08:44:29.122190+00:00",
+      "echecs_consecutifs": 43
     },
     "lagazettefrance.fr": {
-      "attendre_jusqua_utc": "2026-10-27T18:51:14.803159+00:00",
+      "attendre_jusqua_utc": "2026-10-28T09:46:37.705920+00:00",
       "code_http": 429,
-      "dernier_echec_utc": "2026-10-27T17:51:14.803188+00:00",
+      "dernier_echec_utc": "2026-10-28T08:46:37.705940+00:00",
       "echecs_consecutifs": 1
     }
   },
   "historique_documents": [
     {
-      "url": "https://www.info-encheres.com/upload/DsrAPVD.pdf",
-      "statut": "lu",
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf",
+      "statut": "partiel",
       "pages_lues": [
         1,
         2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "pages_total": 20,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/xbZpSYNTHESE_DIAGNOSTICS_C.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1,
-        2
-      ],
-      "pages_total": 2,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/1W2VCCV.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24
+        3
       ],
       "pages_total": 24,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
+      "pages_restantes": 21,
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -3616,7 +1741,39 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://www.info-encheres.com/upload/Pox2CCV.pdf",
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf",
+      "statut": "lu",
+      "pages_lues": [
+        1,
+        2,
+        3
+      ],
+      "pages_total": 3,
+      "pages_restantes": 0,
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 36,
+      "pages_restantes": 36,
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/CARNET-ENTRETIEN-15.09.2026.pdf",
       "statut": "lu",
       "pages_lues": [
         1,
@@ -3626,27 +1783,11 @@
         5,
         6,
         7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24
+        8
       ],
-      "pages_total": 24,
+      "pages_total": 8,
       "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -3655,38 +1796,12 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://www.info-encheres.com/upload/ou9GPVD.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25
-      ],
-      "pages_total": 25,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Annexes-PVD-2.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 140,
+      "pages_restantes": 140,
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -3695,103 +1810,42 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://www.info-encheres.com/upload/cqWKSYNTHESE_DIAGNOSTICS.pdf",
+      "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf",
       "statut": "lu",
       "pages_lues": [
-        1,
-        2
+        1
       ],
-      "pages_total": 2,
+      "pages_total": 1,
       "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": true,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
-      "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20
-      ],
-      "pages_total": 20,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
       "faits_candidats": {
-        "mise_a_prix_eur": "25000.00",
-        "date_vente": "2021-02-19",
-        "travaux": "necessaires"
+        "mise_a_prix_eur": "15000.00",
+        "occupation": "occupe"
       },
       "contradictions": {},
       "preuves": [
         {
           "champ": "mise_a_prix_eur",
-          "valeur": "25000.00",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 2,
-          "methode": "ocr",
-          "extrait": "mise a prix: 25.000,00 €",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "consulte_ce_passage": true
-        },
-        {
-          "champ": "date_vente",
-          "valeur": "2021-02-19",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 6,
-          "methode": "ocr",
-          "extrait": "vente du 19/02/2021",
-          "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
-          "consulte_ce_passage": true
-        },
-        {
-          "champ": "travaux",
-          "valeur": "necessaires",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 8,
+          "valeur": "15000.00",
+          "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf",
+          "page": 1,
           "methode": "texte",
-          "extrait": "mauvais etat",
+          "extrait": "mise a prix : 15.000, 00 €",
           "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "controle_extraction_utc": "2026-10-24T07:31:38.734379+00:00",
+          "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "consulte_ce_passage": true
         },
         {
-          "champ": "date_vente",
-          "valeur": "2021-02-19",
-          "url": "https://www.info-encheres.com/upload/8s5FCCV.pdf",
-          "page": 20,
+          "champ": "occupation",
+          "valeur": "occupe",
+          "url": "https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf",
+          "page": 1,
           "methode": "texte",
-          "extrait": "vente du 19/02/2021",
+          "extrait": "biens occupes",
           "validation": "a_verifier",
-          "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
-          "controle_extraction_utc": "2026-10-25T17:21:37.509493+00:00",
+          "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+          "controle_extraction_utc": "2026-10-28T08:44:26.788576+00:00",
           "consulte_ce_passage": true
         }
       ],
@@ -3800,98 +1854,26 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://www.info-encheres.com/upload/pJnBpvd.pdf",
-      "statut": "lu",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85
-      ],
-      "pages_total": 85,
-      "pages_restantes": 0,
-      "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
+      "url": "https://uda-avocats.com/wp-content/uploads/2026/06/DIRE-AU-GREFFE-DOSSIER-URBANISME-SITE-SAINT-JUST-SAINT-RAMBERT.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 56,
+      "pages_restantes": 56,
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": true,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://uda-avocats.com/wp-content/uploads/2026/06/CCV-SITE-ST-JUST-SAINT-RAMBERT.pdf",
+      "statut": "partiel",
+      "pages_lues": [],
+      "pages_total": 20,
+      "pages_restantes": 20,
+      "controle_acces_utc": "2026-10-28T08:44:26.788576+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -3921,27 +1903,6 @@
       "derniere_erreur": null
     },
     {
-      "url": "https://uda-avocats.com/wp-content/uploads/2026/04/CCV-SITE-AUDIENCE-07.05.2026.pdf",
-      "statut": "partiel",
-      "pages_lues": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "pages_total": 33,
-      "pages_restantes": 27,
-      "controle_acces_utc": "2026-10-27T12:36:02.765186+00:00",
-      "faits_candidats": {},
-      "contradictions": {},
-      "preuves": [],
-      "consulte_ce_passage": false,
-      "validation": "a_verifier",
-      "derniere_erreur": null
-    },
-    {
       "url": "https://uda-avocats.com/wp-content/uploads/2026/04/PV-DESCRIPTION-SITE-AUDIENCE-07.05.2026.pdf",
       "statut": "partiel",
       "pages_lues": [
@@ -3972,15 +1933,15 @@
           "validation": "a_verifier",
           "controle_acces_utc": "2026-10-27T17:50:24.483648+00:00",
           "controle_extraction_utc": "2026-10-27T17:50:24.483648+00:00",
-          "consulte_ce_passage": true
+          "consulte_ce_passage": false
         }
       ],
-      "consulte_ce_passage": true,
+      "consulte_ce_passage": false,
       "validation": "a_verifier",
       "derniere_erreur": null
     },
     {
-      "url": "https://uda-avocats.com/wp-content/uploads/2025/03/PVD-SITE-ADJ-03.04.2025-PEV.pdf",
+      "url": "https://uda-avocats.com/wp-content/uploads/2026/04/CCV-SITE-AUDIENCE-07.05.2026.pdf",
       "statut": "partiel",
       "pages_lues": [
         1,
@@ -3990,9 +1951,9 @@
         5,
         6
       ],
-      "pages_total": 14,
-      "pages_restantes": 8,
-      "controle_acces_utc": "2026-10-27T11:30:41.198074+00:00",
+      "pages_total": 33,
+      "pages_restantes": 27,
+      "controle_acces_utc": "2026-10-27T12:36:02.765186+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],
@@ -4037,6 +1998,27 @@
       "pages_total": 26,
       "pages_restantes": 20,
       "controle_acces_utc": "2026-10-27T08:34:54.821204+00:00",
+      "faits_candidats": {},
+      "contradictions": {},
+      "preuves": [],
+      "consulte_ce_passage": false,
+      "validation": "a_verifier",
+      "derniere_erreur": null
+    },
+    {
+      "url": "https://uda-avocats.com/wp-content/uploads/2025/03/PVD-SITE-ADJ-03.04.2025-PEV.pdf",
+      "statut": "partiel",
+      "pages_lues": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pages_total": 14,
+      "pages_restantes": 8,
+      "controle_acces_utc": "2026-10-27T11:30:41.198074+00:00",
       "faits_candidats": {},
       "contradictions": {},
       "preuves": [],

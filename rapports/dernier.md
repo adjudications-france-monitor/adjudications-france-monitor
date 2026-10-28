@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-10-27T18:50:24.483648+01:00** (Europe/Paris).
+Contrôle : **2026-10-28T09:44:26.788576+01:00** (Europe/Paris).
 
-**0 dossier(s) retenu(s) sur données validées**, 7 à vérifier, 2 rejet(s) dans la fenêtre J+1 à J+4.
+**0 dossier(s) retenu(s) sur données validées**, 7 à vérifier, 4 rejet(s) dans la fenêtre J+1 à J+4.
 
-32/38 pages sources accessibles ; 764 liens distincts ; 3 pages d'audience et 100 fiches détaillées lues.
+32/38 pages sources accessibles ; 769 liens distincts ; 3 pages d'audience et 111 fiches détaillées lues.
 
-Nouveautés : 0 liens ; 7 fiches modifiées depuis le passage précédent.
+Nouveautés : 27 liens ; 11 fiches modifiées depuis le passage précédent.
 
-Pièces : 9 PDF accessibles ; 8 pages traitées ce passage, 8 lues, dont 6 par OCR. 21 requêtes différées après une limite ou un refus d'accès.
+Pièces : 8 PDF accessibles ; 52 pages traitées ce passage, 15 lues, dont 6 par OCR. 5 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -18,32 +18,34 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 
 | Adresse du bien | Descriptif du bien | Montant maximal du marteau | Estimation des frais | Montant acte en mains | Estimation de la revente | Montant de la plus-value | Temps de revente | Descriptif | Source | Analyse du marché complète |
 |---|---|---|---|---|---|---|---|---|---|---|
-| PERPIGNAN (66) Appartement avec cellier Vente le 23/10/2026 Mise à prix : 16.000€ SCP VIAL - PECH DE LACLAUSE – ESCALE - KNOEPFFLER - HUOT – PIRET - JOUBES | PERPIGNAN (66) Appartement avec cellier Vente le 23/10/2026 Mise à prix : 16.000€ SCP VIAL - PECH DE LACLAUSE – ESCALE - KNOEPFFLER - HUOT – PIRET - JOUBES | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-23 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.info-encheres.com/108345-d-vente-encheres-immobilieres-appartement-avec-cellier-perpignan-66-ref-6103.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
-| PERPIGNAN (66) Appartement et Parking Vente le 23/10/2026 Mise à prix : 27.000€ SCP VIAL - PECH DE LACLAUSE – ESCALE - KNOEPFFLER - HUOT – PIRET - JOUBES | PERPIGNAN (66) Appartement et Parking Vente le 23/10/2026 Mise à prix : 27.000€ SCP VIAL - PECH DE LACLAUSE – ESCALE - KNOEPFFLER - HUOT – PIRET - JOUBES | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-23 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.info-encheres.com/108342-d-vente-encheres-immobilieres-appartement-et-parking-perpignan-66-ref-6100.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
-| Parts sociales de la SCI Daitouch | Parts sociales de la SCI Daitouch | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-23 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/77/vente-aux-encheres/parts-sociales-de-la-sci-daitouch/courbevoie/hauts-de-seine/110077.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
-| Parts sociales de la SCI Daitouch | Parts sociales de la SCI Daitouch | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-23 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/76/vente-aux-encheres/parts-sociales-de-la-sci-daitouch/reims/marne/110076.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
-| Un appartement | Un appartement | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-23 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/63/vente-aux-encheres/un-appartement/perpignan/pyrenees-orientales/110063.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
-| Un appartement | Un appartement | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-23 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/95/vente-aux-encheres/un-appartement/perpignan/pyrenees-orientales/110095.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
-| Un appartement | Un appartement | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-23 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/96/vente-aux-encheres/un-appartement/perpignan/pyrenees-orientales/110096.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| 3 Rue Basse, 71640 Saint-Jean-de-Vaux, France | Maison à vendre aux enchères publiques | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-27 ; adjugé À calculer — données manquantes ; délai publié 2026-11-06. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); confirmation avocat du délai et de la recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://avoventes.fr/enchere/maison-a-vendre-aux-encheres-publiques-1) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| Deux ensembles immobiliers | Deux ensembles immobiliers | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-27 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/10/99/67/vente-aux-encheres/deux-ensembles-immobiliers/montcenis/saone-et-loire/109967.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| Trois lots de copropriété | Trois lots de copropriété | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-27 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/31/vente-aux-encheres/trois-lots-de-copropriete/poitiers/vienne/110031.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| Une grange | Une grange | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-27 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/10/99/76/vente-aux-encheres/une-grange/glenic/creuse/109976.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| Une maison | Une maison | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-27 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/14/vente-aux-encheres/une-maison/saint-jean-de-vaux/saone-et-loire/110014.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| Une maison bourgeoise | Une maison bourgeoise | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-27 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/89/vente-aux-encheres/une-maison-bourgeoise/chalon-sur-saone/saone-et-loire/110089.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
+| Une maison à usage d'habitation | Une maison à usage d'habitation | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À calculer — données manquantes | À documenter | a_verifier ; inconnue ; audience 2026-10-27 ; adjugé À calculer — données manquantes ; délai publié ?. preuve d'un bien libre; état et diagnostics compatibles avec une revente sans travaux; prix adjugé (la mise à prix ne le remplace pas); date limite et recevabilité de la surenchère; valeur prudente, frais d'acquisition, revente et portage documentés pour le seuil de 40 % | [Annonce](https://www.licitor.com/annonce/11/00/82/vente-aux-encheres/une-maison-a-usage-d-habitation/chatellerault/vienne/110082.html) | À documenter : DVF et comparables locaux en l'état, liquidité, prix sur cinq ans et délai de revente. |
 
 ## Rejets récents
 
 | Bien | Prix adjugé publié | Motif | Source |
 |---|---|---|---|
-| PERPIGNAN (66) Appartement T3 Vente le 23/10/2026 Mise à prix : 25.000€ Maître Cendrine TOBAILEM | À calculer — données manquantes | indice documentaire incompatible : travaux=necessaires, p. 8 (texte) — identité et actualité à contrôler | [Annonce](https://www.info-encheres.com/108340-d-vente-encheres-immobilieres-appartement-t3-perpignan-66-ref-6098.html) ; [Indice travaux p. 8](https://www.info-encheres.com/upload/8s5FCCV.pdf#page=8) |
-| Une maison à usage d'habitation | À calculer — données manquantes | occupation incompatible ou contradictoire | [Annonce](https://www.licitor.com/annonce/11/00/46/vente-aux-encheres/une-maison-a-usage-d-habitation/perpignan/pyrenees-orientales/110046.html) |
+| UNE PARCELLE • Tourrettes | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166606-une-parcelle-tourrettes.html) |
+| UNE MAISON BOURGEOISE À USAGE D'HABITATION • 349m² • Chalon-sur-Saône | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166529-une-maison-bourgeoise-a-usage-d-habitation-chalon-sur-saone.html) |
+| UNE MAISON À USAGE D'HABITATION • Saint-Germain-Chassenay | À calculer — données manquantes | surenchère annoncée impossible | [Annonce](https://www.vench.fr/vente-166600-une-maison-a-usage-d-habitation-saint-germain-chassenay.html) |
+| Une ferme bressane | À calculer — données manquantes | travaux nécessaires à la revente en l'état | [Annonce](https://www.licitor.com/annonce/11/00/15/vente-aux-encheres/une-ferme-bressane/dommartin-les-cuiseaux/saone-et-loire/110015.html) |
 
 ## Sources effectivement contrôlées
 
 | Source | Accès | Liens | Audiences | Fiches | Incident |
 |---|---|---|---|---|---|
-| [Licitor - ventes à venir](https://www.licitor.com/) | ok | 98 | 0 | 0 | — |
-| [Licitor - résultats](https://www.licitor.com/historique-des-adjudications.html) | ok | 167 | 3 | 6 | — |
-| [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 207 | 0 | 0 | — |
+| [Licitor - ventes à venir](https://www.licitor.com/) | ok | 103 | 0 | 0 | — |
+| [Licitor - résultats](https://www.licitor.com/historique-des-adjudications.html) | ok | 167 | 3 | 7 | — |
+| [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 207 | 0 | 1 | — |
 | [Vench - annonces nationales](https://www.vench.fr/) | ok | 12 | 0 | 0 | — |
-| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | differe | 0 | 0 | 0 | Accès différé à encheres-publiques.com jusqu'au 2026-10-27T20:43:18.981732+00:00 après HTTP 403 |
-| [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 87 | 0 | 3 | — |
-| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | differe | 0 | 0 | 0 | Accès différé à petitesaffiches.fr jusqu'au 2026-10-27T20:43:19.250941+00:00 après HTTP 403 |
+| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
+| [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 87 | 0 | 0 | — |
+| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
 | [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 10 | — |
 | [Informateur Judiciaire - Grand Ouest](https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/) | ok | 12 | 0 | 0 | — |
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 9 | 0 | 0 | — |
@@ -54,7 +56,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 1 | — |
 | [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 4 | — |
 | [Vench - ventes à venir](https://www.vench.fr/prochaines-ventes-aux-encheres.html) | ok | 12 | 0 | 0 | — |
-| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 0 | — |
+| [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 12 | — |
 | [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 3 | — |
 | [Avoventes - Tribunal de Saint-Etienne](https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133) | ok | 7 | 0 | 0 | — |
 | [9 Janvier Avocats — ventes judiciaires](https://www.9janvier-avocats.com/) | ok | 2 | 0 | 2 | — |
@@ -82,30 +84,38 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 
 | Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |
 |---|---|---|---|---|---|
-| [Pièce](https://www.info-encheres.com/upload/1W2VCCV.pdf) | lu | 24/24 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/8s5FCCV.pdf) | lu | 20/20 | 0 | mise_a_prix_eur : 25000.00 (p. 2, ocr); date_vente : 2021-02-19 (p. 6, ocr); travaux : necessaires (p. 8, texte); date_vente : 2021-02-19 (p. 20, texte) | — |
-| [Pièce](https://www.info-encheres.com/upload/DsrAPVD.pdf) | lu | 20/20 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/HTQkDDT.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://www.info-encheres.com/upload/Pox2CCV.pdf) | lu | 24/24 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/cqWKSYNTHESE_DIAGNOSTICS.pdf) | lu | 2/2 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/m2N0DDT.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://www.info-encheres.com/upload/ou9GPVD.pdf) | lu | 25/25 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/pJnBpvd.pdf) | lu | 85/85 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/xbZpSYNTHESE_DIAGNOSTICS_C.pdf) | lu | 2/2 | 0 | Aucun indice ciblé extrait | — |
-| [Pièce](https://www.info-encheres.com/upload/yG25ddt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://uda-avocats.com/wp-content/uploads/2026/04/PV-DESCRIPTION-SITE-AUDIENCE-07.05.2026.pdf) | partiel | 8/51 | 43 | occupation : occupe (p. 2, texte) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa9046848b7bttt.pdf) | lu | 3/3 | 0 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904772a7a4ttt.pdf) | partiel | 3/24 | 21 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904860f213ttt.pdf) | partiel | 0/36 | 36 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/162/documents/6aa904bd350b4ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://uda-avocats.com/wp-content/uploads/2026/06/CCV-SITE-ST-JUST-SAINT-RAMBERT.pdf) | partiel | 0/20 | 20 | Aucun indice ciblé extrait | — |
+| [Pièce](http://uda-avocats.com/wp-content/uploads/2026/06/DIAGS-SITE-SAINT-JUST-SAINT-RAMBERT.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://uda-avocats.com/wp-content/uploads/2026/06/DIRE-AU-GREFFE-DOSSIER-URBANISME-SITE-SAINT-JUST-SAINT-RAMBERT.pdf) | partiel | 0/56 | 56 | Aucun indice ciblé extrait | — |
+| [Pièce](http://uda-avocats.com/wp-content/uploads/2026/06/PVD-SITE-SAINT-JUST-SAINT-RAMBERT.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Affiche-simplifiee.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 15000.00 (p. 1, texte); occupation : occupe (p. 1, texte) | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Annexes-PVD-1.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/Annexes-PVD-2.pdf) | partiel | 0/140 | 140 | Aucun indice ciblé extrait | — |
+| [Pièce](https://ahbl-avocats.fr/wp-content/uploads/2026/09/CARNET-ENTRETIEN-15.09.2026.pdf) | lu | 8/8 | 0 | Aucun indice ciblé extrait | — |
+
+## Indices conservés des passages précédents
+
+Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conservée et leurs indices restent à vérifier.
+
+| Pièce | Dernier accès réussi UTC | Indices et pages |
+|---|---|---|
+| [Pièce](https://uda-avocats.com/wp-content/uploads/2026/04/PV-DESCRIPTION-SITE-AUDIENCE-07.05.2026.pdf) | 2026-10-27T17:50:24.483648+00:00 | occupation : occupe (p. 2) |
 
 ## Couverture restante et contrôles
 
 - Budget : 40 pages d'audience et 120 fiches par passage ; 14 fiches candidates non lues ce passage.
-- 118 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
+- 107 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
 - Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.
 - Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.
 - Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
-- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 128 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
+- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 121 documents détectés non consultés ce passage ; 37 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 23 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 14 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
