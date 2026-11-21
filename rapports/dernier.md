@@ -1,14 +1,14 @@
 # Veille adjudications — dernier passage
 
-Contrôle : **2026-11-21T16:57:44.474033+01:00** (Europe/Paris).
+Contrôle : **2026-11-21T22:35:09.255099+01:00** (Europe/Paris).
 
 **0 dossier(s) retenu(s) sur données validées**, 79 à vérifier, 32 rejet(s) dans la fenêtre J+1 à J+4.
 
 32/38 pages sources accessibles ; 805 liens distincts ; 29 pages d'audience et 120 fiches détaillées lues.
 
-Nouveautés : 20 liens ; 67 fiches modifiées depuis le passage précédent.
+Nouveautés : 0 liens ; 82 fiches modifiées depuis le passage précédent.
 
-Pièces : 11 PDF accessibles ; 76 pages traitées ce passage, 9 lues, dont 6 par OCR. 0 requêtes différées après une limite ou un refus d'accès.
+Pièces : 10 PDF accessibles ; 59 pages traitées ce passage, 6 lues, dont 6 par OCR. 2 requêtes différées après une limite ou un refus d'accès.
 
 Le nombre de liens inclut des audiences et des annonces anciennes ou futures. La couverture est limitée aux pages listées et au budget de lecture indiqué ci-dessous.
 
@@ -129,7 +129,7 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | 17 ROUTE D’ETREMBIERES 74100 Annemasse, France | À calculer — données manquantes | occupation incompatible ou contradictoire | [Annonce](https://avoventes.fr/enchere/appartement-avec-balcon-cave-et-box-garage-a-annemasse) |
 | 1er lot | À calculer — données manquantes | occupation incompatible ou contradictoire | [Annonce](https://www.licitor.com/annonce/11/01/60/vente-aux-encheres/un-ensemble-immobilier/proissans/dordogne/110160.html) |
 | 1er lot | À calculer — données manquantes | occupation incompatible ou contradictoire | [Annonce](https://www.licitor.com/annonce/11/01/60/vente-aux-encheres/un-ensemble/proissans/dordogne/110160.html) |
-| 303 RUE DES MOGETS 74140 Loisin, France | À calculer — données manquantes | occupation incompatible ou contradictoire | [Annonce](https://avoventes.fr/enchere/maison-avec-jardin-terrasse-et-garage-a-loisin) |
+| 303 RUE DES MOGETS 74140 Loisin, France | À calculer — données manquantes | occupation incompatible ou contradictoire; indice documentaire incompatible : occupation=occupe, p. 1 (ocr) — identité et actualité à contrôler | [Annonce](https://avoventes.fr/enchere/maison-avec-jardin-terrasse-et-garage-a-loisin) ; [Indice occupation p. 1](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab2913f99595ttt.pdf#page=1) |
 | 353 ROUTE DE TROSSY 74200 Lyaud, France | À calculer — données manquantes | occupation incompatible ou contradictoire | [Annonce](https://avoventes.fr/enchere/appartement-triplex-avec-garage-et-terrasse-a-le-lyaud) |
 | 8 Bis Bd de la Liberté, 83520 Roquebrune-sur-Argens, France | À calculer — données manquantes | travaux nécessaires à la revente en l'état | [Annonce](https://avoventes.fr/enchere/un-appartement-a-roquebrune-sur-argens) |
 | Le Rascas, 83310 Grimaud, France | À calculer — données manquantes | occupation incompatible ou contradictoire | [Annonce](https://avoventes.fr/enchere/propriete-a-grimaud) |
@@ -143,31 +143,31 @@ Marge minimale : bénéfice prévisionnel avant fiscalité / (acquisition + frai
 | [Licitor - résultats](https://www.licitor.com/historique-des-adjudications.html) | ok | 167 | 24 | 62 | — |
 | [Avoventes CNB - annonces nationales](https://avoventes.fr/recherche/?display=liste&order=asc&sort=date) | ok | 194 | 0 | 26 | — |
 | [Vench - annonces nationales](https://www.vench.fr/) | ok | 12 | 0 | 0 | — |
-| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
+| [Enchères Publiques - immobilier](https://encheres-publiques.com/fr/ventes/immobilier) | differe | 0 | 0 | 0 | Accès différé à encheres-publiques.com jusqu'au 2026-11-21T21:57:45.052713+00:00 après HTTP 403 |
 | [Info Enchères - annonces nationales](https://www.info-encheres.com/) | ok | 55 | 0 | 3 | — |
-| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | echec | 0 | 0 | 0 | HTTP Error 403: Forbidden |
-| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 1 | — |
+| [Petites Affiches - enchères immobilières](https://www.petitesaffiches.fr/encheres-immobilieres/) | differe | 0 | 0 | 0 | Accès différé à petitesaffiches.fr jusqu'au 2026-11-21T21:57:45.306268+00:00 après HTTP 403 |
+| [La Gazette France - adjudications](https://www.lagazettefrance.fr/annonces-legales/ventes-encheres) | ok | 30 | 0 | 0 | — |
 | [Informateur Judiciaire - Grand Ouest](https://www.informateurjudiciaire.fr/ventes-aux-encheres-immobilieres/) | ok | 12 | 0 | 0 | — |
 | [7 Jours - Bretagne](https://www.7jours.fr/ventes-aux-encheres-immobilieres/) | ok | 11 | 0 | 0 | — |
 | [Echos Judiciaires Girondins](https://www.echos-judiciaires.com/ventes_aux_encheres_immobilieres/) | ok | 12 | 0 | 0 | — |
 | [La Vie Economique - Sud-Ouest](https://www.vie-economique.com/ventes-aux-encheres-immobilieres/) | ok | 4 | 0 | 0 | — |
 | [Défis Avocats - ventes judiciaires](https://defis-avocats.com/ventes-judiciaires/) | ok | 8 | 0 | 0 | — |
-| [Elige Avocats - ventes immobilières](https://elige-avocats.com/ventes-immobilieres/) | ok | 27 | 0 | 8 | — |
+| [Elige Avocats - ventes immobilières](https://elige-avocats.com/ventes-immobilieres/) | ok | 27 | 0 | 1 | — |
 | [AHBL Avocats - ventes immobilières](https://ahbl-avocats.fr/ventes-aux-encheres-immobilieres) | ok | 1 | 0 | 0 | — |
-| [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 0 | — |
+| [Legalyon - ventes aux enchères](https://legalyon.fr/fr/page/vente-aux-encheres) | ok | 4 | 0 | 4 | — |
 | [Vench - ventes à venir](https://www.vench.fr/prochaines-ventes-aux-encheres.html) | ok | 12 | 0 | 0 | — |
 | [Vench - résultats et surenchères](https://www.vench.fr/resultats-des-ventes-encheres-immobilieres.html) | ok | 12 | 0 | 0 | — |
 | [UDA Avocats - Saint-Etienne](https://uda-avocats.com/nos-saisies-immobilieres/) | ok | 3 | 0 | 0 | — |
 | [Avoventes - Tribunal de Saint-Etienne](https://avoventes.fr/recherche?display=liste&order=asc&prix_max=&prix_min=&sort=prix&tgis%5B%5D=133) | ok | 3 | 0 | 2 | — |
 | [9 Janvier Avocats — ventes judiciaires](https://www.9janvier-avocats.com/) | ok | 2 | 0 | 0 | — |
-| [AARPI PLATON MAGNE TURNER — ventes judiciaires](https://pmt-avocats.fr/ventes-encheres-octobre-2026.php) | ok | 7 | 0 | 0 | — |
+| [AARPI PLATON MAGNE TURNER — ventes judiciaires](https://pmt-avocats.fr/ventes-encheres-octobre-2026.php) | ok | 7 | 0 | 3 | — |
 | [Audineau & Associés — ventes judiciaires](https://www.audineau.fr/ventes-aux-encheres/) | ok | 3 | 0 | 0 | — |
 | [Briffod Avocats — ventes judiciaires](https://www.briffod-avocats.fr/briffod-avocats-droit-commercial-civil-encheres-bonneville-haute-savoie-3/) | ok | 5 | 0 | 0 | — |
 | [C2PW / Maître Didier Pilot — ventes judiciaires](https://www.c2pw.fr/vente-encheres) | ok | 3 | 0 | 0 | — |
 | [DCL Avocats & Associés — ventes judiciaires](https://www.dcl-avocats.fr/nos-ventes-aux-encheres-immobilieres) | ok | 2 | 0 | 0 | — |
 | [ELCY Avocats — ventes judiciaires](https://www.elcyavocats.fr/ventes-immobilieres/) | aucun lien détecté — structure à contrôler | 0 | 0 | 0 | — |
 | [Guedj Haas-Biri — ventes judiciaires](https://www.avocats-guedj-haasbiri.com/encheres-immobilieres/) | ok | 4 | 0 | 0 | — |
-| [Imbert & Associés — ventes judiciaires](https://imbert-avocats.com/) | ok | 1 | 0 | 0 | — |
+| [Imbert & Associés — ventes judiciaires](https://imbert-avocats.com/) | ok | 1 | 0 | 1 | — |
 | [Kapia Avocats — ventes judiciaires](https://www.kapia-avocats.com/ventes-aux-encheres/) | ok | 4 | 0 | 0 | — |
 | [Maître Lobbens — ventes judiciaires](https://www.avocat-lobbens-marseille.fr/annonces-ventes-aux-encheres/) | ok | 6 | 0 | 0 | — |
 | [Mermet & Associés — ventes judiciaires](https://www.mermet-associes.com/fr/vente-enchere) | ok | 2 | 0 | 0 | — |
@@ -184,18 +184,18 @@ Les indices ci-dessous restent à vérifier et ne remplacent pas les validations
 
 | Pièce | Lecture | Pages lues au total | Pages restantes | Indices et pages | Incident |
 |---|---|---|---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6ac7a63516ceettt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6ac7a79177622ttt.pdf) | partiel | 6/37 | 31 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6ac8e4ff2f8dcttt.pdf) | partiel | 0/13 | 13 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6acfa7b51de64ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6acfcaa341860ttt.pdf) | partiel | 0/7 | 7 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6acfcaa3a48d1ttt.pdf) | partiel | 0/11 | 11 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6acfcaa3ef302ttt.pdf) | partiel | 0/16 | 16 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6acfcaa432ac6ttt.pdf) | partiel | 3/13 | 10 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6acfcaa49d53ettt.pdf) | partiel | 0/31 | 31 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6acfcaa50eeb0ttt.pdf) | partiel | 0/4 | 4 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6aeafbf1021fcttt.pdf) | partiel | 0/18 | 18 | Aucun indice ciblé extrait | — |
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6aeafc76d3e0bttt.pdf) | partiel | 0/9 | 9 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6aeb05ddc97fdttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6af1f9c232d04ttt.pdf) | echec | 0/? | ? | Aucun indice ciblé extrait | page ou document dépassant 10 Mo |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab2913f99595ttt.pdf) | lu | 1/1 | 0 | mise_a_prix_eur : 350000 (p. 1, ocr); occupation : occupe (p. 1, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab2913fd960fttt.pdf) | partiel | 5/15 | 10 | mise_a_prix_eur : 350000 (p. 1, ocr) | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab2914031851ttt.pdf) | partiel | 0/44 | 44 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab2918956079ttt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab29189913c1ttt.pdf) | partiel | 0/16 | 16 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab29189dfe4attt.pdf) | partiel | 0/24 | 24 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab291ad5f62ettt.pdf) | partiel | 0/1 | 1 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab291ad93077ttt.pdf) | partiel | 0/18 | 18 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab291adda509ttt.pdf) | partiel | 0/31 | 31 | Aucun indice ciblé extrait | — |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/159/documents/6ab64e4f75b1ettt.pdf) | partiel | 0/39 | 39 | Aucun indice ciblé extrait | — |
 
 ## Indices conservés des passages précédents
 
@@ -203,8 +203,8 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 
 | Pièce | Dernier accès réussi UTC | Indices et pages |
 |---|---|---|
-| [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6ad11594484battt.pdf) | 2026-11-18T17:00:43.677918+00:00 | mise_a_prix_eur : 9000 (p. 1); occupation : occupe (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6ad115948b2a0ttt.pdf) | 2026-11-18T17:00:43.677918+00:00 | date_vente : 2025-02-03 (p. 3) |
+| [Pièce](https://avoventes.fr/public/uploads/cabinet/158/documents/6ad11594484battt.pdf) | 2026-11-18T17:00:43.677918+00:00 | mise_a_prix_eur : 9000 (p. 1); occupation : occupe (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/190/documents/68a5c55c21392ttt.pdf) | 2026-11-19T17:10:11.875079+00:00 | travaux : necessaires (p. 2); travaux : necessaires (p. 4) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/106/documents/6ab537525b4a8ttt.pdf) | 2026-11-20T16:47:36.917817+00:00 | occupation : libre (p. 1) |
 | [Pièce](https://avoventes.fr/public/uploads/cabinet/120/documents/6ac3561b73527ttt.pdf) | 2026-11-20T22:59:28.151974+00:00 | mise_a_prix_eur : 30000 (p. 1) |
@@ -227,18 +227,20 @@ Ces pièces n'ont pas été relues ce passage. Leur date de contrôle est conser
 | [Pièce](https://www.vie-economique.com/annonces-legales/l26ve13925/?justify=1) | 2026-11-03T21:41:05.427040+00:00 | mise_a_prix_eur : 100000.00 (p. 1); mise_a_prix_eur : 1000.00 (p. 1) |
 | [Pièce](https://www.vie-economique.com/annonces-legales/l26ve11519/?justify=1) | 2026-10-29T16:45:07.750084+00:00 | mise_a_prix_eur : 1100000.00 (p. 1) |
 | [Pièce](https://www.vie-economique.com/annonces-legales/l26ve11356/?justify=1) | 2026-10-29T15:45:22.983639+00:00 | mise_a_prix_eur : 90000.00 (p. 1) |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Juin/CEGC_GUINE_25_06_2026/AFFICHE.pdf) | 2026-10-28T12:40:59.089130+00:00 | mise_a_prix_eur : 20000.00 (p. 1) |
+| [Pièce](https://pmt-avocats.fr/ventes/2026/Juin/SIP-TOULON_MANDRILE_25_06_2026/AFFICHE.pdf) | 2026-10-28T13:52:04.732569+00:00 | mise_a_prix_eur : 80000.00 (p. 1) |
 
 ## Couverture restante et contrôles
 
 - Budget : 40 pages d'audience et 120 fiches par passage ; 116 fiches candidates non lues ce passage.
-- 159 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
+- 166 liens de fiches sans date d'audience extraite restent hors sélection ; ils sont explorés par rotation aux passages suivants.
 - Les paginations Licitor des audiences récentes sont parcourues dans le budget. Les autres listes ne sont pas paginées automatiquement.
 - Ces pages ne constituent pas une couverture exhaustive de la France ni des 706 fiches de la base d'avocats.
 - Le registre central Registre_Adjudications.xlsx n'est pas modifié par ce programme.
 - Les publications restent de niveau C tant que les pièces et hypothèses ne sont pas vérifiées et renseignées dans estimations.csv.
-- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 231 documents détectés non consultés ce passage ; 40 liens directs vers un PDF.
+- PDF : budget de 12 documents, 80 pages et 6 pages OCR ; au plus 8 pages d'un document par passage, avec reprise des pages restantes. 241 documents détectés non consultés ce passage ; 40 liens directs vers un PDF.
 - Les indices extraits des pièces restent à vérifier : des PDF peuvent comporter plusieurs biens ou des mentions anciennes. Ils ne remplacent ni la confirmation du dossier ni les frais et la valeur de revente documentés.
-- 1 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
+- 2 incident(s) lors de la lecture des audiences ou des fiches ; voir dernier.json.
 
 Les pages PDF sont extraites dans les budgets indiqués, avec OCR pour les scans lorsque nécessaire. Les indices gardent la référence de page ; leur attribution au bien et leur actualité restent à contrôler. L'absence d'une mention de travaux ne prouve pas que le bien est revendable sans travaux. La mise à prix ne remplace jamais le prix adjugé.
 
